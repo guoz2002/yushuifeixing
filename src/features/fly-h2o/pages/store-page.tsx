@@ -10,7 +10,9 @@ import type { PageConfig } from "../types";
 
 export function StorePage({ page, path }: { page: PageConfig; path: string }) {
   const { t } = useI18n();
-  const feature = storeFeatures.find((item) => item.path === path);
+  const enabledFeaturePaths = new Set(["/store/hydrofoil"]);
+  const availableStoreFeatures = storeFeatures.filter((item) => enabledFeaturePaths.has(item.path));
+  const feature = availableStoreFeatures.find((item) => item.path === path);
 
   if (path === "/store/accessories") {
     return (
@@ -71,7 +73,7 @@ export function StorePage({ page, path }: { page: PageConfig; path: string }) {
         <h2>{t(page.title)}</h2>
       </div>
       <div className="storeFeatureGrid">
-        {storeFeatures.map((item) => (
+        {availableStoreFeatures.map((item) => (
           <Link className="storeFeatureCard" href={item.path} key={item.path}>
             <img src={item.image} alt={item.title} />
             <span>{t(item.label)}</span>

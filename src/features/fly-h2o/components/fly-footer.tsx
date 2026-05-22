@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Mail } from "lucide-react";
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok, FaWeixin, FaYoutube } from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWeixin, FaYoutube } from "react-icons/fa6";
+import { IoLogoTiktok } from "react-icons/io5";
 import { SiXiaohongshu } from "react-icons/si";
 import { useI18n } from "@/i18n";
 
@@ -23,45 +25,52 @@ export function FlyFooter() {
       icon: <Mail size={27} strokeWidth={1.7} aria-hidden="true" />,
     },
     {
-      href: "https://www.facebook.com/",
+      href: "https://www.facebook.com/share/1Ccz5VK1vk/?mibextid=wwXIfr",
       label: "Facebook",
       icon: <FaFacebookF aria-hidden="true" />,
+      external: true,
     },
     {
-      href: "https://www.instagram.com/",
+      href: "https://www.instagram.com/alaqua_fly_h2o/",
       label: "Instagram",
       icon: <FaInstagram aria-hidden="true" />,
+      external: true,
     },
     {
-      href: "https://www.linkedin.com/",
+      href: "https://www.linkedin.com/company/y-h2o/",
       label: "LinkedIn",
       icon: <FaLinkedinIn aria-hidden="true" />,
+      external: true,
     },
     {
-      href: "https://www.wechat.com/",
+      href: "https://weixin.qq.com/",
       label: "WeChat",
       icon: <FaWeixin aria-hidden="true" />,
+      external: true,
     },
     {
-      href: "https://www.xiaohongshu.com/",
+      href: "https://xhslink.com/m/5LKG4MpwYqA",
       label: "Xiaohongshu",
       icon: <SiXiaohongshu aria-hidden="true" />,
-      text: "小红书",
+      external: true,
     },
     {
-      href: "https://www.youtube.com/",
+      href: "https://www.youtube.com/@alaqua_fly-h2o",
       label: "YouTube",
       icon: <FaYoutube aria-hidden="true" />,
+      external: true,
     },
     {
-      href: "https://www.tiktok.com/",
+      href: "https://www.tiktok.com/@flyh2o/video/7632709594615188743?is_from_webapp=1&sender_device=pc",
       label: "TikTok",
-      icon: <FaTiktok aria-hidden="true" />,
+      icon: <Image src="/tiktok-logo-text-white.jpg" alt="" width={120} height={27} className="socialTextMark" />,
+      external: true,
     },
     {
-      href: "https://www.douyin.com/",
+      href: "https://www.douyin.com/user/MS4wLjABAAAAFh_waNM6-sK1xE2-MtxSBPzufV3_KuIo8YDcCcnArvsG3oTTPvEjwR65VJTeGYep?from_tab_name=main&vid=7460143316986793231",
       label: "Douyin",
-      icon: <FaTiktok aria-hidden="true" />,
+      icon: <IoLogoTiktok aria-hidden="true" />,
+      external: true,
     },
   ];
 
@@ -87,8 +96,15 @@ export function FlyFooter() {
           </div>
           <div className="footerSocial" aria-label={t("Follow Us")}>
             {socialLinks.map((item) => (
-              <a className={item.text ? "hasText" : ""} href={item.href} key={item.label} aria-label={item.label}>
-                {item.text ? <span>{item.text}</span> : item.icon}
+              <a
+                href={item.href}
+                key={item.label}
+                aria-label={item.label}
+                title={item.label}
+                target={item.external ? "_blank" : undefined}
+                rel={item.external ? "noopener noreferrer" : undefined}
+              >
+                {item.icon}
               </a>
             ))}
           </div>
@@ -106,7 +122,7 @@ export function FlyFooter() {
         </div>
       </div>
       <div className="footerBrandText" aria-hidden="true">
-        ALAQUA
+        <Image src="/footer-brand-alaqua.png" alt="" width={1920} height={349} sizes="100vw" />
       </div>
     </footer>
   );

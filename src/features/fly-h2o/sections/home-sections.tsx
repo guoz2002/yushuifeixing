@@ -6,7 +6,7 @@ import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { media } from "../data/media";
-import { homeGalleryItems, homeRangeItems } from "../data/home";
+import { homeRangeItems } from "../data/home";
 import { productCards } from "../data/navigation";
 import { useDragScroll } from "../hooks/use-drag-scroll";
 
@@ -276,7 +276,7 @@ function HomeProductsSection() {
       <div className="homeProductGrid">
         {productCards.map((card) => (
           <article className="homeProductCard" key={card.title}>
-            <Link href={card.href}>
+            <Link className="homeProductMediaLink" href={card.href}>
               <img src={card.image} alt={card.title} loading="lazy" />
             </Link>
             <h3>
@@ -296,30 +296,6 @@ function HomeProductsSection() {
   );
 }
 
-function HomeGallerySection() {
-  const { t } = useI18n();
-
-  return (
-    <section className="homeGallery">
-      <div className="homeGalleryTitle">
-        <h2>{t("Hydrofoil Smart App")}</h2>
-      </div>
-      <div className="homeGalleryTrack">
-        {homeGalleryItems.map((item, index) => (
-          <article className="homeGalleryCard" key={`${item.type}-${index}`}>
-            {item.type === "video" ? (
-              <video src={item.image} autoPlay muted loop playsInline preload="metadata" />
-            ) : (
-              <img src={item.image} alt={`Hydrofoil gallery ${index + 1}`} loading="lazy" />
-            )}
-            <span aria-hidden="true">{item.type === "video" ? "PLAY" : "+"}</span>
-          </article>
-        ))}
-      </div>
-    </section>
-  );
-}
-
 export function HomeReplica() {
   return (
     <div className="officialHome">
@@ -328,7 +304,6 @@ export function HomeReplica() {
       <HomeSteering />
       <HomeRangeSection />
       <HomeProductsSection />
-      <HomeGallerySection />
     </div>
   );
 }

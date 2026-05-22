@@ -17,7 +17,7 @@ export function TopNav({ onMenu }: { onMenu: () => void }) {
         ALAQUA
       </Link>
       <div className="navRight">
-        <Link href="/store">{t("STORE")}</Link>
+        <Link href="/store/hydrofoil">{t("STORE")}</Link>
         <Link href="/contact">{t("CONTACT")}</Link>
       </div>
     </header>

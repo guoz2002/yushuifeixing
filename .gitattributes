@@ -1,0 +1,1 @@
+public/fly-h2o-replica/models/*.glb filter=lfs diff=lfs merge=lfs -text

@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   box-sizing: border-box;
 }
@@ -441,6 +443,28 @@ video {
   position: absolute;
   inset: 0;
   opacity: 0.98;
+}
+
+.menuProductVideo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.01);
+  transition:
+    opacity 220ms ease,
+    transform 320ms ease;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .menuProductCard:hover .menuProductVideo,
+  .menuProductCard:focus-visible .menuProductVideo {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .menuProductCard::after,
@@ -1018,7 +1042,7 @@ video {
   color: #fff;
 }
 
-.homeProductCard > a {
+.homeProductMediaLink {
   display: block;
   height: clamp(260px, 23vw, 410px);
   overflow: hidden;
@@ -1041,6 +1065,8 @@ video {
 }
 
 .homeTextLink {
+  display: inline-block;
+  margin-top: 4px;
   color: rgba(255, 255, 255, 0.62);
   font-size: 12px;
   letter-spacing: 0.16em;
@@ -2666,12 +2692,9 @@ video {
   position: relative;
   overflow: hidden;
   min-height: 100svh;
-  padding: 36px clamp(24px, 5vw, 84px) 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.035), transparent 19%),
-    linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.018) 50%, transparent),
-    #030303;
+  padding: clamp(36px, 4vw, 64px) 0 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: #0a0a0a;
   color: rgba(255, 255, 255, 0.58);
 }
 
@@ -2680,9 +2703,9 @@ video {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(180deg, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.48) 68%, rgba(0, 0, 0, 0.88)),
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.022) 0 1px, transparent 1px 72px);
-  opacity: 0.36;
+    linear-gradient(180deg, rgba(255, 255, 255, 0.025), transparent 18%, rgba(0, 0, 0, 0.68)),
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.018) 0 1px, transparent 1px 72px);
+  opacity: 0.32;
   pointer-events: none;
 }
 
@@ -2694,32 +2717,47 @@ video {
 
 .footerShell {
   display: grid;
-  grid-template-columns: minmax(560px, 1fr) minmax(150px, 210px) minmax(420px, 552px);
+  grid-template-columns: minmax(0, 1fr) minmax(150px, 220px) minmax(400px, 34vw);
   align-items: start;
-  column-gap: clamp(36px, 4vw, 68px);
-  max-width: 1440px;
+  column-gap: clamp(40px, 5vw, 86px);
+  width: min(90%, 1520px);
+  max-width: 1520px;
   margin: 0 auto;
+  padding: 0 clamp(12px, 1vw, 20px);
 }
 
 .footerNavCluster {
-  padding-top: 3px;
+  min-height: 0;
+}
+
+.footerWordmark {
+  align-self: start;
+  justify-self: center;
+  margin-top: 2px;
+  color: #f3f3f3;
+  font-size: clamp(54px, 3vw, 64px);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-decoration: none;
 }
 
 .footerLinkColumns {
   display: grid;
-  grid-template-columns: repeat(2, 180px);
-  column-gap: clamp(108px, 10vw, 220px);
+  grid-template-columns: repeat(2, minmax(150px, 220px));
+  column-gap: clamp(34px, 4vw, 82px);
 }
 
 .footerLinkColumn {
   display: grid;
-  gap: 21px;
+  gap: clamp(14px, 1.3vw, 22px);
   align-content: start;
 }
 
 .footerLinkColumn a {
-  color: rgba(255, 255, 255, 0.33);
-  font-size: 25px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.35;
   text-decoration: none;
   letter-spacing: 0;
@@ -2727,38 +2765,28 @@ video {
 }
 
 .footerLinkColumn a:hover {
-  color: rgba(255, 255, 255, 0.82);
-}
-
-.footerWordmark {
-  justify-self: center;
-  margin-top: 27px;
-  color: #f7f7f7;
-  font-size: 44px;
-  font-weight: 700;
-  line-height: 1;
-  letter-spacing: 0;
-  text-decoration: none;
+  color: rgba(255, 255, 255, 0.92);
 }
 
 .footerSocial {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 27px;
-  margin-top: 86px;
+  gap: clamp(16px, 2vw, 26px);
+  margin-top: clamp(36px, 4vw, 56px);
 }
 
 .footerSocial a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-width: 26px;
-  height: 32px;
+  min-width: 24px;
+  height: 30px;
   color: rgba(255, 255, 255, 0.58);
-  font-size: 31px;
+  font-size: 30px;
   line-height: 1;
   text-decoration: none;
+  cursor: pointer;
   transition:
     color 180ms ease,
     opacity 180ms ease;
@@ -2768,14 +2796,41 @@ video {
   color: rgba(255, 255, 255, 0.9);
 }
 
-.footerSocial a.hasText {
-  min-width: 59px;
-  height: 31px;
+.footerSocial .socialWordmark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 28px;
+  height: 28px;
   border-radius: 6px;
-  padding: 0 9px;
+  padding: 0 6px;
+  background: rgba(255, 255, 255, 0.38);
+  color: rgba(12, 12, 12, 0.9);
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.footerSocial .socialImageMark {
+  width: 32px;
+  height: auto;
+  opacity: 0.9;
+}
+
+.footerSocial .socialTextMark {
+  width: 68px;
+  height: auto;
+  opacity: 0.88;
+}
+
+.footerSocial a.hasText {
+  min-width: 58px;
+  height: 30px;
+  border-radius: 6px;
+  padding: 0 8px;
   background: rgba(255, 255, 255, 0.64);
   color: rgba(3, 3, 3, 0.9);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
   letter-spacing: 0;
 }
@@ -2786,7 +2841,7 @@ video {
 
 .footerContact form {
   display: grid;
-  gap: 22px;
+  gap: 18px;
 }
 
 .footerContact input,
@@ -2795,10 +2850,11 @@ video {
   border: 1px solid rgba(255, 255, 255, 0.13);
   border-radius: 8px;
   outline: 0;
-  background: rgba(26, 26, 26, 0.94);
+  background: rgba(26, 26, 26, 0.96);
   color: #fff;
   font: inherit;
-  font-size: 26px;
+  font-size: 18px;
+  font-weight: 400;
   line-height: 1.3;
   letter-spacing: 0;
   transition:
@@ -2807,19 +2863,19 @@ video {
 }
 
 .footerContact input {
-  min-height: 74px;
-  padding: 0 27px;
+  min-height: 64px;
+  padding: 0 20px;
 }
 
 .footerContact textarea {
-  min-height: 186px;
-  padding: 25px 27px;
+  min-height: 188px;
+  padding: 20px;
   resize: vertical;
 }
 
 .footerContact input::placeholder,
 .footerContact textarea::placeholder {
-  color: rgba(255, 255, 255, 0.26);
+  color: rgba(255, 255, 255, 0.32);
 }
 
 .footerContact input:focus,
@@ -2829,14 +2885,14 @@ video {
 }
 
 .footerContact button {
-  min-height: 72px;
+  min-height: 70px;
   border: 0;
   border-radius: 8px;
   background: rgba(232, 232, 232, 0.96);
   color: #030303;
   cursor: pointer;
   font: inherit;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 600;
   letter-spacing: 0;
   transition:
@@ -2850,45 +2906,43 @@ video {
 }
 
 .footerBrandText {
-  position: absolute;
-  bottom: -27px;
-  left: 50%;
-  width: max-content;
-  transform: translateX(-50%);
-  color: rgba(255, 255, 255, 0.08);
-  font-size: 520px;
-  font-weight: 800;
-  line-height: 0.74;
-  letter-spacing: 0;
-  text-transform: uppercase;
-  white-space: nowrap;
-  filter: blur(0.2px);
+  width: min(100%, 1920px);
+  margin: clamp(56px, 7vw, 136px) auto 0;
+  opacity: 0.15;
+  user-select: none;
   pointer-events: none;
+}
+
+.footerBrandText img {
+  display: block;
+  width: 100%;
+  height: auto;
+  filter: grayscale(1) brightness(0.65) contrast(0.9);
 }
 
 @media (max-width: 1280px) {
   .footerShell {
-    grid-template-columns: minmax(430px, 1fr) minmax(120px, 150px) minmax(360px, 456px);
-    column-gap: 32px;
+    width: min(92%, 1400px);
+    grid-template-columns: minmax(0, 1fr) minmax(130px, 190px) minmax(360px, 34vw);
+    column-gap: 34px;
+  }
+
+  .footerWordmark {
+    font-size: clamp(42px, 3vw, 52px);
   }
 
   .footerLinkColumns {
-    grid-template-columns: repeat(2, 150px);
-    column-gap: 72px;
+    column-gap: 42px;
   }
 
   .footerLinkColumn a {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .footerContact input,
   .footerContact textarea,
   .footerContact button {
-    font-size: 22px;
-  }
-
-  .footerBrandText {
-    font-size: 430px;
+    font-size: 18px;
   }
 }
 
@@ -3314,30 +3368,31 @@ video {
   }
 
   .footerShell {
-    grid-template-columns: minmax(0, 1fr) minmax(320px, 430px);
+    grid-template-columns: minmax(0, 1fr) minmax(130px, 170px) minmax(320px, 430px);
     row-gap: 34px;
-  }
-
-  .footerWordmark {
-    grid-column: 1 / -1;
-    grid-row: 1;
-    justify-self: center;
-    margin-top: 0;
-    font-size: 34px;
   }
 
   .footerNavCluster {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 1;
+  }
+
+  .footerWordmark {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: start;
+    margin-top: 0;
+    font-size: clamp(34px, 3.2vw, 42px);
   }
 
   .footerContact {
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: 3;
+    grid-row: 1;
+    width: 100%;
   }
 
   .footerLinkColumns {
-    grid-template-columns: repeat(2, minmax(120px, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     column-gap: 34px;
   }
 
@@ -3346,7 +3401,7 @@ video {
   }
 
   .footerLinkColumn a {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .footerSocial {
@@ -3355,7 +3410,7 @@ video {
   }
 
   .footerSocial a {
-    font-size: 27px;
+    font-size: 30px;
   }
 
   .footerContact form {
@@ -3365,7 +3420,7 @@ video {
   .footerContact input,
   .footerContact textarea,
   .footerContact button {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .footerContact input {
@@ -3374,17 +3429,16 @@ video {
   }
 
   .footerContact textarea {
-    min-height: 140px;
+    min-height: 162px;
     padding: 18px;
   }
 
   .footerContact button {
-    min-height: 60px;
+    min-height: 62px;
   }
 
   .footerBrandText {
-    bottom: -18px;
-    font-size: 320px;
+    margin-top: 62px;
   }
 }
 
@@ -3435,7 +3489,7 @@ video {
     grid-template-columns: 1fr;
   }
 
-  .homeProductCard > a {
+  .homeProductMediaLink {
     height: 320px;
   }
 
@@ -3446,26 +3500,28 @@ video {
   }
 
   .flyFooter {
-    min-height: 860px;
-    padding: 82px 20px 0;
+    min-height: 760px;
+    padding: 82px 0 0;
     text-align: left;
   }
 
   .footerShell {
+    width: min(92%, 640px);
     grid-template-columns: 1fr;
-    row-gap: 30px;
+    row-gap: 28px;
   }
 
   .footerWordmark {
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
-    font-size: 28px;
+    font-size: 30px;
   }
 
   .footerContact {
     grid-column: 1;
     grid-row: 2;
+    width: 100%;
   }
 
   .footerNavCluster {
@@ -3493,11 +3549,23 @@ video {
     font-size: 16px;
   }
 
+  .footerContact input {
+    min-height: 58px;
+    padding: 0 16px;
+  }
+
+  .footerContact textarea {
+    min-height: 148px;
+    padding: 16px;
+  }
+
+  .footerContact button {
+    min-height: 58px;
+  }
+
   .footerBrandText {
-    bottom: -2px;
-    left: -10px;
-    transform: none;
-    font-size: 156px;
+    margin-top: 48px;
+    opacity: 0.12;
   }
 }
 

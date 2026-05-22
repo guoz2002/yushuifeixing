@@ -4,7 +4,11 @@ import type { MouseEvent as ReactMouseEvent, PointerEvent as ReactPointerEvent, 
 import { useRef, useState } from "react";
 import { dragClickThreshold } from "../data/media";
 
-export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>) {
+type DragScrollOptions = {
+  bypassClickBlockSelector?: string;
+};
+
+export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>, options: DragScrollOptions = {}) {
   const dragRef = useRef({
     active: false,
     moved: false,
@@ -67,6 +71,15 @@ export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>) {
 
   function onClickCapture(event: ReactMouseEvent<T>) {
     if (!blockClickRef.current) return;
+
+    if (options.bypassClickBlockSelector && event.target instanceof Element) {
+      const shouldBypass = Boolean(event.target.closest(options.bypassClickBlockSelector));
+      if (shouldBypass) {
+        blockClickRef.current = false;
+        return;
+      }
+    }
+
     event.preventDefault();
     event.stopPropagation();
     blockClickRef.current = false;

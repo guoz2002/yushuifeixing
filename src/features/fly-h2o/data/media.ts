@@ -16,6 +16,8 @@ export const media = {
   productY3: `${assetBaseUrl}/img/home-1-min-MsnRtAf0.png`,
   productY5: `${ossBaseUrl}/20260402/%E4%BA%A7%E5%93%81%E5%9B%BE-%E8%B0%83%E6%95%B4%E5%90%8E_1775116758993.png`,
   productY3Menu: `${ossBaseUrl}/20260402/store-3_1775116797713.png`,
+  productY3MenuVideo: `${ossBaseUrl}/20260323/video-12_1774280438606.mp4`,
+  productY5MenuVideo: `${ossBaseUrl}/20260324/Y-3hongse.0000_1774335126843.mp4`,
   modelHeroY3: `${ossBaseUrl}/20260416/video-1_1776316264376.mp4`,
   modelHeroY5: `${assetBaseUrl}/video/video4-D5ZbAae6.mp4`,
   modelWind: `${assetBaseUrl}/video/video-6-AtzAgeQ_.mp4`,

@@ -1,11 +1,14 @@
 import { assetBaseUrl as A, media } from "./media";
 
+export type MenuCard = { title: string; label: string; image: string; href: string; video?: string };
+export type MenuPanelKey = "products" | "manufacturing" | "core" | "introduction" | "service" | "contact" | "legal";
+
 export const productCards = [
-  { title: "Y-3", label: "Three-Seat Edition", image: media.productY3Menu, href: "/models/h1" },
-  { title: "Y-5", label: "Five-Seat Edition", image: media.productY5, href: "/models/h2" },
+  { title: "Y-3", label: "Three-Seat Edition", image: media.productY3Menu, video: media.productY3MenuVideo, href: "/models/h1" },
+  { title: "Y-5", label: "Five-Seat Edition", image: media.productY5, video: media.productY5MenuVideo, href: "/models/h2" },
 ];
 
-export const menuPanels = {
+export const menuPanels: Record<MenuPanelKey, MenuCard[]> = {
   products: productCards,
   manufacturing: [
     { title: "Battery", label: "Marine Battery System", image: media.productY3, href: "/manufacturing/battery" },
@@ -37,9 +40,7 @@ export const menuPanels = {
     { title: "Privacy Policy", label: "Legal Terms", image: media.brand10, href: "/privacy.html" },
     { title: "After-sales Service Agreement", label: "Service Terms", image: media.guide1, href: "/afterservice-commitment.html" },
   ],
-} satisfies Record<string, { title: string; label: string; image: string; href: string }[]>;
-
-export type MenuPanelKey = keyof typeof menuPanels;
+};
 
 export type MenuLinkItem = { label: string; href: string; spaced?: boolean };
 export type MenuPanelItem = { label: string; panel: MenuPanelKey; spaced?: boolean };

@@ -27,14 +27,3 @@ export const homeRangeItems = [
     image: media.range1,
   },
 ];
-
-export const homeGalleryItems = [
-  { type: "image", image: media.gallery1, detail: media.gallery1Detail },
-  { type: "image", image: media.gallery2, detail: media.gallery2Detail },
-  { type: "image", image: media.gallery3, detail: media.gallery3Detail },
-  { type: "video", image: media.galleryVideo },
-  { type: "image", image: media.gallery4, detail: media.gallery4Detail },
-  { type: "image", image: media.app5 },
-  { type: "image", image: media.gallery6 },
-  { type: "image", image: media.app4 },
-] as const;

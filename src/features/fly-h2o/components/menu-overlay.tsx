@@ -2,6 +2,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import type { FocusEvent, MouseEvent } from "react";
 import Link from "next/link";
 import { ChevronRight, X } from "lucide-react";
 import { localeOptions, useI18n } from "@/i18n";
@@ -13,9 +14,24 @@ export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => v
   const [activePanel, setActivePanel] = useState<MenuPanelKey>("products");
   const railRef = useRef<HTMLElement | null>(null);
   const productsRef = useRef<HTMLDivElement | null>(null);
-  const { dragging: railDragging, dragProps: railDragProps } = useDragScroll<HTMLElement>(railRef);
+  const { dragging: railDragging, dragProps: railDragProps } = useDragScroll<HTMLElement>(railRef, {
+    bypassClickBlockSelector: "[data-locale-switcher='true']",
+  });
   const { dragging: productsDragging, dragProps: productsDragProps } = useDragScroll<HTMLDivElement>(productsRef);
   const activeCards = menuPanels[activePanel];
+
+  function playCardVideo(event: MouseEvent<HTMLElement> | FocusEvent<HTMLElement>) {
+    const video = event.currentTarget.querySelector("video");
+    if (!video) return;
+    video.play().catch(() => {});
+  }
+
+  function stopCardVideo(event: MouseEvent<HTMLElement> | FocusEvent<HTMLElement>) {
+    const video = event.currentTarget.querySelector("video");
+    if (!video) return;
+    video.pause();
+    video.currentTime = 0;
+  }
 
   useEffect(() => {
     if (!open) return;
@@ -75,8 +91,10 @@ export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => v
                 <button
                   aria-pressed={locale === option.value}
                   className={locale === option.value ? "active" : ""}
+                  data-locale-switcher="true"
                   key={option.value}
                   onClick={() => setLocale(option.value)}
+                  onPointerDown={(event) => event.stopPropagation()}
                   type="button"
                 >
                   {option.label}
@@ -90,8 +108,18 @@ export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => v
         </aside>
         <div className={`menuProducts ${productsDragging ? "isDragging" : ""}`} ref={productsRef} {...productsDragProps}>
           {activeCards.map((card) => (
-            <a href={card.href} className="menuProductCard" key={`${activePanel}-${card.title}`} onClick={onClose}>
+            <a
+              href={card.href}
+              className="menuProductCard"
+              key={`${activePanel}-${card.title}`}
+              onBlur={stopCardVideo}
+              onClick={onClose}
+              onFocus={playCardVideo}
+              onMouseEnter={playCardVideo}
+              onMouseLeave={stopCardVideo}
+            >
               <img src={card.image} alt={t(card.title)} />
+              {card.video ? <video className="menuProductVideo" loop muted playsInline preload="metadata" src={card.video} aria-hidden="true" /> : null}
               <span className="menuProductLabel">{t(card.label)}</span>
               <strong>{t(card.title)}</strong>
             </a>

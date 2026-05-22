@@ -172,7 +172,7 @@ export function OrderPage({ page, path, rawPath }: { page: PageConfig; path: str
           </article>
         </div>
         <div className="storeActions">
-          <Link href="/store">{t("STORE")}</Link>
+          <Link href="/store/hydrofoil">{t("STORE")}</Link>
           <Link href="/profile">{t("PROFILE")}</Link>
         </div>
         <div className="localNotice">{t("Orders are local placeholders and do not read from the official order API.")}</div>

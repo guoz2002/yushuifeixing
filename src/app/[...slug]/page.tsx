@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { FlyH2OSite } from "@/components/fly-h2o-site";
+import { FlyH2OSite } from "@/features/fly-h2o";
 import { SeoContent } from "@/components/seo-content";
 import { detectRequestLocale } from "@/i18n/server";
 import { buildMetadata, pathFromSlug, type SeoSearchParams } from "@/lib/seo";

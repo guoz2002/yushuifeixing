@@ -27,6 +27,7 @@ export const defaultOgImage = `${officialAssetsBase}/img/home-1-min-MsnRtAf0.png
 const investorsImage = `${ossBase}/20260324/investors-6_1774283377704.jpg`;
 const y3Image = `${ossBase}/20260324/color-1-2_1774283129973.jpg`;
 const y5Image = `${ossBase}/20260402/%E4%BA%A7%E5%93%81%E5%9B%BE-%E8%B0%83%E6%95%B4%E5%90%8E_1775116758993.png`;
+const productsImage = `${officialAssetsBase}/img/h2-2-CdzpsO7N.jpg`;
 
 const y3Id = "2036106382770339842";
 const y5Id = "2036332821969633281";
@@ -151,6 +152,20 @@ const routeSeo: Record<string, Omit<SeoConfig, "path">> = {
     priority: 0.9,
     changeFrequency: "weekly",
     pageType: "CollectionPage",
+  },
+  "/products": {
+    title: "控制架构 | ALAQUA 御水飞行水翼船工艺",
+    description:
+      "了解 ALAQUA 御水飞行智能电动水翼船的控制架构、碳纤维船体、水翼结构、稳定控制与性能参数。",
+    keywords: ["控制架构", "水翼结构", "碳纤维船体", "水翼稳定控制", "智能电动水翼船", "ALAQUA 工艺"],
+    image: productsImage,
+    imageAlt: "ALAQUA hydrofoil control architecture and performance",
+    h1: "ALAQUA 智能水翼船控制架构",
+    summary: "以水翼结构、碳纤维船体、液冷电池和稳定控制系统，呈现智能电动水翼船的工程架构。",
+    bullets: ["水翼结构分解", "碳纤维船体与稳定控制", "巡航、极速、续航与快充参数"],
+    priority: 0.86,
+    changeFrequency: "monthly",
+    pageType: "WebPage",
   },
   "/models/h1": {
     title: "Y-3 三座智能水翼艇 | ALAQUA 御水飞行",
@@ -673,6 +688,7 @@ export const sitemapEntries: MetadataRoute.Sitemap = [
   "/",
   "/investors",
   "/models",
+  "/products",
   "/models/h1",
   "/models/h2",
   "/tech",

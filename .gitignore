@@ -24,10 +24,16 @@
 # downloaded static caches served from upstream at runtime
 /public/fly-h2o-assets/
 /public/fly-h2o-oss/
+/public/assets/
 /资料/fly-h2o-official-reference-20260523/
+/archived-local-assets/
 
 # large source-package artifact not referenced by the app
 /121d6c8bbe9590208d3e686f4f8f6b81.glb
+/IMG_20260521_203336.png
+/IMG_20260521_203341.png
+/bbadbd4e08b5b5d94893921df7b81f65.png
+/d62e67024da6f1f7c4f6cf98ee953e19_720.png
 
 # misc
 .DS_Store

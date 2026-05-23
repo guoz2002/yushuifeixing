@@ -4273,7 +4273,7 @@ body:has(.officialModelPage) .navMenuButton {
   --model-dark: #000;
   --model-dark-soft: #0d1010;
   --model-accent: #68d8dc;
-  overflow: hidden;
+  overflow: visible;
   background: var(--model-surface);
   color: var(--model-ink);
 }

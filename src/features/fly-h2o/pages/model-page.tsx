@@ -142,6 +142,19 @@ function releaseSequenceFrame(image: HTMLImageElement) {
   image.removeAttribute("src");
 }
 
+function clamp01(value: number) {
+  return Math.min(1, Math.max(0, value));
+}
+
+function smoothStep(value: number) {
+  const t = clamp01(value);
+  return t * t * (3 - 2 * t);
+}
+
+function sequencePlayProgress(rawProgress: number) {
+  return smoothStep((rawProgress - 0.08) / 0.84);
+}
+
 function useModelScrollChoreography(rootRef: RefObject<HTMLDivElement | null>, refreshKey: string) {
   useEffect(() => {
     const root = rootRef.current;
@@ -204,6 +217,7 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
   const { t } = useI18n();
   const [sectionRef, shouldLoadFrames] = useNearViewport<HTMLElement>("900px");
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
+  const lineElementsRef = useRef<Array<HTMLParagraphElement | null>>([]);
   const framesRef = useRef<Array<HTMLImageElement | null>>([]);
   const frameIndexRef = useRef(0);
   const lineIndexRef = useRef(0);
@@ -339,13 +353,23 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
 
       const rect = section.getBoundingClientRect();
       const scrollable = Math.max(1, section.offsetHeight - window.innerHeight);
-      const progress = Math.min(1, Math.max(0, -rect.top / scrollable));
-      const index = Math.round(progress * (frames.length - 1));
+      const progress = clamp01(-rect.top / scrollable);
+      const playProgress = sequencePlayProgress(progress);
+      const index = Math.round(playProgress * (frames.length - 1));
       const lineCount = Math.max(1, lines.length);
-      const nextLine = Math.min(lineCount - 1, Math.max(0, Math.floor(progress * lineCount)));
-      section.style.setProperty("--sequence-progress", progress.toFixed(4));
-      section.style.setProperty("--sequence-canvas-scale", (1.045 - progress * 0.075).toFixed(4));
-      section.style.setProperty("--sequence-canvas-y", `${(0.5 - progress) * 42}px`);
+      const lineProgress = playProgress * Math.max(1, lineCount - 1);
+      const nextLine = Math.min(lineCount - 1, Math.max(0, Math.round(lineProgress)));
+      section.style.setProperty("--sequence-progress", playProgress.toFixed(4));
+      section.style.setProperty("--sequence-raw-progress", progress.toFixed(4));
+      section.style.setProperty("--sequence-canvas-scale", (1.07 - playProgress * 0.1).toFixed(4));
+      section.style.setProperty("--sequence-canvas-y", `${(0.5 - playProgress) * 52}px`);
+      lineElementsRef.current.forEach((element, lineIndex) => {
+        if (!element) return;
+        const strength = clamp01(1 - Math.abs(lineProgress - lineIndex) * 0.72);
+        element.style.setProperty("--line-active", strength.toFixed(4));
+        element.style.setProperty("--line-offset", `${(1 - strength) * -18}px`);
+        element.style.setProperty("--line-scale", (0.975 + strength * 0.025).toFixed(4));
+      });
       frameIndexRef.current = index;
       if (nextLine !== lineIndexRef.current) {
         lineIndexRef.current = nextLine;
@@ -380,7 +404,20 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
         </div>
         <div className="productSequenceCopy" data-reveal>
           {lines.map((line, index) => (
-            <p className={index === activeLine ? "active" : ""} key={`${line}-${index}`}>
+            <p
+              className={index === activeLine ? "active" : ""}
+              key={`${line}-${index}`}
+              ref={(element) => {
+                lineElementsRef.current[index] = element;
+              }}
+              style={
+                {
+                  "--line-active": index === 0 ? 1 : 0,
+                  "--line-offset": index === 0 ? "0px" : "-18px",
+                  "--line-scale": index === 0 ? 1 : 0.975,
+                } as CSSProperties
+              }
+            >
               {t(line)}
             </p>
           ))}

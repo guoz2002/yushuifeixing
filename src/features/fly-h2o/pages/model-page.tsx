@@ -108,6 +108,7 @@ const DEFAULT_MODEL_IDS = {
   h1: "2036106382770339842",
   h2: "2036332821969633281",
 } as const;
+type ModelKey = keyof typeof DEFAULT_MODEL_IDS;
 
 const SEQUENCE_FRAME_PRELOAD_BEFORE = 6;
 const SEQUENCE_FRAME_PRELOAD_AFTER = 12;
@@ -148,6 +149,13 @@ function sortMediaUrls(urls: readonly string[]) {
 
 function isVideoSource(url: string) {
   return /\.(mp4|webm|ogg)(\?|$)/i.test(url);
+}
+
+function forceHttpsUrl(url?: string) {
+  if (!url) return "";
+  const trimmed = url.trim();
+  if (!trimmed) return "";
+  return trimmed.startsWith("http://") ? trimmed.replace("http://", "https://") : trimmed;
 }
 
 function releaseSequenceFrame(image: HTMLImageElement) {
@@ -630,12 +638,14 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
 
 export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
   const { t, locale } = useI18n();
-  const modelKey = path === "/models/h2" ? "h2" : page.label === "Y-5" ? "h2" : "h1";
+  const modelKey: ModelKey = path === "/models/h2" ? "h2" : page.label === "Y-5" ? "h2" : "h1";
   const shouldShowModelCanvas = path !== "/models/h1";
   const copy = modelPageCopy[modelKey];
   const pageRef = useRef<HTMLDivElement | null>(null);
   const [officialDetails, setOfficialDetails] = useState<OfficialHomePageDetails | null>(null);
-  useModelScrollChoreography(pageRef, `${modelKey}-${officialDetails ? "official" : "fallback"}`);
+  const [officialDetailsModelKey, setOfficialDetailsModelKey] = useState<ModelKey | null>(null);
+  const activeOfficialDetails = officialDetailsModelKey === modelKey ? officialDetails : null;
+  useModelScrollChoreography(pageRef, `${modelKey}-${activeOfficialDetails ? "official" : "fallback"}`);
 
   useEffect(() => {
     let cancelled = false;
@@ -644,11 +654,23 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
     async function loadOfficialDetails() {
       try {
         const response = await fetch(`/app-api/product/spu/get-detail?id=${modelId}`, { cache: "no-store" });
-        if (!response.ok) return;
+        if (!response.ok) {
+          if (!cancelled) {
+            setOfficialDetails(null);
+            setOfficialDetailsModelKey(modelKey);
+          }
+          return;
+        }
         const payload = (await response.json()) as OfficialSpuResponse;
-        if (!cancelled) setOfficialDetails(payload.data?.homePageDetails ?? null);
+        if (!cancelled) {
+          setOfficialDetails(payload.data?.homePageDetails ?? null);
+          setOfficialDetailsModelKey(modelKey);
+        }
       } catch {
-        if (!cancelled) setOfficialDetails(null);
+        if (!cancelled) {
+          setOfficialDetails(null);
+          setOfficialDetailsModelKey(modelKey);
+        }
       }
     }
 
@@ -659,24 +681,24 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
     };
   }, [modelKey]);
 
-  const seriesText = pickLocalizedText(officialDetails?.templateA?.text, copy.series, locale);
-  const heroVideo = officialDetails?.templateA?.mediaUrl || copy.heroVideo;
+  const seriesText = pickLocalizedText(activeOfficialDetails?.templateA?.text, copy.series, locale);
+  const heroVideo = forceHttpsUrl(activeOfficialDetails?.templateA?.mediaUrl) || copy.heroVideo;
   const sequenceLines = useMemo(
-    () => pickLocalizedLines(officialDetails?.templateB?.text, copy.sequenceLines, locale),
-    [officialDetails?.templateB?.text, copy.sequenceLines, locale],
+    () => pickLocalizedLines(activeOfficialDetails?.templateB?.text, copy.sequenceLines, locale),
+    [activeOfficialDetails?.templateB?.text, copy.sequenceLines, locale],
   );
 
   const sequenceFrames = useMemo(() => {
-    const urls = officialDetails?.templateB?.mediaUrls || [];
+    const urls = (activeOfficialDetails?.templateB?.mediaUrls || []).map((url) => forceHttpsUrl(url)).filter(Boolean);
     if (urls.length > 0) return sortMediaUrls(urls);
     return modelKey === "h1" ? modelSequenceFramesOfficial : modelSequenceFrames;
-  }, [officialDetails?.templateB?.mediaUrls, modelKey]);
+  }, [activeOfficialDetails?.templateB?.mediaUrls, modelKey]);
 
-  const aestheticsTitle = pickLocalizedText(officialDetails?.templateC?.title, copy.aestheticsTitle, locale);
-  const aestheticsText = pickLocalizedText(officialDetails?.templateC?.text, copy.aestheticsText, locale);
+  const aestheticsTitle = pickLocalizedText(activeOfficialDetails?.templateC?.title, copy.aestheticsTitle, locale);
+  const aestheticsText = pickLocalizedText(activeOfficialDetails?.templateC?.text, copy.aestheticsText, locale);
   const detailCards = useMemo((): Array<[string, string, string]> => {
     const fallbackCards = modelDetailCards.map(([title, text, image]): [string, string, string] => [title, text, image]);
-    const cards = officialDetails?.templateC?.cards || [];
+    const cards = activeOfficialDetails?.templateC?.cards || [];
     if (cards.length > 0) {
       return cards
         .map((card, index): [string, string, string] => {
@@ -684,20 +706,20 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
           return [
             pickLocalizedText(card.title?.trim(), fallback[0], locale),
             pickLocalizedText(card.text, fallback[1], locale),
-            card.mediaUrl || fallback[2],
+            forceHttpsUrl(card.mediaUrl) || fallback[2],
           ];
         })
         .filter(([, , image]) => Boolean(image));
     }
     return fallbackCards;
-  }, [officialDetails?.templateC?.cards, locale]);
+  }, [activeOfficialDetails?.templateC?.cards, locale]);
 
-  const windVideo = officialDetails?.templateD?.mediaUrl || media.modelWind;
-  const windTitle = pickLocalizedText(officialDetails?.templateD?.title, copy.windTitle, locale);
-  const windText = pickLocalizedText(officialDetails?.templateD?.text, copy.windText, locale);
+  const windVideo = forceHttpsUrl(activeOfficialDetails?.templateD?.mediaUrl) || media.modelWind;
+  const windTitle = pickLocalizedText(activeOfficialDetails?.templateD?.title, copy.windTitle, locale);
+  const windText = pickLocalizedText(activeOfficialDetails?.templateD?.text, copy.windText, locale);
 
   const colorStories = useMemo((): RuntimeColorStory[] => {
-    const stories = officialDetails?.templateE || [];
+    const stories = activeOfficialDetails?.templateE || [];
     if (stories.length > 0) {
       return stories
         .map((item): RuntimeColorStory => ({
@@ -705,8 +727,8 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
           name: pickLocalizedText(item.leftBigText, "", locale),
           description: pickLocalizedText(item.rightSmallText, "", locale),
           color: item.color || "#000000",
-          image: item.imageUrl || "",
-          video: item.videoUrl || "",
+          image: forceHttpsUrl(item.imageUrl),
+          video: forceHttpsUrl(item.videoUrl),
         }))
         .filter((item) => Boolean(item.name && (item.video || item.image)));
     }
@@ -718,16 +740,16 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
       image: item.image,
       video: item.video,
     }));
-  }, [officialDetails?.templateE, locale]);
+  }, [activeOfficialDetails?.templateE, locale]);
 
-  const technicalBackground = officialDetails?.templateF?.backgroundImageUrl || media.modelTech;
-  const technicalTitle = pickLocalizedText(officialDetails?.templateF?.leftBigTitle, "技术参数", locale);
+  const technicalBackground = forceHttpsUrl(activeOfficialDetails?.templateF?.backgroundImageUrl) || media.modelTech;
+  const technicalTitle = pickLocalizedText(activeOfficialDetails?.templateF?.leftBigTitle, "技术参数", locale);
   const technicalSpecs = useMemo((): Array<[string, Array<[string, string]>]> => {
     const fallbackSpecs = copy.specs.map(([group, rows]): [string, Array<[string, string]>] => [
       group,
       rows.map(([label, value]): [string, string] => [label, value]),
     ]);
-    const cards = officialDetails?.templateF?.rightCards || [];
+    const cards = activeOfficialDetails?.templateF?.rightCards || [];
     if (cards.length > 0) {
       return cards.map((card, index): [string, Array<[string, string]>] => {
         const fallbackGroup = fallbackSpecs[index]?.[0] || "";
@@ -743,16 +765,16 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
       });
     }
     return fallbackSpecs;
-  }, [officialDetails?.templateF?.rightCards, copy.specs, locale]);
+  }, [activeOfficialDetails?.templateF?.rightCards, copy.specs, locale]);
 
-  const galleryTitle = pickLocalizedText(officialDetails?.templateG?.title, "画廊 水翼艇", locale);
+  const galleryTitle = pickLocalizedText(activeOfficialDetails?.templateG?.title, "画廊 水翼艇", locale);
   const galleryText = pickLocalizedText(
-    officialDetails?.templateG?.text,
+    activeOfficialDetails?.templateG?.text,
     `探索 ${copy.series.replace("版", "")} 的每一个精致细节，感受水上飞行的优雅之美。`,
     locale,
   );
   const galleryItems = useMemo((): RuntimeGalleryItem[] => {
-    const urls = officialDetails?.templateG?.mediaUrls || [];
+    const urls = (activeOfficialDetails?.templateG?.mediaUrls || []).map((url) => forceHttpsUrl(url)).filter(Boolean);
     if (urls.length > 0) {
       return urls.map((src) => ({
         type: isVideoSource(src) ? "video" : "image",
@@ -763,7 +785,7 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
       type: item.type,
       src: item.src,
     }));
-  }, [officialDetails?.templateG?.mediaUrls]);
+  }, [activeOfficialDetails?.templateG?.mediaUrls]);
 
   return (
     <div className="officialModelPage" id="main-content" ref={pageRef}>
@@ -847,7 +869,8 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
         <div className="productGalleryTrack">
           {galleryItems.map((item, index) => {
             const fallbackItem = modelGalleryItems[index];
-            const branded = !officialDetails && Boolean(fallbackItem && "brand" in fallbackItem && fallbackItem.brand === true);
+            const branded =
+              !activeOfficialDetails && Boolean(fallbackItem && "brand" in fallbackItem && fallbackItem.brand === true);
 
             return (
               <article

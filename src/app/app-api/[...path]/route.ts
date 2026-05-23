@@ -35,7 +35,6 @@ const copyResponseHeaders = (headers: Headers) => {
   const passthrough = [
     "accept-ranges",
     "cache-control",
-    "content-length",
     "content-range",
     "content-type",
     "etag",
@@ -53,6 +52,27 @@ const copyResponseHeaders = (headers: Headers) => {
   responseHeaders.set("access-control-allow-headers", "content-type, authorization");
   return responseHeaders;
 };
+
+function upgradeHttpToHttps(value: unknown): unknown {
+  if (typeof value === "string") {
+    return value.includes("http://") ? value.replaceAll("http://", "https://") : value;
+  }
+
+  if (Array.isArray(value)) {
+    return value.map((item) => upgradeHttpToHttps(item));
+  }
+
+  if (value && typeof value === "object") {
+    const record = value as Record<string, unknown>;
+    const next: Record<string, unknown> = {};
+    for (const [key, innerValue] of Object.entries(record)) {
+      next[key] = upgradeHttpToHttps(innerValue);
+    }
+    return next;
+  }
+
+  return value;
+}
 
 async function proxyAppApi(request: Request, context: AppApiContext) {
   const { path = [] } = await context.params;
@@ -72,11 +92,34 @@ async function proxyAppApi(request: Request, context: AppApiContext) {
   }
 
   const upstreamResponse = await fetch(targetUrl, requestInit);
+  const responseHeaders = copyResponseHeaders(upstreamResponse.headers);
+  const contentType = upstreamResponse.headers.get("content-type") || "";
+
+  if (request.method !== "HEAD" && contentType.includes("application/json")) {
+    const raw = await upstreamResponse.text();
+    try {
+      const parsed = JSON.parse(raw) as unknown;
+      const upgraded = upgradeHttpToHttps(parsed);
+      const body = JSON.stringify(upgraded);
+      responseHeaders.delete("etag");
+      return new Response(body, {
+        status: upstreamResponse.status,
+        statusText: upstreamResponse.statusText,
+        headers: responseHeaders,
+      });
+    } catch {
+      return new Response(raw, {
+        status: upstreamResponse.status,
+        statusText: upstreamResponse.statusText,
+        headers: responseHeaders,
+      });
+    }
+  }
 
   return new Response(upstreamResponse.body, {
     status: upstreamResponse.status,
     statusText: upstreamResponse.statusText,
-    headers: copyResponseHeaders(upstreamResponse.headers),
+    headers: responseHeaders,
   });
 }
 

@@ -3,6 +3,9 @@ import type { Dictionary } from "../types";
 export const itTranslations: Dictionary = {
   "Open menu": "Apri menu",
   "Close menu": "Chiudi menu",
+  "Close dialog": "Chiudi finestra",
+  "正在制作中": "In lavorazione",
+  "知道了": "Ho capito",
   LOADING: "Caricamento",
   MENU: "Menu",
   STORE: "Store",

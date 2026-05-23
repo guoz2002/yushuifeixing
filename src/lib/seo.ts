@@ -21,6 +21,8 @@ type SeoConfig = {
 
 export const siteUrl = (process.env.NEXT_PUBLIC_SITE_URL || "https://fly.everyonehug.com").replace(/\/+$/, "");
 export const siteName = "ALAQUA | 御水飞行";
+const brandIconPath = "/brand-assets/alaqua-logo.png";
+const appIconPath = "/icon.png";
 const ossBase = "https://oss.fly-h2o.cn";
 const officialAssetsBase = "https://www.fly-h2o.cn/assets";
 export const defaultOgImage = `${officialAssetsBase}/img/home-1-min-MsnRtAf0.png`;
@@ -679,7 +681,12 @@ export function buildRootMetadata(): Metadata {
       email: false,
     },
     icons: {
-      icon: "/favicon.ico",
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: appIconPath, type: "image/png", sizes: "204x204" },
+      ],
+      shortcut: ["/favicon.ico"],
+      apple: [{ url: "/apple-icon.png", type: "image/png", sizes: "204x204" }],
     },
   };
 }
@@ -743,7 +750,7 @@ export function buildStructuredData(path: string, searchParams?: SeoSearchParams
       name: "ALAQUA 御水飞行",
       alternateName: ["ALAQUA", "Fly H2O", "御水飞行"],
       url: siteUrl,
-      logo: absoluteUrl(`${officialAssetsBase}/img/logo-D5s-fn5f.png`),
+      logo: absoluteUrl(brandIconPath),
       sameAs: [],
     },
     {

@@ -1,11 +1,11 @@
 import { assetBaseUrl as A, media } from "./media";
 
-export type MenuCard = { title: string; label: string; image: string; href: string; video?: string };
+export type MenuCard = { title: string; label: string; image: string; href: string; video?: string; useTextImage?: boolean; comingSoon?: boolean };
 export type MenuPanelKey = "products" | "manufacturing" | "core" | "introduction" | "service" | "contact" | "legal";
 
 export const productCards = [
   { title: "Y-3", label: "Three-Seat Edition", image: media.productY3Menu, video: media.productY3MenuVideo, href: "/models/h1" },
-  { title: "Y-5", label: "Five-Seat Edition", image: media.productY5, video: media.productY5MenuVideo, href: "/models/h2" },
+  { title: "Y-5", label: "Five-Seat Edition", image: media.productY5, video: media.productY5MenuVideo, href: "/models/h2", comingSoon: true },
 ];
 
 export const menuPanels: Record<MenuPanelKey, MenuCard[]> = {
@@ -26,19 +26,19 @@ export const menuPanels: Record<MenuPanelKey, MenuCard[]> = {
     { title: "Investors", label: "Industrial Investment Partner", image: media.investor3, href: "/investors" },
   ],
   service: [
-    { title: "Service Guarantee", label: "Owner Service", image: media.service1, href: "/serve" },
-    { title: "Charging Energy", label: "Charging and Energy Service", image: media.chargingHero, href: "/contact/charging" },
-    { title: "Finance Test", label: "Purchase and Finance Service", image: media.financeHero, href: "/contact/finance" },
+    { title: "Service Guarantee", label: "Owner Service", image: media.service1, href: "/serve", useTextImage: true },
+    { title: "Charging Energy", label: "Charging and Energy Service", image: media.chargingHero, href: "/contact/charging", useTextImage: true },
+    { title: "Finance Test", label: "Purchase and Finance Service", image: media.financeHero, href: "/contact/finance", useTextImage: true },
   ],
   contact: [
-    { title: "Dealers", label: "Global Dealer Network", image: media.dealer1, href: "/contact/dealers" },
-    { title: "Store Query", label: "Experience Center", image: media.dealer2, href: "/dealers" },
-    { title: "Customer Service", label: "After-sales and Support", image: media.service2, href: "/customerService" },
+    { title: "Dealers", label: "Global Dealer Network", image: media.dealer1, href: "/contact/dealers", useTextImage: true },
+    { title: "Store Query", label: "Experience Center", image: media.dealer2, href: "/dealers", useTextImage: true },
+    { title: "Customer Service", label: "After-sales and Support", image: media.service2, href: "/customerService", useTextImage: true },
   ],
   legal: [
-    { title: "User Agreement", label: "Legal Terms", image: media.brand9, href: "/auth-agreement.html" },
-    { title: "Privacy Policy", label: "Legal Terms", image: media.brand10, href: "/privacy.html" },
-    { title: "After-sales Service Agreement", label: "Service Terms", image: media.guide1, href: "/afterservice-commitment.html" },
+    { title: "User Agreement", label: "Legal Terms", image: media.brand9, href: "/auth-agreement.html", useTextImage: true },
+    { title: "Privacy Policy", label: "Legal Terms", image: media.brand10, href: "/privacy.html", useTextImage: true },
+    { title: "After-sales Service Agreement", label: "Service Terms", image: media.guide1, href: "/afterservice-commitment.html", useTextImage: true },
   ],
 };
 

@@ -1,4 +1,4 @@
-import { assetBaseUrl as A, media } from "./media";
+import { assetBaseUrl as A, media, ossBaseUrl } from "./media";
 
 export const modelSequenceFrames = [
   `${A}/img/Y-3hongse5.0000-BfPYcBjM.jpeg`,
@@ -123,6 +123,39 @@ export const modelSequenceFrames = [
   `${A}/img/Y-3hongse5.0119-DBQzx6vV.jpeg`,
 ];
 
+export const modelSequenceFramesOfficial = [
+  `${ossBaseUrl}/20260417/Y-3hongse5.0005_1776390071513.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0007_1776390071514.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0011_1776390071515.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0015_1776390071549.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0019_1776390071515.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0023_1776390071552.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0027_1776390071513.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0031_1776390071548.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0035_1776390071545.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0037_1776390071511.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0041_1776390071555.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0045_1776390071515.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0049_1776390071535.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0053_1776390071522.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0057_1776390071522.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0061_1776390071523.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0065_1776390071512.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0069_1776390071519.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0073_1776390071543.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0075_1776390071551.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0079_1776390071556.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0083_1776390071512.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0087_1776390071518.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0091_1776390071554.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0095_1776390071558.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0099_1776390071516.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0103_1776390071520.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0107_1776390071510.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0111_1776390071548.jpeg`,
+  `${ossBaseUrl}/20260417/Y-3hongse5.0115_1776390071521.jpeg`,
+];
+
 export const modelColorStories = [
   {
     name: "烈焰红",
@@ -135,29 +168,29 @@ export const modelColorStories = [
     name: "钛金属色",
     description: "取自航空钛合金的独特光泽，展现科技与工艺的结合，彰显现代工业美学。",
     color: "#ababab",
-    image: media.modelColor2,
-    video: media.modelColorVideo2,
+    image: media.modelColor4,
+    video: media.modelColorVideo4,
   },
   {
     name: "深海蓝",
     description: "取自深海的神秘蓝色，如夜空中的繁星倒影，呈现深邃与宁静的高级质感。",
     color: "#0088ff",
-    image: media.modelColor3,
-    video: media.modelColorVideo3,
+    image: media.modelColor2,
+    video: media.modelColorVideo2,
   },
   {
     name: "宝石绿",
     description: "来自翡翠宝石的深邃绿色，像森林深处的生命力，散发自然与奢华的融合。",
     color: "#afc873",
-    image: media.modelColor4,
-    video: media.modelColorVideo4,
+    image: media.modelColor5,
+    video: media.modelColorVideo5,
   },
   {
     name: "熔岩橙",
     description: "源自火山熔岩的炽热光芒，象征激情与活力，表现无畏前行的动感精神。",
     color: "#ffd245",
-    image: media.modelColor5,
-    video: media.modelColorVideo5,
+    image: media.modelColor3,
+    video: media.modelColorVideo3,
   },
 ];
 
@@ -166,17 +199,16 @@ export const modelPageCopy = {
     series: "Y-3 三座版",
     heroVideo: media.modelHeroY3,
     sequenceLines: [
-      "Y-3 智能水翼艇是一款集智能科技、",
-      "舒适体验与高效性能于一体的水上交通工具。",
-      "采用先进的水翼设计，",
-      "有效降低航行阻力，提升航速与稳定性，",
-      "适合家庭出游、休闲娱乐及短途运输。",
+      "Y-3 智能水翼艇，集智能科技、舒适体验与高效性能于一体。",
+      "采用先进水翼设计，可有效降低航行阻力。",
+      "在提升航速的同时，保持稳定航行姿态。",
+      "适用于家庭出游、休闲娱乐与短途出行。",
     ],
     aestheticsTitle: "船体美学",
     aestheticsText:
       "全球首款面向水上交通与文旅场景的智能电动水翼艇，以高性能与低能耗重构水上出行方式。",
     windTitle: "破浪而行",
-    windText: "水翼技术通过平衡流体与空气的动力学特性，降低航行阻力，提升航行效率。",
+    windText: "水翼技术通过优化流体动力学表现，降低航行阻力并提升航行效率。",
     specs: [
       ["主尺度", [["总长度", "4.5 m"], ["总宽度", "3.0 m"], ["吃水深度", "1.0 m"], ["乘员人数", "3"]]],
       ["充电", [["充电方式", "配备专用充电桩"], ["充电桩", "380V 60A"], ["充电时间", "1.5 h"], ["充电功率", "≤20 kW"]]],
@@ -188,16 +220,15 @@ export const modelPageCopy = {
     heroVideo: media.modelHeroY5,
     sequenceLines: [
       "更大空间，同样凌厉。",
-      "Y-5 以五座布局重新定义水翼艇的边界，",
-      "全新升级的外观设计，",
-      "将高性能与舒适体验完美融合，",
-      "开启属于你的御水飞行。",
+      "Y-5 以五座布局进一步拓展水翼艇边界。",
+      "全新升级的外观设计，将高性能与舒适体验融合。",
+      "让每一次出航，都成为从容的御水飞行。",
     ],
     aestheticsTitle: "五座旗舰，美学新章",
     aestheticsText:
       "Y-5 以全新设计语言重塑水翼艇的视觉边界。流线型船身承载五人舒适空间，呈现水上座驾的旗舰风范。",
     windTitle: "驭浪前行，不止于速",
-    windText: "即便承载五人，Y-5 依然以水翼技术实现船体脱水飞行，大幅降低航行阻力。",
+    windText: "即便满载五人，Y-5 依然可依托水翼技术抬升船体，显著降低航行阻力。",
     specs: [
       ["主尺度", [["总长度", "4.9 m"], ["总宽度", "3.4 m"], ["吃水深度", "1.2 m"], ["乘员人数", "5"]]],
       ["充电", [["充电方式", "配备专用充电桩"], ["充电桩", "380V 60A"], ["充电时间", "1.5 h"], ["充电功率", "≤20 kW"]]],

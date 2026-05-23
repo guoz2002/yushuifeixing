@@ -7,6 +7,7 @@ import { routeTitles } from "./data/routes";
 import { normalizedPath, routeKeyForPath } from "./utils/routes";
 import { TopNav } from "./components/top-nav";
 import { MenuOverlay } from "./components/menu-overlay";
+import { ComingSoonProvider } from "./components/coming-soon-dialog";
 import { Hero } from "./components/hero";
 import { FlyFooter } from "./components/fly-footer";
 import { PageBody } from "./page-body";
@@ -21,13 +22,15 @@ export function FlyH2OSite({ slug, initialLocale }: { slug?: string[]; initialLo
 
   return (
     <I18nProvider initialLocale={initialLocale}>
-      <main className="flySite">
-        <TopNav onMenu={() => setMenuOpen(true)} />
-        <MenuOverlay open={menuOpen} onClose={() => setMenuOpen(false)} />
-        {!hasEmbeddedHero ? <Hero page={page} /> : null}
-        <PageBody page={page} path={path} rawPath={rawPath} />
-        <FlyFooter />
-      </main>
+      <ComingSoonProvider>
+        <main className="flySite">
+          <TopNav onMenu={() => setMenuOpen(true)} />
+          <MenuOverlay open={menuOpen} onClose={() => setMenuOpen(false)} />
+          {!hasEmbeddedHero ? <Hero page={page} /> : null}
+          <PageBody page={page} path={path} rawPath={rawPath} />
+          <FlyFooter />
+        </main>
+      </ComingSoonProvider>
     </I18nProvider>
   );
 }

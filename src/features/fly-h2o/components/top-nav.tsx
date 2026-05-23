@@ -13,12 +13,11 @@ export function TopNav({ onMenu }: { onMenu: () => void }) {
         <Menu size={24} strokeWidth={1.6} />
         <span>{t("MENU")}</span>
       </button>
-      <Link className="brandMark" href="/">
+      <Link className="brandMark" href="/" aria-label="ALAQUA">
         ALAQUA
       </Link>
       <div className="navRight">
         <Link href="/store/hydrofoil">{t("STORE")}</Link>
-        <Link href="/contact">{t("CONTACT")}</Link>
       </div>
     </header>
   );

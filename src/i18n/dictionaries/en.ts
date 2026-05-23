@@ -1,6 +1,9 @@
 import type { Dictionary } from "../types";
 
 export const enTranslations: Dictionary = {
+  "Close dialog": "Close dialog",
+  "正在制作中": "Under construction",
+  "知道了": "Got it",
   "富有生命力的色彩": "Colors With Vitality",
   "Y-3 三座版": "Y-3 Three-Seat Version",
   "Y-3 三座": "Y-3 Three-Seat",

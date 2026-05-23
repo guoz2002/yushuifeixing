@@ -1,0 +1,4171 @@
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/js/HomePage-BXgOFZyh.js","assets/js/vue-vendor-CVsEHnfk.js","assets/js/MediaViewer-0hVq-_ox.js","assets/MediaViewer-CmANcVI2.css","assets/js/gsap-vendor-DgrSs9By.js","assets/js/VideoBackground.vue_vue_type_script_setup_true_lang-pm7pRVM-.js","assets/js/swiper-vendor-DyvuAU-a.js","assets/swiper-vendor-4-a1aBJK.css","assets/js/utils-vendor-CvT44eSr.js","assets/js/ui-vendor-Uj40pjH7.js","assets/HomePage-CQ-cz0Q_.css","assets/js/2dContainer-C-0gKQ5z.js","assets/js/ModelLoadingGuide-BQoABhX9.js","assets/ModelLoadingGuide-BtJ5Aqgg.css","assets/js/engine-DULKxadS.js","assets/js/three-core-BW5ZlgF9.js","assets/js/three-loaders-DM2BrPpV.js","assets/js/x12-C3Vp6nOD.js","assets/js/H1Model-CCsEgURt.js","assets/js/HeroBanner.vue_vue_type_script_setup_true_lang-BJpc8oIi.js","assets/H1Model-BE8xyYTz.css","assets/js/H2Model-C0vzdrNe.js","assets/js/home-15-DG9DPVTD.js","assets/js/investors-6-C-hzCY17.js","assets/H2Model-BmgnxNF4.css","assets/js/Innovation-CWXYZAJl.js","assets/js/video-1-BS-OK5DX.js","assets/Innovation-CHlcnnBg.css","assets/js/OptionsPage-ClkTki50.js","assets/js/logoh20-CUGBXkvw.js","assets/OptionsPage-tn0RQdqM.css","assets/js/OptionsDetailPage_glb-Bo-JIU5u.js","assets/OptionsDetailPage_glb-o2j-56dC.css","assets/js/ProductsPage-UHKd4Mp0.js","assets/ProductsPage-38Lce9Fk.css","assets/js/Quality-re-6y5Jm.js","assets/js/Brand-PYg_Y94V.js","assets/js/CarbonFiber-do9NITym.js","assets/js/Unmanned-CA5f0-A3.js","assets/js/contact-12-BjwXSHb7.js","assets/js/ThreeModes-DqnDEoEF.js","assets/js/Battery-BrPY2DZf.js","assets/js/OutboardMotor-qq0DxNwa.js","assets/OutboardMotor-tiZo2uC6.css","assets/js/CarbonFiberMaterial-CAnDWXQw.js","assets/CarbonFiberMaterial-DbXtzMkR.css","assets/js/Advantages-CXRFY5Kx.js","assets/js/Scenario-mTrGZvxk.js","assets/Scenario-4xkSh0hU.css","assets/js/InvestorsPage-D64r_BOg.js","assets/InvestorsPage-BfX1X-1S.css","assets/js/FeaturesPage-CWBpGMfe.js","assets/js/TeamComposition-CVzc0gXQ.js","assets/TeamComposition-LxGWWSfw.css","assets/js/TestDrivePage-C0Vdok-g.js","assets/js/ContactPage-DXkV7c8x.js","assets/ContactPage-aGOYT7xX.css","assets/js/Charging-D5keEWxU.js","assets/js/home-6-D7fSCmpP.js","assets/js/Finance-Dp19oGuD.js","assets/js/contact-5-CFAsVKF6.js","assets/Finance-BRYWFLAa.css","assets/js/HelpCenterPage-DCsHR8KL.js","assets/HelpCenterPage-CvOrwArN.css","assets/js/ResetPasswordPage-rLC3njet.js","assets/js/user-CiGc-cY8.js","assets/js/account-C1HuREWk.js","assets/js/AccountAppealPage-fT_Jm1CS.js","assets/js/FreezeAccountPage-C5qLW0-d.js","assets/js/UnfreezeAccountPage-Dzh0z4Cf.js","assets/js/UnblockAccountPage-BycHzSyX.js","assets/js/DeleteAccountPage-BszoyG4v.js","assets/js/Serve-DGZIAsoY.js","assets/js/Dealers-D9FZVWdR.js","assets/js/dealerData-BP-xFhsy.js","assets/Dealers-gBnCiYvG.css","assets/js/DealerDetail-CljE8Uw3.js","assets/DealerDetail-DW3cORyD.css","assets/js/Query-B9p38Rt0.js","assets/js/CustomerService-Ru4tXQ6o.js","assets/js/CustomerServiceDetail-BZEr8I4a.js","assets/CustomerServiceDetail-DpYm0BQA.css","assets/js/AboutMe-CO6qN0-Q.js","assets/AboutMe-CDxbs2Om.css","assets/js/CompanyIntro-BNW8dMwc.js","assets/CompanyIntro-C3f4OY56.css","assets/js/Factory-Bx9qQ0EG.js","assets/Factory-lkVzftiR.css","assets/js/Hydrofoil-DeSvmr5Q.js","assets/Hydrofoil-Bxzp8ytP.css","assets/js/Accessories-Cwh_t_7E.js","assets/Accessories-DM3kPeNA.css","assets/js/AccessoryDetail-Dq8ChySN.js","assets/AccessoryDetail-DxVeTZuM.css","assets/js/Hmi-BwGxr0Y9.js","assets/js/Design-B5G6Txjd.js","assets/js/HullDesignBuild-B8_3gpB7.js","assets/js/Development-yhHdhNop.js","assets/js/Distribution-BWQaSh-D.js","assets/js/OrderConfirmation-Bg1iUHuR.js","assets/js/OrderDetail-t6yp0lxT.js","assets/js/LogisticsModal-DPlzIpZO.js","assets/LogisticsModal-4hDrG5nQ.css","assets/OrderDetail-Cg5sfQX7.css","assets/js/ProfilePage-C4YpSjeX.js","assets/ProfilePage-InYKQVEb.css","assets/js/LoginPage-Bd-M2kLb.js","assets/LoginPage-DFFanIBe.css","assets/js/WeChatAuthPage-CNVEZ7Zo.js","assets/WeChatAuthPage-CeeBzwK2.css","assets/js/TwitterAuthPage-tufEIHSP.js","assets/TwitterAuthPage-CRb8SVOL.css","assets/js/GoogleAuthPage-C_07lssc.js","assets/GoogleAuthPage-CLumgk7_.css","assets/js/AlipayAuthPage-BxMRZlfB.js","assets/AlipayAuthPage-BjHUK8l_.css","assets/js/LinkedInAuthPage-q79EPscp.js","assets/LinkedInAuthPage-DHbBTNqi.css","assets/js/LineAuthPage-B3rkNsJC.js","assets/LineAuthPage-BmE5rk6M.css","assets/js/BindAccountPage-C3_x8Opn.js","assets/js/NotFoundPage-CrjsRCQe.js"])))=>i.map(i=>d[i]);
+
+import{z as yo,r as E,w as Se,A as wo,B as Ao,C as Be,d as V,D as So,m as he,E as ht,G as je,H as Ie,a as Je,k as ft,I as Co,e as y,g as h,f as a,J as K,K as v,L as J,M as ae,u as f,R as se,N as U,O as X,F as Z,P as nt,T as ve,Q as oe,S as $,U as ne,V as at,W as Ei,x as ct,X as Oe,Y as Te,Z as Le,_ as It,$ as xo,n as Io,a0 as Pi,a1 as Eo,a2 as Po,a3 as zo,a4 as ko}from"./vue-vendor-CVsEHnfk.js";
+import{M as Ro}from"./utils-vendor-CvT44eSr.js";
+import{g as zi,S as ki,T as To}from"./gsap-vendor-DgrSs9By.js";
+import{r as Ri,a as Do,b as Lo,c as Mo,d as Fo,e as Bo}from"./ui-vendor-Uj40pjH7.js";
+(function(){const t=document.createElement("link").relList;
+if(t&&t.supports&&t.supports("modulepreload"))return;
+for(const n of document.querySelectorAll('link[rel="modulepreload"]'))o(n);
+new MutationObserver(n=>{for(const r of n)if(r.type==="childList")for(const s of r.addedNodes)s.tagName==="LINK"&&s.rel==="modulepreload"&&o(s)}).observe(document,{childList:!0,subtree:!0});
+function i(n){const r={};
+return n.integrity&&(r.integrity=n.integrity),
+n.referrerPolicy&&(r.referrerPolicy=n.referrerPolicy),
+n.crossOrigin==="use-credentials"?r.credentials="include":n.crossOrigin==="anonymous"?r.credentials="omit":r.credentials="same-origin",r}function o(n){if(n.ep)return;
+n.ep=!0;
+const r=i(n);
+fetch(n.href,r)}})();
+const Oo="modulepreload",No=function(e){return"/"+e},
+jt={},
+T=function(t,i,o){let n=Promise.resolve();
+if(i&&i.length>0){let s=function(d){return Promise.all(d.map(c=>Promise.resolve(c).then(u=>(
+{status:"fulfilled",value:u}),
+u=>(
+{status:"rejected",reason:u}))))};
+document.getElementsByTagName("link");
+const l=document.querySelector("meta[property=csp-nonce]"),
+m=l?.nonce||l?.getAttribute("nonce");
+n=s(i.map(d=>{if(d=No(d),
+d in jt)return;
+jt[d]=!0;
+const c=d.endsWith(".css"),
+u=c?'[rel="stylesheet"]':"";
+if(document.querySelector(`link[href="${d}"]${u}`))return;
+const S=document.createElement("link");
+if(S.rel=c?"stylesheet":Oo,c||(S.as="script"),
+S.crossOrigin="",S.href=d,m&&S.setAttribute("nonce",m),
+document.head.appendChild(S),
+c)return new Promise((w,p)=>{S.addEventListener("load",w),
+S.addEventListener("error",()=>p(new Error(`Unable to preload CSS for ${d}`)))})}))}function r(s){const l=new Event("vite:preloadError",{cancelable:!0});
+if(l.payload=s,window.dispatchEvent(l),
+!l.defaultPrevented)throw s}return n.then(s=>{for(const l of s||[])l.status==="rejected"&&r(l.reason);
+return t().catch(r)})},
+Ti="/assets/img/header-1-t0FoTh_E.png";
+function Di(e,t){return function(){return e.apply(t,arguments)}}const{toString:qo}=Object.prototype,{getPrototypeOf:Ht}=Object,{iterator:vt,toStringTag:Li}=Symbol,bt=(e=>t=>{const i=qo.call(t);
+return e[i]||(e[i]=i.slice(8,-1).toLowerCase())})(Object.create(null)),
+ye=e=>(e=e.toLowerCase(),
+t=>bt(t)===e),
+yt=e=>t=>typeof t===e,{isArray:He}=Array,Qe=yt("undefined");
+function Ke(e){return e!==null&&!Qe(e)&&e.constructor!==null&&!Qe(e.constructor)&&ue(e.constructor.isBuffer)&&e.constructor.isBuffer(e)}const Mi=ye("ArrayBuffer");
+function Uo(e){let t;
+return typeof ArrayBuffer<"u"&&ArrayBuffer.isView?t=ArrayBuffer.isView(e):t=e&&e.buffer&&Mi(e.buffer),
+t}const Qo=yt("string"),
+ue=yt("function"),
+Fi=yt("number"),
+Ze=e=>e!==null&&typeof e=="object",Ho=e=>e===!0||e===!1,rt=e=>{if(bt(e)!=="object")return!1;
+const t=Ht(e);
+return(t===null||t===Object.prototype||Object.getPrototypeOf(t)===null)&&!(Li in e)&&!(vt in e)},
+Vo=e=>{if(!Ze(e)||Ke(e))return!1;
+try{return Object.keys(e).length===0&&Object.getPrototypeOf(e)===Object.prototype}catch{return!1}},
+_o=ye("Date"),
+Go=ye("File"),
+Wo=ye("Blob"),
+Yo=ye("FileList"),
+$o=e=>Ze(e)&&ue(e.pipe),
+jo=e=>{let t;
+return e&&(typeof FormData=="function"&&e instanceof FormData||ue(e.append)&&((t=bt(e))==="formdata"||t==="object"&&ue(e.toString)&&e.toString()==="[object FormData]"))},
+Jo=ye("URLSearchParams"),
+[Ko,Zo,Xo,en]=["ReadableStream","Request","Response","Headers"].map(ye),
+tn=e=>e.trim?e.trim():e.replace(/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,"");
+function Xe(e,t,{allOwnKeys:i=!1}={}){if(e===null||typeof e>"u")return;
+let o,n;
+if(typeof e!="object"&&(e=[e]),
+He(e))for(o=0,n=e.length;
+o<n;
+o++)t.call(null,e[o],o,e);
+else{if(Ke(e))return;
+const r=i?Object.getOwnPropertyNames(e):Object.keys(e),
+s=r.length;
+let l;
+for(o=0;
+o<s;
+o++)l=r[o],t.call(null,e[l],l,e)}}function Bi(e,t){if(Ke(e))return null;
+t=t.toLowerCase();
+const i=Object.keys(e);
+let o=i.length,n;
+for(;
+o-- >0;
+)if(n=i[o],t===n.toLowerCase())return n;
+return null}const De=typeof globalThis<"u"?globalThis:typeof self<"u"?self:typeof window<"u"?window:global,Oi=e=>!Qe(e)&&e!==De;
+function Ft(){const{caseless:e,skipUndefined:t}=Oi(this)&&this||{},
+i={},
+o=(n,r)=>{const s=e&&Bi(i,r)||r;
+rt(i[s])&&rt(n)?i[s]=Ft(i[s],n):rt(n)?i[s]=Ft(
+{},
+n):He(n)?i[s]=n.slice():(!t||!Qe(n))&&(i[s]=n)};
+for(let n=0,r=arguments.length;
+n<r;
+n++)arguments[n]&&Xe(arguments[n],o);
+return i}const on=(e,t,i,{allOwnKeys:o}={})=>(Xe(t,(n,r)=>{i&&ue(n)?e[r]=Di(n,i):e[r]=n},
+{allOwnKeys:o}),
+e),
+nn=e=>(e.charCodeAt(0)===65279&&(e=e.slice(1)),
+e),
+an=(e,t,i,o)=>{e.prototype=Object.create(t.prototype,o),
+e.prototype.constructor=e,Object.defineProperty(e,"super",{value:t.prototype}),
+i&&Object.assign(e.prototype,i)},
+rn=(e,t,i,o)=>{let n,r,s;
+const l={};
+if(t=t||{},
+e==null)return t;
+do{for(n=Object.getOwnPropertyNames(e),
+r=n.length;
+r-- >0;
+)s=n[r],(!o||o(s,e,t))&&!l[s]&&(t[s]=e[s],l[s]=!0);
+e=i!==!1&&Ht(e)}while(e&&(!i||i(e,t))&&e!==Object.prototype);
+return t},
+sn=(e,t,i)=>{e=String(e),
+(i===void 0||i>e.length)&&(i=e.length),
+i-=t.length;
+const o=e.indexOf(t,i);
+return o!==-1&&o===i},
+ln=e=>{if(!e)return null;
+if(He(e))return e;
+let t=e.length;
+if(!Fi(t))return null;
+const i=new Array(t);
+for(;
+t-- >0;
+)i[t]=e[t];
+return i},
+cn=(e=>t=>e&&t instanceof e)(typeof Uint8Array<"u"&&Ht(Uint8Array)),
+dn=(e,t)=>{const o=(e&&e[vt]).call(e);
+let n;
+for(;
+(n=o.next())&&!n.done;
+){const r=n.value;
+t.call(e,r[0],r[1])}},
+un=(e,t)=>{let i;
+const o=[];
+for(;
+(i=e.exec(t))!==null;
+)o.push(i);
+return o},
+pn=ye("HTMLFormElement"),
+mn=e=>e.toLowerCase().replace(/[-_\s]([a-z\d])(\w*)/g,function(i,o,n){return o.toUpperCase()+n}),
+Jt=((
+{hasOwnProperty:e})=>(t,i)=>e.call(t,i))(Object.prototype),
+gn=ye("RegExp"),
+Ni=(e,t)=>{const i=Object.getOwnPropertyDescriptors(e),
+o={};
+Xe(i,(n,r)=>{let s;
+(s=t(n,r,e))!==!1&&(o[r]=s||n)}),
+Object.defineProperties(e,o)},
+hn=e=>{Ni(e,(t,i)=>{if(ue(e)&&["arguments","caller","callee"].indexOf(i)!==-1)return!1;
+const o=e[i];
+if(ue(o)){if(t.enumerable=!1,"writable"in t){t.writable=!1;
+return}t.set||(t.set=()=>{throw Error("Can not rewrite read-only method '"+i+"'")})}})},
+fn=(e,t)=>{const i={},
+o=n=>{n.forEach(r=>{i[r]=!0})};
+return He(e)?o(e):o(String(e).split(t)),
+i},
+vn=()=>{},
+bn=(e,t)=>e!=null&&Number.isFinite(e=+e)?e:t;
+function yn(e){return!!(e&&ue(e.append)&&e[Li]==="FormData"&&e[vt])}const wn=e=>{const t=new Array(10),
+i=(o,n)=>{if(Ze(o)){if(t.indexOf(o)>=0)return;
+if(Ke(o))return o;
+if(!("toJSON"in o)){t[n]=o;
+const r=He(o)?[]:{};
+return Xe(o,(s,l)=>{const m=i(s,n+1);
+!Qe(m)&&(r[l]=m)}),
+t[n]=void 0,r}}return o};
+return i(e,0)},
+An=ye("AsyncFunction"),
+Sn=e=>e&&(Ze(e)||ue(e))&&ue(e.then)&&ue(e.catch),
+qi=((e,t)=>e?setImmediate:t?((i,o)=>(De.addEventListener("message",(
+{source:n,data:r})=>{n===De&&r===i&&o.length&&o.shift()()},
+!1),
+n=>{o.push(n),
+De.postMessage(i,"*")}))(`axios@${Math.random()}`,[]):i=>setTimeout(i))(typeof setImmediate=="function",ue(De.postMessage)),
+Cn=typeof queueMicrotask<"u"?queueMicrotask.bind(De):typeof process<"u"&&process.nextTick||qi,xn=e=>e!=null&&ue(e[vt]),
+g={isArray:He,isArrayBuffer:Mi,isBuffer:Ke,isFormData:jo,isArrayBufferView:Uo,isString:Qo,isNumber:Fi,isBoolean:Ho,isObject:Ze,isPlainObject:rt,isEmptyObject:Vo,isReadableStream:Ko,isRequest:Zo,isResponse:Xo,isHeaders:en,isUndefined:Qe,isDate:_o,isFile:Go,isBlob:Wo,isRegExp:gn,isFunction:ue,isStream:$o,isURLSearchParams:Jo,isTypedArray:cn,isFileList:Yo,forEach:Xe,merge:Ft,extend:on,trim:tn,stripBOM:nn,inherits:an,toFlatObject:rn,kindOf:bt,kindOfTest:ye,endsWith:sn,toArray:ln,forEachEntry:dn,matchAll:un,isHTMLForm:pn,hasOwnProperty:Jt,hasOwnProp:Jt,reduceDescriptors:Ni,freezeMethods:hn,toObjectSet:fn,toCamelCase:mn,noop:vn,toFiniteNumber:bn,findKey:Bi,global:De,isContextDefined:Oi,isSpecCompliantForm:yn,toJSONObject:wn,isAsyncFn:An,isThenable:Sn,setImmediate:qi,asap:Cn,isIterable:xn};
+function _(e,t,i,o,n){Error.call(this),
+Error.captureStackTrace?Error.captureStackTrace(this,this.constructor):this.stack=new Error().stack,this.message=e,this.name="AxiosError",t&&(this.code=t),
+i&&(this.config=i),
+o&&(this.request=o),
+n&&(this.response=n,this.status=n.status?n.status:null)}g.inherits(_,Error,{toJSON:function(){return{message:this.message,name:this.name,description:this.description,number:this.number,fileName:this.fileName,lineNumber:this.lineNumber,columnNumber:this.columnNumber,stack:this.stack,config:g.toJSONObject(this.config),
+code:this.code,status:this.status}}});
+const Ui=_.prototype,Qi={};
+["ERR_BAD_OPTION_VALUE","ERR_BAD_OPTION","ECONNABORTED","ETIMEDOUT","ERR_NETWORK","ERR_FR_TOO_MANY_REDIRECTS","ERR_DEPRECATED","ERR_BAD_RESPONSE","ERR_BAD_REQUEST","ERR_CANCELED","ERR_NOT_SUPPORT","ERR_INVALID_URL"].forEach(e=>{Qi[e]={value:e}});
+Object.defineProperties(_,Qi);
+Object.defineProperty(Ui,"isAxiosError",{value:!0});
+_.from=(e,t,i,o,n,r)=>{const s=Object.create(Ui);
+g.toFlatObject(e,s,function(c){return c!==Error.prototype},
+d=>d!=="isAxiosError");
+const l=e&&e.message?e.message:"Error",m=t==null&&e?e.code:t;
+return _.call(s,l,m,i,o,n),
+e&&s.cause==null&&Object.defineProperty(s,"cause",{value:e,configurable:!0}),
+s.name=e&&e.name||"Error",r&&Object.assign(s,r),
+s};
+const In=null;
+function Bt(e){return g.isPlainObject(e)||g.isArray(e)}function Hi(e){return g.endsWith(e,"[]")?e.slice(0,-2):e}function Kt(e,t,i){return e?e.concat(t).map(function(n,r){return n=Hi(n),
+!i&&r?"["+n+"]":n}).join(i?".":""):t}function En(e){return g.isArray(e)&&!e.some(Bt)}const Pn=g.toFlatObject(g,{},
+null,function(t){return/^is[A-Z]/.test(t)});
+function wt(e,t,i){if(!g.isObject(e))throw new TypeError("target must be an object");
+t=t||new FormData,i=g.toFlatObject(i,{metaTokens:!0,dots:!1,indexes:!1},
+!1,function(b,A){return!g.isUndefined(A[b])});
+const o=i.metaTokens,n=i.visitor||c,r=i.dots,s=i.indexes,m=(i.Blob||typeof Blob<"u"&&Blob)&&g.isSpecCompliantForm(t);
+if(!g.isFunction(n))throw new TypeError("visitor must be a function");
+function d(p){if(p===null)return"";
+if(g.isDate(p))return p.toISOString();
+if(g.isBoolean(p))return p.toString();
+if(!m&&g.isBlob(p))throw new _("Blob is not supported. Use a Buffer instead.");
+return g.isArrayBuffer(p)||g.isTypedArray(p)?m&&typeof Blob=="function"?new Blob([p]):Buffer.from(p):p}function c(p,b,A){let I=p;
+if(p&&!A&&typeof p=="object"){if(g.endsWith(b,"{}"))b=o?b:b.slice(0,-2),
+p=JSON.stringify(p);
+else if(g.isArray(p)&&En(p)||(g.isFileList(p)||g.endsWith(b,"[]"))&&(I=g.toArray(p)))return b=Hi(b),
+I.forEach(function(P,F){!(g.isUndefined(P)||P===null)&&t.append(s===!0?Kt([b],F,r):s===null?b:b+"[]",d(P))}),
+!1}return Bt(p)?!0:(t.append(Kt(A,b,r),
+d(p)),
+!1)}const u=[],S=Object.assign(Pn,{defaultVisitor:c,convertValue:d,isVisitable:Bt});
+function w(p,b){if(!g.isUndefined(p)){if(u.indexOf(p)!==-1)throw Error("Circular reference detected in "+b.join("."));
+u.push(p),
+g.forEach(p,function(I,O){(!(g.isUndefined(I)||I===null)&&n.call(t,I,g.isString(O)?O.trim():O,b,S))===!0&&w(I,b?b.concat(O):[O])}),
+u.pop()}}if(!g.isObject(e))throw new TypeError("data must be an object");
+return w(e),
+t}function Zt(e){const t={"!":"%21","'":"%27","(":"%28",")":"%29","~":"%7E","%20":"+","%00":"\0"};
+return encodeURIComponent(e).replace(/[!'()~]|%20|%00/g,function(o){return t[o]})}function Vt(e,t){this._pairs=[],e&&wt(e,this,t)}const Vi=Vt.prototype;
+Vi.append=function(t,i){this._pairs.push([t,i])};
+Vi.toString=function(t){const i=t?function(o){return t.call(this,o,Zt)}:Zt;
+return this._pairs.map(function(n){return i(n[0])+"="+i(n[1])},
+"").join("&")};
+function zn(e){return encodeURIComponent(e).replace(/%3A/gi,":").replace(/%24/g,"$").replace(/%2C/gi,",").replace(/%20/g,"+")}function _i(e,t,i){if(!t)return e;
+const o=i&&i.encode||zn;
+g.isFunction(i)&&(i={serialize:i});
+const n=i&&i.serialize;
+let r;
+if(n?r=n(t,i):r=g.isURLSearchParams(t)?t.toString():new Vt(t,i).toString(o),
+r){const s=e.indexOf("#");
+s!==-1&&(e=e.slice(0,s)),
+e+=(e.indexOf("?")===-1?"?":"&")+r}return e}class Xt{constructor(){this.handlers=[]}use(t,i,o){return this.handlers.push(
+{fulfilled:t,rejected:i,synchronous:o?o.synchronous:!1,runWhen:o?o.runWhen:null}),
+this.handlers.length-1}eject(t){this.handlers[t]&&(this.handlers[t]=null)}clear(){this.handlers&&(this.handlers=[])}forEach(t){g.forEach(this.handlers,function(o){o!==null&&t(o)})}}const Gi={silentJSONParsing:!0,forcedJSONParsing:!0,clarifyTimeoutError:!1},
+kn=typeof URLSearchParams<"u"?URLSearchParams:Vt,Rn=typeof FormData<"u"?FormData:null,Tn=typeof Blob<"u"?Blob:null,Dn={isBrowser:!0,classes:{URLSearchParams:kn,FormData:Rn,Blob:Tn},
+protocols:["http","https","file","blob","url","data"]},
+_t=typeof window<"u"&&typeof document<"u",Ot=typeof navigator=="object"&&navigator||void 0,Ln=_t&&(!Ot||["ReactNative","NativeScript","NS"].indexOf(Ot.product)<0),
+Mn=typeof WorkerGlobalScope<"u"&&self instanceof WorkerGlobalScope&&typeof self.importScripts=="function",Fn=_t&&window.location.href||"http://localhost",Bn=Object.freeze(Object.defineProperty(
+{__proto__:null,hasBrowserEnv:_t,hasStandardBrowserEnv:Ln,hasStandardBrowserWebWorkerEnv:Mn,navigator:Ot,origin:Fn},
+Symbol.toStringTag,{value:"Module"})),
+re={...Bn,...Dn};
+function On(e,t){return wt(e,new re.classes.URLSearchParams,{visitor:function(i,o,n,r){return re.isNode&&g.isBuffer(i)?(this.append(o,i.toString("base64")),
+!1):r.defaultVisitor.apply(this,arguments)},
+...t})}function Nn(e){return g.matchAll(/\w+|\[(\w*)]/g,e).map(t=>t[0]==="[]"?"":t[1]||t[0])}function qn(e){const t={},
+i=Object.keys(e);
+let o;
+const n=i.length;
+let r;
+for(o=0;
+o<n;
+o++)r=i[o],t[r]=e[r];
+return t}function Wi(e){function t(i,o,n,r){let s=i[r++];
+if(s==="__proto__")return!0;
+const l=Number.isFinite(+s),
+m=r>=i.length;
+return s=!s&&g.isArray(n)?n.length:s,m?(g.hasOwnProp(n,s)?n[s]=[n[s],o]:n[s]=o,!l):((!n[s]||!g.isObject(n[s]))&&(n[s]=[]),
+t(i,o,n[s],r)&&g.isArray(n[s])&&(n[s]=qn(n[s])),
+!l)}if(g.isFormData(e)&&g.isFunction(e.entries)){const i={};
+return g.forEachEntry(e,(o,n)=>{t(Nn(o),
+n,i,0)}),
+i}return null}function Un(e,t,i){if(g.isString(e))try{return(t||JSON.parse)(e),
+g.trim(e)}catch(o){if(o.name!=="SyntaxError")throw o}return(i||JSON.stringify)(e)}const et={transitional:Gi,adapter:["xhr","http","fetch"],transformRequest:[function(t,i){const o=i.getContentType()||"",n=o.indexOf("application/json")>-1,r=g.isObject(t);
+if(r&&g.isHTMLForm(t)&&(t=new FormData(t)),
+g.isFormData(t))return n?JSON.stringify(Wi(t)):t;
+if(g.isArrayBuffer(t)||g.isBuffer(t)||g.isStream(t)||g.isFile(t)||g.isBlob(t)||g.isReadableStream(t))return t;
+if(g.isArrayBufferView(t))return t.buffer;
+if(g.isURLSearchParams(t))return i.setContentType("application/x-www-form-urlencoded;
+charset=utf-8",!1),
+t.toString();
+let l;
+if(r){if(o.indexOf("application/x-www-form-urlencoded")>-1)return On(t,this.formSerializer).toString();
+if((l=g.isFileList(t))||o.indexOf("multipart/form-data")>-1){const m=this.env&&this.env.FormData;
+return wt(l?{"files[]":t}:t,m&&new m,this.formSerializer)}}return r||n?(i.setContentType("application/json",!1),
+Un(t)):t}],transformResponse:[function(t){const i=this.transitional||et.transitional,o=i&&i.forcedJSONParsing,n=this.responseType==="json";
+if(g.isResponse(t)||g.isReadableStream(t))return t;
+if(t&&g.isString(t)&&(o&&!this.responseType||n)){const s=!(i&&i.silentJSONParsing)&&n;
+try{return JSON.parse(t,this.parseReviver)}catch(l){if(s)throw l.name==="SyntaxError"?_.from(l,_.ERR_BAD_RESPONSE,this,null,this.response):l}}return t}],timeout:0,xsrfCookieName:"XSRF-TOKEN",xsrfHeaderName:"X-XSRF-TOKEN",maxContentLength:-1,maxBodyLength:-1,env:{FormData:re.classes.FormData,Blob:re.classes.Blob},
+validateStatus:function(t){return t>=200&&t<300},
+headers:{common:{Accept:"application/json, text/plain, */*","Content-Type":void 0}}};
+g.forEach(["delete","get","head","post","put","patch"],e=>{et.headers[e]={}});
+const Qn=g.toObjectSet(["age","authorization","content-length","content-type","etag","expires","from","host","if-modified-since","if-unmodified-since","last-modified","location","max-forwards","proxy-authorization","referer","retry-after","user-agent"]),
+Hn=e=>{const t={};
+let i,o,n;
+return e&&e.split(`
+`).forEach(function(s){n=s.indexOf(":"),
+i=s.substring(0,n).trim().toLowerCase(),
+o=s.substring(n+1).trim(),
+!(!i||t[i]&&Qn[i])&&(i==="set-cookie"?t[i]?t[i].push(o):t[i]=[o]:t[i]=t[i]?t[i]+", "+o:o)}),
+t},
+ei=Symbol("internals");
+function _e(e){return e&&String(e).trim().toLowerCase()}function st(e){return e===!1||e==null?e:g.isArray(e)?e.map(st):String(e)}function Vn(e){const t=Object.create(null),
+i=/([^\s,;
+=]+)\s*(?:=\s*([^,;
+]+))?/g;
+let o;
+for(;
+o=i.exec(e);
+)t[o[1]]=o[2];
+return t}const _n=e=>/^[-_a-zA-Z0-9^`|~,!#$%&'*+.]+$/.test(e.trim());
+function Et(e,t,i,o,n){if(g.isFunction(o))return o.call(this,t,i);
+if(n&&(t=i),
+!!g.isString(t)){if(g.isString(o))return t.indexOf(o)!==-1;
+if(g.isRegExp(o))return o.test(t)}}function Gn(e){return e.trim().toLowerCase().replace(/([a-z\d])(\w*)/g,(t,i,o)=>i.toUpperCase()+o)}function Wn(e,t){const i=g.toCamelCase(" "+t);
+["get","set","has"].forEach(o=>{Object.defineProperty(e,o+i,{value:function(n,r,s){return this[o].call(this,t,n,r,s)},
+configurable:!0})})}let pe=class{constructor(t){t&&this.set(t)}set(t,i,o){const n=this;
+function r(l,m,d){const c=_e(m);
+if(!c)throw new Error("header name must be a non-empty string");
+const u=g.findKey(n,c);
+(!u||n[u]===void 0||d===!0||d===void 0&&n[u]!==!1)&&(n[u||m]=st(l))}const s=(l,m)=>g.forEach(l,(d,c)=>r(d,c,m));
+if(g.isPlainObject(t)||t instanceof this.constructor)s(t,i);
+else if(g.isString(t)&&(t=t.trim())&&!_n(t))s(Hn(t),
+i);
+else if(g.isObject(t)&&g.isIterable(t)){let l={},
+m,d;
+for(const c of t){if(!g.isArray(c))throw TypeError("Object iterator must return a key-value pair");
+l[d=c[0]]=(m=l[d])?g.isArray(m)?[...m,c[1]]:[m,c[1]]:c[1]}s(l,i)}else t!=null&&r(i,t,o);
+return this}get(t,i){if(t=_e(t),
+t){const o=g.findKey(this,t);
+if(o){const n=this[o];
+if(!i)return n;
+if(i===!0)return Vn(n);
+if(g.isFunction(i))return i.call(this,n,o);
+if(g.isRegExp(i))return i.exec(n);
+throw new TypeError("parser must be boolean|regexp|function")}}}has(t,i){if(t=_e(t),
+t){const o=g.findKey(this,t);
+return!!(o&&this[o]!==void 0&&(!i||Et(this,this[o],o,i)))}return!1}delete(t,i){const o=this;
+let n=!1;
+function r(s){if(s=_e(s),
+s){const l=g.findKey(o,s);
+l&&(!i||Et(o,o[l],l,i))&&(delete o[l],n=!0)}}return g.isArray(t)?t.forEach(r):r(t),
+n}clear(t){const i=Object.keys(this);
+let o=i.length,n=!1;
+for(;
+o--;
+){const r=i[o];
+(!t||Et(this,this[r],r,t,!0))&&(delete this[r],n=!0)}return n}normalize(t){const i=this,o={};
+return g.forEach(this,(n,r)=>{const s=g.findKey(o,r);
+if(s){i[s]=st(n),
+delete i[r];
+return}const l=t?Gn(r):String(r).trim();
+l!==r&&delete i[r],i[l]=st(n),
+o[l]=!0}),
+this}concat(...t){return this.constructor.concat(this,...t)}toJSON(t){const i=Object.create(null);
+return g.forEach(this,(o,n)=>{o!=null&&o!==!1&&(i[n]=t&&g.isArray(o)?o.join(", "):o)}),
+i}[Symbol.iterator](){return Object.entries(this.toJSON())[Symbol.iterator]()}toString(){return Object.entries(this.toJSON()).map(([t,i])=>t+": "+i).join(`
+`)}getSetCookie(){return this.get("set-cookie")||[]}get[Symbol.toStringTag](){return"AxiosHeaders"}static from(t){return t instanceof this?t:new this(t)}static concat(t,...i){const o=new this(t);
+return i.forEach(n=>o.set(n)),
+o}static accessor(t){const o=(this[ei]=this[ei]={accessors:{}}).accessors,n=this.prototype;
+function r(s){const l=_e(s);
+o[l]||(Wn(n,s),
+o[l]=!0)}return g.isArray(t)?t.forEach(r):r(t),
+this}};
+pe.accessor(["Content-Type","Content-Length","Accept","Accept-Encoding","User-Agent","Authorization"]);
+g.reduceDescriptors(pe.prototype,(
+{value:e},
+t)=>{let i=t[0].toUpperCase()+t.slice(1);
+return{get:()=>e,set(o){this[i]=o}}});
+g.freezeMethods(pe);
+function Pt(e,t){const i=this||et,o=t||i,n=pe.from(o.headers);
+let r=o.data;
+return g.forEach(e,function(l){r=l.call(i,r,n.normalize(),
+t?t.status:void 0)}),
+n.normalize(),
+r}function Yi(e){return!!(e&&e.__CANCEL__)}function Ve(e,t,i){_.call(this,e??"canceled",_.ERR_CANCELED,t,i),
+this.name="CanceledError"}g.inherits(Ve,_,{__CANCEL__:!0});
+function $i(e,t,i){const o=i.config.validateStatus;
+!i.status||!o||o(i.status)?e(i):t(new _("Request failed with status code "+i.status,[_.ERR_BAD_REQUEST,_.ERR_BAD_RESPONSE][Math.floor(i.status/100)-4],i.config,i.request,i))}function Yn(e){const t=/^([-+\w]{1,25})(:?\/\/|:)/.exec(e);
+return t&&t[1]||""}function $n(e,t){e=e||10;
+const i=new Array(e),
+o=new Array(e);
+let n=0,r=0,s;
+return t=t!==void 0?t:1e3,function(m){const d=Date.now(),
+c=o[r];
+s||(s=d),
+i[n]=m,o[n]=d;
+let u=r,S=0;
+for(;
+u!==n;
+)S+=i[u++],u=u%e;
+if(n=(n+1)%e,n===r&&(r=(r+1)%e),
+d-s<t)return;
+const w=c&&d-c;
+return w?Math.round(S*1e3/w):void 0}}function jn(e,t){let i=0,o=1e3/t,n,r;
+const s=(d,c=Date.now())=>{i=c,n=null,r&&(clearTimeout(r),
+r=null),
+e(...d)};
+return[(...d)=>{const c=Date.now(),
+u=c-i;
+u>=o?s(d,c):(n=d,r||(r=setTimeout(()=>{r=null,s(n)},
+o-u)))},
+()=>n&&s(n)]}const dt=(e,t,i=3)=>{let o=0;
+const n=$n(50,250);
+return jn(r=>{const s=r.loaded,l=r.lengthComputable?r.total:void 0,m=s-o,d=n(m),
+c=s<=l;
+o=s;
+const u={loaded:s,total:l,progress:l?s/l:void 0,bytes:m,rate:d||void 0,estimated:d&&l&&c?(l-s)/d:void 0,event:r,lengthComputable:l!=null,[t?"download":"upload"]:!0};
+e(u)},
+i)},
+ti=(e,t)=>{const i=e!=null;
+return[o=>t[0](
+{lengthComputable:i,total:e,loaded:o}),
+t[1]]},
+ii=e=>(...t)=>g.asap(()=>e(...t)),
+Jn=re.hasStandardBrowserEnv?((e,t)=>i=>(i=new URL(i,re.origin),
+e.protocol===i.protocol&&e.host===i.host&&(t||e.port===i.port)))(new URL(re.origin),
+re.navigator&&/(msie|trident)/i.test(re.navigator.userAgent)):()=>!0,Kn=re.hasStandardBrowserEnv?{write(e,t,i,o,n,r,s){if(typeof document>"u")return;
+const l=[`${e}=${encodeURIComponent(t)}`];
+g.isNumber(i)&&l.push(`expires=${new Date(i).toUTCString()}`),
+g.isString(o)&&l.push(`path=${o}`),
+g.isString(n)&&l.push(`domain=${n}`),
+r===!0&&l.push("secure"),
+g.isString(s)&&l.push(`SameSite=${s}`),
+document.cookie=l.join(";
+ ")},
+read(e){if(typeof document>"u")return null;
+const t=document.cookie.match(new RegExp("(?:^|;
+ )"+e+"=([^;
+]*)"));
+return t?decodeURIComponent(t[1]):null},
+remove(e){this.write(e,"",Date.now()-864e5,"/")}}:{write(){},
+read(){return null},
+remove(){}};
+function Zn(e){return/^([a-z][a-z\d+\-.]*:)?\/\//i.test(e)}function Xn(e,t){return t?e.replace(/\/?\/$/,"")+"/"+t.replace(/^\/+/,""):e}function ji(e,t,i){let o=!Zn(t);
+return e&&(o||i==!1)?Xn(e,t):t}const oi=e=>e instanceof pe?{...e}:e;
+function Fe(e,t){t=t||{};
+const i={};
+function o(d,c,u,S){return g.isPlainObject(d)&&g.isPlainObject(c)?g.merge.call(
+{caseless:S},
+d,c):g.isPlainObject(c)?g.merge(
+{},
+c):g.isArray(c)?c.slice():c}function n(d,c,u,S){if(g.isUndefined(c)){if(!g.isUndefined(d))return o(void 0,d,u,S)}else return o(d,c,u,S)}function r(d,c){if(!g.isUndefined(c))return o(void 0,c)}function s(d,c){if(g.isUndefined(c)){if(!g.isUndefined(d))return o(void 0,d)}else return o(void 0,c)}function l(d,c,u){if(u in t)return o(d,c);
+if(u in e)return o(void 0,d)}const m={url:r,method:r,data:r,baseURL:s,transformRequest:s,transformResponse:s,paramsSerializer:s,timeout:s,timeoutMessage:s,withCredentials:s,withXSRFToken:s,adapter:s,responseType:s,xsrfCookieName:s,xsrfHeaderName:s,onUploadProgress:s,onDownloadProgress:s,decompress:s,maxContentLength:s,maxBodyLength:s,beforeRedirect:s,transport:s,httpAgent:s,httpsAgent:s,cancelToken:s,socketPath:s,responseEncoding:s,validateStatus:l,headers:(d,c,u)=>n(oi(d),
+oi(c),
+u,!0)};
+return g.forEach(Object.keys(
+{...e,...t}),
+function(c){const u=m[c]||n,S=u(e[c],t[c],c);
+g.isUndefined(S)&&u!==l||(i[c]=S)}),
+i}const Ji=e=>{const t=Fe(
+{},
+e);
+let{data:i,withXSRFToken:o,xsrfHeaderName:n,xsrfCookieName:r,headers:s,auth:l}=t;
+if(t.headers=s=pe.from(s),
+t.url=_i(ji(t.baseURL,t.url,t.allowAbsoluteUrls),
+e.params,e.paramsSerializer),
+l&&s.set("Authorization","Basic "+btoa((l.username||"")+":"+(l.password?unescape(encodeURIComponent(l.password)):""))),
+g.isFormData(i)){if(re.hasStandardBrowserEnv||re.hasStandardBrowserWebWorkerEnv)s.setContentType(void 0);
+else if(g.isFunction(i.getHeaders)){const m=i.getHeaders(),
+d=["content-type","content-length"];
+Object.entries(m).forEach(([c,u])=>{d.includes(c.toLowerCase())&&s.set(c,u)})}}if(re.hasStandardBrowserEnv&&(o&&g.isFunction(o)&&(o=o(t)),
+o||o!==!1&&Jn(t.url))){const m=n&&r&&Kn.read(r);
+m&&s.set(n,m)}return t},
+ea=typeof XMLHttpRequest<"u",ta=ea&&function(e){return new Promise(function(i,o){const n=Ji(e);
+let r=n.data;
+const s=pe.from(n.headers).normalize();
+let{responseType:l,onUploadProgress:m,onDownloadProgress:d}=n,c,u,S,w,p;
+function b(){w&&w(),
+p&&p(),
+n.cancelToken&&n.cancelToken.unsubscribe(c),
+n.signal&&n.signal.removeEventListener("abort",c)}let A=new XMLHttpRequest;
+A.open(n.method.toUpperCase(),
+n.url,!0),
+A.timeout=n.timeout;
+function I(){if(!A)return;
+const P=pe.from("getAllResponseHeaders"in A&&A.getAllResponseHeaders()),
+N={data:!l||l==="text"||l==="json"?A.responseText:A.response,status:A.status,statusText:A.statusText,headers:P,config:e,request:A};
+$i(function(B){i(B),
+b()},
+function(B){o(B),
+b()},
+N),
+A=null}"onloadend"in A?A.onloadend=I:A.onreadystatechange=function(){!A||A.readyState!==4||A.status===0&&!(A.responseURL&&A.responseURL.indexOf("file:")===0)||setTimeout(I)},
+A.onabort=function(){A&&(o(new _("Request aborted",_.ECONNABORTED,e,A)),
+A=null)},
+A.onerror=function(F){const N=F&&F.message?F.message:"Network Error",W=new _(N,_.ERR_NETWORK,e,A);
+W.event=F||null,o(W),
+A=null},
+A.ontimeout=function(){let F=n.timeout?"timeout of "+n.timeout+"ms exceeded":"timeout exceeded";
+const N=n.transitional||Gi;
+n.timeoutErrorMessage&&(F=n.timeoutErrorMessage),
+o(new _(F,N.clarifyTimeoutError?_.ETIMEDOUT:_.ECONNABORTED,e,A)),
+A=null},
+r===void 0&&s.setContentType(null),
+"setRequestHeader"in A&&g.forEach(s.toJSON(),
+function(F,N){A.setRequestHeader(N,F)}),
+g.isUndefined(n.withCredentials)||(A.withCredentials=!!n.withCredentials),
+l&&l!=="json"&&(A.responseType=n.responseType),
+d&&([S,p]=dt(d,!0),
+A.addEventListener("progress",S)),
+m&&A.upload&&([u,w]=dt(m),
+A.upload.addEventListener("progress",u),
+A.upload.addEventListener("loadend",w)),
+(n.cancelToken||n.signal)&&(c=P=>{A&&(o(!P||P.type?new Ve(null,e,A):P),
+A.abort(),
+A=null)},
+n.cancelToken&&n.cancelToken.subscribe(c),
+n.signal&&(n.signal.aborted?c():n.signal.addEventListener("abort",c)));
+const O=Yn(n.url);
+if(O&&re.protocols.indexOf(O)===-1){o(new _("Unsupported protocol "+O+":",_.ERR_BAD_REQUEST,e));
+return}A.send(r||null)})},
+ia=(e,t)=>{const{length:i}=e=e?e.filter(Boolean):[];
+if(t||i){let o=new AbortController,n;
+const r=function(d){if(!n){n=!0,l();
+const c=d instanceof Error?d:this.reason;
+o.abort(c instanceof _?c:new Ve(c instanceof Error?c.message:c))}};
+let s=t&&setTimeout(()=>{s=null,r(new _(`timeout ${t} of ms exceeded`,_.ETIMEDOUT))},
+t);
+const l=()=>{e&&(s&&clearTimeout(s),
+s=null,e.forEach(d=>{d.unsubscribe?d.unsubscribe(r):d.removeEventListener("abort",r)}),
+e=null)};
+e.forEach(d=>d.addEventListener("abort",r));
+const{signal:m}=o;
+return m.unsubscribe=()=>g.asap(l),
+m}},
+oa=function*(e,t){let i=e.byteLength;
+if(i<t){yield e;
+return}let o=0,n;
+for(;
+o<i;
+)n=o+t,yield e.slice(o,n),
+o=n},
+na=async function*(e,t){for await(const i of aa(e))yield*oa(i,t)},
+aa=async function*(e){if(e[Symbol.asyncIterator]){yield*e;
+return}const t=e.getReader();
+try{for(;
+;
+){const{done:i,value:o}=await t.read();
+if(i)break;
+yield o}}finally{await t.cancel()}},
+ni=(e,t,i,o)=>{const n=na(e,t);
+let r=0,s,l=m=>{s||(s=!0,o&&o(m))};
+return new ReadableStream(
+{async pull(m){try{const{done:d,value:c}=await n.next();
+if(d){l(),
+m.close();
+return}let u=c.byteLength;
+if(i){let S=r+=u;
+i(S)}m.enqueue(new Uint8Array(c))}catch(d){throw l(d),
+d}},
+cancel(m){return l(m),
+n.return()}},
+{highWaterMark:2})},
+ai=64*1024,{isFunction:it}=g,ra=((
+{Request:e,Response:t})=>(
+{Request:e,Response:t}))(g.global),
+{ReadableStream:ri,TextEncoder:si}=g.global,li=(e,...t)=>{try{return!!e(...t)}catch{return!1}},
+sa=e=>{e=g.merge.call(
+{skipUndefined:!0},
+ra,e);
+const{fetch:t,Request:i,Response:o}=e,n=t?it(t):typeof fetch=="function",r=it(i),
+s=it(o);
+if(!n)return!1;
+const l=n&&it(ri),
+m=n&&(typeof si=="function"?(p=>b=>p.encode(b))(new si):async p=>new Uint8Array(await new i(p).arrayBuffer())),
+d=r&&l&&li(()=>{let p=!1;
+const b=new i(re.origin,{body:new ri,method:"POST",get duplex(){return p=!0,"half"}}).headers.has("Content-Type");
+return p&&!b}),
+c=s&&l&&li(()=>g.isReadableStream(new o("").body)),
+u={stream:c&&(p=>p.body)};
+n&&["text","arrayBuffer","blob","formData","stream"].forEach(p=>{!u[p]&&(u[p]=(b,A)=>{let I=b&&b[p];
+if(I)return I.call(b);
+throw new _(`Response type '${p}' is not supported`,_.ERR_NOT_SUPPORT,A)})});
+const S=async p=>{if(p==null)return 0;
+if(g.isBlob(p))return p.size;
+if(g.isSpecCompliantForm(p))return(await new i(re.origin,{method:"POST",body:p}).arrayBuffer()).byteLength;
+if(g.isArrayBufferView(p)||g.isArrayBuffer(p))return p.byteLength;
+if(g.isURLSearchParams(p)&&(p=p+""),
+g.isString(p))return(await m(p)).byteLength},
+w=async(p,b)=>{const A=g.toFiniteNumber(p.getContentLength());
+return A??S(b)};
+return async p=>{let{url:b,method:A,data:I,signal:O,cancelToken:P,timeout:F,onDownloadProgress:N,onUploadProgress:W,responseType:B,headers:j,withCredentials:Q="same-origin",fetchOptions:k}=Ji(p),
+L=t||fetch;
+B=B?(B+"").toLowerCase():"text";
+let te=ia([O,P&&P.toAbortSignal()],F),
+me=null;
+const ge=te&&te.unsubscribe&&(()=>{te.unsubscribe()});
+let Ce;
+try{if(W&&d&&A!=="get"&&A!=="head"&&(Ce=await w(j,I))!==0){let M=new i(b,{method:"POST",body:I,duplex:"half"}),
+Y;
+if(g.isFormData(I)&&(Y=M.headers.get("content-type"))&&j.setContentType(Y),
+M.body){const[G,qe]=ti(Ce,dt(ii(W)));
+I=ni(M.body,ai,G,qe)}}g.isString(Q)||(Q=Q?"include":"omit");
+const ie=r&&"credentials"in i.prototype,fe={...k,signal:te,method:A.toUpperCase(),
+headers:j.normalize().toJSON(),
+body:I,duplex:"half",credentials:ie?Q:void 0};
+me=r&&new i(b,fe);
+let R=await(r?L(me,k):L(b,fe));
+const x=c&&(B==="stream"||B==="response");
+if(c&&(N||x&&ge)){const M={};
+["status","statusText","headers"].forEach(tt=>{M[tt]=R[tt]});
+const Y=g.toFiniteNumber(R.headers.get("content-length")),
+[G,qe]=N&&ti(Y,dt(ii(N),
+!0))||[];
+R=new o(ni(R.body,ai,G,()=>{qe&&qe(),
+ge&&ge()}),
+M)}B=B||"text";
+let z=await u[g.findKey(u,B)||"text"](R,p);
+return!x&&ge&&ge(),
+await new Promise((M,Y)=>{$i(M,Y,{data:z,headers:pe.from(R.headers),
+status:R.status,statusText:R.statusText,config:p,request:me})})}catch(ie){throw ge&&ge(),
+ie&&ie.name==="TypeError"&&/Load failed|fetch/i.test(ie.message)?Object.assign(new _("Network Error",_.ERR_NETWORK,p,me),
+{cause:ie.cause||ie}):_.from(ie,ie&&ie.code,p,me)}}},
+la=new Map,Ki=e=>{let t=e&&e.env||{};
+const{fetch:i,Request:o,Response:n}=t,r=[o,n,i];
+let s=r.length,l=s,m,d,c=la;
+for(;
+l--;
+)m=r[l],d=c.get(m),
+d===void 0&&c.set(m,d=l?new Map:sa(t)),
+c=d;
+return d};
+Ki();
+const Gt={http:In,xhr:ta,fetch:{get:Ki}};
+g.forEach(Gt,(e,t)=>{if(e){try{Object.defineProperty(e,"name",{value:t})}catch{}Object.defineProperty(e,"adapterName",{value:t})}});
+const ci=e=>`- ${e}`,ca=e=>g.isFunction(e)||e===null||e===!1;
+function da(e,t){e=g.isArray(e)?e:[e];
+const{length:i}=e;
+let o,n;
+const r={};
+for(let s=0;
+s<i;
+s++){o=e[s];
+let l;
+if(n=o,!ca(o)&&(n=Gt[(l=String(o)).toLowerCase()],n===void 0))throw new _(`Unknown adapter '${l}'`);
+if(n&&(g.isFunction(n)||(n=n.get(t))))break;
+r[l||"#"+s]=n}if(!n){const s=Object.entries(r).map(([m,d])=>`adapter ${m} `+(d===!1?"is not supported by the environment":"is not available in the build"));
+let l=i?s.length>1?`since :
+`+s.map(ci).join(`
+`):" "+ci(s[0]):"as no adapter specified";
+throw new _("There is no suitable adapter to dispatch the request "+l,"ERR_NOT_SUPPORT")}return n}const Zi={getAdapter:da,adapters:Gt};
+function zt(e){if(e.cancelToken&&e.cancelToken.throwIfRequested(),
+e.signal&&e.signal.aborted)throw new Ve(null,e)}function di(e){return zt(e),
+e.headers=pe.from(e.headers),
+e.data=Pt.call(e,e.transformRequest),
+["post","put","patch"].indexOf(e.method)!==-1&&e.headers.setContentType("application/x-www-form-urlencoded",!1),
+Zi.getAdapter(e.adapter||et.adapter,e)(e).then(function(o){return zt(e),
+o.data=Pt.call(e,e.transformResponse,o),
+o.headers=pe.from(o.headers),
+o},
+function(o){return Yi(o)||(zt(e),
+o&&o.response&&(o.response.data=Pt.call(e,e.transformResponse,o.response),
+o.response.headers=pe.from(o.response.headers))),
+Promise.reject(o)})}const Xi="1.13.2",At={};
+["object","boolean","number","function","string","symbol"].forEach((e,t)=>{At[e]=function(o){return typeof o===e||"a"+(t<1?"n ":" ")+e}});
+const ui={};
+At.transitional=function(t,i,o){function n(r,s){return"[Axios v"+Xi+"] Transitional option '"+r+"'"+s+(o?". "+o:"")}return(r,s,l)=>{if(t===!1)throw new _(n(s," has been removed"+(i?" in "+i:"")),
+_.ERR_DEPRECATED);
+return i&&!ui[s]&&(ui[s]=!0,console.warn(n(s," has been deprecated since v"+i+" and will be removed in the near future"))),
+t?t(r,s,l):!0}};
+At.spelling=function(t){return(i,o)=>(console.warn(`${o} is likely a misspelling of ${t}`),
+!0)};
+function ua(e,t,i){if(typeof e!="object")throw new _("options must be an object",_.ERR_BAD_OPTION_VALUE);
+const o=Object.keys(e);
+let n=o.length;
+for(;
+n-- >0;
+){const r=o[n],s=t[r];
+if(s){const l=e[r],m=l===void 0||s(l,r,e);
+if(m!==!0)throw new _("option "+r+" must be "+m,_.ERR_BAD_OPTION_VALUE);
+continue}if(i!==!0)throw new _("Unknown option "+r,_.ERR_BAD_OPTION)}}const lt={assertOptions:ua,validators:At},
+we=lt.validators;
+let Me=class{constructor(t){this.defaults=t||{},
+this.interceptors={request:new Xt,response:new Xt}}async request(t,i){try{return await this._request(t,i)}catch(o){if(o instanceof Error){let n={};
+Error.captureStackTrace?Error.captureStackTrace(n):n=new Error;
+const r=n.stack?n.stack.replace(/^.+\n/,""):"";
+try{o.stack?r&&!String(o.stack).endsWith(r.replace(/^.+\n.+\n/,""))&&(o.stack+=`
+`+r):o.stack=r}catch{}}throw o}}_request(t,i){typeof t=="string"?(i=i||{},
+i.url=t):i=t||{},
+i=Fe(this.defaults,i);
+const{transitional:o,paramsSerializer:n,headers:r}=i;
+o!==void 0&&lt.assertOptions(o,{silentJSONParsing:we.transitional(we.boolean),
+forcedJSONParsing:we.transitional(we.boolean),
+clarifyTimeoutError:we.transitional(we.boolean)},
+!1),
+n!=null&&(g.isFunction(n)?i.paramsSerializer={serialize:n}:lt.assertOptions(n,{encode:we.function,serialize:we.function},
+!0)),
+i.allowAbsoluteUrls!==void 0||(this.defaults.allowAbsoluteUrls!==void 0?i.allowAbsoluteUrls=this.defaults.allowAbsoluteUrls:i.allowAbsoluteUrls=!0),
+lt.assertOptions(i,{baseUrl:we.spelling("baseURL"),
+withXsrfToken:we.spelling("withXSRFToken")},
+!0),
+i.method=(i.method||this.defaults.method||"get").toLowerCase();
+let s=r&&g.merge(r.common,r[i.method]);
+r&&g.forEach(["delete","get","head","post","put","patch","common"],p=>{delete r[p]}),
+i.headers=pe.concat(s,r);
+const l=[];
+let m=!0;
+this.interceptors.request.forEach(function(b){typeof b.runWhen=="function"&&b.runWhen(i)===!1||(m=m&&b.synchronous,l.unshift(b.fulfilled,b.rejected))});
+const d=[];
+this.interceptors.response.forEach(function(b){d.push(b.fulfilled,b.rejected)});
+let c,u=0,S;
+if(!m){const p=[di.bind(this),
+void 0];
+for(p.unshift(...l),
+p.push(...d),
+S=p.length,c=Promise.resolve(i);
+u<S;
+)c=c.then(p[u++],p[u++]);
+return c}S=l.length;
+let w=i;
+for(;
+u<S;
+){const p=l[u++],b=l[u++];
+try{w=p(w)}catch(A){b.call(this,A);
+break}}try{c=di.call(this,w)}catch(p){return Promise.reject(p)}for(u=0,S=d.length;
+u<S;
+)c=c.then(d[u++],d[u++]);
+return c}getUri(t){t=Fe(this.defaults,t);
+const i=ji(t.baseURL,t.url,t.allowAbsoluteUrls);
+return _i(i,t.params,t.paramsSerializer)}};
+g.forEach(["delete","get","head","options"],function(t){Me.prototype[t]=function(i,o){return this.request(Fe(o||{},
+{method:t,url:i,data:(o||{}).data}))}});
+g.forEach(["post","put","patch"],function(t){function i(o){return function(r,s,l){return this.request(Fe(l||{},
+{method:t,headers:o?{"Content-Type":"multipart/form-data"}:{},
+url:r,data:s}))}}Me.prototype[t]=i(),
+Me.prototype[t+"Form"]=i(!0)});
+let pa=class eo{constructor(t){if(typeof t!="function")throw new TypeError("executor must be a function.");
+let i;
+this.promise=new Promise(function(r){i=r});
+const o=this;
+this.promise.then(n=>{if(!o._listeners)return;
+let r=o._listeners.length;
+for(;
+r-- >0;
+)o._listeners[r](n);
+o._listeners=null}),
+this.promise.then=n=>{let r;
+const s=new Promise(l=>{o.subscribe(l),
+r=l}).then(n);
+return s.cancel=function(){o.unsubscribe(r)},
+s},
+t(function(r,s,l){o.reason||(o.reason=new Ve(r,s,l),
+i(o.reason))})}throwIfRequested(){if(this.reason)throw this.reason}subscribe(t){if(this.reason){t(this.reason);
+return}this._listeners?this._listeners.push(t):this._listeners=[t]}unsubscribe(t){if(!this._listeners)return;
+const i=this._listeners.indexOf(t);
+i!==-1&&this._listeners.splice(i,1)}toAbortSignal(){const t=new AbortController,i=o=>{t.abort(o)};
+return this.subscribe(i),
+t.signal.unsubscribe=()=>this.unsubscribe(i),
+t.signal}static source(){let t;
+return{token:new eo(function(n){t=n}),
+cancel:t}}};
+function ma(e){return function(i){return e.apply(null,i)}}function ga(e){return g.isObject(e)&&e.isAxiosError===!0}const Nt={Continue:100,SwitchingProtocols:101,Processing:102,EarlyHints:103,Ok:200,Created:201,Accepted:202,NonAuthoritativeInformation:203,NoContent:204,ResetContent:205,PartialContent:206,MultiStatus:207,AlreadyReported:208,ImUsed:226,MultipleChoices:300,MovedPermanently:301,Found:302,SeeOther:303,NotModified:304,UseProxy:305,Unused:306,TemporaryRedirect:307,PermanentRedirect:308,BadRequest:400,Unauthorized:401,PaymentRequired:402,Forbidden:403,NotFound:404,MethodNotAllowed:405,NotAcceptable:406,ProxyAuthenticationRequired:407,RequestTimeout:408,Conflict:409,Gone:410,LengthRequired:411,PreconditionFailed:412,PayloadTooLarge:413,UriTooLong:414,UnsupportedMediaType:415,RangeNotSatisfiable:416,ExpectationFailed:417,ImATeapot:418,MisdirectedRequest:421,UnprocessableEntity:422,Locked:423,FailedDependency:424,TooEarly:425,UpgradeRequired:426,PreconditionRequired:428,TooManyRequests:429,RequestHeaderFieldsTooLarge:431,UnavailableForLegalReasons:451,InternalServerError:500,NotImplemented:501,BadGateway:502,ServiceUnavailable:503,GatewayTimeout:504,HttpVersionNotSupported:505,VariantAlsoNegotiates:506,InsufficientStorage:507,LoopDetected:508,NotExtended:510,NetworkAuthenticationRequired:511,WebServerIsDown:521,ConnectionTimedOut:522,OriginIsUnreachable:523,TimeoutOccurred:524,SslHandshakeFailed:525,InvalidSslCertificate:526};
+Object.entries(Nt).forEach(([e,t])=>{Nt[t]=e});
+function to(e){const t=new Me(e),
+i=Di(Me.prototype.request,t);
+return g.extend(i,Me.prototype,t,{allOwnKeys:!0}),
+g.extend(i,t,null,{allOwnKeys:!0}),
+i.create=function(n){return to(Fe(e,n))},
+i}const ee=to(et);
+ee.Axios=Me;
+ee.CanceledError=Ve;
+ee.CancelToken=pa;
+ee.isCancel=Yi;
+ee.VERSION=Xi;
+ee.toFormData=wt;
+ee.AxiosError=_;
+ee.Cancel=ee.CanceledError;
+ee.all=function(t){return Promise.all(t)};
+ee.spread=ma;
+ee.isAxiosError=ga;
+ee.mergeConfig=Fe;
+ee.AxiosHeaders=pe;
+ee.formToJSON=e=>Wi(g.isHTMLForm(e)?new FormData(e):e);
+ee.getAdapter=Zi.getAdapter;
+ee.HttpStatusCode=Nt;
+ee.default=ee;
+const{Axios:Zx,AxiosError:Xx,CanceledError:eI,isCancel:tI,CancelToken:iI,VERSION:oI,all:nI,Cancel:aI,isAxiosError:rI,spread:sI,toFormData:lI,AxiosHeaders:cI,HttpStatusCode:dI,formToJSON:uI,getAdapter:pI,mergeConfig:mI}=ee,ha="Loading...",fa="Error",va="Success",ba="Cancel",ya="Confirm",wa="Submit",Aa="Save",Sa="Edit",Ca="View",xa="Close",Ia="Back",Ea="Next",Pa="Previous",za="Search",ka="Filter",Ra="Sort",Ta="Refresh",Da="Learn More",La="Explore",Ma="Discover",Fa="View All",Ba="See More",Oa="Get Started",Na="Contact Us",qa="Read More",Ua="Watch Video",Qa="Download Brochure",Ha="Book Now",Va="Coming Soon",_a="New",Ga="Featured",Wa="Popular",Ya="Exclusive",$a="Limited Edition",ja="Sold Out",Ja="In Stock",Ka="Pre-Order",Za={symbol:"$",code:"USD"},
+Xa={speed:"km/h",range:"km",power:"kW",weight:"kg",length:"m",width:"m",capacity:"passengers"},
+er="Login expired, please sign in again",tr={spaceSilver:"Space Silver",lightningYellow:"Lightning Yellow",brightRed:"Bright Red",parrotGreen:"Parrot Green",obsidianBlue:"Obsidian Blue",cyan:"Cyan"},
+ir={loading:ha,error:fa,success:va,cancel:ba,confirm:ya,submit:wa,save:Aa,delete:"Delete",edit:Sa,view:Ca,close:xa,back:Ia,next:Ea,previous:Pa,search:za,filter:ka,sort:Ra,refresh:Ta,learnMore:Da,explore:La,discover:Ma,viewAll:Fa,seeMore:Ba,getStarted:Oa,contactUs:Na,readMore:qa,watchVideo:Ua,downloadBrochure:Qa,bookNow:Ha,comingSoon:Va,newArrival:_a,featured:Ga,popular:Wa,exclusive:Ya,limited:$a,soldOut:ja,inStock:Ja,preOrder:Ka,currency:Za,units:Xa,loginExpired:er,colors:tr},
+or="Alaqua",nr="Flying Above Water",ar="Home",rr="Models",sr="Technology",lr="Configurator",cr="Experience",dr="About",ur="Contact",pr="Investors",mr="Sign In",gr="Sign Up",hr="My Account",fr="Sign Out",vr="Signed out successfully",br="Default Avatar",yr="Language",wr="Close",Ar={menuButton:"Menu",hydrofoil:"Hydrofoil",models:"Model Series",h1Series:"Y-3",h1Desc:"Three-Seater",h2Series:"Y-5",h2Desc:"Five-Seater",craftsmanship:"Craftsmanship",manufacturing:"Manufacturing Process",superEngine:"Super Engine",superEngineDesc:"Strict Quality Standards",highVoltagePlatform:"High Voltage Platform",highVoltagePlatformDesc:"Battery Technology",carbonFiber:"Super Craftsmanship",carbonFiberDesc:"Carbon Fiber",assistedNavigation:"Assisted Navigation",assistedNavigationDesc:"Intelligent Assist System",smartSteering:"Smart Steering",smartSteeringDesc:"Three Modes",batteryMenu:"Battery",batteryMenuDesc:"Marine Battery System",outboardMotorMenu:"Outboard Motor",outboardMotorMenuDesc:"Electric Outboard Motor",carbonFiberMaterialMenu:"Carbon Fiber",carbonFiberMaterialMenuDesc:"Carbon Fiber Materials",technology:"Core Introduction",hydrofoilAdvantages:"Hydrofoil Advantages",hydrofoilAdvantagesDesc:"Speed, Stability, Comfort",applicationScenarios:"Application Scenarios",applicationScenariosDesc:"Passenger, Leisure, Transport",investors:"Investors",overview:"Introduction",businessPlan:"Business Plan",businessPlanDesc:"Detailed Data Presentation",careers:"Team",contact:"Contact Us",services:"Services",serviceGuarantee:"Service Guarantee",chargingNetwork:"Charging Network",financingOptions:"Finance Test",locations:"Others",dealers:"Dealers",dealersDesc:"Global Distribution",storeLocator:"Store Locator",storeLocatorDesc:"Experience Center Status & Location",customerService:"Customer Service",customerServiceDesc:"Support & Help",aboutUs:"About Us",aboutMe:"About Me",companyIntroduction:"Company Introduction",factory:"Factory",learnHydrofoil:"Learn About Hydrofoil",legal:"Legal Terms",userAgreement:"User Agreement",privacyPolicy:"Privacy Policy",authAgreement:"Authorization Agreement",serviceAgreement:"After-Sales Service Agreement",insuranceAgreement:"Insurance Service Agreement",storeNav:{hydrofoil:"HYDROFOIL",hmi:"Shipboard HMI",design:"SHIP DESIGN",hullDesignBuild:"Hull Design & Build",accessories:"SHIP ACCESSORIES",development:"SOFTWARE DEVELOPMENT",distribution:"DISTRIBUTION",search:"search..."}},
+Sr={models:{title:"Our Models",h1:{name:"H-1",tagline:"Entry Performance"},
+h2:{name:"H-2",tagline:"Advanced Capability"},
+h3:{name:"H-3",tagline:"Ultimate Excellence"},
+compare:"Compare Models",viewAll:"View All Models"},
+technology:{title:"Innovation",hydrofoil:"Hydrofoil Technology",propulsion:"Electric Propulsion",autonomy:"Autonomous Systems",materials:"Advanced Materials",battery:"Battery Technology"},
+about:{title:"Company",story:"Our Story",team:"Leadership Team",factory:"Manufacturing",sustainability:"Sustainability",careers:"Careers"},
+contact:{title:"Get in Touch",dealers:"Find a Dealer",support:"Customer Support",service:"Service Centers",press:"Press Inquiries"}},
+Cr={hydrofoil:"HYDROFOIL",hmi:"Shipboard HMI",design:"SHIP DESIGN",hullDesign:"Hull Design & Build",accessories:"SHIP ACCESSORIES",development:"SOFTWARE DEVELOPMENT",distribution:"DISTRIBUTION"},
+xr={configure:"Configure Yours",testDrive:"Book Experience",contact:"Contact Us",store:"STORE"},
+Ir={company:"Company",products:"Products",support:"Support",legal:"Legal",social:"Follow Us"},
+Er={brand:or,tagline:nr,home:ar,models:rr,technology:sr,configurator:lr,experience:cr,about:dr,contact:ur,investors:pr,login:mr,register:gr,account:hr,logout:fr,logoutSuccess:vr,defaultAvatar:br,language:yr,close:wr,menu:Ar,submenu:Sr,storeMenu:Cr,cta:xr,footer:Ir},
+Pr={tagline:"POWERED BY SCIENCE. ELEVATED BY WATER.",cta:"EXPLORE Y-3"},
+zr={title:"Y-5 FIVE-SEAT FLAGSHIP",tagline:"NEXT-GEN FLAGSHIP. LUXURY FLIGHT ON WATER.",cta:"DISCOVER THE ALL-NEW Y-5"},
+kr={title:"TECHNOLOGICAL INNOVATION",subtitle:"Breaking through barriers to ride the wind",subtitleLine2:"proof of a new level of effectiveness",learnMore:"LEARN MORE"},
+Rr={line1:"RESEARCH AND DEVELOPMENT",line2:"DESIGN, INNOVATION"},
+Tr={title:"OUR MISSION",description:`The most rock-solid marine operations platform
+The most energy-efficient water economy definer
+The most performance-leading watercraft`},
+Dr={title:"Electric hydrofoil boat",feature1:"Focus on global water transportation and cultural tourism scenarios",feature2:"Provide solutions for electric vessels",feature3:"Build new modes of water travel"},
+Lr={title:"NEXT-GENERATION FOILING",intro:"True power leaves no waste.",description1:"By lifting the hull above the sea, hydrofoil technology delivers unmatched efficiency, extended range, reduced consumption, and effortless speed.",description2:"Designed for owners who understand that the future of dominance is intelligent, responsible, and uncompromising.",lessResistance:"Less resistance.",moreAuthority:"More authority.",conclusion:"A yacht that proves sustainability can still intimidate.",cta:"STEP INTO ALAQUA"},
+Mr={title:"FLY-H2O HOME",slide1:{title:"Y-3 Three-Seat Version",subtitle:"Low power consumption, high passenger capacity",linkText:"Learn More"},
+slide2:{title:"Y-5 Five-Seat Version",subtitle:"Hollow water drop headlights, better endurance experience",linkText:"Learn More"},
+slide3:{title:"New Product In Development",subtitle:"Stay Tuned",linkText:""}},
+Fr={badge:"Electric Hydrofoil",title:"Flying Above Water",titleLine1:"Redefining",titleLine2:"Maritime Mobility",subtitle:"Experience the future of watercraft with revolutionary hydrofoil technology",cta:{primary:"Explore Models",secondary:"Book Experience"}},
+Br={badge:"Electric Hydrofoil",title:"Where Innovation Meets the Sea",description:"Our electric hydrofoils combine cutting-edge technology with unparalleled performance, delivering a smooth, silent, and sustainable way to travel across water.",stats:{speed:{value:"50+",unit:"km/h",label:"Top Speed"},
+range:{value:"100+",unit:"km",label:"Range"},
+noise:{value:"0",unit:"dB",label:"Zero Emissions"}}},
+Or={badge:"The Fleet",title:"Choose Your Experience",description:"From entry-level performance to ultimate luxury, discover the perfect hydrofoil for your journey.",h1:{name:"H-1",tagline:"Entry Performance",description:"Perfect introduction to hydrofoil technology with impressive capability."},
+h2:{name:"H-2",tagline:"Advanced Capability",description:"Enhanced performance and features for the discerning enthusiast."},
+h3:{name:"H-3",tagline:"Ultimate Excellence",description:"The pinnacle of hydrofoil engineering and luxury craftsmanship."},
+cta:"Discover More"},
+Nr={badge:"Innovation",title:"Engineering Excellence",description:"Every component is designed to deliver an extraordinary experience on the water.",features:{hydrofoil:{title:"Hydrofoil System",description:"Advanced foil design lifts the hull above water, eliminating drag and enabling flight-like efficiency."},
+propulsion:{title:"Electric Propulsion",description:"Silent, powerful, and emission-free. Our motors deliver instant torque with zero environmental impact."},
+materials:{title:"Carbon Fiber Construction",description:"Aerospace-grade materials ensure optimal strength-to-weight ratio for maximum performance."},
+autonomy:{title:"Intelligent Systems",description:"Advanced sensors and AI provide stability, safety, and an intuitive riding experience."}},
+cta:"Explore Technology"},
+qr={badge:"Feel the Difference",title:"Book Your Experience",description:"Nothing compares to the sensation of flying above water. Schedule your test flight today.",features:{feature1:"Professional guidance",feature2:"Safe, controlled environment",feature3:"No experience required"},
+cta:"Schedule Now"},
+Ur={badge:"Ready to Fly?",title:"Configure Your Hydrofoil",description:"Create your perfect watercraft with our intuitive 3D configurator.",button:"Start Configuring"},
+Qr={badge:"Latest News",title:"Stay Informed",viewAll:"View All News"},
+Hr={badge:"Real scene",subtitle:"Hydrofoil",title:"Real sailing footage",description:"Filmed live in real waters, this documentary showcases the hydrofoil's performance in terms of range, seakeeping, and stability, from takeoff and wing raising to high-speed cruising.Without special effects or simulations, it records how the hydrofoil achieves safe, stable, and efficient new energy waterborne navigation in actual operation.",discoverMore:"Discover more",cta:"DISCOVER THE RANGE",items:{h1:{name:"Shenzhen · Dameisha Real Shot",description:"Real shot recording of a hydrofoil operating in the nearshore waters of Dameisha, Shenzhen. Demonstrating its lift-up navigation process and adaptability to swell environments under real sea conditions.",description2:"Real Shot 2: Detail capture, restoring authentic navigation status"},
+h2:{name:"Shenzhen · Dasha River Real Shot",description:"Real shot recording of a hydrofoil in an urban inland waterway environment. The footage shows its navigation stability and controllability in relatively narrow waters, verifying its application in urban water transportation scenarios.",description2:"Real Shot 2: Side tracking, intuitive stable posture",description3:"Real Shot 3: Multi-angle view, capturing navigation details"},
+h3:{name:"Dongguan · Songshan Lake",description:"Aerial footage of the lake area. Under relatively calm water conditions, clearly showing the lift-up navigation attitude and cruising status, demonstrating its operational efficiency and smoothness.",description2:"Aerial Shot 2: Multi-angle presentation, full navigation posture recording"},
+h4:{name:"Zhuhai · West Bank of the Pearl River Estuary",description:"Real-life footage from the western waters of the Pearl River Estuary. Demonstrating the stability and seaworthiness of the hydrofoil under complex sea conditions and currents, validating its application potential in the Pearl River Delta waters.",description2:"Real Shot 2: Sea area field test, multi-angle display"},
+custom:{name:"CUSTOM",description:"Bespoke solutions tailored to your unique vision. Work with our design team to create a one-of-a-kind vessel that reflects your personal style."}}},
+Vr={label:"Gallery",title:"Hydrofoil Gallery",description:"Explore our collection of stunning hydrofoil images and videos showcasing the beauty and performance of our vessels.",brandSubtitle:`Powered by Science
+Elevated by Water`,statsTopSpeed:"Top Speed",statsDraft:"Draft"},
+_r={title:"NAVIGATE THE FUTURE, STEER WITH INTELLIGENCE",description:"The Smart Tri-Mode Steering Wheel is an intelligent human-machine interaction terminal designed for high-performance vessels such as hydrofoil boats. It addresses the pain points of scattered controls and fragmented information in traditional vessel operation, integrating critical controls and core data into a single unit to significantly enhance maneuverability and navigation safety.",learnMore:"Learn More"},
+Gr={title:"Hydrofoil Smart App"},
+Wr={banner:Pr,bannerY5:zr,innovation:kr,research:Rr,essence:Tr,hydrofoil:Dr,nextGen:Lr,products:Mr,hero:Fr,intro:Br,models:Or,technology:Nr,experience:qr,cta:Ur,news:Qr,range:Hr,gallery:Vr,steeringWheel:_r,app:Gr},
+Yr="Our Models",$r="Discover the perfect hydrofoil for your journey",jr="Compare Models",Jr="Configure",Kr="View Details",Zr="Book Experience",Xr="Starting from",es={name:"Y-3",tagline:"Entry Performance",series:"Y-3 Three-seater version",edition:"Premium Leisure Edition",description:"The perfect introduction to hydrofoil technology. Experience flight-like efficiency with impressive performance in a refined package.",longDescription:"The Y-3 represents the gateway to a new era of watercraft. Designed for those ready to experience the extraordinary sensation of flying above water, it combines approachable technology with impressive capability. Every detail has been carefully considered to deliver an intuitive and exhilarating experience.",heroDescription:["Y-3 Smart Hydrofoil is a watercraft that integrates","intelligent technology, comfortable experience, and efficient performance.","Featuring advanced hydrofoil design,","it effectively reduces navigation resistance, enhances speed and stability,","ideal for family outings, leisure activities, and short-distance transport."],sections:{viewDetails:"Learn More",boatAesthetics:{title:"Hull Aesthetics",description:"The world's first intelligent electric hydrofoil designed for water transportation and cultural tourism scenarios, it redefines water travel with 'high performance + low energy consumption.' Suitable for daily commutes, leisure vacations, business activities, and water sports. Inspired by the lightness and elegance of the sandpiper, its agile flight close to the water is transformed into the streamlined shape of the hull."},
+windRiding:{title:"Braving the Waves",description:"Hydrofoil technology reduces drag and improves flight efficiency by precisely balancing the dynamics of fluids and air."},
+details:{streamline:{title:"Light Speed Shadow",description:"Ultimate streamlined hull, cutting through water like light through shadow."},
+wingStructure:{title:"Integrated Wing Structure",description:"Aviation-grade carbon fiber frame, the perfect balance of lightweight and high strength"},
+cockpit:{title:"Immersive Cockpit",description:"Wraparound cabin design, human-machine integrated driving experience"},
+lights:{title:"Intelligent Matrix Lights",description:"Through-type LED light strip, illuminating the new trend on water"}},
+colors:{title:"Vibrant Colors",flameRed:{name:"Flame Red",description:"Flame Red, inspired by the dazzling brilliance of blazing flames, symbolizing passion and power, showcasing an unstoppable surge of momentum."},
+gemGreen:{name:"Gem Green",description:"Gem Green, inspired by the deep green of emerald gemstones, like the vitality deep in the forest, radiating the perfect fusion of nature and luxury."},
+titanium:{name:"Titanium Metallic",description:"Titanium Metallic, derived from the unique luster of aerospace titanium alloy, showcasing the perfect combination of technology and craftsmanship, embodying modern industrial aesthetics."},
+lavaOrange:{name:"Lava Orange",description:"Lava Orange, inspired by the blazing glow of volcanic lava, symbolizing passion and vitality, displaying a fearless and dynamic spirit."},
+deepSeaBlue:{name:"Deep Sea Blue",description:"Deep Sea Blue, derived from the mysterious blue of the deep ocean, like starlight reflected in the night sky, presenting a profound and serene premium texture."}},
+technicalData:{title:"TECHNICAL DATA",dimensions:{title:"MAIN DIMENSIONS",lengthOverall:"Overall Length",beam:"Overall Width",maxDraft:"Draft Depth",passengers:"Passengers"},
+performance:{title:"POWER, SPEED & RANGE",cruiseSpeed:"Cruise Speed",maxSpeed:"Maximum Speed",endurance:"Endurance",propulsionPower:"Propulsion Power"},
+charging:{title:"CHARGING",chargingMethod:"Charging Method",chargingStation:"Charging Station",chargingTime:"Charging Time",chargingPower:"Charging Power"},
+values:{dedicatedCharger:"Dedicated Charging Station"}},
+gallery:{label:"Gallery",title:"Hydrofoil",titleHighlight:"Gallery",description:"Explore every exquisite detail of Y-3, experience the elegance of flying on water",brandSubtitle:`Unleashing power
+without limits`,statsTopSpeed:"Top speed",statsDraft:"Draft",cruisingSpeed:"Cruising Speed"},
+imageAlts:{product:"Product Image",streamline:"Light Speed Shadow",wingStructure:"Integrated Wing Structure",cockpit:"Immersive Cockpit",lights:"Intelligent Matrix Lights",colorOption:"Color option {name}",colorOptionSelected:"Color option {name} selected"}},
+specs:{topSpeed:{label:"Top Speed",value:"45",unit:"km/h"},
+range:{label:"Range",value:"80",unit:"km"},
+power:{label:"Power",value:"60",unit:"kW"},
+capacity:{label:"Capacity",value:"2",unit:"passengers"},
+weight:{label:"Weight",value:"450",unit:"kg"},
+charging:{label:"Charging",value:"2",unit:"hours"}},
+features:["Intuitive flight control system","Carbon fiber hull construction","Integrated navigation display","Automatic stability control"]},
+ts={name:"Y-5",tagline:"Advanced Capability",series:"Y-5 Five-seat version",edition:"Luxury Navigator Edition",description:"The perfect introduction to hydrofoil technology. Experience flight-like efficiency with outstanding performance.",longDescription:"Y-5 represents the beginning of a new era in waterborne mobility. Designed for users ready to experience the extraordinary sensation of flying over water, it combines easy-to-use technology with impressive capabilities. Every detail has been carefully considered to deliver an intuitive and exhilarating experience.",heroDescription:["Discover the refined craftsmanship and advanced technology of Y-5.","From precise geometry to an advanced propulsion system,","quiet navigation and remarkable range,","every aspect of this electric intelligent hydrofoil has been meticulously engineered","to deliver a revolutionary riding experience."],sections:{productShowcase:{title:"Integrated Halo Tail Light",description:"High-recognition design makes the vessel instantly identifiable on water, combining sci-fi aesthetics with exceptional visibility"},
+boatAesthetics:{title:"Ride the Waves, Embrace Luxury",description:"Drag-reducing hydrofoil technology · Efficient range · Silent design",descriptionLine2:"Comfortable space · Intelligent control"},
+beautySection:{title:"The Ultimate Aesthetics",description:"Surge and pitch are tamed within controlled rhythms, resistance and power fluctuate steadily over time, each variation following the order of physics and logic. Like the chassis structure hidden beneath the water, data stability is not a coincidence but an inevitable result of design, algorithms, and engineering expertise working together."},
+windSection:{title:"Navigation Experience",description:"Autopilot · Tri-mode smart steering wheel · Ambient lighting + 3D surround sound · Full carbon fiber streamlined hull + 40kW ultra-quiet motor · High-capacity battery"},
+colors:{title:"Vibrant Colors",flameRed:{name:"Flame Red",description:"Flame Red, inspired by the dazzling brilliance of blazing flames, symbolizing passion and power, showcasing an unstoppable surge of momentum."},
+gemGreen:{name:"Gem Green",description:"Gem Green, inspired by the deep green of emerald gemstones, like the vitality deep in the forest, radiating the perfect fusion of nature and luxury."},
+titanium:{name:"Titanium Metallic",description:"Titanium Metallic, derived from the unique luster of aerospace titanium alloy, showcasing the perfect combination of technology and craftsmanship, embodying modern industrial aesthetics."},
+lavaOrange:{name:"Lava Orange",description:"Lava Orange, inspired by the blazing glow of volcanic lava, symbolizing passion and vitality, displaying a fearless and dynamic spirit."},
+deepSeaBlue:{name:"Deep Sea Blue",description:"Deep Sea Blue, derived from the mysterious blue of the deep ocean, like starlight reflected in the night sky, presenting a profound and serene premium texture."}},
+technicalData:{title:"TECHNICAL DATA",dimensions:{title:"MAIN DIMENSIONS",lengthOverall:"Overall Length",beam:"Overall Width",maxDraft:"Draft Depth",passengers:"Passengers"},
+performance:{title:"POWER, SPEED & RANGE",cruiseSpeed:"Cruise Speed",maxSpeed:"Maximum Speed",endurance:"Endurance",propulsionPower:"Propulsion Power"},
+charging:{title:"CHARGING",chargingMethod:"Charging Method",chargingStation:"Charging Station",chargingTime:"Charging Time",chargingPower:"Charging Power"},
+values:{dedicatedCharger:"Dedicated Charging Station"}},
+gallery:{label:"Gallery",title:"Hydrofoil",titleHighlight:"Gallery",description:"Explore every exquisite detail of Y-5, experience the elegance of flying on water",brandSubtitle:`Unleashing power
+without limits`,statsTopSpeed:"Top speed",statsDraft:"Draft"},
+imageAlts:{product:"Product Image",streamline:"Light Speed Shadow",wingStructure:"Integrated Wing Structure",cockpit:"Immersive Cockpit",lights:"Intelligent Matrix Lights",colorOption:"Color option {name}",colorOptionSelected:"Color option {name} selected"},
+details:{title:"Detail Showcase",cards:{hydrofoil:{title:"Low-Drag Hydrofoil Design",description:"Front and rear hydrofoils work in coordinated layout, generating stable lift during navigation, allowing the hull to rise above the water at high speeds, significantly reducing wetted surface area and water resistance."},
+windRiding:{title:"Riding the Wind",description:"Master the dual balance of fluid and air. Hydrofoil technology lifts the hull above water, dramatically reducing drag for a serene and stable voyage. Redefining water travel through the power of technology."},
+monoHull:{title:"Monohull Concept",description:"The streamlined hull effectively guides water flow during navigation, reducing drag and turbulence, providing an ideal foundation for stable hydrofoil lift."},
+lightStrip:{title:"Light Strip Craftsmanship",description:"Hull light strips are precisely embedded along structural lines, naturally transitioning with the shell curves, achieving clear yet restrained lighting expression without compromising the overall hydrodynamic design."},
+control:{title:"Focused Control, Immersive Navigation",description:"The directional control system features an embracing control structure, centralizing steering, attitude adjustment, and core information display within the driver's natural line of sight and hand movement range, reducing visual distraction and enhancing control focus."},
+eternalForm:{title:"Eternal Form",description:"The hull is outlined with continuous and restrained curves, lines naturally extending from bow to stern, presenting highly complete formal tension in both stationary and navigating states."},
+comfort:{title:"Performance First, Comfort Follows",description:"The cabin adopts a low-position integrated layout, closely combining seating posture with the hull's center of gravity, effectively enhancing stability and control feedback during high-speed navigation."},
+propulsion:{title:"High-Efficiency Propulsion System",description:"The power system employs high power density electric drive units, precisely matched with low-loss drive shafts and high-efficiency propellers, achieving optimal balance between energy output and propulsion efficiency."}}}}},
+is={name:"Y-5",tagline:"Advanced Capability",series:"Y-5 Five-Seater",edition:"Luxury Navigator Edition",description:"The evolution from three seats to five goes beyond space. A new design language, class-leading performance — every voyage is worth the anticipation.",longDescription:"The Y-5 represents the complete evolution of the intelligent hydrofoil. Building on outstanding flight performance, its five-seat layout and all-new exterior design elevate the on-water experience to new heights. Whether it's a family outing, business reception, or leisure getaway, the Y-5 lets every passenger experience the charm of flying over water with effortless elegance.",heroDescription:["More space, equally sharp.","The Y-5 redefines the boundaries of hydrofoil craft with a five-seat layout,","an all-new upgraded exterior design,","perfectly blending high performance with comfort,","launching your journey of flying over water."],sections:{viewDetails:"Learn More",boatAesthetics:{title:"Five-Seat Flagship, A New Chapter in Aesthetics",description:"The Y-5 reshapes the visual boundaries of hydrofoil design with an all-new design language. The streamlined hull carries five passengers in comfort, with every detail telling the story of technology and aesthetics in harmony — presenting the flagship standard of waterborne mobility."},
+windRiding:{title:"Ride the Waves, Beyond Speed",description:"Even carrying five passengers, the Y-5 still achieves hull-out-of-water flight through hydrofoil technology, dramatically reducing drag. More space, the same serenity and stability — redefining comfortable navigation."},
+details:{streamline:{title:"Light Speed Shadow",description:"Ultimate streamlined hull, cutting through water like light through shadow."},
+wingStructure:{title:"Integrated Wing Structure",description:"Aviation-grade carbon fiber frame, the perfect balance of lightweight and high strength"},
+cockpit:{title:"Immersive Cockpit",description:"Wraparound cabin design, human-machine integrated driving experience"},
+lights:{title:"Intelligent Matrix Lights",description:"Through-type LED light strip, illuminating the new trend on water"}},
+colors:{title:"Vibrant Colors",flameRed:{name:"Flame Red",description:"Flame Red, inspired by the dazzling brilliance of blazing flames, symbolizing passion and power, showcasing an unstoppable surge of momentum."},
+gemGreen:{name:"Gem Green",description:"Gem Green, inspired by the deep green of emerald gemstones, like the vitality deep in the forest, radiating the perfect fusion of nature and luxury."},
+titanium:{name:"Titanium Metallic",description:"Titanium Metallic, derived from the unique luster of aerospace titanium alloy, showcasing the perfect combination of technology and craftsmanship, embodying modern industrial aesthetics."},
+lavaOrange:{name:"Lava Orange",description:"Lava Orange, inspired by the blazing glow of volcanic lava, symbolizing passion and vitality, displaying a fearless and dynamic spirit."},
+deepSeaBlue:{name:"Deep Sea Blue",description:"Deep Sea Blue, derived from the mysterious blue of the deep ocean, like starlight reflected in the night sky, presenting a profound and serene premium texture."}},
+technicalData:{title:"TECHNICAL DATA",dimensions:{title:"MAIN DIMENSIONS",lengthOverall:"Overall Length",beam:"Overall Width",maxDraft:"Draft Depth",passengers:"Passengers"},
+performance:{title:"POWER, SPEED & RANGE",cruiseSpeed:"Cruise Speed",maxSpeed:"Maximum Speed",endurance:"Endurance",propulsionPower:"Propulsion Power"},
+charging:{title:"CHARGING",chargingMethod:"Charging Method",chargingStation:"Charging Station",chargingTime:"Charging Time",chargingPower:"Charging Power"},
+values:{dedicatedCharger:"Dedicated Charging Station",standardWorkingTime:"Standard Working Hours"}},
+gallery:{label:"Gallery",title:"Hydrofoil",titleHighlight:"Gallery",description:"Step into the world of Y-5 design — from its refreshed exterior to its spacious cabin, discover the extraordinary charm of the hydrofoil flagship",brandSubtitle:`Unleashing power
+without limits`,statsTopSpeed:"Top speed",statsDraft:"Draft",cruisingSpeed:"Cruising Speed"},
+imageAlts:{product:"Product Image",streamline:"Light Speed Shadow",wingStructure:"Integrated Wing Structure",cockpit:"Immersive Cockpit",lights:"Intelligent Matrix Lights",colorOption:"Color option {name}",colorOptionSelected:"Color option {name} selected"}},
+specs:{topSpeed:{label:"Top Speed",value:"45",unit:"km/h"},
+range:{label:"Range",value:"80",unit:"km"},
+power:{label:"Power",value:"60",unit:"kW"},
+capacity:{label:"Capacity",value:"5",unit:"passengers"},
+weight:{label:"Weight",value:"450",unit:"kg"},
+charging:{label:"Charging",value:"2",unit:"hours"}},
+features:["Intuitive flight control system","Carbon fiber hull construction","Integrated navigation display","Automatic stability control"]},
+os={waterResistance:{title:"Water Resistance",subtitle:"Future-oriented Innovation VS Conventional Approach",exploreMore:"Explore More"},
+physicsSimulation:{title:"Physics Simulation",subtitle:"Experience Hydrofoil Flight - Cutting-edge Technology Mastering the Balance of Fluid and Air"},
+simulationModal:{title:"Breakthrough Validation of Hydrofoil System Efficiency and Stability",conditions:"Simulation Conditions",mainParams:"Main Parameters",speed:"Speed:",speedValue:"18 knots",wavelength:"Wavelength:",wavelengthValue:"5.0 m",waveHeight:"Wave Height:",waveHeightValue:"0.5 m",waveAngle:"Wave Angle:",waveAngleValue:"45°",yh2o:"YH2O",vs:"VS",traditionalVessel:"Traditional Vessel",pitchAngle:"Pitch Angle",liftDistance:"Lift Distance",effectivePower:"Effective Power",totalResistance:"Total Resistance"}},
+ns={title:"Compare Models",subtitle:"Find the perfect match for your needs",categories:{performance:"Performance",comfort:"Comfort & Luxury",technology:"Technology",dimensions:"Dimensions"}},
+as={title:"Gallery",exterior:"Exterior",interior:"Interior",details:"Details"},
+rs={title:"Configure Your {model}",subtitle:"Create your perfect hydrofoil",steps:{exterior:"Exterior",interior:"Interior",features:"Features",summary:"Summary"},
+exterior:{title:"Choose Exterior Color",colors:{obsidianBlack:"Obsidian Black",arcticWhite:"Arctic White",sapphireBlue:"Sapphire Blue",carbonGray:"Carbon Gray",pearlWhite:"Pearl White"}},
+interior:{title:"Choose Interior",options:{standard:"Standard",premium:"Premium",luxury:"Luxury"}},
+features:{title:"Additional Features",options:{soundSystem:"Premium Sound System",navigation:"Advanced Navigation",autopilot:"Autopilot System",climate:"Climate Control"}},
+summary:{title:"Your Configuration",model:"Model",exterior:"Exterior",interior:"Interior",features:"Features",total:"Total Price",disclaimer:"Prices shown are estimates. Final pricing may vary."},
+actions:{back:"Back",next:"Next",complete:"Complete Configuration",save:"Save Configuration",share:"Share"}},
+ss={title:Yr,subtitle:$r,compare:jr,configure:Jr,viewDetails:Kr,bookTestDrive:Zr,startingFrom:Xr,h1:es,h2:ts,y5:is,innovation:os,comparison:ns,gallery:as,configurator:rs},
+ls={loginRequiredTitle:"Please sign in"},
+cs={title:"Welcome Back",subtitle:"Sign in to your account",email:"Email",password:"Password",rememberMe:"Remember me",forgotPassword:"Forgot password?",submit:"Sign In",submitting:"Signing in...",noAccount:"Don't have an account?",createAccount:"Create Account",or:"or",continueWith:"Continue with",success:"Successfully signed in",error:"Invalid email or password"},
+ds={title:"Create Account",subtitle:"Join the future of maritime mobility",firstName:"First Name",lastName:"Last Name",email:"Email",phone:"Phone Number",password:"Password",confirmPassword:"Confirm Password",newsletter:"Subscribe to newsletter",terms:"I agree to the",termsLink:"Terms of Service",and:"and",privacyLink:"Privacy Policy",submit:"Create Account",submitting:"Creating account...",hasAccount:"Already have an account?",signIn:"Sign In",success:"Account created successfully",error:"Failed to create account"},
+us={title:"Reset Password",subtitle:"Enter your email to receive reset instructions",email:"Email",submit:"Send Reset Link",submitting:"Sending...",backToLogin:"Back to Sign In",success:"Reset link sent to your email",error:"Email not found"},
+ps={title:"Reset Password",subtitle:"Reset a new password for your account",password:"New Password",submitting:"Resetting...",confirmPassword:"Confirm New Password",success:"Password reset successfully",error:"Failed to reset password",labels:{email:"Email",account:"Email / Phone",code:"Verification Code",newPassword:"New Password",confirmPassword:"Confirm New Password"},
+placeholders:{email:"Enter email address",account:"Enter email or phone number",code:"Enter verification code",newPassword:"Enter new password (at least 8 characters)",confirmPassword:"Enter password again"},
+actions:{next:"Next",submit:"Reset Password",sendCode:"Send Code",resendCode:"Resend",sending:"Sending...",resendIn:"Resend in {seconds}s",contactSupport:"Can't verify? Contact support for help."},
+feedback:{invalid:"Please enter a valid email address.",codeSent:"Verification code has been sent to your email.",codeSendFailed:"Failed to send verification code, please try again.",codeSendTooFrequent:"Emails sent too frequently, please try again later.",resetSuccess:"Password reset successfully!",resetFailed:"Password reset failed, please try again.",passwordMismatch:"Passwords do not match.",passwordMin:"Password must be at least 8 characters."}},
+ms={title:"My Account",subtitle:"Manage your account settings",tabs:{overview:"Overview",orders:"Orders",configurations:"Saved Configurations",settings:"Settings"},
+overview:{welcome:"Welcome, {name}",memberSince:"Member since {date}",recentActivity:"Recent Activity"},
+settings:{personalInfo:"Personal Information",security:"Security",notifications:"Notifications",language:"Language",deleteAccount:"Delete Account"}},
+gs={emailRequired:"Email is required",emailInvalid:"Please enter a valid email",passwordRequired:"Password is required",passwordMin:"Password must be at least 8 characters",passwordMatch:"Passwords do not match",firstNameRequired:"First name is required",lastNameRequired:"Last name is required",phoneInvalid:"Please enter a valid phone number",termsRequired:"You must agree to the terms"},
+hs={google:"Google",apple:"Apple",facebook:"Facebook",alipay:"Alipay",wechat:"WeChat",twitter:"Twitter/X",linkedin:"LinkedIn",line:"LINE",alipayHint:"Sign in with Alipay",wechatHint:"Sign in with WeChat",twitterHint:"Sign in with Twitter/X",googleHint:"Sign in with Google",linkedinHint:"Sign in with LinkedIn",lineHint:"Sign in with LINE"},
+fs={topBar:{userAgreement:"User Agreement",privacyPolicy:"Privacy Policy",helpCenter:"Help Center",language:"Language"},
+tabs:{login:"Login",register:"Register"},
+labels:{region:"Country/Region",account:"Email",accountEmailOrPhone:"Email/Phone",countryCode:"Country Code",phone:"Phone",password:"Password",confirmPassword:"Confirm Password",verificationCode:"Verification Code",email:"Email",agreementLogin:"I have read and agree to the",agreementRegister:"I have read and agree to the"},
+placeholders:{selectRegion:"Select country/region",searchRegion:"Search country/region",account:"Enter email",accountEmailOrPhone:"Enter email/phone",phone:"Enter phone number",password:"Enter password",passwordWithRule:"Enter password (at least 8 characters)",confirmPassword:"Enter password again",verificationCode:"Enter verification code",email:"Enter email address"},
+buttons:{login:"Login",register:"Register",loginSubmitting:"Logging in...",registerSubmitting:"Registering...",switchToEmail:"Verification login",switchToAccount:"Account Login",getCode:"Get Code",retryIn:"Retry in {seconds}s",retry:"Retry",sending:"Sending..."},
+tips:{forgotPassword:"Forgot password?",otherLoginMethods:"Other login methods",socialAuthLoading:"Loading authorization page...",socialAuthTitle:"Third-party Authorization"},
+links:{userAgreement:"User Agreement",privacyPolicy:"Privacy Policy",and:"and"},
+messages:{noRegionResult:"No matching country/region found"},
+errors:{accountRequired:"Please enter email",accountInvalid:"Please enter a valid email/phone",accountPhoneInvalid:"Please enter a valid phone number",phoneRequired:"Please enter phone number",phoneInvalid:"Please enter a valid phone number",passwordRequired:"Please enter password",passwordMin:"Password must be at least 8 characters",confirmPasswordRequired:"Please confirm your password",confirmPasswordMismatch:"Passwords do not match",emailRequired:"Please enter email address",emailInvalid:"Please enter a valid email address",codeRequired:"Please enter verification code",codeInvalid:"Please enter a 6-digit verification code",agreementRequired:"Please agree to the terms first",codeNotNeeded:"Verification code not required for this region",socialAuthFailed:"Failed to get authorization link, please try again"},
+alerts:{loginSuccess:"Login successful",registerSuccess:"Registration successful, please login",registerFail:"Registration failed, please try again later",socialLogin:"Redirecting to {provider} authorization, please wait...",socialUnbound:"Account not bound, binding is required",codeSent:"Verification code sent"},
+bind:{title:"Link Account",subtitle:"Please complete account linking",emailLabel:"Email",emailPlaceholder:"Enter your email",accountLabel:"Email/Phone",accountPlaceholder:"Enter email/phone",codeLabel:"Code",codePlaceholder:"Enter 6-digit code",submit:"Confirm Binding",backToLogin:"Back to Login",missingParams:"Authorization parameters missing, please sign in again",success:"Account linked successfully"}},
+vs={languageLabel:"Language",title:"Yihai Account Help Center",selfService:{title:"Self Service",subtitle:"Quick access to common operations"},
+languages:{zhCN:"中文 (简体)",enUS:"English"},
+actions:{helpCenter:"Help Center",more:"More"},
+services:{resetPassword:"Reset Password",accountAppeal:"Account Appeal",freezeAccount:"Freeze Account",unfreezeAccount:"Unfreeze Account",unblockAccount:"Unblock Account",deleteAccount:"Delete Account"},
+categories:{faq:{label:"FAQ",questions:{recoverAccount:"I forgot my account, how can I recover it?",resetPassword:"I forgot my password, how to reset it?",phoneInactive:"My phone number is inactive, how to login or rebind?",appealFailed:"What if my appeal is rejected?",accountHijacked:"My account was hijacked, what should I do?",signOut:"How to sign out of my Yihai account?"},
+answers:{recoverAccount:"If you forgot your account, you can recover it by: 1. Using the phone number or email bound during registration;
+ 2. If you remember partial account information, contact customer service for assistance;
+ 3. Use the account appeal feature to recover.",resetPassword:"To reset your password: 1. Click 'Forgot Password' on the login page;
+ 2. Enter your registered phone number or email;
+ 3. Follow the prompts to verify your identity;
+ 4. Set a new password.",phoneInactive:"If your phone number is inactive, you can: 1. Login using your email;
+ 2. Use the account appeal feature to change your security phone;
+ 3. Contact customer service for assistance.",appealFailed:"If your appeal is rejected, please check: 1. Whether the submitted information is complete and accurate;
+ 2. Whether the supporting documents are clear and valid;
+ 3. You can resubmit with additional supporting materials;
+ 4. If issues persist, contact customer service.",accountHijacked:"If your account was hijacked, immediately: 1. Try to recover through your security phone or email;
+ 2. If unable to recover, submit an account appeal immediately;
+ 3. Contact customer service to freeze the account;
+ 4. Change all related passwords.",signOut:"To sign out: 1. Find the 'Sign Out' option in your profile;
+ 2. Confirm sign out;
+ 3. After signing out, you'll need to login again to use account features."}},
+login:{label:"Login",questions:{generalLogin:"How to login to my Yihai account?",thirdParty:"How to login with a third-party account?",noPhone:"No phone number bound, how to login?",loginAbnormal:"Why is my login abnormal?",deviceList:"How to view logged-in devices?",longTermInactive:"Will my account be deactivated if inactive for a long time?"},
+answers:{generalLogin:"To login: 1. Open the login page;
+ 2. Enter your phone number/email or Yihai account;
+ 3. Enter your password;
+ 4. Click login. If you forgot your password, use the 'Forgot Password' feature.",thirdParty:"To login with a third-party account: 1. Select a third-party login method (e.g., WeChat, Alipay) on the login page;
+ 2. Authorize and login;
+ 3. First-time users need to bind their Yihai account.",noPhone:"Without a bound phone number: 1. Login using email;
+ 2. Login using your Yihai account;
+ 3. To bind a phone number, go to your profile settings.",loginAbnormal:"Possible causes for login issues: 1. Too many incorrect password attempts;
+ 2. Account frozen or banned;
+ 3. Remote login triggered security protection;
+ 4. Device or network issues. Please contact customer service.",deviceList:"To view logged-in devices: 1. Login to your Yihai account;
+ 2. Go to profile;
+ 3. Find 'Account Security' or 'Device Management';
+ 4. View the list of currently logged-in devices.",longTermInactive:"Your account will not be automatically deactivated. However, for security, regular login is recommended. After extended inactivity, identity re-verification may be required."}},
+profile:{label:"Edit Profile",questions:{updateSecurityPhone:"How to change my security phone?",updateSecurityEmail:"How to change my security email?",unlinkContacts:"How to unbind phone number and email?",reassignPhone:"How to transfer my phone number to another account?",manageThirdParty:"How to bind/change/unbind third-party accounts?",resetSecurityAnswers:"How to reset security questions?"},
+answers:{updateSecurityPhone:"To change your security phone: 1. Login and go to profile;
+ 2. Find 'Account Security' settings;
+ 3. Select 'Change Security Phone';
+ 4. Complete identity verification;
+ 5. Enter and verify the new phone number.",updateSecurityEmail:"To change your security email: 1. Login and go to profile;
+ 2. Find 'Account Security' settings;
+ 3. Select 'Change Security Email';
+ 4. Verify current email;
+ 5. Enter and verify the new email.",unlinkContacts:"To unbind phone/email: 1. Login and go to profile;
+ 2. Go to 'Account Security' settings;
+ 3. Select the phone or email to unbind;
+ 4. Complete identity verification;
+ 5. Confirm unbinding. Note: At least one contact method must be retained.",reassignPhone:"To transfer a phone number: 1. Unbind the phone from the original account;
+ 2. Bind the phone to the new account;
+ 3. If unable to login to the original account, use the account appeal feature.",manageThirdParty:"To manage third-party accounts: 1. Login and go to profile;
+ 2. Find 'Account Binding' or 'Third-party Accounts';
+ 3. Bind, change, or unbind as needed;
+ 4. Complete verification as prompted.",resetSecurityAnswers:"To reset security questions: 1. Login and go to profile;
+ 2. Find 'Account Security' settings;
+ 3. Select 'Security Questions';
+ 4. Verify identity and set new questions and answers."}},
+security:{label:"Account Security",questions:{postPasswordAlert:"How to handle login alerts after changing password?",forgotPasswordFlow:"I forgot my password, how to reset?",hijackedContacts:"My account was bound to someone else's phone/email, what to do?",compromisedAccount:"My account was compromised, what should I do?",identityTheft:"Someone else verified their identity on my account, what to do?",freezeUnfreeze:"How to freeze/unfreeze my account?",autoFreeze:"Why was my account automatically frozen?",banReasons:"Why was my account banned?"},
+answers:{postPasswordAlert:"Login alerts after password change are normal security measures: 1. This is a security prompt after detecting a password change;
+ 2. If it was you, complete verification as prompted;
+ 3. If not, contact customer service immediately.",forgotPasswordFlow:"Password reset process: 1. Click 'Forgot Password' on the login page;
+ 2. Enter your registered phone or email;
+ 3. Choose verification method (SMS or email code);
+ 4. Enter the code;
+ 5. Set a new password.",hijackedContacts:"If your account is bound to someone else's contacts: 1. Submit an unbinding request through account appeal;
+ 2. Provide identity documents;
+ 3. Contact customer service for urgent handling;
+ 4. Request account freeze if compromised.",compromisedAccount:"If your account is compromised: 1. Try to recover via security phone or email;
+ 2. Submit an account appeal immediately;
+ 3. Request account freeze to prevent further damage;
+ 4. Contact customer service with evidence;
+ 5. Change all related passwords.",identityTheft:"If someone else verified their identity on your account: 1. Contact customer service with your ID proof;
+ 2. Request removal of unauthorized verification;
+ 3. Complete your own identity verification;
+ 4. Consider filing a police report if needed.",freezeUnfreeze:"Freeze/Unfreeze: 1. Freeze: Select 'Freeze Account' in Help Center, fill in details and submit;
+ 2. Unfreeze: Select 'Unfreeze Account' in Help Center, verify and submit;
+ 3. For urgent cases, contact customer service.",autoFreeze:"Possible reasons for automatic freeze: 1. Multiple incorrect password attempts;
+ 2. Abnormal login activity detected;
+ 3. Security risk identified;
+ 4. Terms of service violation. To unfreeze, apply through Help Center or contact customer service.",banReasons:"Common reasons for account bans: 1. Violation of terms of service;
+ 2. Posting prohibited content;
+ 3. Malicious activity;
+ 4. Fraud or illegal activity. If you believe it's an error, use the account appeal feature."}}}},
+bs={toast:ls,login:cs,register:ds,forgotPassword:us,resetPassword:ps,profile:ms,validation:gs,social:hs,authPage:fs,helpCenter:vs},
+ys="Pioneering the future of marine mobility with revolutionary hydrofoil technology. Experience the thrill of flying above water.",ws={models:"Models",company:"Company",support:"Support",contact:"Contact"},
+As={title:"After-Sales",maintenance:"Maintenance Info",environment:"Environmental Info",legal:"Legal & Safety",salesRecruitment:"Sales Center Recruitment",serviceRecruitment:"Service Center Recruitment",batteryRecycling:"Battery Recycling"},
+Ss={title:"Product",h1Series:"Y-3",h2Series:"Y-5",technology:"Technology",configure:"Configure",testDrive:"Test Drive"},
+Cs={title:"Contact us from",fullName:"Full name",emailOrPhone:"Enter email or phone",message:"Message",sendMessage:"Send message",sending:"Sending...",fillAllFields:"Please fill in all fields",sendSuccess:"Message sent successfully",sendFailed:"Failed to send message",email:"info{'@'}fly-h2o.cn",openMailClient:"Open mail client",copyEmail:"Copy email address",copyEmailSuccess:"Email address copied",copyEmailFailed:"Copy failed, please copy manually"},
+xs={downloadOn:"Download on the",getItOn:"GET IT ON"},
+Is={compare:"Compare Models",configurator:"Configurator",about:"About Us",technology:"Technology",investors:"Investors",careers:"Careers",press:"Press",contact:"Contact Us",experience:"Book Experience",dealers:"Find a Dealer",service:"Service Centers",faq:"FAQ"},
+Es={privacy:"Privacy Policy",terms:"Terms of Service",cookies:"Cookie Policy",accessibility:"Accessibility"},
+Ps={wechatTitle:"Alaqua Official Account",wechatAlt:"Alaqua Official Account",videoTitle:"Alaqua Video Channel",videoAlt:"Alaqua Video Channel",instagramTitle:"Alaqua Instagram",instagramAlt:"Alaqua Instagram"},
+zs="© {year} Alaqua. All rights reserved.",ks={description:ys,sections:ws,company:As,product:Ss,contact:Cs,download:xs,links:Is,legal:Es,qrCode:Ps,copyright:zs},
+Rs={body:"Body",engine:"Engine",rudder:"Rudder",interior:"Interior"},
+Ts={specifications:"Specifications",ratedPower:"Rated Power",ratedVoltage:"Rated Voltage",coolingSystem:"Cooling System",ratedSpeed:"Rated Speed",trimMechanism:"Trim & Tilt Mechanism",trimAngle:"Trim & Tilt Angle",steeringSystem:"Steering System",steeringAngle:"Steering Angle",propeller:"Propeller",disclaimer:"*Specifications are for reference only",engineConfig:"Engine Configuration",ratedPower12:"12 kW",ratedPower20:"20 kW",ratedPower40:"40 kW",ratedVoltage96:"96V (DC)",naturalWaterCooling:"Natural Water Cooling",closedLoopLiquidCooling:"Closed Loop Liquid Cooling",ratedSpeed1100To2000:"1100 to 2000 rpm",ratedSpeed1200To1800:"1200 to 1800 rpm",ratedSpeed1500To2100:"1500 to 2100 rpm",electricTrim:"Electric Trim",electricLiquidTrim:"Electric Liquid Trim",trimAngle4To61:"-4° to 61°",integratedElectricSteering:"Integrated Electric Steering",steeringAngle45:"±45°",propellerMetal:'11 13/16" x 9 13/16" (Heavy Load Prop - Metal)',propellerPlastic:'11 13/16" x 10 5/8" (Heavy Load Prop - Plastic)',propellerMetalLight:'11 13/16" x 15 3/8" (Light Load Prop - Metal)',propeller15:'15" x 10 3/4" Forward & Reverse',propeller13:'13 3/8" x 16 3/4" Forward & Reverse'},
+Ds={rudderConfig:"Rudder Configuration",driverMode:"Driver Mode",fullDriverControl:"Full Driver Control",sportMode:"Sport Mode",removeSpeedLimit:"Remove Speed Limit",fullAutoMode:"Full Auto Mode",routePlanning:"Route Planning",smartDualRudder:"Smart Dual Rudder"},
+Ls={interiorColor:"Interior Color",interiorPreview:"Interior Preview",cockpit:"Cockpit",passengerCabin:"Passenger Cabin",cockpitTitle:"Cockpit",cockpitTitleWithCode:"Cockpit #{code}",cockpitTitleWithColor:"Cockpit (
+{color})",cockpitColors:{c1B0102:"Deep Burgundy",c481204:"Chestnut Brown",c020B03:"Deep Green",c080707:"Obsidian Black",c030508:"Deep Sea Blue"},
+views:{driver:"Driver",rearLeft:"Rear Left",rearRight:"Rear Right"},
+material:"Seat Material",stitching:"Ten-stitch quilting, 18,899-stitch exclusive embroidery",packages:{moonShadowGrey:{label:"Moon Shadow Grey Interior",title:"Shadow Grey (Grey/Black/Yellow)"},
+polarNightBlackGlacierBlue:{label:"Polar Night Black / Glacier Blue Interior",title:"Polar Night Black / Glacier Blue (Two-tone)"}},
+colors:{blackYellow:"Black/Yellow Two-tone",blackRed:"Black/Red Two-tone",brightYellow:"Bright Yellow (Yellow/Black)",deepWineRed:"Deep Wine Red",chestnutBrown:"Chestnut Brown",darkGreen:"Dark Green",obsidianBlack:"Obsidian Black",deepSeaBlue:"Deep Sea Blue"}},
+Ms={standard:"Standard Paint",custom:"Custom Paint",boatPaint:"Boat Paint"},
+Fs={lavaOrange:"Lava Orange",brightRed:"Flame Red",titanium:"Titanium Metallic",emeraldGreen:"Gem Green",deepBlue:"Deep Sea Blue"},
+Bs={standard:"Standard Color",custom:"Custom Color"},
+Os={title:"Price Details",total:"Total",base:"Base Price",optionsTotal:"Options Total",thresholdTip:"Customization requires options ≥ ¥{threshold},
+ selected ¥{selected}"},
+Ns={expand:"Expand",collapse:"Collapse",complete:"Complete"},
+qs={tabs:{configuration:"Configuration",benefits:"Purchase Benefits"},
+reconfigure:"Reconfigure",metrics:{range:"Range (CLTC)",acceleration:"0–100 km/h",assist:"YU Assisted Driving"},
+fields:{modelVersion:"Model Version",basePrice:"Base Price",hull:"Hull",interior:"Interior"}},
+Us={title:"Change Hull Color",standardColors:"Standard Colors",customColors:"Custom Colors",free:"Free"},
+Qs={limitedTitle:"Limited-time Privileges",basicTitle:"Basic Benefits",items:{preorderSubsidy:{title:"Pre-order Subsidy",desc:"Place order during campaign and save ¥20,000",value:"¥20,000"},
+foilUpgrade:{title:"High-performance Hydrofoil Upgrade",desc:"Free upgrade to full carbon lightweight foils",value:"¥15,000"},
+navAssist:{title:"Navigation Assist License",desc:"Includes 1 year of HAD navigation and stabilization",value:"¥10,000"},
+trainingQuota:{title:"Premium Training Camp Slot",desc:"2-day on-water training + pro coaching",value:"¥8,000"},
+warranty:{title:"Comprehensive Boat Warranty",desc:"5 years or 500 hours (whichever comes first)"},
+driveTrainWarranty:{title:"Powertrain Extended Warranty",desc:"Free 2-year extension for core propulsion system"},
+annualService:{title:"Annual Maintenance Service",desc:"1 free service and foil inspection per year"},
+chartUpdates:{title:"Smart Chart Updates",desc:"3 years of free route updates and remote locating"},
+ownersClub:{title:"Exclusive Owners Club",desc:"Private voyages and member-only activities"}}},
+Hs={startConfiguring:"Start Configuring",preselectHint:"Pre-select the version that suits you"},
+Vs="Colors",_s={initializing:"Initializing...",initializing3DEngine:"Initializing 3D Engine...",creatingRenderEngine:"Creating Render Engine...",settingUpRenderer:"Setting Up Renderer...",initializingCameraController:"Initializing Camera Controller...",initializingSceneManager:"Initializing Scene Manager...",loadingEnvironmentModel:"Loading Environment Model...",loadingMainModel:"Loading Main Model...",interiorModel:"Loading Interior Model...",initializingInterface:"Initializing Interface...",configuringMaterials:"Configuring Materials...",settingDefaultView:"Setting Default View...",loadingComplete:"Loading Complete!",loadingFailed:"Loading Failed"},
+Gs={tabs:Rs,engine:Ts,rudder:Ds,interior:Ls,paint:Ms,paintNames:Fs,paintDesc:Bs,pricing:Os,common:Ns,profile:qs,colorPicker:Us,benefits:Qs,store:Hs,colors:Vs,loading:_s},
+Ws="Dealer Finder",Ys="Global Distribution Network",$s="Search for ALAQUA partners",js="No dealers found",Js="Loading dealers...",Ks="View on Map",Zs="Contact",Xs="Contacts",el="Address",tl="Phone",il="Email",ol="Website",nl="Business Hours",al="Opening Hours",rl="Directions",sl="Gallery",ll="Follow us on",cl={title:Ws,subtitle:Ys,searchPlaceholder:$s,noResults:js,loading:Js,viewOnMap:Ks,contact:Zs,contacts:Xs,address:el,phone:tl,email:il,website:ol,hours:nl,openingHours:al,directions:rl,gallery:sl,followOn:ll},
+dl={title:"Partner",subtitle:"Sailing together with top-tier venture capitalists, we aim to forge a new era of intelligent water transportation"},
+ul={title:"Investment Highlights",items:[{title:"Hydrofoil fusion is the optimal solution for the electrification of ships, unlocking a trillion-dollar market",points:["Currently, the electrification of ships only remains at the simple level of replacing oil with electricity, without fundamentally resolving the contradiction between energy consumption and propulsion efficiency. Hydrofoil technology can truly solve and completely overturn the energy management mode of traditional boats.","High-performance hydrofoil boats have been proven to be valuable in multiple scenarios. Leading overseas enterprises have already made efforts in this field, while there is basically a blank in China."]},
+{title:"Mastering the core industrial chain, possessing superb product innovation capabilities, and leading the industry development",points:["Adhere to self-research and self-production across the entire industry chain, with modular assembly lines for components.","Insist on original design, improve the product matrix, develop intelligent control systems, develop the third mock examination intelligent steering wheel, develop intelligent cockpits, develop terminal sales programs, develop high-strength modular hydrofoils, and develop high-strength lightweight material processes for the hull"]},
+{title:"Actively expand globally and strive to become the absolute leader in the consumer-grade field as soon as possible",points:["Our previous products have been recognized by top customers both domestically and internationally, and have been implemented in various scenarios such as technology, transportation, consumption, and cultural tourism. 80% of our revenue comes from the transportation sector. Based on our technological accumulation and significant advantages, we have taken the lead in developing consumer-grade intelligent water transportation.","We have reached cooperation agreements with multiple domestic top (overseas-oriented) enterprises to jointly promote the implementation of AI+ water transportation vehicles.",'The company has released new form products that are non-competitive in scale, and has established an absolute leading edge by combining the full-chain experience accumulation of "product definition - technological innovation - supply chain - channel".']}]},
+pl={title:"Investor",titleHighlight:"Evaluation",subtitle:"Professional recognition and in-depth evaluation from senior investors and industry experts in the field",items:[{quote:"It has demonstrated breakthrough innovation capabilities in the field of hydrofoil technology, with a forward-thinking product design concept and a promising market outlook.",name:"Technology investment expert",role:"Angel round investor"},
+{quote:"The team possesses a global perspective and execution capability, and has rare composite abilities in the fields of intelligent systems and cross-border supply chains. It is a highly potential future unicorn.",name:"Renowned industrial investor",role:"Lead investor in strategic rounds"},
+{quote:"The team has strong execution capabilities in industrialization implementation and possesses comprehensive abilities from technology research and development to commercialization.",name:"Industrial investment partner",role:"Strategic partner"}],focus:{label:"Investor focus",tags:["technological innovation","market prospects","team strength","execution capability","business model","Supply chain advantage"]}},
+ml={title:"A Fast-Growing Future Unicorn",badge:"CLEAR ROADMAP",subtitle:"From technology validation to global expansion, we have a clear development path and well-defined milestone objectives",stages:{angel:{title:"Angel Round",status:"Completed",amount:"4.5M",milestones:["Core team assembled","Basic product prototype","Technical validation completed"]},
+angelPlus:{title:"Angel+ Round",status:"In Progress",amount:"10M+",milestones:["Second-generation product iteration","Expanded market pilots","Business model validation"]},
+seriesA:{title:"Series A",status:"Planned",amount:"50M+",milestones:["Rapid user scale expansion","Mass production capability","Multi-business node deployment"]},
+seriesB:{title:"Series B",status:"Planned",amount:"200M+",milestones:["International market expansion","Mature supply chain system","Derivative product matrix"]},
+ipo:{title:"IPO Vision",status:"Target",amount:"IPO",milestones:["Solid industry position","Global business footprint","International tech enterprise"]}},
+metrics:{title:"Core Development Metrics",valuation:{value:"1B+",label:"Target Valuation"},
+markets:{value:"20+",label:"Global Market Coverage"},
+team:{value:"500+",label:"Team Size Target"},
+position:{value:"Top 3",label:"Industry Position Target"}}},
+gl={title:"The strength of our investment partners is evident",subtitle:"Join hands with top-tier capital to create a new era of water transportation",description:"Our development has received deep support from top domestic hard technology investment institutions and industry leaders. They are not only financial investors, but also strategic partners who bring profound industrial ecology, technical insights, and commercialization experience.",items:[{name:"Songhe Capital",subtitle:"A seasoned and powerful player in hard technology investment",description:`As a representative of the "southern school" of China's local venture capital, Pine Valley Capital is renowned for its "early investment, small investment, and technology investment" approach, boasting over 27 years of technology investment experience. It has successfully invested in numerous star projects including BGI, DJI, and D-Fang Nano, demonstrating its precise vision and strong post-investment support capabilities.`},
+{name:"Dongguan Qingshui Bay Phase II Venture Capital",subtitle:"",description:'The Dongguan Qingshui Bay Phase II Venture Capital, a paradigm of deep integration of industry, academia, and research, lies in its unique shareholder background of "Hong Kong University + Sequoia China + Tencent Industry Fund + Professor Li Zexiang", setting a precedent for cross-border scientific and technological innovation investment. It deeply integrates the XBOT PARK robot base ecosystem, focuses on early-stage investment in intelligent hardware, and can provide full-chain empowerment for invested enterprises from technology verification to industrial chain docking.'},
+{name:"Professor Li Zexiang",subtitle:"The Founder and Pioneer of Hard Technology Entrepreneurship",description:'Professor Li Zexiang is not only a professor at the Hong Kong University of Science and Technology, but also known as the "Godfather of DJI". He has successfully pioneered a replicable hard technology entrepreneurship model. The XbotPark robotics base he established has incubated over 60 hard technology companies, earning the reputation of being a "cradle of unicorns" with a total valuation exceeding 80 billion yuan.'}]},
+hl={title:"If you are interested in us, please feel free to contact us",subtitle:"Open for negotiation with strategic investors and industrial capital",cards:{business:{title:"Business Cooperation",description:"Explore business cooperation opportunities"},
+technical:{title:"Technical cooperation",description:"Jointly develop innovative technologies"},
+channel:{title:"Channel cooperation",description:"Become an authorized dealer"}},
+phone:"+86 13326656172",email:"alaquas{'@'}fly-h2o.cn"},
+fl={hero:dl,highlights:ul,evaluation:pl,roadmap:ml,partners:gl,contact:hl},
+vl="User",bl="Account Info",yl="Order History",wl="Address Management",Al={empty:"You have no orders yet",startShopping:"Start Shopping",itemCount:"item(s)"},
+Sl={name:"Name",detail:"Address",phone:"Phone",label:"Label",actions:"Actions",empty:"No shipping addresses yet",default:"DEFAULT",setDefault:"DEFAULT",delete:"Delete",addNew:"Add New Address",namePlaceholder:"Enter recipient name",phonePlaceholder:"Enter phone number",province:"Province/State",city:"City",district:"District/County",provincePlaceholder:"Select province/state",cityPlaceholder:"Select city",districtPlaceholder:"Select district/county",addressPlaceholder:"Enter detailed address",setAsDefault:"Set as default address",save:"Save Address",nameRequired:"Please enter recipient name",phoneRequired:"Please enter phone number",areaRequired:"Please select a region",addressRequired:"Please enter detailed address",edit:"Edit",editAddress:"Edit Address",update:"Update Address",updateSuccess:"Address updated successfully",updateFailed:"Failed to update address",addSuccess:"Address added successfully",addFailed:"Failed to add address",areaLoadFailed:"Failed to load area data",clear:"Clear",deleteConfirmTitle:"Delete Address",deleteConfirmSubtitle:"Are you sure you want to delete this address? This action cannot be undone."},
+Cl="Login Account",xl="Email",Il="Phone",El="Password",Pl="Verified",zl="Change Email",kl="Change Number",Rl="Change Password",Tl="Bind",Dl="Email not bound",Ll="Phone not bound",Ml="Third-Party Account Binding",Fl="Link your third-party accounts to enable alternative login methods and prevent account lockout.",Bl="Account Type",Ol="Details",Nl="Linked At",ql="Status",Ul="Action",Ql="No third-party accounts linked yet",Hl="Active",Vl="Inactive",_l="Unlink",Gl={title:"Unlink {name}?",subtitle:"After unlinking, you will no longer be able to log in with this third-party account",success:"Account unlinked successfully",failed:"Failed to unlink account"},
+Wl="Current Password",Yl="Enter your current password",$l="New Password",jl="Enter new password (min 8 characters)",Jl="Confirm New Password",Kl="Re-enter new password",Zl="Please enter your current password",Xl="Please enter a new password",ec="Password must be at least 8 characters",tc="Passwords do not match",ic="Password changed successfully",oc="Failed to change password",nc="New Email",ac="Enter new email address",rc="Please enter an email address",sc="Please enter a valid email address",lc="Email changed successfully",cc="Failed to change email",dc="New Phone Number",uc="Enter new phone number",pc="Please enter a phone number",mc="Phone number changed successfully",gc="Failed to change phone number",hc={title:"Account Security Verification",subtitle:"You are performing a sensitive operation. Please verify your identity before proceeding.",emailWarning:"After changing your email, you will no longer be able to log in with your original email + password.",passwordLabel:"Account Password",passwordPlaceholder:"Enter your current account password",passwordRequired:"Please enter your password",passwordMin:"Password must be at least 8 characters",codeLabel:"Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",codeSentHint:"A verification code has been sent to your current email",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent successfully",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",next:"Next",verifySuccess:"Verification successful",verifyFailed:"Verification failed"},
+fc={title:"New Email Binding",subtitle:"Verification successful. Please verify your new email.",emailLabel:"New Email Address",emailPlaceholder:"Enter new email address",emailRequired:"Please enter an email address",emailInvalid:"Please enter a valid email address",codeLabel:"Email Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent to new email",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",success:"Email changed successfully",failed:"Failed to change email",previous:"Previous"},
+vc={title:"Account Security Verification",subtitle:"You are performing a sensitive operation. Please verify your identity before proceeding.",phoneWarning:"After changing your phone number, you will no longer be able to log in with your original phone + code.",passwordLabel:"Account Password",passwordPlaceholder:"Enter your current account password",passwordRequired:"Please enter your password",passwordMin:"Password must be at least 8 characters",codeLabel:"Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",codeSentHint:"A verification code has been sent to your current phone",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent successfully",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",next:"Next",verifySuccess:"Verification successful",verifyFailed:"Verification failed"},
+bc={title:"New Phone Binding",subtitle:"Verification successful. Please verify your new phone number.",phoneLabel:"New Phone Number",phonePlaceholder:"Enter new phone number",phoneRequired:"Please enter a phone number",phoneInvalid:"Please enter a valid phone number",codeLabel:"SMS Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent to new phone",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",success:"Phone number changed successfully",failed:"Failed to change phone number",previous:"Previous"},
+yc={title:"Bind Email",subtitle:"Binding an email enables login and account recovery",emailLabel:"Email Address",emailPlaceholder:"Enter email address",emailRequired:"Please enter an email address",emailInvalid:"Please enter a valid email address",codeLabel:"Email Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent to email",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",success:"Email bound successfully",failed:"Failed to bind email"},
+wc={title:"Bind Phone Number",subtitle:"Binding a phone enables login and account recovery",phoneLabel:"Phone Number",phonePlaceholder:"Enter phone number",phoneRequired:"Please enter a phone number",phoneInvalid:"Please enter a valid phone number",codeLabel:"SMS Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent to phone",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",success:"Phone bound successfully",failed:"Failed to bind phone"},
+Ac={wechat:"WeChat",alipay:"Alipay",twitter:"Twitter",google:"Google",unknown:"Unknown"},
+Sc={title:"Change Password",subtitle:"Set a new password for your account",methodEmail:"Email Code",methodSms:"SMS Code",noVerifiable:"No email or phone bound. Please bind one before changing the password.",newPasswordLabel:"New Password",newPasswordPlaceholder:"Enter new password (at least 8 characters)",newPasswordRequired:"Please enter a new password",passwordMin:"Password must be at least 8 characters",confirmPasswordLabel:"Confirm New Password",confirmPasswordPlaceholder:"Enter password again",confirmPasswordRequired:"Please confirm your password",passwordMismatch:"Passwords do not match",codeLabel:"Verification Code",codePlaceholder:"Enter 6-digit code",codeRequired:"Please enter the verification code",codeSentHint:"Verification code will be sent to your email",codeSentHintSms:"Verification code will be sent to your phone",sendCode:"Send Code",sending:"Sending...",resendIn:"Resend (
+{seconds}s)",codeSent:"Verification code sent successfully",codeSendFailed:"Failed to send verification code",codeSendTooFrequent:"Please wait before requesting another code",success:"Password changed successfully",failed:"Failed to change password"},
+Cc={defaultNickname:vl,accountInfo:bl,orderHistory:yl,addressManagement:wl,orders:Al,address:Sl,loginAccount:Cl,loginEmail:xl,loginPhone:Il,loginPassword:El,verified:Pl,changeEmail:zl,changePhone:kl,changePassword:Rl,bind:Tl,notBoundEmail:Dl,notBoundPhone:Ll,thirdPartyBinding:Ml,thirdPartyDesc:Fl,bindingAccount:Bl,bindingDetail:Ol,bindingTime:Nl,bindingStatus:ql,bindingAction:Ul,noBindings:Ql,statusActive:Hl,statusInactive:Vl,unbind:_l,unbindModal:Gl,oldPassword:Wl,oldPasswordPlaceholder:Yl,newPassword:$l,newPasswordPlaceholder:jl,confirmNewPassword:Jl,confirmNewPasswordPlaceholder:Kl,oldPasswordRequired:Zl,newPasswordRequired:Xl,passwordMinLength:ec,passwordMismatch:tc,passwordChanged:ic,passwordChangeFailed:oc,newEmail:nc,newEmailPlaceholder:ac,emailRequired:rc,emailInvalid:sc,emailChanged:lc,emailChangeFailed:cc,newPhone:dc,newPhonePlaceholder:uc,phoneRequired:pc,phoneChanged:mc,phoneChangeFailed:gc,securityVerify:hc,newEmailBind:fc,securityVerifyPhone:vc,newPhoneBind:bc,bindEmailModal:yc,bindPhoneModal:wc,socialPlatform:Ac,changePasswordModal:Sc},
+xc="APPLICATION SCENARIOS",Ic={commute:{title:"Daily Commute",description:"Transform your daily commute with our hydrofoil boats. Glide smoothly across waterways, avoiding traffic congestion while enjoying a unique and efficient way to travel. Perfect for coastal cities and waterfront communities."},
+leisure:{title:"Leisure and Vacation",description:"Experience the ultimate in leisure and vacation travel. Whether exploring scenic coastlines, visiting islands, or simply enjoying a peaceful day on the water, our hydrofoil boats provide unmatched comfort and excitement."},
+business:{title:"Business Activities",description:"Elevate your business meetings and corporate events. Impress clients with unique waterborne experiences, host exclusive gatherings, or use our boats for efficient inter-office travel across waterways."},
+sports:{title:"Water Sports",description:"Take your water sports adventures to the next level. Our hydrofoil technology enables thrilling high-speed experiences while maintaining stability and safety, perfect for enthusiasts seeking excitement on the water."}},
+Ec={title:xc,cards:Ic},
+Pc="Request failed",zc="Network error, please check your connection",kc="Request timeout, please try again later",Rc="Failed to refresh token, please sign in again",Tc="Login expired, please sign in again",Dc={400:"The password length is 4-16 characters.",401:"Not logged in",403:"No permission for this operation",404:"Request not found",405:"Invalid request method",423:"Request failed, please try again later",429:"Too many requests, please try again later",500:"System error",502:"Invalid configuration",900:"Duplicate request, please try again later",902:"Data already exists",999:"Unknown error",1002e6:"Login failed, incorrect account or password",1002000001:"Login failed, account is disabled",1002000004:"Incorrect verification code",1002000005:"Account not bound, binding required",1002000007:"Phone number does not exist",1002000008:"Account not bound, binding required",1002001e3:"A menu with this name already exists",1002001001:"Parent menu not found",1002001002:"Cannot set itself as parent menu",1002001003:"Menu not found",1002001004:"Has sub-menus, cannot delete",1002001005:"Parent menu type must be directory or menu",1002001006:"A menu with this component name already exists",1002002e3:"Role not found",1002002001:"A role with this name already exists",1002002002:"A role with this identifier already exists",1002002003:"Cannot operate on built-in system roles",1002002004:"This role has been disabled",1002002005:"This identifier cannot be used",1002003e3:"User account already exists",1002003001:"Phone number already exists",1002003002:"Email already exists",1002003003:"User not found",1002003004:"Import user data cannot be empty",1002003005:"Password verification failed",1002003006:"User has been disabled",1002003008:"Failed to create user, tenant quota exceeded",1002003009:"Initial password cannot be empty",1002003010:"This phone number is not registered",1002003011:"Registration is closed",1002004e3:"A department with this name already exists",1002004001:"Parent department not found",1002004002:"Current department not found",1002004003:"Has sub-departments, cannot delete",1002004004:"Cannot set itself as parent department",1002004006:"Department is not enabled, cannot be selected",1002004007:"Cannot set a child department as parent",1002005e3:"Position not found",1002005001:"Position is not enabled, cannot be selected",1002005002:"A position with this name already exists",1002005003:"A position with this identifier already exists",1002006001:"Dictionary type not found",1002006002:"Dictionary type is not enabled, cannot be selected",1002006003:"A dictionary type with this name already exists",1002006004:"This dictionary type already exists",1002006005:"Cannot delete, dictionary type still has data",1002007001:"Dictionary data not found",1002007002:"Dictionary data is not enabled, cannot be selected",1002007003:"A dictionary data with this value already exists",1002013002:"SMS template does not exist",1002014e3:"Verification code not found",1002014001:"Verification code has expired",1002014004:"Exceeded the daily SMS sending limit",1002014005:"SMS messages sent too frequently",1002018e3:"Social authorization failed",1002018001:"Social authorization failed, user not found",1002018210:"Social client not found",1002018211:"Social client already configured",100202e4:"OAuth2 client not found",1002020001:"OAuth2 client ID already exists",1002020002:"OAuth2 client is disabled",1002020003:"Unsupported authorization type",1002020004:"Authorization scope too large",1002020005:"Invalid redirect_uri",1002020006:"Invalid client_secret",1002021e3:"client_id mismatch",1002021001:"redirect_uri mismatch",1002021002:"state mismatch",1002022e3:"Code not found",1002022001:"Code has expired",1002023e3:"Email account not found",1002023001:"Cannot delete, email account still has templates",1002024e3:"Email template not found",1002024001:"Email template code already exists",1002025e3:"Template parameter missing",1002025001:"Email address not found",1002026e3:"Notification template not found",1002026001:"A notification template with this code already exists",1002029e3:"Website menu not found",1002029001:"Website parent menu not found",1002029002:"Parent menu type must be directory or menu",1002029003:"A menu with this name already exists",1002029004:"A menu with this component name already exists",1002029005:"Has sub-menus, cannot delete",100203e4:"Verification code not found",1002030001:"Verification code expired",1002030002:"Verification code already used",1002030003:"Daily email limit exceeded",1002030004:"Email sending too frequent",1002031001:"Il formato delle informazioni di contatto non è corretto.",1004001e3:"User not found",1004001001:"Phone number not registered",1004001002:"Failed to update phone, this number is already in use",1004001004:"Failed to update email, this email is already in use",1004003e3:"Login failed, incorrect account or password",1004003001:"Login failed, account is disabled",1004003002:"Operation failed, incorrect account or password",1004003005:"Login failed, unable to parse third-party login info",1004003007:"Phone number is already in use",1008001e3:"Product category not found",1008001001:"Parent category not found",1008001002:"Parent category cannot be a second-level category",1008001003:"Has sub-categories, cannot delete",1008001004:"Product category is disabled, cannot be used",1008001005:"Category contains products, cannot delete",1008002e3:"Brand not found",1008002001:"Brand is disabled",1008002002:"Brand name already exists",1008003e3:"Attribute not found",1008003001:"Attribute name already exists",1008003002:"Attribute has values, cannot delete",1008004e3:"Attribute value not found",1008004001:"Attribute value name already exists",1008005e3:"Product SPU not found",1008005001:"Incorrect product category",1008005002:"Product SPU save failed",1008005003:"Product is not available",1008005004:"Product SPU is not in recycle bin",1008006e3:"Product SKU not found",1008006001:"Duplicate SKU attribute combination",1008006002:"All SKUs under one SPU must have consistent attributes",1008006003:"All SKUs under one SPU must be unique",1008006004:"Product SKU out of stock",requestFailed:Pc,networkError:zc,timeout:kc,refreshTokenFailed:Rc,loginExpired:Tc},
+Lc={empty:"No accessories available at the moment"},
+Mc="Style or Color",Fc="PRODUCT DETAILS",Bc="Out of stock",Oc="Coming Soon",Nc="Maximum available quantity: {count}",qc={title:"GWC",empty:"Your cart is empty",subtotal:"Subtotal",shipping:"Shipping",total:"Total",checkout:"CHECK OUT"},
+Uc={title:"Search",placeholder:"Search products...",empty:"Type a keyword to start searching",noResults:"No matching products",noMore:"No more results"},
+Qc={title:"ADDRESS",management:"Address Management",actions:"Actions",label:"Label",default:"DEFAULT",newAddress:"New Address",editAddress:"Edit Address",name:"Name",phone:"Phone",region:"Province / City / District",province:"Province / State",city:"City",district:"District / County",detail:"Detailed address (e.g. **Street No.**)",locate:"Locate nearby",defaultShipping:"Default shipping address",clear:"Clear",save:"SAVE",buyWithShop:"BUY WITH SHOP",buyNow:"BUY NOW",nameRequired:"Please enter recipient name",phoneRequired:"Please enter phone number",areaRequired:"Please select a region",detailRequired:"Please enter detailed address",addSuccess:"Address added successfully",addFailed:"Failed to add address",updateSuccess:"Address updated successfully",updateFailed:"Failed to update address",operationFailed:"Operation failed",deleteConfirmTitle:"Delete Address",deleteConfirmSubtitle:"Are you sure you want to delete this address? This action cannot be undone.",emptyTip:"No shipping address yet, please add one first",addFirstAddress:"Add Address",noAddressTip:"Please select a shipping address first"},
+Hc={confirmed:"ORDER CONFIRMED",paymentSuccessful:"PAYMENT SUCCESSFUL",thankYou:"Thank you for your purchase!",orderNumber:"Order Number",orderDate:"Order Date",orderDetails:"Order Details",contactSupport:"Contact Support",orderAddress:"Shipping Address",product:"Product",unitPrice:"Unit Price",quantity:"Quantity",amountPaid:"Amount Paid",includingShipping:"Incl. shipping",paymentTime:"Payment Time",items:"Items",color:"Color",shippingAddress:"Shipping Address",noAddress:"No address provided",paymentMethod:"Payment Method",status:"Status",viewOrders:"VIEW ORDERS",continueShopping:"CONTINUE SHOPPING",notFound:"Order not found",backToStore:"Back to Store",history:"ORDER HISTORY",noOrders:"You have no orders yet.",startShopping:"START SHOPPING",itemCount:"item(s)",backToOrders:"Back to Orders",details:"Order Details",actions:"Order Actions",statusTracking:"Status Tracking",statusPending:"Pending",statusPaid:"Paid",statusShipped:"Shipped",statusDelivered:"Delivered",stepPlaceOrder:"Place Order",stepBuyerPayment:"Buyer Payment",stepSellerShips:"Seller Ships",stepConfirmReceipt:"Confirm Receipt",productAmount:"Amount",refund:"Refund",addToCart:"Add to Cart",pendingShipment:"Pending Shipment",estimatedDelivery:"Estimated delivery",logisticsDetails:"Logistics Details",createTime:"Created",back:"BACK",qty:"Qty",each:"each",payment:"Payment",placedOn:"Placed on",statusPendingPayment:"Pending Payment",statusPendingShipment:"Pending Shipment",statusPendingReceipt:"Pending Receipt",statusCompleted:"Completed",statusClosed:"Closed",cancelOrder:"Cancel Order",payOrder:"Pay Now",confirmReceipt:"Confirm Receipt",viewLogistics:"View Logistics",deleteOrder:"Delete Order",buyAgain:"Buy Again",countdownDaysHours:"{days}d {hours}h remaining",countdownHoursMinutes:"{hours}h {minutes}m remaining",countdownMinutesSeconds:"{minutes}m {seconds}s remaining",cancelSuccess:"Order cancelled successfully",cancelFailed:"Failed to cancel order",receiveSuccess:"Receipt confirmed successfully",receiveFailed:"Failed to confirm receipt",deleteSuccess:"Order deleted successfully",deleteFailed:"Failed to delete order",deleteConfirm:"Are you sure you want to delete this order?",cancelConfirm:"Are you sure you want to cancel this order?",receiveConfirm:"Are you sure you want to confirm receipt?",logisticsTitle:"Logistics Tracking",noLogistics:"No logistics information available yet"},
+Vc={shippingMethod:"Shipping method",upsExpress:"UPS Express",secureMessage:"All transactions are secure and encrypted.",creditCard:"Credit card",cardNumber:"Card number",expiry:"Expiration date (MM/YY)",securityCode:"Security code",nameOnCard:"Name on card",useBillingAddress:"Use shipping address as billing address",newsletter:"Sign me up for news and offers from this store",payNow:"PAY NOW",selectPayment:"Select Payment Method",wechatPay:"WeChat Pay",wechatPayDesc:"Scan QR code with WeChat",alipay:"Alipay",alipayDesc:"Scan QR code with Alipay",unionpay:"UnionPay",unionpayDesc:"Scan QR code with UnionPay",confirmPay:"Confirm Payment",scanToPay:"Please scan the QR code below with the corresponding app to complete payment",generatingQR:"Generating QR code...",qrPlaceholder:"Loading QR code",paymentComplete:"I have completed payment",paymentTip:"Please click this button after completing payment. The system will automatically verify the result.",orderSummary:"Order Summary",discountPlaceholder:"Discount code or gift card",apply:"Apply",subtotal:"Subtotal",items:"items",shippingFee:"Shipping",freeShippingTag:"FREE SHIPPING",total:"Total",totalSavings:"TOTAL SAVINGS",shop:"SHOP",free:"FREE"},
+_c={accessories:Lc,styleOrColor:Mc,productDetails:Fc,outOfStock:Bc,comingSoon:Oc,maxStock:Nc,cart:qc,search:Uc,address:Qc,order:Hc,checkout:Vc},
+Gc={title:"Control Architecture",subtitle:"The control architecture is the foundation of the entire vessel, delivering an advanced cockpit and driving experience"},
+Wc={title:"Four-in-One Domain Control Module",description:"Unlike the traditional distributed architecture of conventional vessels, the intelligent control architecture highly integrates the VCCD vessel domain controller, DCD cockpit domain controller, ADD assisted-driving domain controller and T-Box communication module into a single central computing brain, dramatically reducing the number of controllers while cutting weight and energy consumption."},
+Yc={title:"Highly Integrated, Compact and Lightweight",stats:{controllers:{value:"-75%",label:"Controllers"},
+space:{value:"-57%",label:"Space Occupied"},
+weight:{value:"-75%",label:"Component Weight"}},
+sentry:{line1:"Guardian Mode",line2:"Streamlined Communication Link",power:"40% Lower Power Consumption"},
+efficiency:{title:"Energy-Optimized Range",description:"Up to 16 km Extended"},
+disclaimers:["*Data from the Yushui Flying Lab. Volume and weight comparisons are against the intelligent control architecture prior to high integration.","*Guardian mode power consumption depends on activation duration;
+ actual figures prevail. Comparison baseline: the guardian mode of hydrofoils equipped with the Yushui Flying intelligent system."]},
+$c={title:"Advanced Communication Technology Onboard",features:[{title:"Dual 5G in Parallel",line1:"Substantially improved signal coverage and reliability",line2:"Network handover <0.5s"},
+{title:"Wi-Fi 7",line1:"Triple Bluetooth & Dual Wi-Fi",line2:"Onboard hotspot 83% faster"},
+{title:"UWB",line1:"5 UWB positioning anchors",line2:""},
+{title:"IoT Communication Interface",line1:"Building a more open",line2:'"Human-Vessel-Home Ecosystem"'}],disclaimer:"*Data from the Yushui Flying Lab. Network handover time may vary across test environments;
+ the primary cellular 5G band supports DSDA;
+ network hotspot sharing supports up to Wi-Fi 7, with MLO not enabled for Wi-Fi 7."},
+jc={title:"Ultra-High Computing Platform",description:"The intelligent cockpit SoC uses the third-generation Snapdragon®8 Mobile Platform;
+ the assisted-driving compute chip uses the new-generation NVIDIA DRIVE AGX Thor™ onboard computing platform. Ultra-high computing power delivers an advanced intelligent cockpit and assisted-driving experience."},
+Jc={title:"Third-Generation Snapdragon®8 Mobile Platform",description1:"4 nm process, bringing outstanding mobile-computing performance and power efficiency to a hydrofoil for the first time.",description2:"A smoother intelligent cockpit experience — faster boot, faster launch, faster upgrades!",disclaimers:["*Data from the Yushui Flying Lab. Changes are measured against the previous generation and may vary by software version and test environment.","*First-time statistics based on publicly available information."]},
+Kc={titleLine1:"New Generation",titleLine2:"NVIDIA DRIVE AGX Thor™",titleLine3:"Onboard Computing Platform",description:"The assisted-driving module integrates NVIDIA's new-generation 4 nm platform powered by the Blackwell architecture, pushing total compute to an astonishing 700 TOPS for stronger complex-workload support."},
+Zc={title:"Intelligent Control Architecture Passes Rigorous Reliability Tests",description1:"The core board is validated to the AEC-Q104 standard, with durability testing exceeding 2× the industry benchmark,",description2:"covering more than 17 environment categories and 280 test scenarios — a solid foundation for vessel-wide intelligence that stays rock-steady when it matters most."},
+Xc=["* All structural images shown across the site are functional illustrations.","* Product images and displayed content are for reference only. Actual product features and specifications (including but not limited to appearance, color and dimensions) as well as actual displayed content may differ;
+ the final product prevails.","* Unless otherwise noted, all data on this site come from Yushui Flying's internal testing.","* All data comparisons, industry rankings and patent filings across the site are current as of the release date of December 28, 2023."],ed={product:"Product",showcase:"Product Showcase",integration:"Highly Integrated",sentry:"Guardian Mode",efficiency:"Energy Efficiency",communication:"Advanced Communication Technology",dual5g:"Dual 5G in Parallel",wifi7:"Wi-Fi 7",uwb:"UWB",iot:"IoT Communication Interface",snapdragon:"Third-Generation Snapdragon®8 Mobile Platform",nvidia:"New Generation"},
+td={carbonHull:"Carbon Monocoque Hull",smartMatrixLight:"Smart Matrix Light",frontHydrofoil:"Front Hydrofoil",cockpit:"Cockpit",rearHydrofoil:"Rear Hydrofoil",outboardMotor:"Outboard Motor"},
+id={carbonFiber:"Carbon Fiber Integrated Molding",stability:"Hull Attitude Stabilization System"},
+od={title:"Data Control System",cruiseSpeed:"Cruise Speed",maxSpeed:"Max Speed",endurance:"Endurance",fastCharge:"DC Fast Charge"},
+nd={learnMore:"Learn More"},
+ad={hero:Gc,domain:Wc,integration:Yc,communication:$c,computing:jc,snapdragon:Jc,nvidia:Kc,reliability:Zc,disclaimers:Xc,alt:ed,parts:td,craft:id,metrics:od,cta:nd},
+rd="Enable Location Access",sd="We need your location to unlock the full site. Without access, only the home page is available.",ld="Location Access Denied",cd="You currently have limited access. Grant location permission to browse models, the store and other sections.",dd="Allow",ud="Re-authorize",pd="Stay on Home",md="Location access is required to browse all features.",gd="Re-authorize",hd="Limited",fd="Your browser does not expose geolocation (HTTPS required). Please switch to a supported browser.",vd="Location is blocked in your browser",bd="Your browser has remembered your previous denial, so the permission prompt will no longer appear. Please re-enable it manually:",yd={step1:"Click the lock or info icon next to the address bar.",step2:'Find "Location" in the site permissions list.',step3:'Switch it to "Allow", then return here and tap the button below.'},
+wd="I've enabled it — try again",Ad="Location is still blocked. Please double-check the browser site settings.",Sd="Location access granted",Cd="Show details",xd="Location Access Denied",Id="You currently have limited access. Grant location permission to browse models, the store and other sections.",Ed="Location Service Unavailable",Pd="We could not determine your location. Please make sure your system location service is on and your network is reachable, then try again.",zd="Location Request Timed Out",kd="Getting your location took too long. This often happens indoors or with weak GPS signal. Please try again.",Rd="Try again",Td={promptTitle:rd,promptSubtitle:sd,deniedTitle:ld,deniedSubtitle:cd,allow:dd,retry:ud,backToHome:pd,banner:md,bannerCta:gd,limitedBadge:hd,unsupportedHint:fd,browserBlockedTitle:vd,browserBlockedSubtitle:bd,browserBlockedSteps:yd,verifyAfterEnable:wd,stillBlocked:Ad,permissionGranted:Sd,viewDetail:Cd,deniedTitleUserDenied:xd,deniedSubtitleUserDenied:Id,deniedTitleUnavailable:Ed,deniedSubtitleUnavailable:Pd,deniedTitleTimeout:zd,deniedSubtitleTimeout:kd,retryGeneric:Rd},
+Dd={eyebrow:"carbon fiber",heading:"Application of carbon fiber materials",description:"Some components of hydrofoil boats incorporate advanced carbon fiber materials, which not only possess aesthetic appeal but also exhibit excellent performance in practical applications. As a high-performance composite material, carbon fiber is gradually becoming the core material for the new generation of ship manufacturing.",features:[{title:"High strength and low density",desc:"The strength of carbon fiber is up to 4-5 times that of steel, while its density is only 1/4 of steel and 2/3 of aluminum. This unique performance allows hydrofoil boats to greatly reduce hull weight while maintaining structural strength, improving navigation efficiency."},
+{title:"Lightweight design and lower consumption",desc:"According to industry data, lightweight design can reduce vessel energy consumption by 16-18%, further improving navigation efficiency and operating economy. By adopting carbon fiber materials, the Y series hydrofoil achieves significant lightweight results."},
+{title:"Corrosion resistance and durability",desc:"Carbon fiber has excellent corrosion resistance and can be used for long periods in harsh water environments without being affected by rust. Its fatigue resistance is also outstanding, ensuring long-term product stability and reliability."},
+{title:"Innovative design and manufacturing process",desc:"Multi-layer carbon fiber composites and high-temperature, high-pressure curing technology are used to ensure optimized hull structure and stability."},
+{title:"Environmental protection and sustainability",desc:"Carbon fiber material is not only lightweight and durable, but also offers good recyclability, aligning with modern environmental principles."}]},
+Ld={title:"Battery",intro:{title:"A lithium iron phosphate battery power system specifically designed for ships and offshore operation platforms.",description:"It integrates high safety, strong protection, lightweight and intelligent management, calmly deals with complex ocean conditions such as high humidity salt fog, rainstorm and turbulence, and provides lasting and stable green power support for the ship power system."},
+advantages:{label:"ADVANTAGES OF BATTERIES",items:[{title:"High safety lithium iron phosphate battery cells",description:"Reduce the risk of thermal runaway from the source and ensure the safety of personnel and ships. Long cycle life, suitable for long-term and high-frequency operation needs of ships. Suitable for all-weather operations."},
+{title:"Intelligent BMS remote monitoring",description:"Real time monitoring: 24/7 online monitoring of core data such as voltage, temperature, SOC/SOH, etc., with real-time warning of abnormal states to prevent problems before they occur."},
+{title:"IP67 comprehensive protection",tags:["Strong waterproof","Corrosion resistance","Durable and sturdy","Tightly sealed"]}]},
+lightweight:{title:"Lightweight aluminum casing",items:[{label:"Weight reduction and efficiency improvement",text:"Aluminum alloy has low density, significantly reducing the weight of the ship, improving load capacity and endurance, and optimizing energy consumption performance."},
+{label:"Efficient heat dissipation",text:"Excellent thermal conductivity, conducive to heat management of battery systems, and maintaining the operation of battery cells in a suitable temperature range."},
+{label:"Durable and reliable",text:"High strength aluminum alloy, after heat treatment, has excellent impact resistance and deformation resistance, ensuring structural safety in harsh sea conditions."},
+{label:"Safety design",text:"The box has flame-retardant properties and is equipped with pressure relief channels to further enhance the system's safety level."}]}},
+Md={title:"OUTBOARD MOTOR",slogan:"Enjoy the power on the water, and navigate with ease and intelligence",description:"Integrating intelligent control, electric propulsion, and user-friendly experience, this new boat brings you a quiet, reliable, and easy-to-operate experience with its compact fully-integrated design, ultra-low operating noise, and intelligent remote control system.",features:[{title:"ULTRA-QUIET AND COMFORTABLE EXPERIENCE",details:[{label:"Excellent NVH performance",text:"Extremely low noise, vibration, and harshness, enhancing the quality of boat rides."},
+{label:"Ultimate noise reduction",text:"With rubber damping vibration reduction and modal frequency avoidance design, the maximum noise during operation is below 73 decibels, making it feel like you are in a quiet office."},
+{label:"Immersive experience",text:"Allowing you to only hear the natural sound of water, with almost no perceivable machine-driven noise, enjoying a peaceful and comfortable sailing experience."}]},
+{title:"FULLY INTEGRATED INTELLIGENT DESIGN",details:[{label:"Integrated innovation",text:"Exclusively integrates central controller, motor controller, and electric steering module into one compact structure, saving valuable space on board."},
+{label:"Intelligent features",text:"Equipped with intelligent functions such as electric tilt, making operation effortless and worry-free."},
+{label:"Power optimization",text:"Leveraging a provincial-level hydrodynamic laboratory and leading propeller design, significantly improving propulsion efficiency for a more energy-saving voyage."}]},
+{title:"PROFESSIONAL AND RELIABLE QUALITY",details:[{label:"High durability",text:"The product is designed to be robust and reliable, built to last and adaptable to various marine environments."},
+{label:"Authoritative certification",text:"The product has obtained type approval from the China Classification Society (CCS),
+ ensuring guaranteed quality and giving you peace of mind."}]},
+{title:"INTELLIGENT HUMAN-MACHINE INTERACTION",details:[{label:"Fingertip control",text:"The ePropulsion intelligent throttle paired with a 5-inch HD display provides an intuitive and user-friendly control experience."},
+{label:"Information at a glance",text:"The display shows real-time motor operating status, alarm information, remote control system status, and comprehensive boat data, keeping you fully informed about your vessel."},
+{label:"Safety redundancy",text:"The ePropulsion remote control system builds integrated electronic control, enhancing navigation safety and operational flexibility with robust fault-handling capability."}]}]},
+Fd={carbonFiberMaterial:Dd,battery:Ld,outboardMotor:Md},
+Bd="Caricamento...",Od="Errore",Nd="Successo",qd="Annulla",Ud="Conferma",Qd="Invia",Hd="Salva",Vd="Modifica",_d="Visualizza",Gd="Chiudi",Wd="Indietro",Yd="Avanti",$d="Precedente",jd="Cerca",Jd="Filtra",Kd="Ordina",Zd="Aggiorna",Xd="Sessione scaduta, effettua nuovamente l'accesso",eu={spaceSilver:"Argento Spaziale",lightningYellow:"Giallo Fulmine",brightRed:"Rosso Brillante",parrotGreen:"Verde Pappagallo",obsidianBlue:"Blu Ossidiana",cyan:"Ciano"},
+tu={loading:Bd,error:Od,success:Nd,cancel:qd,confirm:Ud,submit:Qd,save:Hd,delete:"Elimina",edit:Vd,view:_d,close:Gd,back:Wd,next:Yd,previous:$d,search:jd,filter:Jd,sort:Kd,refresh:Zd,loginExpired:Xd,colors:eu},
+iu="Alaqua",ou="Volare sull'Acqua",nu="Home",au="Modelli",ru="Tecnologia",su="Configuratore",lu="Esperienza",cu="Chi Siamo",du="Contatti",uu="Investitori",pu="Accedi",mu="Registrati",gu="Il Mio Account",hu="Esci",fu="Disconnesso con successo",vu="Avatar Predefinito",bu="Lingua",yu="Chiudi",wu={menuButton:"Menu",hydrofoil:"Aliscafo",models:"Serie di Modelli",h1Series:"Y-3",h1Desc:"Versione a Tre Posti",h2Series:"Y-5",h2Desc:"Versione a Cinque Posti",craftsmanship:"Artigianato Aliscafo",manufacturing:"Processo di Produzione",superEngine:"Super Motore",superEngineDesc:"Standard di Qualità Rigorosi",highVoltagePlatform:"Piattaforma Alta Tensione",highVoltagePlatformDesc:"Tecnologia Batteria",carbonFiber:"Super Artigianato",carbonFiberDesc:"Fibra di Carbonio",assistedNavigation:"Navigazione Assistita",assistedNavigationDesc:"Sistema di Assistenza Intelligente",smartSteering:"Sterzo Intelligente",smartSteeringDesc:"Tre Modalità",batteryMenu:"Batteria",batteryMenuDesc:"Sistema Batteria Marina",outboardMotorMenu:"Motore Fuoribordo",outboardMotorMenuDesc:"Motore Fuoribordo Elettrico",carbonFiberMaterialMenu:"Fibra di Carbonio",carbonFiberMaterialMenuDesc:"Materiali in Fibra di Carbonio",technology:"Introduzione Principale",hydrofoilAdvantages:"Vantaggi Aliscafo",hydrofoilAdvantagesDesc:"Velocità, Stabilità, Comfort",applicationScenarios:"Scenari Applicativi",applicationScenariosDesc:"Passeggeri, Tempo Libero, Trasporto",investors:"Investitori",overview:"Introduzione",businessPlan:"Business Plan",businessPlanDesc:"Presentazione Dati Dettagliata",careers:"Squadra",contact:"Contattaci",services:"Servizi",serviceGuarantee:"Garanzia di Servizio",chargingNetwork:"Rete di Ricarica",financingOptions:"Test Finanziario",locations:"Altri",dealers:"Rivenditori",dealersDesc:"Distribuzione Globale",storeLocator:"Trova Negozio",storeLocatorDesc:"Stato e Posizione Centro Esperienza",customerService:"Servizio Clienti",customerServiceDesc:"Supporto e Aiuto",aboutUs:"Chi Siamo",aboutMe:"Su di Me",companyIntroduction:"Presentazione Aziendale",factory:"Fabbrica",learnHydrofoil:"Scopri l'Aliscafo",legal:"Termini Legali",userAgreement:"Accordo Utente",privacyPolicy:"Politica sulla Privacy",authAgreement:"Accordo di Autorizzazione",serviceAgreement:"Accordo di Servizio Post-Vendita",insuranceAgreement:"Accordo di Servizio Assicurativo",storeNav:{hydrofoil:"ALISCAFO",hmi:"HMI di Bordo",design:"PROGETTAZIONE NAVALE",hullDesignBuild:"Progettazione e Costruzione Scafo",accessories:"ACCESSORI NAVALI",development:"SVILUPPO SOFTWARE",distribution:"DISTRIBUZIONE",search:"cerca..."}},
+Au={models:{title:"I Nostri Modelli",h1:{name:"H-1",tagline:"Prestazioni Entry"},
+h2:{name:"H-2",tagline:"Capacità Avanzate"},
+h3:{name:"H-3",tagline:"Eccellenza Definitiva"},
+compare:"Confronta Modelli",viewAll:"Vedi Tutti i Modelli"},
+technology:{title:"Innovazione",hydrofoil:"Tecnologia Aliscafo",propulsion:"Propulsione Elettrica",autonomy:"Sistemi Autonomi",materials:"Materiali Avanzati",battery:"Tecnologia Batteria"},
+about:{title:"Azienda",story:"La Nostra Storia",team:"Team di Leadership",factory:"Produzione",sustainability:"Sostenibilità",careers:"Carriere"},
+contact:{title:"Contattaci",dealers:"Trova un Rivenditore",support:"Supporto Clienti",service:"Centri di Servizio",press:"Richieste Stampa"}},
+Su={hydrofoil:"ALISCAFO",hmi:"HMI di Bordo",design:"DESIGN NAVALE",hullDesign:"Progettazione e Costruzione Scafo",accessories:"ACCESSORI NAVALI",development:"SVILUPPO SOFTWARE",distribution:"DISTRIBUZIONE"},
+Cu={configure:"Configura il Tuo",testDrive:"Prenota Esperienza",contact:"Contattaci",store:"NEGOZIO"},
+xu={company:"Azienda",products:"Prodotti",support:"Supporto",legal:"Legale",social:"Seguici"},
+Iu={brand:iu,tagline:ou,home:nu,models:au,technology:ru,configurator:su,experience:lu,about:cu,contact:du,investors:uu,login:pu,register:mu,account:gu,logout:hu,logoutSuccess:fu,defaultAvatar:vu,language:bu,close:yu,menu:wu,submenu:Au,storeMenu:Su,cta:Cu,footer:xu},
+Eu={tagline:"ALIMENTATO DALLA SCIENZA. ELEVATO DALL'ACQUA.",cta:"ESPLORA Y-3"},
+Pu={title:"Y-5 AMMIRAGLIA CINQUE POSTI",tagline:"AMMIRAGLIA DI NUOVA GENERAZIONE. VOLO DI LUSSO SULL'ACQUA.",cta:"SCOPRI IL NUOVO Y-5"},
+zu={title:"INNOVAZIONE TECNOLOGICA",subtitle:"Superare le barriere per cavalcare il vento",subtitleLine2:"prova di un nuovo livello di efficacia",learnMore:"SCOPRI DI PIÙ"},
+ku={line1:"RICERCA E SVILUPPO",line2:"DESIGN, INNOVAZIONE"},
+Ru={title:"LA NOSTRA MISSIONE",description:`La piattaforma operativa marina più solida come una roccia
+Il definatore più efficiente dell'economia dell'acqua
+L'imbarcazione dalle prestazioni più eccezionali`},
+Tu={title:"Barca aliscafo elettrica",feature1:"Focus su scenari di trasporto acquatico e turismo culturale globali",feature2:"Fornire soluzioni per navi elettriche",feature3:"Costruire nuove modalità di viaggio sull'acqua"},
+Du={title:"FOILING DI NUOVA GENERAZIONE",intro:"Il vero potere non spreca nulla.",description1:"Sollevando lo scafo sopra il mare, la tecnologia dell'aliscafo offre efficienza impareggiabile, autonomia estesa, consumo ridotto e velocità senza sforzo.",description2:"Progettato per proprietari che comprendono che il futuro del dominio è intelligente, responsabile e senza compromessi.",lessResistance:"Meno resistenza.",moreAuthority:"Più autorità.",conclusion:"Uno yacht che dimostra che la sostenibilità può ancora intimidire.",cta:"ENTRA IN ALAQUA"},
+Lu={title:"FLY-H2O HOME",slide1:{title:"Versione Y-3 a tre posti",subtitle:"Basso consumo energetico, alta capacità passeggeri",linkText:"Scopri di Più"},
+slide2:{title:"Versione Y-5 a cinque posti",subtitle:"Fari a goccia d'acqua, migliore esperienza di autonomia",linkText:"Scopri di Più"},
+slide3:{title:"Nuovo Prodotto in Sviluppo",subtitle:"Restate Sintonizzati",linkText:""}},
+Mu={badge:"Aliscafo Elettrico",title:"Volare sull'Acqua",titleLine1:"Ridefinire",titleLine2:"la Mobilità Marittima",subtitle:"Scopri il futuro delle imbarcazioni con la rivoluzionaria tecnologia dell'aliscafo",cta:{primary:"Esplora i Modelli",secondary:"Prenota Esperienza"}},
+Fu={badge:"Aliscafo Elettrico",title:"Dove l'Innovazione Incontra il Mare",description:"I nostri aliscafi elettrici combinano tecnologia all'avanguardia con prestazioni impareggiabili, offrendo un modo fluido, silenzioso e sostenibile di viaggiare sull'acqua.",stats:{speed:{value:"50+",unit:"km/h",label:"Velocità Massima"},
+range:{value:"100+",unit:"km",label:"Autonomia"},
+noise:{value:"0",unit:"dB",label:"Zero Emissioni"}}},
+Bu={badge:"La Flotta",title:"Scegli la Tua Esperienza",description:"Dalle prestazioni entry-level al lusso definitivo, scopri l'aliscafo perfetto per il tuo viaggio.",h1:{name:"H-1",tagline:"Prestazioni Entry",description:"Introduzione perfetta alla tecnologia dell'aliscafo con capacità impressionanti."},
+h2:{name:"H-2",tagline:"Capacità Avanzata",description:"Prestazioni migliorate e funzionalità per l'appassionato esigente."},
+h3:{name:"H-3",tagline:"Eccellenza Definitiva",description:"L'apice dell'ingegneria degli aliscafi e dell'artigianato di lusso."},
+cta:"Scopri di Più"},
+Ou={badge:"Innovazione",title:"Eccellenza Ingegneristica",description:"Ogni componente è progettato per offrire un'esperienza straordinaria sull'acqua.",features:{hydrofoil:{title:"Sistema Aliscafo",description:"Design avanzato delle ali che solleva lo scafo sopra l'acqua, eliminando la resistenza e consentendo un'efficienza simile al volo."},
+propulsion:{title:"Propulsione Elettrica",description:"Silenziosa, potente e senza emissioni. I nostri motori offrono coppia istantanea senza impatto ambientale."},
+materials:{title:"Costruzione in Fibra di Carbonio",description:"Materiali di qualità aerospaziale garantiscono un rapporto ottimale resistenza-peso per le massime prestazioni."},
+autonomy:{title:"Sistemi Intelligenti",description:"Sensori avanzati e AI forniscono stabilità, sicurezza e un'esperienza di guida intuitiva."}},
+cta:"Esplora la Tecnologia"},
+Nu={badge:"Senti la Differenza",title:"Prenota la Tua Esperienza",description:"Niente è paragonabile alla sensazione di volare sull'acqua. Prenota il tuo volo di prova oggi.",features:{feature1:"Guida professionale",feature2:"Ambiente sicuro e controllato",feature3:"Nessuna esperienza richiesta"},
+cta:"Prenota Ora"},
+qu={badge:"Pronto a Volare?",title:"Configura il Tuo Aliscafo",description:"Crea la tua imbarcazione perfetta con il nostro configuratore 3D intuitivo.",button:"Inizia a Configurare"},
+Uu={badge:"Ultime Notizie",title:"Rimani Informato",viewAll:"Vedi Tutte le Notizie"},
+Qu={badge:"Real scene",subtitle:"Aliscafo",title:"Riprese di navigazione reali",description:"Girato in diretta in acque reali, questo documentario mostra le prestazioni dell'aliscafo in termini di autonomia, tenuta di mare e stabilità, dal decollo e sollevamento delle ali alla crociera ad alta velocità. Senza effetti speciali o simulazioni, documenta come l'aliscafo raggiunga una navigazione sicura, stabile ed efficiente con nuove energie in condizioni reali.",discoverMore:"Scopri di più",cta:"SCOPRI LA GAMMA",items:{h1:{name:"Shenzhen · Dameisha Real Shot",description:"Ripresa aerea di un aliscafo in funzione nelle acque costiere di Dameisha, Shenzhen. Dimostra il suo processo di navigazione lift-up e l'adattabilità agli ambienti con mare mosso in condizioni di mare reale.",description2:"Ripresa 2: Cattura dei dettagli, ripristino dello stato di navigazione autentico"},
+h2:{name:"Shenzhen · Dasha River Real Shot",description:"Ripresa aerea di un aliscafo in un ambiente urbano fluviale. Il filmato mostra la sua stabilità di navigazione e la sua controllabilità in acque relativamente strette, verificandone l'applicazione in scenari di trasporto urbano fluviale.",description2:"Ripresa 2: Tracciamento laterale, postura stabile intuitiva",description3:"Ripresa 3: Vista multi-angolo, cattura dei dettagli di navigazione"},
+h3:{name:"Dongguan · Lago Songshan",description:"Riprese aeree dell'area del lago. In condizioni di mare relativamente calme, mostrano chiaramente l'assetto di navigazione lift-up e lo stato di crociera, dimostrandone l'efficienza operativa e la fluidità.",description2:"Ripresa aerea 2: Presentazione multi-angolo, registrazione completa della postura di navigazione"},
+h4:{name:"Zhuhai · Riva occidentale dell'estuario del Fiume delle Perle",description:"Riprese reali dalle acque occidentali dell'estuario del Fiume delle Perle. Dimostrano la stabilità e la navigabilità dell'aliscafo in condizioni marine e correnti complesse, convalidandone il potenziale applicativo nelle acque del Delta del Fiume delle Perle.",description2:"Ripresa 2: Test sul campo in area marina, visualizzazione multi-angolo"},
+custom:{name:"CUSTOM",description:"Soluzioni su misura adattate alla tua visione unica. Lavora con il nostro team di design per creare un'imbarcazione unica che rifletta il tuo stile personale."}}},
+Hu={label:"Galleria",title:"Galleria Aliscafo",description:"Esplora la nostra collezione di straordinarie immagini e video di aliscafi che mostrano la bellezza e le prestazioni delle nostre imbarcazioni.",brandSubtitle:`Alimentato dalla Scienza
+Elevato dall'Acqua`,statsTopSpeed:"Velocità Massima",statsDraft:"Pescaggio"},
+Vu={title:"NAVIGA IL FUTURO, GOVERNA CON INTELLIGENZA",description:"Il Volante Smart Tri-Mode è un terminale intelligente di interazione uomo-macchina progettato per imbarcazioni ad alte prestazioni come gli aliscafi. Affronta i problemi dei controlli dispersi e delle informazioni frammentate nella navigazione tradizionale, integrando controlli critici e dati essenziali in un'unica unità per migliorare significativamente la manovrabilità e la sicurezza della navigazione.",learnMore:"Scopri di Più"},
+_u={title:"App Smart Aliscafo"},
+Gu={banner:Eu,bannerY5:Pu,innovation:zu,research:ku,essence:Ru,hydrofoil:Tu,nextGen:Du,products:Lu,hero:Mu,intro:Fu,models:Bu,technology:Ou,experience:Nu,cta:qu,news:Uu,range:Qu,gallery:Hu,steeringWheel:Vu,app:_u},
+Wu={name:"Y-3",tagline:"Prestazioni di Base",series:"Y-3 Versione a tre posti",edition:"Edizione Premium per il Tempo Libero",description:"Introduzione perfetta alla tecnologia dell'aliscafo con capacità impressionanti.",longDescription:"L'Y-3 rappresenta la porta d'ingresso a una nuova era di imbarcazioni. Progettato per coloro che sono pronti a sperimentare la straordinaria sensazione di volare sopra l'acqua, combina tecnologia accessibile con capacità impressionanti.",heroDescription:["Y-3 Smart Hydrofoil è un'imbarcazione che integra","tecnologia intelligente, esperienza confortevole e prestazioni efficienti.","Con un design avanzato dell'aliscafo,","riduce efficacemente la resistenza alla navigazione, aumenta velocità e stabilità,","ideale per gite familiari, attività ricreative e trasporto a breve distanza."],sections:{viewDetails:"Scopri di Più",boatAesthetics:{title:"Estetica dello Scafo",description:"Il primo aliscafo elettrico intelligente al mondo, progettato per il trasporto via acqua e il turismo culturale, ridefinisce il concetto di viaggio sull'acqua con 'alte prestazioni e basso consumo energetico'. Adatto per spostamenti quotidiani, vacanze di piacere, attività lavorative e sport acquatici. Ispirato alla leggerezza e all'eleganza del piovanello, il suo volo agile a pelo d'acqua si traduce nella forma aerodinamica dello scafo."},
+windRiding:{title:"Affrontare le onde",description:"La tecnologia degli aliscafi riduce la resistenza aerodinamica e migliora l'efficienza di volo bilanciando con precisione la dinamica dei fluidi e dell'aria."},
+details:{streamline:{title:"Ombra della Velocità della Luce",description:"Scafo aerodinamico definitivo, tagliando l'acqua come luce attraverso l'ombra."},
+wingStructure:{title:"Struttura Alare Integrata",description:"Telaio in fibra di carbonio di grado aeronautico, perfetto equilibrio tra leggerezza e alta resistenza"},
+cockpit:{title:"Cabina di Pilotaggio Immersiva",description:"Design dell'abitacolo avvolgente, esperienza di guida integrata uomo-macchina"},
+lights:{title:"Luci a Matrice Intelligente",description:"Striscia LED passante, illuminando la nuova tendenza sull'acqua"}},
+colors:{title:"Colori Vibranti",flameRed:{name:"Rosso Fiamma",description:"Rosso Fiamma, ispirato alla brillantezza abbagliante delle fiamme ardenti, simboleggiando passione e potenza, mostrando uno slancio inarrestabile."},
+gemGreen:{name:"Verde Gemma",description:"Verde Gemma, ispirato al verde profondo delle gemme di smeraldo, come la vitalità nel profondo della foresta, irradiando la fusione perfetta di natura e lusso."},
+titanium:{name:"Titanio Metallizzato",description:"Titanio Metallizzato, derivato dalla lucentezza unica della lega di titanio aerospaziale, mostrando la combinazione perfetta di tecnologia e artigianalità."},
+lavaOrange:{name:"Arancio Lava",description:"Arancio Lava, ispirato al bagliore ardente della lava vulcanica, simboleggiando passione e vitalità, mostrando uno spirito dinamico e senza paura."},
+deepSeaBlue:{name:"Blu Mare Profondo",description:"Blu Mare Profondo, derivato dal blu misterioso dell'oceano profondo, come la luce delle stelle riflessa nel cielo notturno, presentando una texture premium profonda e serena."}},
+technicalData:{title:"DATI TECNICI",dimensions:{title:"DIMENSIONI PRINCIPALI",lengthOverall:"Lunghezza Totale",beam:"Larghezza Totale",maxDraft:"Profondità di Pescaggio",passengers:"Passeggeri"},
+performance:{title:"POTENZA, VELOCITÀ E AUTONOMIA",cruiseSpeed:"Velocità di Crociera",maxSpeed:"Velocità Massima",endurance:"Autonomia",propulsionPower:"Potenza di Propulsione"},
+charging:{title:"RICARICA",chargingMethod:"Metodo di Ricarica",chargingStation:"Stazione di Ricarica",chargingTime:"Tempo di Ricarica",chargingPower:"Potenza di Ricarica"},
+values:{dedicatedCharger:"Stazione di Ricarica Dedicata"}},
+gallery:{label:"Galleria",title:"Aliscafo",titleHighlight:"Galleria",description:"Esplora ogni dettaglio squisito di Y-3, sperimenta l'eleganza del volo sull'acqua",brandSubtitle:`Liberare potenza
+senza limiti`,statsTopSpeed:"Velocità massima",statsDraft:"Pescaggio",cruisingSpeed:"velocità di crociera"},
+imageAlts:{product:"Immagine del Prodotto",streamline:"Ombra della Velocità della Luce",wingStructure:"Struttura Alare Integrata",cockpit:"Cabina di Pilotaggio Immersiva",lights:"Luci a Matrice Intelligente",colorOption:"Opzione colore {name}",colorOptionSelected:"Opzione colore {name} selezionata"}},
+specs:{speed:"50+ km/h",range:"80+ km",passengers:"2-4"}},
+Yu={name:"Y-5",tagline:"Capacità Avanzate",series:"Y-5 versione a cinque posti",edition:"Edizione Navigator di Lusso",description:"L'introduzione perfetta alla tecnologia hydrofoil. Vivi un'efficienza simile al volo con prestazioni eccezionali.",longDescription:"Y-5 rappresenta l'inizio di una nuova era nella mobilità sull'acqua. Progettato per chi è pronto a provare la straordinaria sensazione di volare sull'acqua, combina una tecnologia facile da utilizzare con capacità di grande impatto. Ogni dettaglio è stato attentamente studiato per offrire un'esperienza intuitiva ed emozionante.",heroDescription:["Scopri la maestria artigianale e l'alta tecnologia di Y-5.","Dalla geometria di precisione al sistema di propulsione avanzato,","alla navigazione silenziosa e all'autonomia sorprendente,","ogni aspetto di questo hydrofoil elettrico intelligente è stato progettato con cura","per offrire un'esperienza di guida rivoluzionaria."],sections:{productShowcase:{title:"Luce Posteriore ad Anello Integrata",description:"Il design ad alta riconoscibilità rende l'imbarcazione istantaneamente identificabile sull'acqua, combinando estetica fantascientifica con eccezionale visibilità"},
+boatAesthetics:{title:"Cavalca le Onde, Abbraccia il Lusso",description:"Tecnologia hydrofoil a bassa resistenza · Autonomia efficiente · Design silenzioso",descriptionLine2:"Spazio confortevole · Controllo intelligente"},
+beautySection:{title:"L'Estetica Suprema",description:"Oscillazioni e beccheggio sono domati entro ritmi controllati, resistenza e potenza fluttuano costantemente nel tempo, ogni variazione segue l'ordine della fisica e della logica. Come la struttura del telaio nascosta sott'acqua, la stabilità dei dati non è una coincidenza ma un risultato inevitabile della collaborazione tra design, algoritmi e competenza ingegneristica."},
+windSection:{title:"Esperienza di Navigazione",description:"Pilota automatico · Volante intelligente tri-modalità · Illuminazione ambientale + Audio surround 3D · Scafo aerodinamico in fibra di carbonio + Motore ultra-silenzioso da 40kW · Batteria ad alta capacità"},
+colors:{title:"Colori Vibranti",flameRed:{name:"Rosso Fiamma",description:"Rosso Fiamma, ispirato alla brillantezza abbagliante delle fiamme ardenti, simboleggiando passione e potenza, mostrando uno slancio inarrestabile."},
+gemGreen:{name:"Verde Gemma",description:"Verde Gemma, ispirato al verde profondo delle gemme di smeraldo, come la vitalità nel profondo della foresta, irradiando la fusione perfetta di natura e lusso."},
+titanium:{name:"Titanio Metallizzato",description:"Titanio Metallizzato, derivato dalla lucentezza unica della lega di titanio aerospaziale, mostrando la combinazione perfetta di tecnologia e artigianalità."},
+lavaOrange:{name:"Arancio Lava",description:"Arancio Lava, ispirato al bagliore ardente della lava vulcanica, simboleggiando passione e vitalità, mostrando uno spirito dinamico e senza paura."},
+deepSeaBlue:{name:"Blu Mare Profondo",description:"Blu Mare Profondo, derivato dal blu misterioso dell'oceano profondo, come la luce delle stelle riflessa nel cielo notturno, presentando una texture premium profonda e serena."}},
+technicalData:{title:"DATI TECNICI",dimensions:{title:"DIMENSIONI PRINCIPALI",lengthOverall:"Lunghezza Totale",beam:"Larghezza Totale",maxDraft:"Profondità di Pescaggio",passengers:"Passeggeri"},
+performance:{title:"POTENZA, VELOCITÀ E AUTONOMIA",cruiseSpeed:"Velocità di Crociera",maxSpeed:"Velocità Massima",endurance:"Autonomia",propulsionPower:"Potenza di Propulsione"},
+charging:{title:"RICARICA",chargingMethod:"Metodo di Ricarica",chargingStation:"Stazione di Ricarica",chargingTime:"Tempo di Ricarica",chargingPower:"Potenza di Ricarica"},
+values:{dedicatedCharger:"Stazione di Ricarica Dedicata"}},
+gallery:{label:"Galleria",title:"Aliscafo",titleHighlight:"Galleria",description:"Esplora ogni dettaglio squisito di Y-3, sperimenta l'eleganza del volo sull'acqua",brandSubtitle:`Liberare potenza
+senza limiti`,statsTopSpeed:"Velocità massima",statsDraft:"Pescaggio"},
+imageAlts:{product:"Immagine del Prodotto",streamline:"Ombra della Velocità della Luce",wingStructure:"Struttura Alare Integrata",cockpit:"Cabina di Pilotaggio Immersiva",lights:"Luci a Matrice Intelligente",colorOption:"Opzione colore {name}",colorOptionSelected:"Opzione colore {name} selezionata"},
+details:{title:"Vetrina dei Dettagli",cards:{hydrofoil:{title:"Design Hydrofoil a Bassa Resistenza",description:"Gli hydrofoil anteriori e posteriori lavorano in disposizione coordinata, generando portanza stabile durante la navigazione, permettendo allo scafo di sollevarsi dall'acqua ad alte velocità, riducendo significativamente la superficie bagnata e la resistenza idrodinamica."},
+windRiding:{title:"Cavalcare il Vento",description:"Padroneggia il duplice equilibrio tra fluido e aria. La tecnologia hydrofoil solleva lo scafo sopra l'acqua, riducendo drasticamente la resistenza per una navigazione serena e stabile. Ridefinendo il viaggio sull'acqua attraverso il potere della tecnologia."},
+monoHull:{title:"Concetto Monoscafo",description:"Lo scafo aerodinamico guida efficacemente il flusso d'acqua durante la navigazione, riducendo resistenza e turbolenza, fornendo una base ideale per la portanza stabile dell'hydrofoil."},
+lightStrip:{title:"Artigianalità delle Strisce Luminose",description:"Le strisce luminose dello scafo sono incorporate con precisione lungo le linee strutturali, fondendosi naturalmente con le curve del guscio, ottenendo un'espressione luminosa chiara ma contenuta senza compromettere il design idrodinamico complessivo."},
+control:{title:"Controllo Focalizzato, Navigazione Immersiva",description:"Il sistema di controllo direzionale presenta una struttura di comando avvolgente, centralizzando sterzo, regolazione dell'assetto e visualizzazione delle informazioni principali nel campo visivo naturale del pilota e nel raggio di movimento delle mani, riducendo la distrazione visiva e migliorando la concentrazione sul controllo."},
+eternalForm:{title:"Forma Eterna",description:"Lo scafo è delineato con curve continue e contenute, linee che si estendono naturalmente dalla prua alla poppa, presentando una tensione formale altamente completa sia in stato stazionario che in navigazione."},
+comfort:{title:"Prestazioni Prima, Comfort Sempre",description:"La cabina adotta una disposizione integrata a posizione bassa, combinando strettamente la postura di seduta con il baricentro dello scafo, migliorando efficacemente stabilità e feedback di controllo durante la navigazione ad alta velocità."},
+propulsion:{title:"Sistema di Propulsione ad Alta Efficienza",description:"Il sistema di alimentazione impiega unità di azionamento elettrico ad alta densità di potenza, abbinate con precisione ad alberi di trasmissione a bassa perdita e eliche ad alta efficienza, raggiungendo l'equilibrio ottimale tra output energetico ed efficienza propulsiva."}}}}},
+$u={name:"Y-5",tagline:"Capacità Avanzate",series:"Y-5 Versione a cinque posti",edition:"Edizione Navigator di Lusso",description:"L'evoluzione da tre a cinque posti va oltre lo spazio. Un nuovo linguaggio di design, prestazioni di riferimento nella categoria — ogni viaggio merita l'attesa.",longDescription:"L'Y-5 rappresenta l'evoluzione completa dell'aliscafo intelligente. Sulla base di eccellenti prestazioni di volo, il layout a cinque posti e il design esterno completamente rinnovato elevano l'esperienza sull'acqua a nuove vette. Che si tratti di una gita in famiglia, un ricevimento d'affari o una vacanza di piacere, l'Y-5 permette a ogni passeggero di vivere il fascino del volo sull'acqua con eleganza disinvolta.",heroDescription:["Più spazio, stessa grinta.","L'Y-5 ridefinisce i confini dell'aliscafo con un layout a cinque posti,","un design esterno completamente rinnovato,","fondendo perfettamente alte prestazioni e comfort,","dando inizio al tuo viaggio di volo sull'acqua."],sections:{viewDetails:"Scopri di Più",boatAesthetics:{title:"Ammiraglia a Cinque Posti, Un Nuovo Capitolo Estetico",description:"L'Y-5 ridisegna i confini visivi del design dell'aliscafo con un linguaggio di design completamente nuovo. Lo scafo aerodinamico ospita cinque passeggeri in comfort, con ogni dettaglio che racconta la storia della tecnologia e dell'estetica in armonia — presentando lo standard ammiraglia della mobilità sull'acqua."},
+windRiding:{title:"Cavalca le Onde, Oltre la Velocità",description:"Anche trasportando cinque passeggeri, l'Y-5 raggiunge il volo fuori dall'acqua grazie alla tecnologia dell'aliscafo, riducendo drasticamente la resistenza. Più spazio, la stessa serenità e stabilità — ridefinendo la navigazione confortevole."},
+details:{streamline:{title:"Ombra della Velocità della Luce",description:"Scafo aerodinamico definitivo, tagliando l'acqua come luce attraverso l'ombra."},
+wingStructure:{title:"Struttura Alare Integrata",description:"Telaio in fibra di carbonio di grado aeronautico, perfetto equilibrio tra leggerezza e alta resistenza"},
+cockpit:{title:"Cabina di Pilotaggio Immersiva",description:"Design dell'abitacolo avvolgente, esperienza di guida integrata uomo-macchina"},
+lights:{title:"Luci a Matrice Intelligente",description:"Striscia LED passante, illuminando la nuova tendenza sull'acqua"}},
+colors:{title:"Colori Vibranti",flameRed:{name:"Rosso Fiamma",description:"Rosso Fiamma, ispirato alla brillantezza abbagliante delle fiamme ardenti, simboleggiando passione e potenza, mostrando uno slancio inarrestabile."},
+gemGreen:{name:"Verde Gemma",description:"Verde Gemma, ispirato al verde profondo delle gemme di smeraldo, come la vitalità nel profondo della foresta, irradiando la fusione perfetta di natura e lusso."},
+titanium:{name:"Titanio Metallizzato",description:"Titanio Metallizzato, derivato dalla lucentezza unica della lega di titanio aerospaziale, mostrando la combinazione perfetta di tecnologia e artigianalità."},
+lavaOrange:{name:"Arancio Lava",description:"Arancio Lava, ispirato al bagliore ardente della lava vulcanica, simboleggiando passione e vitalità, mostrando uno spirito dinamico e senza paura."},
+deepSeaBlue:{name:"Blu Mare Profondo",description:"Blu Mare Profondo, derivato dal blu misterioso dell'oceano profondo, come la luce delle stelle riflessa nel cielo notturno, presentando una texture premium profonda e serena."}},
+technicalData:{title:"DATI TECNICI",dimensions:{title:"DIMENSIONI PRINCIPALI",lengthOverall:"Lunghezza Totale",beam:"Larghezza Totale",maxDraft:"Profondità di Pescaggio",passengers:"Passeggeri"},
+performance:{title:"POTENZA, VELOCITÀ E AUTONOMIA",cruiseSpeed:"Velocità di Crociera",maxSpeed:"Velocità Massima",endurance:"Autonomia",propulsionPower:"Potenza di Propulsione"},
+charging:{title:"RICARICA",chargingMethod:"Metodo di Ricarica",chargingStation:"Stazione di Ricarica",chargingTime:"Tempo di Ricarica",chargingPower:"Potenza di Ricarica"},
+values:{dedicatedCharger:"Stazione di Ricarica Dedicata",standardWorkingTime:"Orario di Lavoro Standard"}},
+gallery:{label:"Galleria",title:"Aliscafo",titleHighlight:"Galleria",description:"Entra nel mondo del design Y-5 — dall'esterno rinnovato alla cabina spaziosa, scopri il fascino straordinario dell'ammiraglia aliscafo",brandSubtitle:`Liberare potenza
+senza limiti`,statsTopSpeed:"Velocità massima",statsDraft:"Pescaggio",cruisingSpeed:"Velocità di crociera"},
+imageAlts:{product:"Immagine del Prodotto",streamline:"Ombra della Velocità della Luce",wingStructure:"Struttura Alare Integrata",cockpit:"Cabina di Pilotaggio Immersiva",lights:"Luci a Matrice Intelligente",colorOption:"Opzione colore {name}",colorOptionSelected:"Opzione colore {name} selezionata"}},
+specs:{speed:"50+ km/h",range:"80+ km",passengers:"5"}},
+ju={waterResistance:{title:"Resistenza all'Acqua",subtitle:"Innovazione Orientata al Futuro VS Approccio Convenzionale",exploreMore:"Scopri di Più"},
+physicsSimulation:{title:"Simulazione Fisica",subtitle:"Sperimenta il Volo dell'Aliscafo - Tecnologia all'Avanguardia per Dominare l'Equilibrio tra Fluido e Aria"},
+simulationModal:{title:"Validazione Rivoluzionaria dell'Efficienza e Stabilità del Sistema Aliscafo",conditions:"Condizioni di Simulazione",mainParams:"Parametri Principali",speed:"Velocità:",speedValue:"18 nodi",wavelength:"Lunghezza d'onda:",wavelengthValue:"5.0 m",waveHeight:"Altezza onda:",waveHeightValue:"0.5 m",waveAngle:"Angolo d'onda:",waveAngleValue:"45°",yh2o:"YH2O",vs:"VS",traditionalVessel:"Nave Tradizionale",pitchAngle:"Angolo di Beccheggio",liftDistance:"Distanza di Sollevamento",effectivePower:"Potenza Effettiva",totalResistance:"Resistenza Totale"}},
+Ju={explore:"Esplora",configure:"Configura",compare:"Confronta",bookTestDrive:"Prenota una Prova",specifications:"Specifiche",features:"Caratteristiche",gallery:"Galleria"},
+Ku={h1:Wu,h2:Yu,y5:$u,innovation:ju,common:Ju},
+Zu={loginRequiredTitle:"Accedi per continuare"},
+Xu={title:"Bentornato",subtitle:"Accedi al tuo account",email:"Email",password:"Password",rememberMe:"Ricordami",forgotPassword:"Password dimenticata?",submit:"Accedi",submitting:"Accesso in corso...",noAccount:"Non hai un account?",createAccount:"Crea Account",or:"o",continueWith:"Continua con",success:"Accesso effettuato",error:"Email o password non validi"},
+ep={title:"Crea Account",subtitle:"Unisciti al futuro della mobilità marittima",firstName:"Nome",lastName:"Cognome",email:"Email",phone:"Numero di Telefono",password:"Password",confirmPassword:"Conferma Password",newsletter:"Iscriviti alla newsletter",terms:"Accetto i",termsLink:"Termini di Servizio",and:"e",privacyLink:"Informativa sulla Privacy",submit:"Crea Account",submitting:"Creazione in corso...",hasAccount:"Hai già un account?",signIn:"Accedi",success:"Account creato con successo",error:"Creazione account fallita"},
+tp="Esci",ip="Email",op="Password",np="Conferma Password",ap="Nome",rp="Telefono",sp={title:"Reimposta Password",subtitle:"Inserisci la tua email per ricevere le istruzioni",email:"Email",submit:"Invia Link di Reimpostazione",submitting:"Invio in corso...",backToLogin:"Torna all'Accesso",success:"Link di reimpostazione inviato alla tua email",error:"Email non trovata"},
+lp="Accesso effettuato",cp="Registrazione completata",dp="Accesso fallito",up="Registrazione fallita",pp="Disconnessione effettuata",mp={title:"Reimposta Password",subtitle:"Reimposta una nuova password per il tuo account",password:"Nuova Password",confirmPassword:"Conferma Nuova Password",submit:"Reimposta Password",submitting:"Reimpostazione...",success:"Password reimpostata con successo",error:"Reimpostazione password fallita",labels:{email:"Email",account:"Email / Telefono",code:"Codice di Verifica",newPassword:"Nuova Password",confirmPassword:"Conferma Nuova Password"},
+placeholders:{email:"Inserisci indirizzo email",account:"Inserisci email o numero di telefono",code:"Inserisci codice di verifica",newPassword:"Inserisci nuova password (minimo 8 caratteri)",confirmPassword:"Reinserisci la password"},
+actions:{next:"Avanti",submit:"Reimposta Password",sendCode:"Invia Codice",resendCode:"Reinvia",sending:"Invio...",resendIn:"Reinvia tra {seconds}s",contactSupport:"Non riesci a verificare? Contatta l'assistenza."},
+feedback:{invalid:"Inserisci un indirizzo email valido.",codeSent:"Codice di verifica inviato alla tua email.",codeSendFailed:"Invio codice fallito, riprova.",codeSendTooFrequent:"Email inviate troppo frequentemente, riprova più tardi.",resetSuccess:"Password reimpostata con successo!",resetFailed:"Reimpostazione password fallita, riprova.",passwordMismatch:"Le password non corrispondono.",passwordMin:"La password deve avere almeno 8 caratteri."}},
+gp={title:"Il Mio Account",subtitle:"Gestisci le impostazioni del tuo account",tabs:{overview:"Panoramica",orders:"Ordini",configurations:"Configurazioni Salvate",settings:"Impostazioni"},
+overview:{welcome:"Benvenuto, {name}",memberSince:"Membro dal {date}",recentActivity:"Attività Recente"},
+settings:{personalInfo:"Informazioni Personali",security:"Sicurezza",notifications:"Notifiche",language:"Lingua",deleteAccount:"Elimina Account"}},
+hp={emailRequired:"L'email è obbligatoria",emailInvalid:"Inserisci un'email valida",passwordRequired:"La password è obbligatoria",passwordMin:"La password deve avere almeno 8 caratteri",passwordMatch:"Le password non corrispondono",firstNameRequired:"Il nome è obbligatorio",lastNameRequired:"Il cognome è obbligatorio",phoneInvalid:"Inserisci un numero di telefono valido",termsRequired:"Devi accettare i termini"},
+fp={google:"Google",apple:"Apple",facebook:"Facebook",alipay:"Alipay",wechat:"WeChat",twitter:"Twitter/X",linkedin:"LinkedIn",line:"LINE",alipayHint:"Accedi con Alipay",wechatHint:"Accedi con WeChat",twitterHint:"Accedi con Twitter/X",googleHint:"Accedi con Google",linkedinHint:"Accedi con LinkedIn",lineHint:"Accedi con LINE"},
+vp={topBar:{userAgreement:"Contratto Utente",privacyPolicy:"Informativa sulla Privacy",helpCenter:"Centro Assistenza",language:"Lingua"},
+tabs:{login:"Accedi",register:"Registrati"},
+labels:{region:"Paese/Regione",account:"Email",accountEmailOrPhone:"Email/Telefono",countryCode:"Prefisso",phone:"Telefono",password:"Password",confirmPassword:"Conferma Password",verificationCode:"Codice di Verifica",email:"Email",agreementLogin:"Ho letto e accetto",agreementRegister:"Ho letto e accetto"},
+placeholders:{selectRegion:"Seleziona paese/regione",searchRegion:"Cerca paese/regione",account:"Inserisci email",accountEmailOrPhone:"Inserisci email/telefono",phone:"Inserisci numero di telefono",password:"Inserisci password",passwordWithRule:"Inserisci password (minimo 8 caratteri)",confirmPassword:"Reinserisci la password",verificationCode:"Inserisci codice di verifica",email:"Inserisci indirizzo email"},
+buttons:{login:"Accedi",register:"Registrati",loginSubmitting:"Accesso in corso...",registerSubmitting:"Registrazione in corso...",switchToEmail:"Accesso con verifica",switchToAccount:"Accesso con Account",getCode:"Ottieni Codice",retryIn:"Riprova tra {seconds}s",retry:"Riprova",sending:"Invio..."},
+tips:{forgotPassword:"Password dimenticata?",otherLoginMethods:"Altri metodi di accesso",socialAuthLoading:"Caricamento pagina di autorizzazione...",socialAuthTitle:"Autorizzazione di terze parti"},
+links:{userAgreement:"Contratto Utente",privacyPolicy:"Informativa sulla Privacy",and:"e"},
+messages:{noRegionResult:"Nessun paese/regione trovato"},
+errors:{accountRequired:"Inserisci email",accountInvalid:"Inserisci un'email/telefono valido",accountPhoneInvalid:"Inserisci un numero di telefono valido",phoneRequired:"Inserisci il numero di telefono",phoneInvalid:"Inserisci un numero di telefono valido",passwordRequired:"Inserisci la password",passwordMin:"La password deve avere almeno 8 caratteri",confirmPasswordRequired:"Conferma la password",confirmPasswordMismatch:"Le password non corrispondono",emailRequired:"Inserisci l'indirizzo email",emailInvalid:"Inserisci un indirizzo email valido",codeRequired:"Inserisci il codice di verifica",codeInvalid:"Inserisci un codice di verifica a 6 cifre",agreementRequired:"Accetta prima i termini",codeNotNeeded:"Codice di verifica non richiesto per questa regione",socialAuthFailed:"Impossibile ottenere il link di autorizzazione, riprova"},
+alerts:{loginSuccess:"Accesso riuscito",registerSuccess:"Registrazione riuscita, effettua l'accesso",registerFail:"Registrazione fallita, riprova più tardi",socialLogin:"Reindirizzamento all'autorizzazione {provider},
+ attendere...",socialUnbound:"Account non associato, è necessario effettuare l'associazione",codeSent:"Codice di verifica inviato"},
+bind:{title:"Collega Account",subtitle:"Completa l'associazione dell'account",emailLabel:"Email",emailPlaceholder:"Inserisci la tua email",accountLabel:"Email/Telefono",accountPlaceholder:"Inserisci email/telefono",codeLabel:"Codice",codePlaceholder:"Inserisci il codice a 6 cifre",submit:"Conferma associazione",backToLogin:"Torna al login",missingParams:"Parametri di autorizzazione mancanti, effettua nuovamente l'accesso",success:"Account associato con successo"}},
+bp={languageLabel:"Lingua",languages:{zhCN:"中文 (简体)",enUS:"English"},
+title:"Centro Assistenza Account Yihai",selfService:{title:"Self Service",subtitle:"Accesso rapido alle operazioni comuni"},
+actions:{helpCenter:"Centro Assistenza",more:"Altro"},
+services:{resetPassword:"Reimposta Password",accountAppeal:"Appello Account",freezeAccount:"Congela Account",unfreezeAccount:"Scongela Account",unblockAccount:"Sblocca Account",deleteAccount:"Elimina Account"},
+categories:{faq:{label:"FAQ",questions:{recoverAccount:"Ho dimenticato il mio account, come posso recuperarlo?",resetPassword:"Ho dimenticato la password, come reimpostarla?",phoneInactive:"Il mio numero è inattivo, come accedere o cambiarlo?",appealFailed:"Cosa fare se l'appello viene rifiutato?",accountHijacked:"Il mio account è stato violato, cosa devo fare?",signOut:"Come disconnettersi dal proprio account Yihai?"},
+answers:{recoverAccount:"Se hai dimenticato il tuo account, puoi recuperarlo: 1. Usando il numero di telefono o l'email registrati;
+ 2. Se ricordi informazioni parziali, contatta il servizio clienti;
+ 3. Usa la funzione di appello account.",resetPassword:"Per reimpostare la password: 1. Clicca 'Password dimenticata' nella pagina di accesso;
+ 2. Inserisci il numero o l'email registrati;
+ 3. Segui le istruzioni per verificare l'identità;
+ 4. Imposta una nuova password.",phoneInactive:"Se il tuo numero è inattivo: 1. Accedi con l'email;
+ 2. Usa l'appello account per cambiare il telefono di sicurezza;
+ 3. Contatta il servizio clienti.",appealFailed:"Se l'appello viene rifiutato: 1. Verifica che le informazioni siano complete;
+ 2. Controlla che i documenti siano chiari;
+ 3. Ripresenta con materiale aggiuntivo;
+ 4. Contatta il servizio clienti.",accountHijacked:"Se il tuo account è stato violato: 1. Prova a recuperarlo con telefono o email di sicurezza;
+ 2. Presenta un appello immediato;
+ 3. Contatta il servizio clienti per congelare l'account;
+ 4. Cambia tutte le password.",signOut:"Per disconnettersi: 1. Trova 'Disconnetti' nel profilo;
+ 2. Conferma la disconnessione;
+ 3. Dovrai accedere di nuovo per usare le funzioni dell'account."}},
+login:{label:"Accesso",questions:{generalLogin:"Come accedere al mio account Yihai?",thirdParty:"Come accedere con un account di terze parti?",noPhone:"Nessun telefono associato, come accedere?",loginAbnormal:"Perché l'accesso è anomalo?",deviceList:"Come vedere i dispositivi connessi?",longTermInactive:"L'account viene disattivato se inattivo a lungo?"},
+answers:{generalLogin:"Per accedere: 1. Apri la pagina di accesso;
+ 2. Inserisci telefono/email o account Yihai;
+ 3. Inserisci la password;
+ 4. Clicca accedi. Se hai dimenticato la password, usa 'Password dimenticata'.",thirdParty:"Per accedere con terze parti: 1. Seleziona un metodo di accesso (es. WeChat, Alipay);
+ 2. Autorizza e accedi;
+ 3. Al primo utilizzo, associa il tuo account Yihai.",noPhone:"Senza telefono associato: 1. Accedi con email;
+ 2. Accedi con account Yihai;
+ 3. Per associare un telefono, vai alle impostazioni del profilo.",loginAbnormal:"Possibili cause: 1. Troppi tentativi con password errata;
+ 2. Account congelato o bannato;
+ 3. Accesso da posizione insolita;
+ 4. Problemi di rete. Contatta il servizio clienti.",deviceList:"Per vedere i dispositivi: 1. Accedi al tuo account;
+ 2. Vai al profilo;
+ 3. Trova 'Sicurezza Account' o 'Gestione Dispositivi';
+ 4. Visualizza l'elenco dei dispositivi connessi.",longTermInactive:"L'account non viene disattivato automaticamente. Per sicurezza, si consiglia l'accesso regolare. Dopo un lungo periodo di inattività, potrebbe essere richiesta la verifica dell'identità."}},
+profile:{label:"Modifica Profilo",questions:{updateSecurityPhone:"Come cambiare il telefono di sicurezza?",updateSecurityEmail:"Come cambiare l'email di sicurezza?",unlinkContacts:"Come dissociare telefono ed email?",reassignPhone:"Come trasferire il telefono a un altro account?",manageThirdParty:"Come gestire gli account di terze parti?",resetSecurityAnswers:"Come reimpostare le domande di sicurezza?"},
+answers:{updateSecurityPhone:"Per cambiare il telefono: 1. Accedi e vai al profilo;
+ 2. Trova 'Sicurezza Account';
+ 3. Seleziona 'Cambia Telefono';
+ 4. Completa la verifica;
+ 5. Inserisci il nuovo numero.",updateSecurityEmail:"Per cambiare l'email: 1. Accedi e vai al profilo;
+ 2. Trova 'Sicurezza Account';
+ 3. Seleziona 'Cambia Email';
+ 4. Verifica l'email attuale;
+ 5. Inserisci la nuova email.",unlinkContacts:"Per dissociare: 1. Accedi e vai al profilo;
+ 2. Vai a 'Sicurezza Account';
+ 3. Seleziona il contatto da dissociare;
+ 4. Completa la verifica;
+ 5. Conferma. Nota: almeno un metodo di contatto deve rimanere.",reassignPhone:"Per trasferire: 1. Dissocia il telefono dall'account originale;
+ 2. Associalo al nuovo account;
+ 3. Se non puoi accedere all'account originale, usa l'appello.",manageThirdParty:"Per gestire: 1. Accedi e vai al profilo;
+ 2. Trova 'Associazione Account';
+ 3. Associa, cambia o dissocia;
+ 4. Completa la verifica.",resetSecurityAnswers:"Per reimpostare: 1. Accedi e vai al profilo;
+ 2. Trova 'Sicurezza Account';
+ 3. Seleziona 'Domande di Sicurezza';
+ 4. Verifica l'identità e imposta nuove domande."}},
+security:{label:"Sicurezza Account",questions:{postPasswordAlert:"Come gestire gli avvisi dopo il cambio password?",forgotPasswordFlow:"Ho dimenticato la password, come reimpostarla?",hijackedContacts:"Il mio account è stato associato al contatto di altri, cosa fare?",compromisedAccount:"Il mio account è stato compromesso, cosa fare?",identityTheft:"Qualcuno ha verificato la propria identità sul mio account, cosa fare?",freezeUnfreeze:"Come congelare/scongelare il mio account?",autoFreeze:"Perché il mio account è stato congelato automaticamente?",banReasons:"Perché il mio account è stato bannato?"},
+answers:{postPasswordAlert:"Gli avvisi dopo il cambio password sono normali: 1. È una misura di sicurezza;
+ 2. Se sei stato tu, completa la verifica;
+ 3. Se no, contatta immediatamente il servizio clienti.",forgotPasswordFlow:"Processo di reimpostazione: 1. Clicca 'Password dimenticata';
+ 2. Inserisci telefono o email;
+ 3. Scegli il metodo di verifica;
+ 4. Inserisci il codice;
+ 5. Imposta la nuova password.",hijackedContacts:"Se il tuo account è associato ai contatti di altri: 1. Presenta una richiesta di dissociazione;
+ 2. Fornisci documenti d'identità;
+ 3. Contatta il servizio clienti;
+ 4. Richiedi il congelamento se necessario.",compromisedAccount:"Se il tuo account è compromesso: 1. Prova a recuperare con telefono o email;
+ 2. Presenta un appello;
+ 3. Richiedi il congelamento;
+ 4. Contatta il servizio clienti;
+ 5. Cambia tutte le password.",identityTheft:"Se qualcuno ha verificato la propria identità: 1. Contatta il servizio clienti con documenti;
+ 2. Richiedi la rimozione;
+ 3. Completa la tua verifica;
+ 4. Valuta di sporgere denuncia.",freezeUnfreeze:"Congela/Scongela: 1. Congela: seleziona nel Centro Assistenza e invia;
+ 2. Scongela: seleziona nel Centro Assistenza e verifica;
+ 3. Per urgenze, contatta il servizio clienti.",autoFreeze:"Possibili motivi: 1. Troppi tentativi errati;
+ 2. Attività anomala;
+ 3. Rischio di sicurezza;
+ 4. Violazione dei termini. Per scongelare, usa il Centro Assistenza o contatta il servizio clienti.",banReasons:"Motivi comuni: 1. Violazione dei termini;
+ 2. Contenuti vietati;
+ 3. Attività malevola;
+ 4. Frode o attività illegale. Se ritieni sia un errore, usa la funzione di appello."}}}},
+yp={toast:Zu,login:Xu,register:ep,logout:tp,email:ip,password:op,confirmPassword:np,name:ap,phone:rp,forgotPassword:sp,loginSuccess:lp,registerSuccess:cp,loginError:dp,registerError:up,logoutSuccess:pp,resetPassword:mp,profile:gp,validation:hp,social:fp,authPage:vp,helpCenter:bp},
+wp="Alaqua si dedica alla creazione di aliscafi elettrici leader a livello mondiale, offrendo un'esperienza di viaggio in acqua senza precedenti.",Ap="© {year} Alaqua. Tutti i diritti riservati.",Sp={models:"Modelli",company:"Azienda",support:"Supporto",contact:"Contattaci"},
+Cp={title:"Post-Vendita",maintenance:"Info Manutenzione",environment:"Info Ambientali",legal:"Legale e Sicurezza",salesRecruitment:"Reclutamento Centro Vendite",serviceRecruitment:"Reclutamento Centro Servizi",batteryRecycling:"Riciclaggio Batterie"},
+xp={title:"Prodotto",h1Series:"Y-3",h2Series:"Y-5",technology:"Tecnologia",configure:"Configura",testDrive:"Prova"},
+Ip={title:"Contattaci",fullName:"Nome completo",emailOrPhone:"Email o telefono",message:"Messaggio",sendMessage:"Invia messaggio",sending:"Invio in corso...",fillAllFields:"Compila tutti i campi",sendSuccess:"Messaggio inviato con successo",sendFailed:"Invio del messaggio fallito",email:"info{'@'}fly-h2o.cn",openMailClient:"Apri client di posta",copyEmail:"Copia indirizzo email",copyEmailSuccess:"Indirizzo email copiato",copyEmailFailed:"Copia non riuscita, copiare manualmente"},
+Ep={downloadOn:"Scarica su",getItOn:"Disponibile su"},
+Pp={faq:"FAQ",compare:"Confronta Modelli",configurator:"Configuratore",about:"Chi Siamo",technology:"Tecnologia",investors:"Investitori",careers:"Lavora con Noi",press:"Stampa",contact:"Contatti",experience:"Prova",dealers:"Concessionari",service:"Assistenza"},
+zp={privacy:"Privacy Policy",terms:"Termini di Servizio",cookies:"Cookie Policy",accessibility:"Accessibilità"},
+kp={wechatTitle:"Account Ufficiale Alaqua",wechatAlt:"Account Ufficiale Alaqua",videoTitle:"Canale Video Alaqua",videoAlt:"Canale Video Alaqua",instagramTitle:"Instagram Alaqua",instagramAlt:"Instagram Alaqua"},
+Rp={description:wp,copyright:Ap,sections:Sp,company:Cp,product:xp,contact:Ip,download:Ep,links:Pp,legal:zp,qrCode:kp},
+Tp={body:"Scafo",engine:"Motore",rudder:"Timone",interior:"Interni"},
+Dp={specifications:"Specifiche",ratedPower:"Potenza Nominale",ratedVoltage:"Tensione Nominale",coolingSystem:"Sistema di Raffreddamento",ratedSpeed:"Velocità Nominale",trimMechanism:"Meccanismo di Trim e Inclinazione",trimAngle:"Angolo di Trim e Inclinazione",steeringSystem:"Sistema di Sterzo",steeringAngle:"Angolo di Sterzo",propeller:"Elica",disclaimer:"*Le specifiche sono solo indicative",engineConfig:"Configurazione Motore",ratedPower12:"12 kW",ratedPower20:"20 kW",ratedPower40:"40 kW",ratedVoltage96:"96V (CC)",naturalWaterCooling:"Raffreddamento ad Acqua Naturale",closedLoopLiquidCooling:"Raffreddamento a Liquido a Circuito Chiuso",ratedSpeed1100To2000:"1100 a 2000 giri/min",ratedSpeed1200To1800:"1200 a 1800 giri/min",ratedSpeed1500To2100:"1500 a 2100 giri/min",electricTrim:"Trim Elettrico",electricLiquidTrim:"Trim Elettrico a Liquido",trimAngle4To61:"-4° a 61°",integratedElectricSteering:"Sterzo Elettrico Integrato",steeringAngle45:"±45°",propellerMetal:'11 13/16" x 9 13/16" (Elica Carico Pesante - Metallo)',propellerPlastic:'11 13/16" x 10 5/8" (Elica Carico Pesante - Plastica)',propellerMetalLight:'11 13/16" x 15 3/8" (Elica Carico Leggero - Metallo)',propeller15:'15" x 10 3/4" Avanti e Indietro',propeller13:'13 3/8" x 16 3/4" Avanti e Indietro'},
+Lp={rudderConfig:"Configurazione Timone",driverMode:"Modalità Guida",fullDriverControl:"Controllo Completo del Guidatore",sportMode:"Modalità Sport",removeSpeedLimit:"Rimuovi Limite di Velocità",fullAutoMode:"Modalità Completamente Automatica",routePlanning:"Pianificazione Percorso",smartDualRudder:"Timone doppio intelligente"},
+Mp={interiorColor:"Colore Interni",interiorPreview:"Anteprima Interni",cockpit:"Posto di guida",passengerCabin:"Cabina passeggeri",cockpitTitle:"Posto di guida",cockpitTitleWithCode:"Posto di guida #{code}",cockpitTitleWithColor:"Posto di guida (
+{color})",cockpitColors:{c1B0102:"Borgogna scuro",c481204:"Marrone castagna",c020B03:"Verde scuro",c080707:"Nero ossidiana",c030508:"Blu profondo"},
+views:{driver:"Guida",rearLeft:"Posteriore sinistra",rearRight:"Posteriore destra"},
+material:"Materiale sedili",stitching:"Trapuntatura a dieci punti, ricamo esclusivo da 18.899 punti",packages:{moonShadowGrey:{label:"Interni Grigio Ombra Lunare",title:"Grigio Ombra (Grigio/Nero/Giallo)"},
+polarNightBlackGlacierBlue:{label:"Interni Nero Notte Polare / Blu Ghiacciaio",title:"Nero Notte Polare / Blu Ghiacciaio (Bicolore)"}},
+colors:{blackYellow:"Bicolore Nero/Giallo",blackRed:"Bicolore Nero/Rosso",brightYellow:"Giallo acceso (Giallo/Nero)",deepWineRed:"Bordeaux Scuro",chestnutBrown:"Marrone Castagna",darkGreen:"Verde Scuro",obsidianBlack:"Nero Ossidiana",deepSeaBlue:"Blu Marino Profondo"}},
+Fp={standard:"Vernice Standard",custom:"Vernice Personalizzata",boatPaint:"Vernice Barca"},
+Bp={lavaOrange:"Arancione Lava",brightRed:"Rosso Vivo",titanium:"Argento Titanio",emeraldGreen:"Verde Smeraldo",deepBlue:"Blu Ossidiana"},
+Op={standard:"Colore standard",custom:"Colore personalizzato"},
+Np={title:"Dettagli Prezzo",total:"Totale",base:"Prezzo Base",optionsTotal:"Totale Optional",thresholdTip:"La personalizzazione richiede optional ≥ ¥{threshold},
+ selezionati ¥{selected}"},
+qp={expand:"Espandi",collapse:"Comprimi",complete:"Completo"},
+Up={tabs:{configuration:"Configurazione",benefits:"Vantaggi d'acquisto"},
+reconfigure:"Riconfigura",metrics:{range:"Autonomia (CLTC)",acceleration:"0–100 km/h",assist:"Guida assistita YU"},
+fields:{modelVersion:"Versione modello",basePrice:"Prezzo base",hull:"Scafo",interior:"Interni"}},
+Qp={title:"Modifica colore scafo",standardColors:"Colori standard",customColors:"Colori personalizzati",free:"Gratis"},
+Hp={limitedTitle:"Vantaggi a tempo limitato",basicTitle:"Vantaggi base",items:{preorderSubsidy:{title:"Sussidio pre-ordine",desc:"Durante la promozione risparmia ¥20.000",value:"¥20.000"},
+foilUpgrade:{title:"Upgrade idrovolante ad alte prestazioni",desc:"Upgrade gratuito a foil leggeri in carbonio",value:"¥15.000"},
+navAssist:{title:"Licenza assistenza alla navigazione",desc:"Include 1 anno di navigazione e stabilizzazione HAD",value:"¥10.000"},
+trainingQuota:{title:"Quota training camp premium",desc:"2 giorni di addestramento in mare + coaching",value:"¥8.000"},
+warranty:{title:"Garanzia completa imbarcazione",desc:"5 anni o 500 ore (il primo che si verifica)"},
+driveTrainWarranty:{title:"Garanzia estesa powertrain",desc:"Estensione gratuita di 2 anni sul sistema di propulsione"},
+annualService:{title:"Manutenzione annuale",desc:"1 manutenzione gratuita e controllo foil ogni anno"},
+chartUpdates:{title:"Aggiornamenti carte intelligenti",desc:"3 anni di aggiornamenti rotta e localizzazione remota"},
+ownersClub:{title:"Club esclusivo armatori",desc:"Attività in mare e eventi esclusivi per i soci"}}},
+Vp={startConfiguring:"Inizia a Configurare",preselectHint:"Pre-seleziona la versione adatta a te"},
+_p="Colori",Gp={initializing:"Inizializzazione...",initializing3DEngine:"Inizializzazione Motore 3D...",creatingRenderEngine:"Creazione Motore di Rendering...",settingUpRenderer:"Configurazione Renderer...",initializingCameraController:"Inizializzazione Controller Fotocamera...",initializingSceneManager:"Inizializzazione Gestore Scena...",loadingEnvironmentModel:"Caricamento Modello Ambiente...",loadingMainModel:"Caricamento Modello Principale...",interiorModel:"Caricamento Modello Interni...",initializingInterface:"Inizializzazione Interfaccia...",configuringMaterials:"Configurazione Materiali...",settingDefaultView:"Impostazione Vista Predefinita...",loadingComplete:"Caricamento Completato!",loadingFailed:"Caricamento Fallito"},
+Wp={tabs:Tp,engine:Dp,rudder:Lp,interior:Mp,paint:Fp,paintNames:Bp,paintDesc:Op,pricing:Np,common:qp,profile:Up,colorPicker:Qp,benefits:Hp,store:Vp,colors:_p,loading:Gp},
+Yp="Trova Rivenditore",$p="Rete di Distribuzione Globale",jp="Cerca rivenditori",Jp="Nessun rivenditore trovato",Kp="Caricamento rivenditori...",Zp="Visualizza sulla Mappa",Xp="Contatto",em="Indirizzo",tm="Telefono",im="Email",om="Sito Web",nm="Orari di Apertura",am={title:Yp,subtitle:$p,searchPlaceholder:jp,noResults:Jp,loading:Kp,viewOnMap:Zp,contact:Xp,address:em,phone:tm,email:im,website:om,hours:nm},
+rm={title:"Partner",subtitle:"Navigando insieme ai migliori venture capitalist, puntiamo a creare una nuova era del trasporto intelligente sull'acqua"},
+sm={title:"Punti Salienti dell'Investimento",items:[{title:"La fusione dell'aliscafo è la soluzione ottimale per l'elettrificazione delle navi, sbloccando un mercato da migliaia di miliardi",points:["Attualmente, l'elettrificazione delle navi rimane solo al semplice livello di sostituzione del petrolio con l'elettricità, senza risolvere fondamentalmente la contraddizione tra consumo energetico ed efficienza di propulsione. La tecnologia dell'aliscafo può davvero risolvere e ribaltare completamente la modalità di gestione energetica delle barche tradizionali.","Gli aliscafi ad alte prestazioni si sono dimostrati preziosi in molteplici scenari. Le principali aziende estere hanno già fatto progressi in questo campo, mentre in Cina c'è praticamente un vuoto."]},
+{title:"Padronanza della catena industriale principale, possesso di eccellenti capacità di innovazione del prodotto e leadership nello sviluppo del settore",points:["Aderire alla ricerca e produzione autonoma lungo l'intera catena industriale, con linee di assemblaggio modulari per i componenti.","Insistere sul design originale, migliorare la matrice del prodotto, sviluppare sistemi di controllo intelligenti, sviluppare il volante intelligente, sviluppare cockpit intelligenti, sviluppare programmi di vendita terminale, sviluppare aliscafi modulari ad alta resistenza e sviluppare processi di materiali leggeri ad alta resistenza per lo scafo"]},
+{title:"Espandersi attivamente a livello globale e sforzarsi di diventare il leader assoluto nel campo consumer il prima possibile",points:["I nostri prodotti precedenti sono stati riconosciuti dai migliori clienti sia a livello nazionale che internazionale e sono stati implementati in vari scenari come tecnologia, trasporti, consumi e turismo culturale. L'80% dei nostri ricavi proviene dal settore dei trasporti. Basandoci sul nostro accumulo tecnologico e sui vantaggi significativi, abbiamo preso l'iniziativa nello sviluppo del trasporto intelligente sull'acqua per i consumatori.","Abbiamo raggiunto accordi di cooperazione con molteplici imprese nazionali di primo livello (orientate all'estero) per promuovere congiuntamente l'implementazione di veicoli per il trasporto sull'acqua AI+.",`L'azienda ha rilasciato prodotti di nuova forma che sono non competitivi in scala e ha stabilito un vantaggio assoluto combinando l'accumulo di esperienza a catena completa di "definizione del prodotto - innovazione tecnologica - catena di fornitura - canale".`]}]},
+lm={title:"Valutazione",titleHighlight:"degli Investitori",subtitle:"Riconoscimento professionale e valutazione approfondita da parte di investitori senior ed esperti del settore",items:[{quote:"Ha dimostrato capacità di innovazione rivoluzionarie nel campo della tecnologia degli aliscafi, con un concetto di design del prodotto lungimirante e prospettive di mercato promettenti.",name:"Esperto di investimenti tecnologici",role:"Investitore round angel"},
+{quote:"Il team possiede una prospettiva globale e capacità di esecuzione, e ha rare abilità composite nei campi dei sistemi intelligenti e delle catene di fornitura transfrontaliere. È un potenziale unicorno del futuro.",name:"Rinomato investitore industriale",role:"Lead investor nei round strategici"},
+{quote:"Il team ha forti capacità di esecuzione nell'implementazione dell'industrializzazione e possiede abilità complete dalla ricerca e sviluppo tecnologico alla commercializzazione.",name:"Partner di investimento industriale",role:"Partner strategico"}],focus:{label:"Focus degli investitori",tags:["innovazione tecnologica","prospettive di mercato","forza del team","capacità di esecuzione","modello di business","vantaggio della catena di fornitura"]}},
+cm={title:"Un Futuro Unicorno in Rapida Crescita",badge:"ROADMAP CHIARA",subtitle:"Dalla validazione tecnologica all'espansione globale, abbiamo un percorso di sviluppo chiaro e obiettivi ben definiti",stages:{angel:{title:"Round Angel",status:"Completato",amount:"4,5M",milestones:["Team principale assemblato","Prototipo di prodotto base","Validazione tecnica completata"]},
+angelPlus:{title:"Round Angel+",status:"In Corso",amount:"10M+",milestones:["Iterazione prodotto seconda generazione","Piloti di mercato espansi","Validazione modello di business"]},
+seriesA:{title:"Serie A",status:"Pianificato",amount:"50M+",milestones:["Rapida espansione della scala utenti","Capacità di produzione di massa","Distribuzione multi-nodo business"]},
+seriesB:{title:"Serie B",status:"Pianificato",amount:"200M+",milestones:["Espansione mercato internazionale","Sistema catena di fornitura maturo","Matrice prodotti derivati"]},
+ipo:{title:"Visione IPO",status:"Obiettivo",amount:"IPO",milestones:["Posizione solida nel settore","Presenza business globale","Impresa tecnologica internazionale"]}},
+metrics:{title:"Metriche di Sviluppo Chiave",valuation:{value:"1B+",label:"Valutazione Obiettivo"},
+markets:{value:"20+",label:"Copertura Mercato Globale"},
+team:{value:"500+",label:"Obiettivo Dimensione Team"},
+position:{value:"Top 3",label:"Obiettivo Posizione Settore"}}},
+dm={title:"La forza dei nostri partner di investimento è evidente",subtitle:"Unendo le forze con capitali di primo livello per creare una nuova era del trasporto sull'acqua",description:"Il nostro sviluppo ha ricevuto un profondo supporto dalle principali istituzioni di investimento in tecnologia avanzata e leader del settore. Non sono solo investitori finanziari, ma anche partner strategici che portano una profonda ecologia industriale, intuizioni tecniche ed esperienza di commercializzazione.",items:[{name:"Songhe Capital",subtitle:"Un player esperto e potente negli investimenti in tecnologia avanzata",description:'Come rappresentante della "scuola meridionale" del venture capital locale cinese, Pine Valley Capital è rinomata per il suo approccio "investimento iniziale, piccolo investimento e investimento tecnologico", vantando oltre 27 anni di esperienza negli investimenti tecnologici. Ha investito con successo in numerosi progetti stellari tra cui BGI, DJI e D-Fang Nano, dimostrando la sua visione precisa e forti capacità di supporto post-investimento.'},
+{name:"Dongguan Qingshui Bay Phase II Venture Capital",subtitle:"",description:`Il Dongguan Qingshui Bay Phase II Venture Capital, un paradigma di profonda integrazione di industria, accademia e ricerca, risiede nel suo unico background azionario di "Università di Hong Kong + Sequoia China + Tencent Industry Fund + Professor Li Zexiang", stabilendo un precedente per gli investimenti in innovazione scientifica e tecnologica transfrontaliera. Integra profondamente l'ecosistema della base robotica XBOT PARK, si concentra sugli investimenti in fase iniziale nell'hardware intelligente e può fornire un potenziamento a catena completa per le imprese investite dalla verifica tecnologica all'aggancio della catena industriale.`},
+{name:"Professor Li Zexiang",subtitle:"Il Fondatore e Pioniere dell'Imprenditoria Tecnologica Avanzata",description:`Il Professor Li Zexiang non è solo un professore presso l'Università di Scienza e Tecnologia di Hong Kong, ma è anche conosciuto come il "Padrino di DJI". Ha pionieristicamente creato con successo un modello replicabile di imprenditoria tecnologica avanzata. La base robotica XbotPark che ha fondato ha incubato oltre 60 aziende di tecnologia avanzata, guadagnandosi la reputazione di "culla degli unicorni" con una valutazione totale superiore a 80 miliardi di yuan.`}]},
+um={title:"Se sei interessato a noi, non esitare a contattarci",subtitle:"Aperti alla negoziazione con investitori strategici e capitale industriale",cards:{business:{title:"Cooperazione Commerciale",description:"Esplora opportunità di cooperazione commerciale"},
+technical:{title:"Cooperazione Tecnica",description:"Sviluppa congiuntamente tecnologie innovative"},
+channel:{title:"Cooperazione di Canale",description:"Diventa un rivenditore autorizzato"}},
+phone:"+86 13326656172",email:"alaquas{'@'}fly-h2o.cn"},
+pm={hero:rm,highlights:sm,evaluation:lm,roadmap:cm,partners:dm,contact:um},
+mm="Utente",gm="Info Account",hm="Cronologia Ordini",fm="Gestione Indirizzi",vm={empty:"Non hai ancora ordini",startShopping:"Inizia a Comprare",itemCount:"articolo/i"},
+bm={name:"Nome",detail:"Indirizzo",phone:"Telefono",label:"Etichetta",actions:"Azioni",empty:"Nessun indirizzo di spedizione",default:"PREDEFINITO",setDefault:"PREDEFINITO",delete:"Elimina",addNew:"Aggiungi Nuovo Indirizzo",namePlaceholder:"Inserisci il nome del destinatario",phonePlaceholder:"Inserisci il numero di telefono",province:"Provincia/Stato",city:"Città",district:"Distretto/Comune",provincePlaceholder:"Seleziona provincia/stato",cityPlaceholder:"Seleziona città",districtPlaceholder:"Seleziona distretto/comune",addressPlaceholder:"Inserisci l'indirizzo dettagliato",setAsDefault:"Imposta come indirizzo predefinito",save:"Salva Indirizzo",nameRequired:"Inserisci il nome del destinatario",phoneRequired:"Inserisci il numero di telefono",areaRequired:"Seleziona una regione",addressRequired:"Inserisci l'indirizzo dettagliato",edit:"Modifica",editAddress:"Modifica Indirizzo",update:"Aggiorna Indirizzo",updateSuccess:"Indirizzo aggiornato con successo",updateFailed:"Impossibile aggiornare l'indirizzo",addSuccess:"Indirizzo aggiunto con successo",addFailed:"Impossibile aggiungere l'indirizzo",areaLoadFailed:"Impossibile caricare i dati dell'area",clear:"Cancella",deleteConfirmTitle:"Elimina Indirizzo",deleteConfirmSubtitle:"Sei sicuro di voler eliminare questo indirizzo? Questa azione non può essere annullata."},
+ym="Account di Accesso",wm="Email",Am="Telefono",Sm="Password",Cm="Verificato",xm="Cambia Email",Im="Cambia Numero",Em="Cambia Password",Pm="Associa",zm="Email non associata",km="Telefono non associato",Rm="Collegamento Account Terze Parti",Tm="Collega i tuoi account di terze parti per abilitare metodi di accesso alternativi ed evitare il blocco dell'account.",Dm="Tipo di Account",Lm="Dettagli",Mm="Data Collegamento",Fm="Stato",Bm="Azione",Om="Nessun account di terze parti collegato",Nm="Attivo",qm="Inattivo",Um="Scollega",Qm={title:"Scollegare {name}?",subtitle:"Dopo lo scollegamento, non sarà più possibile accedere con questo account di terze parti",success:"Account scollegato con successo",failed:"Impossibile scollegare l'account"},
+Hm="Password Attuale",Vm="Inserisci la password attuale",_m="Nuova Password",Gm="Inserisci nuova password (min 8 caratteri)",Wm="Conferma Nuova Password",Ym="Reinserisci la nuova password",$m="Inserisci la password attuale",jm="Inserisci una nuova password",Jm="La password deve avere almeno 8 caratteri",Km="Le password non corrispondono",Zm="Password modificata con successo",Xm="Impossibile modificare la password",eg="Nuova Email",tg="Inserisci nuovo indirizzo email",ig="Inserisci un indirizzo email",og="Inserisci un indirizzo email valido",ng="Email modificata con successo",ag="Impossibile modificare l'email",rg="Nuovo Numero di Telefono",sg="Inserisci nuovo numero di telefono",lg="Inserisci un numero di telefono",cg="Numero di telefono modificato con successo",dg="Impossibile modificare il numero di telefono",ug={title:"Verifica Sicurezza Account",subtitle:"Stai eseguendo un'operazione sensibile. Verifica la tua identità prima di continuare.",emailWarning:"Dopo aver cambiato l'email, non potrai più accedere con l'email originale + password.",passwordLabel:"Password Account",passwordPlaceholder:"Inserisci la password attuale dell'account",passwordRequired:"Inserisci la password",passwordMin:"La password deve avere almeno 8 caratteri",codeLabel:"Codice di Verifica",codePlaceholder:"Inserisci il codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",codeSentHint:"Un codice di verifica è stato inviato alla tua email attuale",sendCode:"Invia Codice",sending:"Invio...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato con successo",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendi prima di richiedere un altro codice",next:"Avanti",verifySuccess:"Verifica riuscita",verifyFailed:"Verifica fallita"},
+pg={title:"Collegamento Nuova Email",subtitle:"Verifica riuscita. Verifica la tua nuova email.",emailLabel:"Nuovo Indirizzo Email",emailPlaceholder:"Inserisci nuovo indirizzo email",emailRequired:"Inserisci un indirizzo email",emailInvalid:"Inserisci un indirizzo email valido",codeLabel:"Codice di Verifica Email",codePlaceholder:"Inserisci il codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",sendCode:"Invia Codice",sending:"Invio...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato alla nuova email",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendi prima di richiedere un altro codice",success:"Email modificata con successo",failed:"Impossibile modificare l'email",previous:"Indietro"},
+mg={title:"Verifica Sicurezza Account",subtitle:"Stai eseguendo un'operazione sensibile. Verifica la tua identità prima di continuare.",phoneWarning:"Dopo aver cambiato il numero di telefono, non potrai più accedere con il numero originale + codice.",passwordLabel:"Password Account",passwordPlaceholder:"Inserisci la password attuale",passwordRequired:"Inserisci la password",passwordMin:"La password deve avere almeno 8 caratteri",codeLabel:"Codice di Verifica",codePlaceholder:"Inserisci il codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",codeSentHint:"Codice di verifica inviato al telefono attuale",sendCode:"Invia Codice",sending:"Invio...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato con successo",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendi prima di richiedere un altro codice",next:"Avanti",verifySuccess:"Verifica riuscita",verifyFailed:"Verifica fallita"},
+gg={title:"Collegamento Nuovo Telefono",subtitle:"Verifica riuscita. Verifica il tuo nuovo numero di telefono.",phoneLabel:"Nuovo Numero di Telefono",phonePlaceholder:"Inserisci nuovo numero di telefono",phoneRequired:"Inserisci un numero di telefono",phoneInvalid:"Inserisci un numero di telefono valido",codeLabel:"Codice di Verifica SMS",codePlaceholder:"Inserisci il codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",sendCode:"Invia Codice",sending:"Invio...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato al nuovo telefono",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendi prima di richiedere un altro codice",success:"Numero di telefono modificato con successo",failed:"Impossibile modificare il numero di telefono",previous:"Indietro"},
+hg={title:"Associa Email",subtitle:"Associando un'email, potrai accedere e recuperare l'account",emailLabel:"Indirizzo Email",emailPlaceholder:"Inserisci indirizzo email",emailRequired:"Inserisci un indirizzo email",emailInvalid:"Inserisci un indirizzo email valido",codeLabel:"Codice di Verifica Email",codePlaceholder:"Inserisci codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",sendCode:"Invia Codice",sending:"Invio in corso...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato all'email",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendere prima di richiedere un altro codice",success:"Email associata con successo",failed:"Impossibile associare l'email"},
+fg={title:"Associa Numero di Telefono",subtitle:"Associando un telefono, potrai accedere e recuperare l'account",phoneLabel:"Numero di Telefono",phonePlaceholder:"Inserisci numero di telefono",phoneRequired:"Inserisci un numero di telefono",phoneInvalid:"Inserisci un numero di telefono valido",codeLabel:"Codice di Verifica SMS",codePlaceholder:"Inserisci codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",sendCode:"Invia Codice",sending:"Invio in corso...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato al telefono",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendere prima di richiedere un altro codice",success:"Telefono associato con successo",failed:"Impossibile associare il telefono"},
+vg={wechat:"WeChat",alipay:"Alipay",twitter:"Twitter",google:"Google",unknown:"Sconosciuto"},
+bg={title:"Modifica Password",subtitle:"Imposta una nuova password per il tuo account",methodEmail:"Codice Email",methodSms:"Codice SMS",noVerifiable:"Nessuna email o telefono associato. Associa prima un contatto per modificare la password.",newPasswordLabel:"Nuova Password",newPasswordPlaceholder:"Inserisci nuova password (min 8 caratteri)",newPasswordRequired:"Inserisci una nuova password",passwordMin:"La password deve avere almeno 8 caratteri",confirmPasswordLabel:"Conferma Nuova Password",confirmPasswordPlaceholder:"Reinserisci la password",confirmPasswordRequired:"Conferma la password",passwordMismatch:"Le password non corrispondono",codeLabel:"Codice di Verifica",codePlaceholder:"Inserisci il codice a 6 cifre",codeRequired:"Inserisci il codice di verifica",codeSentHint:"Il codice di verifica verrà inviato alla tua email",codeSentHintSms:"Il codice di verifica verrà inviato al tuo telefono",sendCode:"Invia Codice",sending:"Invio...",resendIn:"Reinvia (
+{seconds}s)",codeSent:"Codice di verifica inviato con successo",codeSendFailed:"Impossibile inviare il codice di verifica",codeSendTooFrequent:"Attendi prima di richiedere un altro codice",success:"Password modificata con successo",failed:"Impossibile modificare la password"},
+yg={defaultNickname:mm,accountInfo:gm,orderHistory:hm,addressManagement:fm,orders:vm,address:bm,loginAccount:ym,loginEmail:wm,loginPhone:Am,loginPassword:Sm,verified:Cm,changeEmail:xm,changePhone:Im,changePassword:Em,bind:Pm,notBoundEmail:zm,notBoundPhone:km,thirdPartyBinding:Rm,thirdPartyDesc:Tm,bindingAccount:Dm,bindingDetail:Lm,bindingTime:Mm,bindingStatus:Fm,bindingAction:Bm,noBindings:Om,statusActive:Nm,statusInactive:qm,unbind:Um,unbindModal:Qm,oldPassword:Hm,oldPasswordPlaceholder:Vm,newPassword:_m,newPasswordPlaceholder:Gm,confirmNewPassword:Wm,confirmNewPasswordPlaceholder:Ym,oldPasswordRequired:$m,newPasswordRequired:jm,passwordMinLength:Jm,passwordMismatch:Km,passwordChanged:Zm,passwordChangeFailed:Xm,newEmail:eg,newEmailPlaceholder:tg,emailRequired:ig,emailInvalid:og,emailChanged:ng,emailChangeFailed:ag,newPhone:rg,newPhonePlaceholder:sg,phoneRequired:lg,phoneChanged:cg,phoneChangeFailed:dg,securityVerify:ug,newEmailBind:pg,securityVerifyPhone:mg,newPhoneBind:gg,bindEmailModal:hg,bindPhoneModal:fg,socialPlatform:vg,changePasswordModal:bg},
+wg="SCENARI DI APPLICAZIONE",Ag={commute:{title:"Pendolarismo Quotidiano",description:"Trasforma il tuo pendolarismo quotidiano con le nostre barche ad aliscafo. Scivola dolcemente attraverso le vie d'acqua, evitando la congestione del traffico mentre godi di un modo unico ed efficiente di viaggiare. Perfetto per le città costiere e le comunità sul lungomare."},
+leisure:{title:"Svago e Vacanze",description:"Vivi il massimo nei viaggi di svago e vacanza. Che tu stia esplorando coste panoramiche, visitando isole o semplicemente godendoti una giornata tranquilla sull'acqua, le nostre barche ad aliscafo offrono comfort ed emozioni senza pari."},
+business:{title:"Attività Commerciali",description:"Eleva le tue riunioni di lavoro e gli eventi aziendali. Impressiona i clienti con esperienze acquatiche uniche, ospita incontri esclusivi o utilizza le nostre barche per viaggi inter-ufficio efficienti attraverso le vie d'acqua."},
+sports:{title:"Sport Acquatici",description:"Porta le tue avventure di sport acquatici al livello successivo. La nostra tecnologia ad aliscafo consente esperienze ad alta velocità emozionanti mantenendo stabilità e sicurezza, perfetta per gli appassionati che cercano emozioni sull'acqua."}},
+Sg={title:wg,cards:Ag},
+Cg="Richiesta fallita",xg="Errore di rete, controlla la connessione",Ig="Timeout della richiesta, riprova più tardi",Eg="Aggiornamento token fallito, accedi di nuovo",Pg="Sessione scaduta, accedi di nuovo",zg={400:"La lunghezza della password è compresa tra 4 e 16 caratteri.",401:"Non connesso",403:"Nessun permesso per questa operazione",404:"Richiesta non trovata",405:"Metodo di richiesta non valido",423:"Richiesta fallita, riprova più tardi",429:"Troppe richieste, riprova più tardi",500:"Errore di sistema",502:"Configurazione non valida",900:"Richiesta duplicata, riprova più tardi",902:"Dati già esistenti",999:"Errore sconosciuto",1002e6:"Accesso fallito, account o password errati",1002000001:"Accesso fallito, account disabilitato",1002000004:"Codice di verifica errato",1002000005:"Account non collegato, collegamento richiesto",1002000007:"Numero di telefono non esistente",1002000008:"Account non collegato, collegamento richiesto",1002001e3:"Esiste già un menu con questo nome",1002001001:"Menu principale non trovato",1002001002:"Non è possibile impostare se stesso come menu principale",1002001003:"Menu non trovato",1002001004:"Esistono sotto-menu, impossibile eliminare",1002001005:"Il tipo del menu principale deve essere directory o menu",1002001006:"Esiste già un menu con questo nome componente",1002002e3:"Ruolo non trovato",1002002001:"Esiste già un ruolo con questo nome",1002002002:"Esiste già un ruolo con questo identificatore",1002002003:"Non è possibile operare su ruoli di sistema integrati",1002002004:"Questo ruolo è stato disabilitato",1002002005:"Questo identificatore non può essere utilizzato",1002003e3:"Account utente già esistente",1002003001:"Numero di telefono già esistente",1002003002:"Email già esistente",1002003003:"Utente non trovato",1002003004:"I dati utente importati non possono essere vuoti",1002003005:"Verifica password fallita",1002003006:"Utente disabilitato",1002003008:"Creazione utente fallita, quota tenant superata",1002003009:"La password iniziale non può essere vuota",1002003010:"Questo numero non è registrato",1002003011:"Registrazione chiusa",1002004e3:"Esiste già un dipartimento con questo nome",1002004001:"Dipartimento principale non trovato",1002004002:"Dipartimento corrente non trovato",1002004003:"Esistono sotto-dipartimenti, impossibile eliminare",1002004004:"Non è possibile impostare se stesso come dipartimento principale",1002004006:"Il dipartimento non è abilitato, non selezionabile",1002004007:"Non è possibile impostare un sotto-dipartimento come principale",1002005e3:"Posizione non trovata",1002005001:"La posizione non è abilitata, non selezionabile",1002005002:"Esiste già una posizione con questo nome",1002005003:"Esiste già una posizione con questo identificatore",1002006001:"Tipo dizionario non trovato",1002006002:"Il tipo dizionario non è abilitato, non selezionabile",1002006003:"Esiste già un tipo dizionario con questo nome",1002006004:"Questo tipo dizionario esiste già",1002006005:"Impossibile eliminare, il tipo dizionario contiene ancora dati",1002007001:"Dati dizionario non trovati",1002007002:"I dati dizionario non sono abilitati, non selezionabili",1002007003:"Esiste già un dato dizionario con questo valore",1002013002:"Il modello SMS non esiste",1002014e3:"Codice di verifica non trovato",1002014001:"Il codice di verifica è scaduto",1002014004:"Superato il limite giornaliero di invio SMS",1002014005:"Messaggi SMS inviati troppo frequentemente",1002018e3:"Autorizzazione social fallita",1002018001:"Autorizzazione social fallita, utente non trovato",1002018210:"Client social non trovato",1002018211:"Client social già configurato",100202e4:"Client OAuth2 non trovato",1002020001:"ID client OAuth2 già esistente",1002020002:"Client OAuth2 disabilitato",1002020003:"Tipo di autorizzazione non supportato",1002020004:"Ambito di autorizzazione troppo ampio",1002020005:"redirect_uri non valido",1002020006:"client_secret non valido",1002021e3:"client_id non corrispondente",1002021001:"redirect_uri non corrispondente",1002021002:"state non corrispondente",1002022e3:"Codice non trovato",1002022001:"Codice scaduto",1002023e3:"Account email non trovato",1002023001:"Impossibile eliminare, l'account email ha ancora modelli",1002024e3:"Modello email non trovato",1002024001:"Codice modello email già esistente",1002025e3:"Parametro modello mancante",1002025001:"Indirizzo email non trovato",1002026e3:"Modello notifica non trovato",1002026001:"Esiste già un modello notifica con questo codice",1002029e3:"Menu sito web non trovato",1002029001:"Menu principale sito web non trovato",1002029002:"Il tipo del menu principale deve essere directory o menu",1002029003:"Esiste già un menu con questo nome",1002029004:"Esiste già un menu con questo nome componente",1002029005:"Esistono sotto-menu, impossibile eliminare",100203e4:"Codice di verifica non trovato",1002030001:"Codice di verifica scaduto",1002030002:"Codice di verifica già utilizzato",1002030003:"Limite giornaliero email superato",1002030004:"Invio email troppo frequente",1002031001:"The contact information format is incorrect.",1004001e3:"Utente non trovato",1004001001:"Numero di telefono non registrato",1004001002:"Aggiornamento telefono fallito, numero già in uso",1004001004:"Aggiornamento email fallito, email già in uso",1004003e3:"Accesso fallito, account o password errati",1004003001:"Accesso fallito, account disabilitato",1004003002:"Operazione fallita, account o password errati",1004003005:"Accesso fallito, impossibile analizzare info accesso terze parti",1004003007:"Numero di telefono già in uso",1008001e3:"Categoria prodotto non trovata",1008001001:"Categoria principale non trovata",1008001002:"La categoria principale non può essere di secondo livello",1008001003:"Esistono sotto-categorie, impossibile eliminare",1008001004:"Categoria prodotto disabilitata, non utilizzabile",1008001005:"La categoria contiene prodotti, impossibile eliminare",1008002e3:"Marchio non trovato",1008002001:"Marchio disabilitato",1008002002:"Nome marchio già esistente",1008003e3:"Attributo non trovato",1008003001:"Nome attributo già esistente",1008003002:"L'attributo ha valori associati, impossibile eliminare",1008004e3:"Valore attributo non trovato",1008004001:"Nome valore attributo già esistente",1008005e3:"Prodotto SPU non trovato",1008005001:"Categoria prodotto non corretta",1008005002:"Salvataggio prodotto SPU fallito",1008005003:"Prodotto non disponibile",1008005004:"Prodotto SPU non nel cestino",1008006e3:"SKU prodotto non trovato",1008006001:"Combinazione attributi SKU duplicata",1008006002:"Tutti gli SKU di un SPU devono avere attributi coerenti",1008006003:"Tutti gli SKU di un SPU devono essere unici",1008006004:"SKU prodotto esaurito",requestFailed:Cg,networkError:xg,timeout:Ig,refreshTokenFailed:Eg,loginExpired:Pg},
+kg={empty:"Nessun accessorio disponibile al momento"},
+Rg="Stile o Colore",Tg="DETTAGLI PRODOTTO",Dg="Esaurito",Lg="Prossimamente",Mg="Quantità massima disponibile: {count}",Fg={title:"GWC",empty:"Il tuo carrello è vuoto",subtotal:"Subtotale",shipping:"Spedizione",total:"Totale",checkout:"ACQUISTA"},
+Bg={title:"Cerca",placeholder:"Cerca prodotti...",empty:"Digita una parola chiave per iniziare",noResults:"Nessun prodotto corrispondente",noMore:"Nessun altro risultato"},
+Og={title:"INDIRIZZO",management:"Gestione Indirizzi",actions:"Azioni",label:"Etichetta",default:"PREDEFINITO",newAddress:"Nuovo Indirizzo",editAddress:"Modifica Indirizzo",name:"Nome",phone:"Telefono",region:"Provincia / Città / Distretto",province:"Provincia / Stato",city:"Città",district:"Distretto / Comune",detail:"Indirizzo dettagliato (es. **Via N.**)",locate:"Localizza nelle vicinanze",defaultShipping:"Indirizzo di spedizione predefinito",clear:"Cancella",save:"SALVA",buyWithShop:"ACQUISTA CON NEGOZIO",buyNow:"ACQUISTA ORA",nameRequired:"Inserisci il nome del destinatario",phoneRequired:"Inserisci il numero di telefono",areaRequired:"Seleziona una regione",detailRequired:"Inserisci l'indirizzo dettagliato",addSuccess:"Indirizzo aggiunto con successo",addFailed:"Impossibile aggiungere l'indirizzo",updateSuccess:"Indirizzo aggiornato con successo",updateFailed:"Impossibile aggiornare l'indirizzo",operationFailed:"Operazione fallita",deleteConfirmTitle:"Elimina Indirizzo",deleteConfirmSubtitle:"Sei sicuro di voler eliminare questo indirizzo? Questa azione non può essere annullata.",emptyTip:"Nessun indirizzo di spedizione, aggiungine uno",addFirstAddress:"Aggiungi Indirizzo",noAddressTip:"Seleziona prima un indirizzo di spedizione"},
+Ng={confirmed:"ORDINE CONFERMATO",paymentSuccessful:"PAGAMENTO RIUSCITO",thankYou:"Grazie per il tuo acquisto!",orderNumber:"Numero Ordine",orderDate:"Data Ordine",orderDetails:"Dettagli Ordine",contactSupport:"Contatta Supporto",orderAddress:"Indirizzo di Spedizione",product:"Prodotto",unitPrice:"Prezzo Unitario",quantity:"Quantità",amountPaid:"Importo Pagato",includingShipping:"Incl. spedizione",paymentTime:"Data Pagamento",items:"Articoli",color:"Colore",shippingAddress:"Indirizzo di Spedizione",noAddress:"Nessun indirizzo fornito",paymentMethod:"Metodo di Pagamento",status:"Stato",viewOrders:"VISUALIZZA ORDINI",continueShopping:"CONTINUA LO SHOPPING",notFound:"Ordine non trovato",backToStore:"Torna al Negozio",history:"STORICO ORDINI",noOrders:"Non hai ancora nessun ordine.",startShopping:"INIZIA A FARE SHOPPING",itemCount:"articolo/i",backToOrders:"Torna agli Ordini",details:"Dettagli Ordine",actions:"Azioni Ordine",statusTracking:"Tracciamento Stato",statusPending:"In attesa",statusPaid:"Pagato",statusShipped:"Spedito",statusDelivered:"Consegnato",stepPlaceOrder:"Ordine Effettuato",stepBuyerPayment:"Pagamento",stepSellerShips:"Spedizione",stepConfirmReceipt:"Conferma Ricezione",productAmount:"Importo",refund:"Rimborso",addToCart:"Aggiungi al Carrello",pendingShipment:"In attesa di spedizione",estimatedDelivery:"Consegna stimata",logisticsDetails:"Dettagli Logistica",createTime:"Data Creazione",back:"INDIETRO",qty:"Qtà",each:"cad.",payment:"Pagamento",placedOn:"Effettuato il",statusPendingPayment:"In attesa di pagamento",statusPendingShipment:"In attesa di spedizione",statusPendingReceipt:"In attesa di ricezione",statusCompleted:"Completato",statusClosed:"Chiuso",cancelOrder:"Annulla ordine",payOrder:"Paga ora",confirmReceipt:"Conferma ricezione",viewLogistics:"Vedi logistica",deleteOrder:"Elimina ordine",buyAgain:"Acquista di nuovo",countdownDaysHours:"{days}g {hours}h rimanenti",countdownHoursMinutes:"{hours}h {minutes}m rimanenti",countdownMinutesSeconds:"{minutes}m {seconds}s rimanenti",cancelSuccess:"Ordine annullato con successo",cancelFailed:"Impossibile annullare l'ordine",receiveSuccess:"Ricezione confermata con successo",receiveFailed:"Impossibile confermare la ricezione",deleteSuccess:"Ordine eliminato con successo",deleteFailed:"Impossibile eliminare l'ordine",deleteConfirm:"Sei sicuro di voler eliminare questo ordine?",cancelConfirm:"Sei sicuro di voler annullare questo ordine?",receiveConfirm:"Sei sicuro di voler confermare la ricezione?",logisticsTitle:"Tracciamento Logistica",noLogistics:"Nessuna informazione logistica disponibile"},
+qg={shippingMethod:"Metodo di spedizione",upsExpress:"UPS Express",secureMessage:"Tutte le transazioni sono sicure e crittografate.",creditCard:"Carta di credito",cardNumber:"Numero carta",expiry:"Data di scadenza (MM/AA)",securityCode:"Codice di sicurezza",nameOnCard:"Nome sulla carta",useBillingAddress:"Usa l'indirizzo di spedizione come indirizzo di fatturazione",newsletter:"Iscrivimi per notizie e offerte da questo negozio",payNow:"PAGA ORA",selectPayment:"Seleziona metodo di pagamento",wechatPay:"WeChat Pay",wechatPayDesc:"Scansiona il codice QR con WeChat",alipay:"Alipay",alipayDesc:"Scansiona il codice QR con Alipay",unionpay:"UnionPay",unionpayDesc:"Scansiona il codice QR con UnionPay",confirmPay:"Conferma pagamento",scanToPay:"Scansiona il codice QR qui sotto con l'app corrispondente per completare il pagamento",generatingQR:"Generazione codice QR...",qrPlaceholder:"Caricamento codice QR",paymentComplete:"Ho completato il pagamento",paymentTip:"Clicca questo pulsante dopo aver completato il pagamento. Il sistema verificherà automaticamente il risultato.",orderSummary:"Riepilogo ordine",discountPlaceholder:"Codice sconto o carta regalo",apply:"Applica",subtotal:"Subtotale",items:"articoli",shippingFee:"Spedizione",freeShippingTag:"SPEDIZIONE GRATUITA",total:"Totale",totalSavings:"RISPARMIO TOTALE",shop:"NEGOZIO",free:"GRATIS"},
+Ug={accessories:kg,styleOrColor:Rg,productDetails:Tg,outOfStock:Dg,comingSoon:Lg,maxStock:Mg,cart:Fg,search:Bg,address:Og,order:Ng,checkout:qg},
+Qg={title:"Architettura di Controllo",subtitle:"L'architettura di controllo è la base dell'intera imbarcazione, per un'esperienza di cabina e di guida all'avanguardia"},
+Hg={title:"Modulo di Controllo di Dominio Quattro-in-Uno",description:"A differenza dell'architettura distribuita tradizionale delle imbarcazioni, l'architettura di controllo intelligente integra il controller di dominio dell'imbarcazione VCCD, il controller di dominio della cabina DCD, il controller di dominio di guida assistita ADD e il modulo di comunicazione T-Box in un unico cervello di calcolo centrale, riducendo drasticamente il numero di controller e abbattendo peso e consumi energetici."},
+Vg={title:"Altamente Integrato, Compatto e Leggero",stats:{controllers:{value:"-75%",label:"Controller"},
+space:{value:"-57%",label:"Spazio Occupato"},
+weight:{value:"-75%",label:"Peso Componenti"}},
+sentry:{line1:"Modalità Guardiano",line2:"Collegamento di Comunicazione Semplificato",power:"Consumo Energetico Ridotto del 40%"},
+efficiency:{title:"Autonomia Ottimizzata in Efficienza",description:"Fino a 16 km in più"},
+disclaimers:["*Dati del Laboratorio Yushui Flying. I confronti di volume e peso sono riferiti all'architettura di controllo intelligente prima dell'elevata integrazione.","*Il consumo energetico della modalità Guardiano dipende dalla durata di attivazione;
+ fanno fede i valori reali. Confronto: modalità Guardiano degli idrofoili dotati del sistema intelligente Yushui Flying."]},
+_g={title:"Tecnologia di Comunicazione Avanzata a Bordo",features:[{title:"Doppio 5G in Parallelo",line1:"Copertura e affidabilità del segnale notevolmente migliorate",line2:"Commutazione di rete <0,5 s"},
+{title:"Wi-Fi 7",line1:"Triplo Bluetooth e Doppio Wi-Fi",line2:"Hotspot a bordo più veloce dell'83%"},
+{title:"UWB",line1:"5 ancoraggi di posizionamento UWB",line2:""},
+{title:"Interfaccia di Comunicazione IoT",line1:"Costruiamo un più aperto",line2:'"Ecosistema Uomo-Barca-Casa"'}],disclaimer:"*Dati del Laboratorio Yushui Flying. I tempi di commutazione di rete possono variare in base all'ambiente di test;
+ la banda cellulare 5G principale supporta DSDA;
+ la condivisione hotspot supporta fino a Wi-Fi 7, con MLO non abilitato per Wi-Fi 7."},
+Gg={title:"Piattaforma di Calcolo Ultra-Elevata",description:"Il SoC della cabina intelligente adotta la piattaforma mobile Snapdragon®8 di terza generazione;
+ il chip di calcolo per la guida assistita adotta la nuova piattaforma di calcolo a bordo NVIDIA DRIVE AGX Thor™. Potenza di calcolo ultra-elevata per un'esperienza avanzata di cabina intelligente e guida assistita."},
+Wg={title:"Piattaforma Mobile Snapdragon®8 di Terza Generazione",description1:"Processo produttivo a 4 nm, che porta per la prima volta su un idrofoilo eccellenti prestazioni di calcolo mobile ed efficienza energetica.",description2:"Esperienza della cabina intelligente più fluida: avvio, lancio e aggiornamenti più rapidi!",disclaimers:["*Dati del Laboratorio Yushui Flying. Le variazioni sono riferite alla generazione precedente e possono differire in base alla versione software e all'ambiente di test.","*Prime statistiche basate su informazioni di dominio pubblico."]},
+Yg={titleLine1:"Nuova Generazione",titleLine2:"NVIDIA DRIVE AGX Thor™",titleLine3:"Piattaforma di Calcolo a Bordo",description:"Il modulo di guida assistita integra la nuova piattaforma a 4 nm di NVIDIA con architettura Blackwell, portando la potenza di calcolo totale a un sorprendente 700 TOPS per un miglior supporto di carichi complessi."},
+$g={title:"L'Architettura di Controllo Intelligente Supera Test di Affidabilità Rigorosi",description1:"La scheda principale è certificata secondo lo standard AEC-Q104, con test di durata oltre 2 volte superiori al benchmark di settore,",description2:"coprendo oltre 17 categorie ambientali e 280 scenari di test: una solida base per l'intelligenza dell'intera imbarcazione, stabile nei momenti che contano."},
+jg=["* Tutte le immagini strutturali mostrate sul sito sono illustrazioni funzionali.","* Immagini del prodotto e contenuti visualizzati sono solo di riferimento. Caratteristiche e specifiche effettive del prodotto (inclusi ma non limitati ad aspetto, colore e dimensioni) e contenuti effettivamente visualizzati possono differire;
+ fa fede il prodotto finale.","* Salvo diversa indicazione, tutti i dati presenti su questo sito provengono dai test interni di Yushui Flying.","* Tutti i confronti dei dati, le classifiche di settore e le domande di brevetto presenti sul sito sono aggiornati alla data di pubblicazione del 28 dicembre 2023."],Jg={product:"Prodotto",showcase:"Vetrina del Prodotto",integration:"Altamente Integrato",sentry:"Modalità Guardiano",efficiency:"Efficienza Energetica",communication:"Tecnologia di Comunicazione Avanzata",dual5g:"Doppio 5G in Parallelo",wifi7:"Wi-Fi 7",uwb:"UWB",iot:"Interfaccia di Comunicazione IoT",snapdragon:"Piattaforma Mobile Snapdragon®8 di Terza Generazione",nvidia:"Nuova Generazione"},
+Kg={carbonHull:"Scafo Monoscocca in Carbonio",smartMatrixLight:"Faro a Matrice Intelligente",frontHydrofoil:"Idroala Anteriore",cockpit:"Cabina di Pilotaggio",rearHydrofoil:"Idroala Posteriore",outboardMotor:"Motore Fuoribordo"},
+Zg={carbonFiber:"Stampaggio Monoscocca in Fibra di Carbonio",stability:"Sistema di Stabilizzazione dell'Assetto dello Scafo"},
+Xg={title:"Sistema di Controllo Dati",cruiseSpeed:"Velocità di Crociera",maxSpeed:"Velocità Massima",endurance:"Autonomia",fastCharge:"Ricarica Rapida DC"},
+eh={learnMore:"Scopri di Più"},
+th={hero:Qg,domain:Hg,integration:Vg,communication:_g,computing:Gg,snapdragon:Wg,nvidia:Yg,reliability:$g,disclaimers:jg,alt:Jg,parts:Kg,craft:Zg,metrics:Xg,cta:eh},
+ih="Consenti l'accesso alla posizione",oh="Abbiamo bisogno della tua posizione per sbloccare il sito completo. Senza consenso potrai visitare solo la home page.",nh="Accesso alla posizione negato",ah="L'accesso al sito è limitato. Concedi il permesso di geolocalizzazione per esplorare modelli, store e altre sezioni.",rh="Consenti",sh="Riprova",lh="Rimani nella home",ch="È necessario il permesso di geolocalizzazione per accedere a tutte le funzioni.",dh="Riprova",uh="Limitato",ph="Il browser non espone la geolocalizzazione (richiede HTTPS). Utilizza un browser compatibile.",mh="Posizione bloccata dal browser",gh="Il browser ha memorizzato il rifiuto precedente: il prompt non comparirà più. Riattiva manualmente l'autorizzazione:",hh={step1:"Tocca l'icona del lucchetto vicino alla barra degli indirizzi.",step2:`Trova "Posizione" nell'elenco dei permessi del sito.`,step3:'Imposta su "Consenti", poi torna qui e premi il pulsante sotto.'},
+fh="Ho riattivato — verifica",vh="La posizione è ancora bloccata. Verifica nuovamente le impostazioni del sito nel browser.",bh="Posizione consentita",yh="Vedi dettagli",wh="Accesso alla posizione negato",Ah="L'accesso al sito è limitato. Concedi il permesso di geolocalizzazione per esplorare modelli, store e altre sezioni.",Sh="Servizio di localizzazione non disponibile",Ch="Non è stato possibile determinare la tua posizione. Verifica che il servizio di localizzazione del sistema sia attivo e che la rete sia raggiungibile, quindi riprova.",xh="Richiesta di posizione scaduta",Ih="Il rilevamento della posizione ha richiesto troppo tempo. Capita spesso al chiuso o con segnale GPS debole. Riprova.",Eh="Riprova",Ph={promptTitle:ih,promptSubtitle:oh,deniedTitle:nh,deniedSubtitle:ah,allow:rh,retry:sh,backToHome:lh,banner:ch,bannerCta:dh,limitedBadge:uh,unsupportedHint:ph,browserBlockedTitle:mh,browserBlockedSubtitle:gh,browserBlockedSteps:hh,verifyAfterEnable:fh,stillBlocked:vh,permissionGranted:bh,viewDetail:yh,deniedTitleUserDenied:wh,deniedSubtitleUserDenied:Ah,deniedTitleUnavailable:Sh,deniedSubtitleUnavailable:Ch,deniedTitleTimeout:xh,deniedSubtitleTimeout:Ih,retryGeneric:Eh},
+zh={eyebrow:"fibra di carbonio",heading:"Applicazione dei materiali in fibra di carbonio",description:"Alcuni componenti delle imbarcazioni hydrofoil adottano materiali avanzati in fibra di carbonio, che non solo offrono un aspetto raffinato, ma garantiscono anche prestazioni eccellenti nelle applicazioni reali. Come materiale composito ad alte prestazioni, la fibra di carbonio sta diventando un materiale centrale per la nuova generazione della cantieristica nautica.",features:[{title:"Elevata resistenza e bassa densita",desc:"La resistenza della fibra di carbonio arriva fino a 4-5 volte quella dell'acciaio, mentre la densita e solo 1/4 di quella dell'acciaio e 2/3 di quella dell'alluminio. Questa caratteristica consente alle imbarcazioni hydrofoil di ridurre notevolmente il peso dello scafo mantenendo la resistenza strutturale e migliorando l'efficienza di navigazione."},
+{title:"Design leggero e consumi ridotti",desc:"Secondo i dati di settore, il design leggero puo ridurre il consumo energetico delle imbarcazioni del 16-18%, migliorando ulteriormente l'efficienza di navigazione e l'economia operativa. Con l'adozione di materiali in fibra di carbonio, l'hydrofoil della serie Y ottiene risultati significativi in termini di leggerezza."},
+{title:"Resistenza alla corrosione e durata",desc:"La fibra di carbonio offre un'eccellente resistenza alla corrosione e puo essere utilizzata a lungo in ambienti acquatici difficili senza essere intaccata dalla ruggine. Anche la sua resistenza alla fatica e notevole, garantendo stabilita e affidabilita del prodotto nel lungo periodo."},
+{title:"Design innovativo e processo produttivo",desc:"Compositi multistrato in fibra di carbonio e tecnologie di polimerizzazione ad alta temperatura e alta pressione vengono utilizzati per garantire una struttura dello scafo ottimizzata e stabile."},
+{title:"Protezione ambientale e sostenibilita",desc:"Il materiale in fibra di carbonio non e solo leggero e durevole, ma offre anche una buona riciclabilita, in linea con i moderni principi ambientali."}]},
+kh={title:"Batteria",intro:{title:"Un sistema di alimentazione a batteria al litio-ferro-fosfato progettato specificamente per navi e piattaforme di operazioni offshore.",description:"Integra elevata sicurezza, protezione robusta, leggerezza e gestione intelligente, affrontando con calma condizioni marine complesse come nebbia salina ad alta umidita, forti piogge e turbolenze, fornendo un supporto energetico verde, duraturo e stabile per il sistema di alimentazione della nave."},
+advantages:{label:"VANTAGGI DELLE BATTERIE",items:[{title:"Celle di batteria al litio-ferro-fosfato ad alta sicurezza",description:"Riducono il rischio di fuga termica alla fonte e garantiscono la sicurezza del personale e delle navi. Lunga durata ciclica, adatta alle esigenze operative a lungo termine e ad alta frequenza delle navi. Adatta a operazioni in qualsiasi condizione meteorologica."},
+{title:"Monitoraggio remoto BMS intelligente",description:"Monitoraggio in tempo reale: monitoraggio online 24/7 di dati core come tensione, temperatura, SOC/SOH, ecc., con avvisi in tempo reale degli stati anomali per prevenire i problemi prima che si verifichino."},
+{title:"Protezione completa IP67",tags:["Forte impermeabilita","Resistenza alla corrosione","Durevole e robusto","Sigillato ermeticamente"]}]},
+lightweight:{title:"Cassa in lega di alluminio leggera",items:[{label:"Riduzione del peso e miglioramento dell'efficienza",text:"La lega di alluminio ha bassa densita, riducendo significativamente il peso della nave, migliorando capacita di carico e autonomia, e ottimizzando le prestazioni dei consumi energetici."},
+{label:"Dissipazione efficiente del calore",text:"Eccellente conducibilita termica, favorevole alla gestione termica dei sistemi di batteria e al mantenimento dell'operativita delle celle in un intervallo di temperatura adeguato."},
+{label:"Durevole e affidabile",text:"Lega di alluminio ad alta resistenza, dopo trattamento termico, ha eccellente resistenza agli urti e alla deformazione, garantendo la sicurezza strutturale in condizioni marine difficili."},
+{label:"Design di sicurezza",text:"La cassa ha proprieta ignifughe ed e dotata di canali di sfogo della pressione per migliorare ulteriormente il livello di sicurezza del sistema."}]}},
+Rh={title:"MOTORE FUORIBORDO",slogan:"Godi della potenza sull'acqua, naviga con facilita e intelligenza",description:"Integrando controllo intelligente, propulsione elettrica ed esperienza intuitiva, questa nuova imbarcazione offre un'esperienza silenziosa, affidabile e facile da utilizzare grazie al design compatto e completamente integrato, al rumore operativo ultra-basso e al sistema di telecomando intelligente.",features:[{title:"ESPERIENZA ULTRA-SILENZIOSA E CONFORTEVOLE",details:[{label:"Eccellenti prestazioni NVH",text:"Rumore, vibrazione e ruvidita estremamente bassi, migliorando la qualita della navigazione."},
+{label:"Riduzione del rumore al massimo",text:"Con smorzamento delle vibrazioni in gomma e design di evitamento delle frequenze modali, il rumore massimo durante il funzionamento e inferiore a 73 decibel, facendo sembrare di essere in un ufficio silenzioso."},
+{label:"Esperienza immersiva",text:"Ti permette di ascoltare solo il suono naturale dell'acqua, con un rumore di trazione meccanica quasi impercettibile, godendo di un'esperienza di navigazione tranquilla e confortevole."}]},
+{title:"DESIGN INTELLIGENTE COMPLETAMENTE INTEGRATO",details:[{label:"Innovazione integrata",text:"Integra esclusivamente controller centrale, controller del motore e modulo di sterzo elettrico in una struttura compatta, risparmiando prezioso spazio a bordo."},
+{label:"Funzionalita intelligenti",text:"Dotato di funzioni intelligenti come l'inclinazione elettrica, rendendo l'operazione facile e senza preoccupazioni."},
+{label:"Ottimizzazione della potenza",text:"Sfruttando un laboratorio idrodinamico di livello provinciale e un design di elica all'avanguardia, migliora significativamente l'efficienza di propulsione per un viaggio piu efficiente dal punto di vista energetico."}]},
+{title:"QUALITA PROFESSIONALE E AFFIDABILE",details:[{label:"Elevata durabilita",text:"Il prodotto e progettato per essere robusto e affidabile, costruito per durare e adattabile a vari ambienti marini."},
+{label:"Certificazione autorevole",text:"Il prodotto ha ottenuto l'approvazione di tipo della China Classification Society (CCS),
+ garantendo qualita assicurata e tranquillita."}]},
+{title:"INTERAZIONE UOMO-MACCHINA INTELLIGENTE",details:[{label:"Controllo a portata di dita",text:"L'acceleratore intelligente ePropulsion abbinato a un display HD da 5 pollici offre un'esperienza di controllo intuitiva e facile da usare."},
+{label:"Informazioni a colpo d'occhio",text:"Il display mostra in tempo reale lo stato operativo del motore, le informazioni di allarme, lo stato del sistema di telecomando e dati completi dell'imbarcazione, mantenendoti pienamente informato sulla tua imbarcazione."},
+{label:"Ridondanza di sicurezza",text:"Il sistema di telecomando ePropulsion costruisce un controllo elettronico integrato, migliorando sicurezza di navigazione e flessibilita operativa con robusta capacita di gestione dei guasti."}]}]},
+Th={carbonFiberMaterial:zh,battery:kh,outboardMotor:Rh},
+Dh="加载中...",Lh="错误",Mh="成功",Fh="取消",Bh="确认",Oh="提交",Nh="保存",qh="编辑",Uh="查看",Qh="关闭",Hh="返回",Vh="下一步",_h="上一步",Gh="搜索",Wh="筛选",Yh="排序",$h="刷新",jh="了解更多",Jh="探索",Kh="发现",Zh="查看全部",Xh="查看更多",ef="开始",tf="联系我们",of="阅读更多",nf="观看视频",af="下载手册",rf="立即预约",sf="即将推出",lf="新品",cf="精选",df="热门",uf="独家",pf="限量版",mf="售罄",gf="有货",hf="预订",ff={symbol:"¥",code:"CNY"},
+vf={speed:"km/h",range:"km",power:"kW",weight:"kg",length:"m",width:"m",capacity:"人"},
+bf="登录已过期，请重新登录",yf={spaceSilver:"太空银",lightningYellow:"闪电黄",brightRed:"耀眼红",parrotGreen:"鹦鹉绿",obsidianBlue:"曜石蓝",cyan:"青色"},
+wf={loading:Dh,error:Lh,success:Mh,cancel:Fh,confirm:Bh,submit:Oh,save:Nh,delete:"删除",edit:qh,view:Uh,close:Qh,back:Hh,next:Vh,previous:_h,search:Gh,filter:Wh,sort:Yh,refresh:$h,learnMore:jh,explore:Jh,discover:Kh,viewAll:Zh,seeMore:Xh,getStarted:ef,contactUs:tf,readMore:of,watchVideo:nf,downloadBrochure:af,bookNow:rf,comingSoon:sf,newArrival:lf,featured:cf,popular:df,exclusive:uf,limited:pf,soldOut:mf,inStock:gf,preOrder:hf,currency:ff,units:vf,loginExpired:bf,colors:yf},
+Af="御水飞行",Sf="水上飞行",Cf="首页",xf="产品",If="技术",Ef="配置器",Pf="体验",zf="关于",kf="联系",Rf="投资者",Tf="登录",Df="注册",Lf="我的账户",Mf="退出登录",Ff="已退出登录",Bf="默认头像",Of="语言",Nf="关闭",qf={menuButton:"菜单",hydrofoil:"水翼艇",models:"产品系列",h1Series:"Y-3",h1Desc:"三座版",h2Series:"Y-5",h2Desc:"五座版",craftsmanship:"水翼艇工艺",manufacturing:"制造工艺",superEngine:"超级引擎",superEngineDesc:"严格质量标准",highVoltagePlatform:"高压平台",highVoltagePlatformDesc:"电池技术",carbonFiber:"超级工艺",carbonFiberDesc:"碳钎维",assistedNavigation:"辅助驾驶",assistedNavigationDesc:"智能辅助系统",smartSteering:"智驭向舵",smartSteeringDesc:"三个模式",batteryMenu:"电池",batteryMenuDesc:"船用电池系统",outboardMotorMenu:"挂机",outboardMotorMenuDesc:"电动挂机",carbonFiberMaterialMenu:"碳纤维",carbonFiberMaterialMenuDesc:"碳纤维材料",technology:"核心介绍",hydrofoilAdvantages:"水翼优势",hydrofoilAdvantagesDesc:"速度、稳定、舒适",applicationScenarios:"应用场景",applicationScenariosDesc:"客运、休闲、运输",investors:"投资者",overview:"介绍",businessPlan:"BP介绍",businessPlanDesc:"详细数据展示",careers:"团队",contact:"联系我们",services:"服务介绍",serviceGuarantee:"服务保障",chargingNetwork:"充电补能",financingOptions:"金融测试",locations:"其他",dealers:"经销商",dealersDesc:"全球分布点",storeLocator:"门店查询",storeLocatorDesc:"体验点经营状态和位置",customerService:"客户服务",customerServiceDesc:"支持与帮助",aboutUs:"关于我们",aboutMe:"关于我的",companyIntroduction:"公司介绍",factory:"工厂",learnHydrofoil:"了解水翼",legal:"法律条款",userAgreement:"用户协议",privacyPolicy:"隐私政策",authAgreement:"授权协议",serviceAgreement:"售后服务协议",insuranceAgreement:"保险服务协议",storeNav:{hydrofoil:"水翼艇",hmi:"船载HMI",design:"船舶设计",hullDesignBuild:"船体设计与制造",accessories:"船体配件",development:"软件开发",distribution:"分销",search:"搜索..."}},
+Uf={models:{title:"产品系列",h1:{name:"H-1",tagline:"入门性能"},
+h2:{name:"H-2",tagline:"进阶能力"},
+h3:{name:"H-3",tagline:"卓越体验"},
+compare:"对比产品",viewAll:"查看全部"},
+technology:{title:"创新科技",hydrofoil:"水翼技术",propulsion:"电动推进",autonomy:"智能驾驶",materials:"先进材料",battery:"电池技术"},
+about:{title:"公司介绍",story:"品牌故事",team:"领导团队",factory:"生产制造",sustainability:"可持续发展",careers:"加入我们"},
+contact:{title:"联系我们",dealers:"经销商查询",support:"客户支持",service:"服务中心",press:"媒体合作"}},
+Qf={hydrofoil:"水翼艇",hmi:"船载HMI",design:"船舶设计",hullDesign:"船体设计与建造",accessories:"船舶配件",development:"软件开发",distribution:"分销"},
+Hf={configure:"配置您的水翼船",testDrive:"预约试航",contact:"联系我们",store:"商店"},
+Vf={company:"公司",products:"产品",support:"支持",legal:"法律",social:"关注我们"},
+_f={brand:Af,tagline:Sf,home:Cf,models:xf,technology:If,configurator:Ef,experience:Pf,about:zf,contact:kf,investors:Rf,login:Tf,register:Df,account:Lf,logout:Mf,logoutSuccess:Ff,defaultAvatar:Bf,language:Of,close:Nf,menu:qf,submenu:Uf,storeMenu:Qf,cta:Hf,footer:Vf},
+Gf={tagline:"科技驱动，水上飞行",cta:"探索 Y-3"},
+Wf={title:"Y-5 五座旗舰",tagline:"新一代水翼旗舰，奢享御水飞行",cta:"探索全新 Y-5"},
+Yf={title:"科技创新",subtitle:"突破壁垒，乘风破浪",subtitleLine2:"实效新高度的证明",learnMore:"了解更多"},
+$f={line1:"研发设计",line2:"创新突破"},
+jf={title:"我们的使命",description:`最稳如磐石的水上作业平台
+最节能高效的水经济定义者
+最性能超群的水上交通工具`},
+Jf={title:"电动水翼船",feature1:"聚焦全球水上交通和文旅场景",feature2:"提供电动船舶解决方案",feature3:"构建水上出行新模式"},
+Kf={title:"新一代水翼技术",intro:"真正的力量，不产生浪费。",description1:"通过将船体抬离海面，水翼技术带来无与伦比的效率、更长的续航、更低的能耗和轻松的速度。",description2:"专为深知未来掌控力在于智能、负责和不妥协的船主设计。",lessResistance:"更少阻力。",moreAuthority:"更大掌控。",conclusion:"一艘证明可持续发展同样可以震撼人心的游艇。",cta:"探索御水飞行"},
+Zf={title:"翼海家族",slide1:{title:"Y-3 三座版",subtitle:"低功耗 高载客量",linkText:"了解详情"},
+slide2:{title:"Y-5 五座版",subtitle:"镂空水滴大灯 更好的续航体验",linkText:"了解详情"},
+slide3:{title:"新品研发中",subtitle:"尽请期待",linkText:""}},
+Xf={badge:"全新发布",title:"水上飞行",titleLine1:"驭风而行",titleLine2:"水上飞驰",subtitle:"体验未来水上出行方式，御水飞行电动水翼船带您感受前所未有的速度与激情",cta:{primary:"立即预约试驾",secondary:"了解更多"}},
+e0={badge:"革命性科技",title:"重新定义水上出行",description:"御水飞行水翼船采用先进的水翼技术，让船体在水面上飞行，带来前所未有的平稳、高效、环保的水上体验。",stats:{speed:{value:"50+",unit:"km/h",label:"最高时速"},
+range:{value:"100+",unit:"km",label:"续航里程"},
+noise:{value:"0",unit:"dB",label:"零排放"}}},
+t0={badge:"产品系列",title:"选择您的体验",description:"从入门级性能到极致奢华，发现适合您旅程的完美水翼船。",h1:{name:"H-1",tagline:"入门性能",description:"水翼技术的完美入门，展现卓越的能力表现。"},
+h2:{name:"H-2",tagline:"进阶能力",description:"为追求卓越的爱好者带来增强的性能和功能。"},
+h3:{name:"H-3",tagline:"卓越体验",description:"水翼工程和奢华工艺的巅峰之作。"},
+cta:"了解更多"},
+i0={badge:"创新科技",title:"卓越工程",description:"每一个组件都经过精心设计，为您带来非凡的水上体验。",features:{hydrofoil:{title:"水翼系统",description:"先进的水翼设计使船体升离水面，消除阻力，实现飞行般的效率。"},
+propulsion:{title:"电动推进",description:"静音、强劲、零排放。我们的电机提供即时扭矩，对环境零影响。"},
+materials:{title:"碳纤维结构",description:"航空级材料确保最佳的强度重量比，实现最大性能。"},
+autonomy:{title:"智能系统",description:"先进的传感器和AI提供稳定性、安全性和直观的驾驶体验。"}},
+cta:"探索技术"},
+o0={badge:"感受不同",title:"预约您的体验",description:"没有什么能比得上水上飞行的感觉。立即预约您的试航体验。",features:{feature1:"专业指导",feature2:"安全可控的环境",feature3:"无需经验"},
+cta:"立即预约"},
+n0={badge:"准备好飞行了吗？",title:"配置您的水翼船",description:"使用我们直观的3D配置器创建您的完美水翼船。",button:"开始配置"},
+a0={badge:"最新动态",title:"保持关注",viewAll:"查看全部新闻"},
+r0={badge:"Real scene",subtitle:"水翼艇",title:"真实航行画面",description:"水翼艇在真实水域下的实景拍摄，从起航、升翼到高速巡航，呈现其在续航表现、耐波能力与航行稳定性方面的真实状态。无特效、无模拟，记录水翼艇如何在实际运行中，实现安全、平稳、高效的新能源水上航行。",discoverMore:"了解更多",cta:"探索全系列",items:{h1:{name:"深圳 · 大梅沙实拍",description:"实拍记录水翼艇在深圳大梅沙近海水域的实际运行画面。在真实海况条件下，展示其升翼航行过程及对浪涌环境的适应能力。",description2:"实拍记录二：细节捕捉，还原真实航行状态"},
+h2:{name:"深圳 · 大沙河实拍",description:"水翼艇在城市内河环境中的实拍实景记录。画面呈现其在相对狭窄水域中的航行稳定性与可控性，验证城市水上交通应用场景。",description2:"实拍记录二：侧舷跟拍，直观平稳姿态",description3:"实拍记录三：多维视角，捕捉航行细节"},
+h3:{name:"东莞 · 松山湖",description:"湖泊水域的实景航拍。在相对平稳水况下，清晰呈现升翼后航行姿态与巡航状态，展示其运行效率与平顺性。",description2:"实景航拍二：多维视角呈现，航行姿态全记录"},
+h4:{name:"珠海 · 珠江口西岸海域",description:"珠江口西岸海域的实景实拍。在复杂海况与潮流条件下，展示水翼艇的稳定性与适航能力，验证其在珠三角水域的应用潜力。",description2:"实拍记录二：海域实测，多维视角展示"},
+custom:{name:"定制版",description:"量身定制的解决方案，根据您的独特愿景打造。与我们的设计团队合作，创造一艘独一无二、彰显个人风格的船只。"}}},
+s0={label:"画廊",title:"水翼画廊",description:"探索我们精彩的水翼艇图片和视频集，展示我们船只的美丽和性能。",brandSubtitle:`科技驱动
+水上飞行`,statsTopSpeed:"最高速度",statsDraft:"吃水深度"},
+l0={title:"驭见未来，智在掌舵",description:"智驭三模方向盘是一款面向水翼艇等高性能船舶的智能人机交互终端，旨在解决传统船舶驾驶中操作分散、信息割裂的痛点。它将关键控制与核心信息高度集成于一体，显著提升操控便捷性与航行安全性。",learnMore:"了解更多"},
+c0={title:"水翼智联App"},
+d0={banner:Gf,bannerY5:Wf,innovation:Yf,research:$f,essence:jf,hydrofoil:Jf,nextGen:Kf,products:Zf,hero:Xf,intro:e0,models:t0,technology:i0,experience:o0,cta:n0,news:a0,range:r0,gallery:s0,steeringWheel:l0,app:c0},
+u0="产品系列",p0="发现适合您旅程的完美水翼船",m0="对比产品",g0="配置",h0="查看详情",f0="预约试航",v0="起售价",b0={name:"Y-3",tagline:"入门性能",series:"Y-3 三座版",edition:"尊享悠游版",description:"水翼技术的完美入门。体验飞行般的效率，展现卓越的性能表现。",longDescription:"H-1代表着水上出行新时代的开端。专为准备体验水上飞行非凡感受的用户设计，它将易于操作的技术与令人印象深刻的能力相结合。每一个细节都经过精心考量，为您带来直观而刺激的体验。",heroDescription:["Y-3 智能水翼艇是一款集智能科技、","舒适体验与高效性能于一体的水上交通工具。","采用先进的水翼设计，","有效降低航行阻力，提升航速与稳定性，","适合家庭出游、休闲娱乐及短途运输。"],sections:{viewDetails:"了解详情",boatAesthetics:{title:"船体美学",description:"全球首款面向水上交通与文旅场景的智能电动水翼艇，以“高性能+低能耗”重构水上出行方式。适合日常通勤、休闲度假、商业活动及水上运动。以鹬鸟的轻盈与优雅为灵魂，将其贴水飞行的灵动姿态化为船体的流线。"},
+windRiding:{title:"破浪而行",description:"水翼技术通过精巧平衡流体与空气的动力学特性，降低航行阻力，提升航行效率。"},
+details:{streamline:{title:"流光速影",description:"极致流线型船身，划破水面如光掠影。"},
+wingStructure:{title:"一体式翼架结构",description:"航空级碳纤维骨架，轻量化与高强度的完美平衡"},
+cockpit:{title:"沉浸式驾舱",description:"环抱式座舱设计，人机合一的驾驶体验"},
+lights:{title:"智能矩阵灯组",description:"贯穿式LED光带，点亮水上新风尚"}},
+colors:{title:"富有生命力的色彩",flameRed:{name:"烈焰红",description:"烈焰红，灵感源自炽热火焰的耀眼光芒，象征着热情与力量，展现勇往直前的澎湃气势。"},
+gemGreen:{name:"宝石绿",description:"宝石绿，色彩灵感来自翡翠宝石的深邃绿色，如森林深处的生命力，散发着自然与奢华的完美融合。"},
+titanium:{name:"钛金属色",description:"钛金属色，取自航空钛合金的独特光泽，展现科技与工艺的完美结合，彰显现代工业美学。"},
+lavaOrange:{name:"熔岩橙",description:"熔岩橙，灵感源自火山熔岩的炽热光芒，象征着激情与活力，展现无畏前行的动感精神。"},
+deepSeaBlue:{name:"深海蓝",description:"深海蓝，取自深海的神秘蓝色，如夜空中的繁星倒影，展现深邃与宁静的高级质感。"}},
+technicalData:{title:"技术参数",dimensions:{title:"主尺度",lengthOverall:"总长度",beam:"总宽度",maxDraft:"吃水深度",passengers:"乘员人数"},
+performance:{title:"动力、速度和续航里程",cruiseSpeed:"巡航速度",maxSpeed:"最高速度",endurance:"续航时间",propulsionPower:"推进功率"},
+charging:{title:"充电",chargingMethod:"充电方式",chargingStation:"充电桩",chargingTime:"充电时间",chargingPower:"充电功率"},
+values:{dedicatedCharger:"配备专用充电桩"}},
+gallery:{label:"画廊",title:"水翼艇",titleHighlight:"画廊",description:"探索 Y-3 的每一个精致细节，感受水上飞行的优雅之美",brandSubtitle:"释放无限动力",statsTopSpeed:"最高速度",statsDraft:"吃水深度",cruisingSpeed:"巡航速度"},
+imageAlts:{product:"产品图",streamline:"流光速影",wingStructure:"一体式翼架结构",cockpit:"沉浸式驾舱",lights:"智能矩阵灯组",colorOption:"颜色选项 {name}",colorOptionSelected:"颜色选项 {name} 选中"}},
+specs:{topSpeed:{label:"最高时速",value:"45",unit:"km/h"},
+range:{label:"续航里程",value:"80",unit:"km"},
+power:{label:"功率",value:"60",unit:"kW"},
+capacity:{label:"载客量",value:"2",unit:"人"},
+weight:{label:"重量",value:"450",unit:"kg"},
+charging:{label:"充电时间",value:"2",unit:"小时"}},
+features:["直观的飞行控制系统","碳纤维船体结构","集成导航显示","自动稳定控制"]},
+y0={name:"Y-5",tagline:"进阶能力",series:"Y-5 五座版",edition:"奢华领航版",description:"水翼技术的完美入门。体验飞行般的效率，展现卓越的性能表现。",longDescription:"Y-5代表着水上出行新时代的开端。专为准备体验水上飞行非凡感受的用户设计，它将易于操作的技术与令人印象深刻的能力相结合。每一个细节都经过精心考量，为您带来直观而刺激的体验。",heroDescription:["探索 Y-5 的精湛工艺和高科技。","从精确的几何形状到先进的推进系统、","安静的航行和惊人的航程，","这款电动智能水翼的各个方面都经过精心设计，","可提供革命性的乘坐体验。"],sections:{productShowcase:{title:"一体式光环尾灯",description:"高辨识度设计让船艇在水上中「一眼可识别」，兼具科幻美学与超高辨识度"},
+boatAesthetics:{title:"驭浪而行，智享奢华",description:"降阻水翼技术 · 高效续航 · 静音设计",descriptionLine2:"舒适空间 · 智能操控"},
+beautySection:{title:"最高级的美感",description:"纵荡与纵倾被驯服在可控的节律内，阻力与功率随时间平稳起伏，每一次波动都遵循物理与逻辑的秩序。正如隐藏于水下的底盘结构，数据的稳定性不是偶然的结果，而是设计、算法与工程经验共同雕琢的必然。"},
+windSection:{title:"航行体验",description:"自动驾驶 · 智驭三模方向盘 · 炫彩氛围灯+3D全景环绕音 · 全碳纤维流线船体+40kW超静音电机 · 大容量电池"},
+colors:{title:"富有生命力的色彩",flameRed:{name:"烈焰红",description:"烈焰红，灵感源自炽热火焰的耀眼光芒，象征着热情与力量，展现勇往直前的澎湃气势。"},
+gemGreen:{name:"宝石绿",description:"宝石绿，色彩灵感来自翡翠宝石的深邃绿色，如森林深处的生命力，散发着自然与奢华的完美融合。"},
+titanium:{name:"钛金属色",description:"钛金属色，取自航空钛合金的独特光泽，展现科技与工艺的完美结合，彰显现代工业美学。"},
+lavaOrange:{name:"熔岩橙",description:"熔岩橙，灵感源自火山熔岩的炽热光芒，象征着激情与活力，展现无畏前行的动感精神。"},
+deepSeaBlue:{name:"深海蓝",description:"深海蓝，取自深海的神秘蓝色，如夜空中的繁星倒影，展现深邃与宁静的高级质感。"}},
+technicalData:{title:"技术参数",dimensions:{title:"主尺度",lengthOverall:"总长度",beam:"总宽度",maxDraft:"吃水深度",passengers:"乘员人数"},
+performance:{title:"动力、速度和续航里程",cruiseSpeed:"巡航速度",maxSpeed:"最高速度",endurance:"续航时间",propulsionPower:"推进功率"},
+charging:{title:"充电",chargingMethod:"充电方式",chargingStation:"充电桩",chargingTime:"充电时间",chargingPower:"充电功率"},
+values:{dedicatedCharger:"配备专用充电桩"}},
+gallery:{label:"画廊",title:"水翼艇",titleHighlight:"画廊",description:"探索 Y-5 的每一个精致细节，感受水上飞行的优雅之美",brandSubtitle:"释放无限动力",statsTopSpeed:"最高时速",statsDraft:"吃水深度"},
+imageAlts:{product:"产品图",streamline:"流光速影",wingStructure:"一体式翼架结构",cockpit:"沉浸式驾舱",lights:"智能矩阵灯组",colorOption:"颜色选项 {name}",colorOptionSelected:"颜色选项 {name} 选中"},
+details:{title:"细节展示",cards:{hydrofoil:{title:"低阻升翼设计",description:"前后水翼协同布局，在航行中形成稳定升力，使艇体在高速状态下脱离水面，大幅降低湿表面积与水阻。"},
+windRiding:{title:"御风而行",description:"驾驭流体与空气的双重平衡，水翼技术让船体脱离水面飞行，大幅降低阻力，实现静谧平稳的航行体验。以科技之力，重新定义水上出行。"},
+monoHull:{title:"单体壳概念",description:"流线型艇身在航行中有效引导水流，减少阻力与扰流，为水翼稳定升力提供理想基础。"},
+lightStrip:{title:"灯带工艺",description:"艇体灯带沿结构线条精准嵌入，与外壳曲面自然过渡，在不破坏整体水动力造型的前提下，实现清晰而克制的光效表达。"},
+control:{title:"专注操控，沉浸航行",description:"方向控制系统采用环抱式操纵结构，将转向、姿态调节与核心信息显示集中于驾驶者视线与手部自然活动范围内，减少视线偏移，提升操控专注度。"},
+eternalForm:{title:"永恒之形",description:"船身以连续而克制的曲面勾勒整体轮廓，线条自船首自然延展至尾部，在静止与航行状态下皆呈现高度完整的形态张力。"},
+comfort:{title:"性能至上，舒适随行",description:"坐舱采用低位一体化布局，将乘坐姿态与船体重心紧密结合，在高速航行中有效提升稳定性与操控反馈。"},
+propulsion:{title:"高效推进系统",description:"动力系统采用高功率密度电驱动单元，与低损耗传动轴及高效率螺旋桨精确匹配，实现能量输出与推进效率的最优平衡。"}}}}},
+w0={name:"Y-5",tagline:"进阶能力",series:"Y-5 五座版",edition:"奢华领航版",description:"从三座到五座的进化，不止于空间。全新设计语言，同级性能表现，让每一次出航都值得期待。",longDescription:"Y-5 代表着智能水翼艇的全面进化。在保持卓越飞行性能的基础上，以五座空间布局与全新外观设计，将水上出行体验提升至全新高度。无论是家庭出游、商务接待还是休闲度假，Y-5 都以从容优雅的姿态，让每一位乘客感受御水飞行的魅力。",heroDescription:["更大空间，同样凌厉。","Y-5 以五座布局重新定义水翼艇的边界，","全新升级的外观设计，","将高性能与舒适体验完美融合，","开启属于你的御水飞行。"],sections:{viewDetails:"了解详情",boatAesthetics:{title:"五座旗舰，美学新章",description:"Y-5 以全新设计语言重塑水翼艇的视觉边界。流线型船身承载五人舒适空间，每一处细节都在诉说科技与美学的交融，呈现水上座驾的旗舰风范。"},
+windRiding:{title:"驭浪前行，不止于速",description:"即便承载五人，Y-5 依然以水翼技术实现船体脱水飞行，大幅降低航行阻力。更大的空间，同样的静谧与平稳，重新定义舒适航行。"},
+details:{streamline:{title:"流光速影",description:"极致流线型船身，划破水面如光掠影。"},
+wingStructure:{title:"一体式翼架结构",description:"航空级碳纤维骨架，轻量化与高强度的完美平衡"},
+cockpit:{title:"沉浸式驾舱",description:"环抱式座舱设计，人机合一的驾驶体验"},
+lights:{title:"智能矩阵灯组",description:"贯穿式LED光带，点亮水上新风尚"}},
+colors:{title:"富有生命力的色彩",flameRed:{name:"烈焰红",description:"烈焰红，灵感源自炽热火焰的耀眼光芒，象征着热情与力量，展现勇往直前的澎湃气势。"},
+gemGreen:{name:"宝石绿",description:"宝石绿，色彩灵感来自翡翠宝石的深邃绿色，如森林深处的生命力，散发着自然与奢华的完美融合。"},
+titanium:{name:"钛金属色",description:"钛金属色，取自航空钛合金的独特光泽，展现科技与工艺的完美结合，彰显现代工业美学。"},
+lavaOrange:{name:"熔岩橙",description:"熔岩橙，灵感源自火山熔岩的炽热光芒，象征着激情与活力，展现无畏前行的动感精神。"},
+deepSeaBlue:{name:"深海蓝",description:"深海蓝，取自深海的神秘蓝色，如夜空中的繁星倒影，展现深邃与宁静的高级质感。"}},
+technicalData:{title:"技术参数",dimensions:{title:"主尺度",lengthOverall:"总长度",beam:"总宽度",maxDraft:"吃水深度",passengers:"乘员人数"},
+performance:{title:"动力、速度和续航里程",cruiseSpeed:"巡航速度",maxSpeed:"最高速度",endurance:"续航时间",propulsionPower:"推进功率"},
+charging:{title:"充电",chargingMethod:"充电方式",chargingStation:"充电桩",chargingTime:"充电时间",chargingPower:"充电功率"},
+values:{dedicatedCharger:"配备专用充电桩",standardWorkingTime:"标准工作时间"}},
+gallery:{label:"画廊",title:"水翼艇",titleHighlight:"画廊",description:"走进 Y-5 的设计世界，从焕新外观到宽奢座舱，领略水翼旗舰的非凡魅力",brandSubtitle:"释放无限动力",statsTopSpeed:"最高速度",statsDraft:"吃水深度",cruisingSpeed:"巡航速度"},
+imageAlts:{product:"产品图",streamline:"流光速影",wingStructure:"一体式翼架结构",cockpit:"沉浸式驾舱",lights:"智能矩阵灯组",colorOption:"颜色选项 {name}",colorOptionSelected:"颜色选项 {name} 选中"}},
+specs:{topSpeed:{label:"最高时速",value:"45",unit:"km/h"},
+range:{label:"续航里程",value:"80",unit:"km"},
+power:{label:"功率",value:"60",unit:"kW"},
+capacity:{label:"载客量",value:"5",unit:"人"},
+weight:{label:"重量",value:"450",unit:"kg"},
+charging:{label:"充电时间",value:"2",unit:"小时"}},
+features:["直观的飞行控制系统","碳纤维船体结构","集成导航显示","自动稳定控制"]},
+A0={waterResistance:{title:"水阻",subtitle:"面向未来的创新 VS 墨守成规",exploreMore:"探索更多"},
+physicsSimulation:{title:"物理模拟",subtitle:"鉴赏御水飞行-驾驭流体与空气的双重平衡前沿科技"},
+simulationModal:{title:"水翼系统能效与稳定性突破性验证",conditions:"模拟条件",mainParams:"主要参数",speed:"航速：",speedValue:"18节",wavelength:"波长：",wavelengthValue:"5.0米",waveHeight:"波高：",waveHeightValue:"0.5米",waveAngle:"浪向角：",waveAngleValue:"45°",yh2o:"YH2O",vs:"VS",traditionalVessel:"传统船舶",pitchAngle:"纵倾角",liftDistance:"抬升距离",effectivePower:"有效功率",totalResistance:"总阻力"}},
+S0={title:"对比产品",subtitle:"找到最适合您需求的型号",categories:{performance:"性能",comfort:"舒适与奢华",technology:"技术",dimensions:"尺寸"}},
+C0={title:"图库",exterior:"外观",interior:"内饰",details:"细节"},
+x0={title:"配置您的 {model}",subtitle:"打造您的完美水翼船",steps:{exterior:"外观",interior:"内饰",features:"功能",summary:"摘要"},
+exterior:{title:"选择外观颜色",colors:{obsidianBlack:"曜石黑",arcticWhite:"极地白",sapphireBlue:"宝石蓝",carbonGray:"碳灰色",pearlWhite:"珍珠白"}},
+interior:{title:"选择内饰",options:{standard:"标准版",premium:"高级版",luxury:"豪华版"}},
+features:{title:"附加功能",options:{soundSystem:"高级音响系统",navigation:"高级导航",autopilot:"自动驾驶系统",climate:"气候控制"}},
+summary:{title:"您的配置",model:"型号",exterior:"外观",interior:"内饰",features:"功能",total:"总价",disclaimer:"显示的价格为估算价格。最终定价可能会有所不同。"},
+actions:{back:"返回",next:"下一步",complete:"完成配置",save:"保存配置",share:"分享"}},
+I0={title:"产品中心",description:"探索御水飞行水翼船系列产品",specifications:"规格参数",features:"产品特色",price:"价格",availability:"现货状态",available:"现货",preOrder:"预订",soldOut:"售罄",addToCart:"加入购物车"},
+E0={title:"产品选配",description:"定制您的御水飞行水翼船配置",selectModel:"选择型号",selectColor:"选择颜色",selectInterior:"选择内饰",selectFeatures:"选择功能配置",configSummary:"配置摘要",totalPrice:"总价",saveConfig:"保存配置",orderNow:"立即订购"},
+P0={title:"试驾预约",description:"预约体验御水飞行水翼船",selectProduct:"选择产品",selectDate:"选择日期",selectTime:"选择时间",selectLocation:"选择地点",customerInfo:"联系信息",bookingSuccess:"预约成功",bookingError:"预约失败"},
+z0={title:"订单结算",orderSummary:"订单摘要",shippingInfo:"配送信息",paymentMethod:"支付方式",placeOrder:"提交订单",orderSuccess:"订单提交成功",orderError:"订单提交失败"},
+k0={title:u0,subtitle:p0,compare:m0,configure:g0,viewDetails:h0,bookTestDrive:f0,startingFrom:v0,h1:b0,h2:y0,y5:w0,innovation:A0,comparison:S0,gallery:C0,configurator:x0,products:I0,options:E0,testDrive:P0,checkout:z0},
+R0={loginRequiredTitle:"请先登录"},
+T0={title:"欢迎回来",subtitle:"登录您的账户",email:"邮箱",password:"密码",rememberMe:"记住我",forgotPassword:"忘记密码？",submit:"登录",submitting:"登录中...",noAccount:"还没有账户？",createAccount:"创建账户",or:"或",continueWith:"继续使用",success:"登录成功",error:"邮箱或密码错误"},
+D0={title:"创建账户",subtitle:"加入未来水上出行",firstName:"名",lastName:"姓",email:"邮箱",phone:"手机号",password:"密码",confirmPassword:"确认密码",newsletter:"订阅新闻通讯",terms:"我同意",termsLink:"服务条款",and:"和",privacyLink:"隐私政策",submit:"创建账户",submitting:"创建中...",hasAccount:"已有账户？",signIn:"登录",success:"账户创建成功",error:"创建账户失败"},
+L0={title:"重置密码",subtitle:"输入您的邮箱以接收重置说明",email:"邮箱",submit:"发送重置链接",submitting:"发送中...",backToLogin:"返回登录",success:"重置链接已发送到您的邮箱",error:"未找到该邮箱"},
+M0={title:"重置密码",subtitle:"为您的账户重置新密码",labels:{email:"邮箱",account:"邮箱/手机号",code:"验证码",newPassword:"新密码",confirmPassword:"确认新密码"},
+placeholders:{email:"请输入邮箱地址",account:"请输入邮箱或手机号",code:"请输入验证码",newPassword:"请输入新密码（至少8位）",confirmPassword:"请再次输入密码"},
+actions:{next:"下一步",submit:"重置密码",sendCode:"发送验证码",resendCode:"重新发送",sending:"发送中...",resendIn:"{seconds}秒后重发",contactSupport:"无法验证？请联系客服获取帮助。"},
+feedback:{invalid:"请输入正确的邮箱地址。",codeSent:"验证码已发送至您的邮箱。",codeSendFailed:"验证码发送失败，请稍后重试。",codeSendTooFrequent:"邮箱发送过于频繁，请稍后再试。",resetSuccess:"密码重置成功！",resetFailed:"密码重置失败，请稍后重试。",passwordMismatch:"两次输入的密码不一致。",passwordMin:"密码长度至少8位。"}},
+F0={title:"我的账户",subtitle:"管理您的账户设置",tabs:{overview:"概览",orders:"订单",configurations:"保存的配置",settings:"设置"},
+overview:{welcome:"欢迎，{name}",memberSince:"会员自 {date}",recentActivity:"最近活动"},
+settings:{personalInfo:"个人信息",security:"安全",notifications:"通知",language:"语言",deleteAccount:"注销账户"}},
+B0={emailRequired:"请输入邮箱",emailInvalid:"请输入有效的邮箱地址",passwordRequired:"请输入密码",passwordMin:"密码至少8个字符",passwordMatch:"两次密码不一致",firstNameRequired:"请输入名字",lastNameRequired:"请输入姓氏",phoneInvalid:"请输入有效的手机号",termsRequired:"您必须同意条款"},
+O0={google:"Google",apple:"Apple",facebook:"Facebook",alipay:"支付宝",wechat:"微信",twitter:"Twitter/X",linkedin:"领英",line:"LINE",alipayHint:"使用支付宝账号快速登录",wechatHint:"使用微信账号授权登录",twitterHint:"使用Twitter/X账号授权登录",googleHint:"使用Google账号快速登录",linkedinHint:"使用领英账号授权登录",lineHint:"使用LINE账号授权登录"},
+N0={topBar:{userAgreement:"用户协议",privacyPolicy:"隐私政策",helpCenter:"帮助中心",language:"语言"},
+tabs:{login:"登录",register:"注册"},
+labels:{region:"国家/地区",account:"邮箱",accountEmailOrPhone:"邮箱/手机号",countryCode:"国家码",phone:"手机号",password:"密码",confirmPassword:"确认密码",verificationCode:"验证码",email:"邮箱",agreementLogin:"已阅读并同意",agreementRegister:"我已阅读并同意"},
+placeholders:{selectRegion:"请选择国家/地区",searchRegion:"搜索国家/地区名称",account:"请输入邮箱",accountEmailOrPhone:"请输入邮箱/手机号",phone:"请输入手机号",password:"请输入密码",passwordWithRule:"请输入密码（至少8位）",confirmPassword:"请再次输入密码",verificationCode:"请输入验证码",email:"请输入邮箱地址"},
+buttons:{login:"登录",register:"注册",loginSubmitting:"登录中...",registerSubmitting:"注册中...",switchToEmail:"验证登录",switchToAccount:"账号登录",getCode:"获取验证码",retryIn:"{seconds}秒后重试",retry:"重试",sending:"发送中..."},
+tips:{forgotPassword:"忘记密码？",otherLoginMethods:"其他方式登录",socialAuthLoading:"正在加载授权页面...",socialAuthTitle:"第三方授权登录"},
+links:{userAgreement:"《用户协议》",privacyPolicy:"《隐私政策》",and:"和"},
+messages:{noRegionResult:"未找到匹配的国家/地区"},
+errors:{accountRequired:"请输入邮箱",accountInvalid:"请输入正确的邮箱/手机号",accountPhoneInvalid:"请输入正确的手机号",phoneRequired:"请输入手机号",phoneInvalid:"请输入正确的手机号",passwordRequired:"请输入密码",passwordMin:"密码长度至少8位",confirmPasswordRequired:"请再次输入密码",confirmPasswordMismatch:"两次输入的密码不一致",emailRequired:"请填写邮箱地址",emailInvalid:"请输入正确的邮箱地址",codeRequired:"请输入验证码",codeInvalid:"请输入6位验证码",agreementRequired:"请先同意协议",codeNotNeeded:"当前地区无需验证码",socialAuthFailed:"获取授权链接失败，请稍后重试"},
+alerts:{loginSuccess:"登录成功",registerSuccess:"注册成功，请登录",registerFail:"注册失败，请稍后再试",socialLogin:"即将跳转到{provider}授权登录，请稍候...",socialUnbound:"未绑定账号，需要进行绑定",codeSent:"验证码已发送"},
+bind:{title:"关联账号",subtitle:"请完成账号关联",emailLabel:"邮箱",emailPlaceholder:"请输入邮箱",accountLabel:"邮箱/手机号",accountPlaceholder:"请输入邮箱/手机号",codeLabel:"验证码",codePlaceholder:"请输入6位验证码",submit:"确认绑定",backToLogin:"返回登录",missingParams:"授权参数缺失，请重新登录",success:"账号绑定成功"}},
+q0={languageLabel:"语言",languages:{zhCN:"中文 (简体)",enUS:"English"},
+title:"御水飞行账号帮助中心",selfService:{title:"自助服务",subtitle:"常用操作一键直达"},
+actions:{helpCenter:"帮助中心",more:"更多"},
+services:{resetPassword:"重置密码",accountAppeal:"账号申诉",freezeAccount:"冻结账号",unfreezeAccount:"解冻账号",unblockAccount:"解封账号",deleteAccount:"注销账号"},
+categories:{faq:{label:"常见问题",questions:{recoverAccount:"忘记账号了，该如何找回？",resetPassword:"忘记密码了，如何重置密码？",phoneInactive:"手机号停用了，如何登录或换绑手机号？",appealFailed:"申诉不通过怎么办？",accountHijacked:"账号被盗了，怎么办？",signOut:"如何退出御水飞行账号？"},
+answers:{recoverAccount:"如果您忘记了账号，可以通过以下方式找回：1. 使用注册时绑定的手机号或邮箱找回；2. 如果您记得部分账号信息，可以联系客服协助找回；3. 通过账号申诉功能进行找回。",resetPassword:'忘记密码可以通过以下方式重置：1. 在登录页面点击"忘记密码"；2. 输入注册的手机号或邮箱；3. 按照系统提示完成身份验证；4. 设置新密码。',phoneInactive:"如果手机号已停用，您可以：1. 使用邮箱登录；2. 通过账号申诉功能更换安全手机；3. 联系客服协助处理。",appealFailed:"如果申诉不通过，请检查：1. 提交的信息是否完整准确；2. 证明材料是否清晰有效；3. 可以重新提交申诉，补充更多证明材料；4. 如仍有问题，请联系客服。",accountHijacked:"如果账号被盗，请立即：1. 尝试通过安全手机或邮箱找回账号；2. 如无法找回，立即进行账号申诉；3. 联系客服冻结账号；4. 修改所有相关密码。",signOut:'退出御水飞行账号：1. 在个人中心找到"退出登录"选项；2. 确认退出；3. 退出后需要重新登录才能使用账号功能。'}},
+login:{label:"登录",questions:{generalLogin:"如何登录御水飞行账号？",thirdParty:"如何使用第三方账号登录御水飞行账号？",noPhone:"没有绑定手机号，怎么登录账号？",loginAbnormal:"账号登录异常的原因？",deviceList:"如何查看账号下登录的御水飞行设备？",longTermInactive:"账号长期不登录，会自动注销吗？"},
+answers:{generalLogin:'登录御水飞行账号：1. 打开登录页面；2. 输入手机号/邮箱或御水飞行账号；3. 输入密码；4. 点击登录。如忘记密码，可使用"忘记密码"功能重置。',thirdParty:"使用第三方账号登录：1. 在登录页面选择第三方登录方式（如微信、支付宝等）；2. 授权同意后即可登录；3. 首次使用需要绑定御水飞行账号。",noPhone:"没有绑定手机号可以：1. 使用邮箱登录；2. 使用御水飞行账号登录；3. 如需绑定手机号，可在个人中心进行绑定。",loginAbnormal:"账号登录异常可能原因：1. 密码错误次数过多；2. 账号被冻结或封禁；3. 异地登录触发安全保护；4. 设备或网络异常。如遇此情况，请联系客服。",deviceList:'查看登录设备：1. 登录御水飞行账号；2. 进入个人中心；3. 找到"账号安全"或"设备管理"；4. 查看当前登录的设备列表，可进行设备管理。',longTermInactive:"账号长期不登录不会自动注销。但为了账号安全，建议定期登录。如超过一定时间未登录，可能需要重新验证身份。"}},
+profile:{label:"修改信息",questions:{updateSecurityPhone:"如何更换安全手机？",updateSecurityEmail:"如何更换安全邮箱？",unlinkContacts:"如何解绑手机号和邮箱？",reassignPhone:"如何将手机号换绑到另一账号？",manageThirdParty:"如何绑定/换绑/解绑第三方账号？",resetSecurityAnswers:"如何重置密保？"},
+answers:{updateSecurityPhone:'更换安全手机：1. 登录账号进入个人中心；2. 找到"账号安全"或"安全设置"；3. 选择"更换安全手机"；4. 按照提示完成身份验证；5. 输入新手机号并完成验证。',updateSecurityEmail:'更换安全邮箱：1. 登录账号进入个人中心；2. 找到"账号安全"设置；3. 选择"更换安全邮箱"；4. 验证当前邮箱；5. 输入新邮箱并完成验证。',unlinkContacts:'解绑手机号/邮箱：1. 登录账号进入个人中心；2. 进入"账号安全"设置；3. 选择要解绑的手机号或邮箱；4. 按照提示完成身份验证；5. 确认解绑。注意：至少需要保留一种联系方式。',reassignPhone:"将手机号换绑到另一账号：1. 在原账号中解绑该手机号；2. 在新账号中绑定该手机号；3. 如原账号无法登录，可通过账号申诉功能处理。",manageThirdParty:'管理第三方账号：1. 登录账号进入个人中心；2. 找到"账号绑定"或"第三方账号"；3. 可进行绑定、换绑或解绑操作；4. 按照提示完成验证。',resetSecurityAnswers:'重置密保：1. 登录账号进入个人中心；2. 找到"账号安全"设置；3. 选择"密保问题"；4. 验证身份后重新设置密保问题和答案。'}},
+security:{label:"账号安全",questions:{postPasswordAlert:"如何处理修改密码后，提示登录异常？",forgotPasswordFlow:"忘记密码了，怎么重置密码？",hijackedContacts:"如何处理账号被绑定他人手机号/邮箱的问题？",compromisedAccount:"账号被盗了怎么办？",identityTheft:"账号被他人实名认证了怎么办？",freezeUnfreeze:"如何冻结解冻账号？",autoFreeze:"为什么账号被自动冻结？",banReasons:"为什么账号会被封禁？"},
+answers:{postPasswordAlert:"修改密码后提示登录异常是正常的安全保护机制：1. 这是系统检测到密码变更后的安全提示；2. 确认是本人操作后，按照提示完成验证即可；3. 如非本人操作，请立即联系客服。",forgotPasswordFlow:'忘记密码重置流程：1. 在登录页面点击"忘记密码"；2. 输入注册的手机号或邮箱；3. 选择验证方式（短信验证码或邮箱验证码）；4. 输入验证码；5. 设置新密码。',hijackedContacts:"账号被绑定他人手机号/邮箱：1. 立即通过账号申诉功能申请解绑；2. 提供身份证明材料；3. 联系客服紧急处理；4. 如账号已被他人控制，申请冻结账号。",compromisedAccount:"账号被盗处理步骤：1. 立即尝试通过安全手机或邮箱找回；2. 如无法找回，立即进行账号申诉；3. 申请冻结账号防止进一步损失；4. 联系客服并提供相关证据；5. 修改所有相关账号密码。",identityTheft:"账号被他人实名认证：1. 立即联系客服并提供身份证明；2. 申请解除他人实名认证；3. 重新进行本人实名认证；4. 如涉及法律问题，建议报警处理。",freezeUnfreeze:'冻结/解冻账号：1. 冻结：在帮助中心选择"冻结账号"，填写原因和验证信息后提交；2. 解冻：在帮助中心选择"解冻账号"，填写验证信息后申请解冻；3. 紧急情况可联系客服处理。',autoFreeze:"账号被自动冻结可能原因：1. 多次输入错误密码；2. 检测到异常登录行为；3. 账号存在安全风险；4. 违反使用协议。如需解冻，请通过帮助中心申请或联系客服。",banReasons:"账号被封禁常见原因：1. 违反使用协议或服务条款；2. 发布违规内容；3. 恶意操作或刷单行为；4. 涉及欺诈或违法行为。如认为误封，可通过账号申诉功能申请解封。"}}}},
+U0={navigation:{back:"返回帮助中心"},
+title:"账号申诉",subtitle:"如果你的安全手机满足以下条件，请进入申诉流程：",requirements:{items:{numberCancelled:"手机号已注销",simLost:"手机丢失，SIM 卡无法补办",phoneInactive:"手机号欠费、停机或已被他人使用",unableToChange:"登录后无法更换安全手机"}},
+actions:{start:"开始申诉",hint:"将跳转至御水飞行账号帮助中心完成安全手机更换申诉。",submit:"下一步"},
+form:{title:"御水飞行账号自助申诉",subtitle:"请输入注册信息验证身份，系统会引导你完成安全手机更换。",identifierLabel:"申诉凭据",options:{phone:"手机号",email:"邮箱",account:"御水飞行账号"},
+inputLabel:{phone:"手机号",email:"邮箱地址",account:"御水飞行账号"},
+placeholders:{phone:"请输入手机号",email:"请输入邮箱地址",account:"请输入御水飞行账号"},
+regionLabel:"国家/地区",regions:{cnMainland:"中国大陆 (+86)",hongKong:"中国香港 (+852)",taiwan:"中国台湾 (+886)"}},
+messages:{inputRequired:"请先填写申诉信息。",submitted:"信息已提交，系统将指引你完成申诉。"},
+errors:{phoneRequired:"请输入手机号",phoneInvalid:"请输入正确的手机号",emailRequired:"请填写邮箱地址",emailInvalid:"请输入正确的邮箱地址",accountRequired:"请输入御水飞行账号"}},
+Q0={navigation:{back:"返回帮助中心"},
+title:"冻结账号",subtitle:"请选择需要冻结账号的原因(单选)",reasons:{deviceLost:"设备丢失,担心被盗",passwordLeaked:"密码泄露",abnormalInfo:"收到异常信息,疑似被盗",accountStolen:"发现账号被盗,有异常登录",abnormalOrders:"有异常订单,异常消费行为"},
+actions:{submit:"申请冻结账号",next:"下一步"},
+hint:"友情提示:冻结后,禁止登录/修改密码,直到后台解冻",form:{title:"冻结账号",subtitle:"请输入注册的邮箱地址、手机号或御水飞行账号",identifierLabel:"验证凭据",options:{phone:"手机号",email:"邮箱",account:"御水飞行账号"},
+inputLabel:{phone:"手机号",email:"邮箱地址",account:"御水飞行账号"},
+placeholders:{phone:"请输入手机号",email:"请输入邮箱地址",account:"请输入御水飞行账号"},
+regionLabel:"国家/地区",regions:{cnMainland:"中国大陆 (+86)",hongKong:"中国香港 (+852)",taiwan:"中国台湾 (+886)"}},
+messages:{reasonRequired:"请选择冻结原因",inputRequired:"请先填写验证信息。",submitted:"验证信息已提交，系统将指引你完成账号冻结。"},
+errors:{phoneRequired:"请输入手机号",phoneInvalid:"请输入正确的手机号",emailRequired:"请填写邮箱地址",emailInvalid:"请输入正确的邮箱地址",accountRequired:"请输入御水飞行账号"}},
+H0={navigation:{back:"返回帮助中心"},
+title:"解冻账号",subtitle:"请确认您的账号已经在安全环境下,点击解冻。",actions:{submit:"解冻账号",next:"下一步"},
+form:{title:"解冻账号",subtitle:"请输入注册的邮箱地址、手机号或御水飞行账号",identifierLabel:"验证凭据",options:{phone:"手机号",email:"邮箱",account:"御水飞行账号"},
+inputLabel:{phone:"手机号",email:"邮箱地址",account:"御水飞行账号"},
+placeholders:{phone:"请输入手机号",email:"请输入邮箱地址",account:"请输入御水飞行账号"},
+regionLabel:"国家/地区",regions:{cnMainland:"中国大陆 (+86)",hongKong:"中国香港 (+852)",taiwan:"中国台湾 (+886)"}},
+messages:{inputRequired:"请先填写验证信息。",submitted:"验证信息已提交，系统将指引你完成账号解冻。"},
+errors:{phoneRequired:"请输入手机号",phoneInvalid:"请输入正确的手机号",emailRequired:"请填写邮箱地址",emailInvalid:"请输入正确的邮箱地址",accountRequired:"请输入御水飞行账号"}},
+V0={navigation:{back:"返回帮助中心"},
+title:"解封账号",subtitle:"请确认您的账号已经在安全环境下,点击解封。",actions:{submit:"解封账号",next:"下一步"},
+form:{title:"解封账号",subtitle:"请输入注册的邮箱地址、手机号或御水飞行账号",identifierLabel:"验证凭据",options:{phone:"手机号",email:"邮箱",account:"御水飞行账号"},
+inputLabel:{phone:"手机号",email:"邮箱地址",account:"御水飞行账号"},
+placeholders:{phone:"请输入手机号",email:"请输入邮箱地址",account:"请输入御水飞行账号"},
+regionLabel:"国家/地区",regions:{cnMainland:"中国大陆 (+86)",hongKong:"中国香港 (+852)",taiwan:"中国台湾 (+886)"}},
+messages:{inputRequired:"请先填写验证信息。",submitted:"验证信息已提交，系统将指引你完成账号解封。"},
+errors:{phoneRequired:"请输入手机号",phoneInvalid:"请输入正确的手机号",emailRequired:"请填写邮箱地址",emailInvalid:"请输入正确的邮箱地址",accountRequired:"请输入御水飞行账号"}},
+_0={navigation:{back:"返回帮助中心"},
+title:"注销账号",subtitle:"注销后,您的账号将发生如下变化:",changes:{permanent:{title:"永久注销,无法登录包括但不限于车辆、应用、智能设备等",description:"为了保障您的用户权利,注销后我们会永久删除您的数据,且解除第三方账号的绑定关系"},
+irrecoverable:{title:"此账号的经济价值及关联信息将无法找回",description:"为了保障您的数据安全,我们将永久删除本账号所属的产品数据,无法恢复",items:{benefits:"账户余额、积分、关联会员、优惠券、代金券等权益",orders:"御水飞行商城、产品订单、试驾预约等数据",cloud:"御水飞行云服务通讯录、笔记、照片、视频等数据",devices:"御水飞行智能设备数据",assistant:"御水飞行语音助手数据等"}},
+note:"注:NFC卡与设备关联,请您前往钱包或可穿戴应用另行清空"},
+actions:{submit:"已知晓,确认注销",next:"下一步"},
+form:{title:"注销账号",subtitle:"请输入注册的邮箱地址、手机号或御水飞行账号",identifierLabel:"验证凭据",options:{phone:"手机号",email:"邮箱",account:"御水飞行账号"},
+inputLabel:{phone:"手机号",email:"邮箱地址",account:"御水飞行账号"},
+placeholders:{phone:"请输入手机号",email:"请输入邮箱地址",account:"请输入御水飞行账号"},
+regionLabel:"国家/地区",regions:{cnMainland:"中国大陆 (+86)",hongKong:"中国香港 (+852)",taiwan:"中国台湾 (+886)"}},
+messages:{inputRequired:"请先填写验证信息。",submitted:"注销申请已提交，系统将处理您的请求。"},
+errors:{phoneRequired:"请输入手机号",phoneInvalid:"请输入正确的手机号",emailRequired:"请填写邮箱地址",emailInvalid:"请输入正确的邮箱地址",accountRequired:"请输入御水飞行账号"}},
+G0={contact:{email:""}},
+W0={toast:R0,login:T0,register:D0,forgotPassword:L0,resetPassword:M0,profile:F0,validation:B0,social:O0,authPage:N0,helpCenter:q0,accountAppeal:U0,freezeAccount:Q0,unfreezeAccount:H0,unblockAccount:V0,deleteAccount:_0,investors:G0},
+Y0="引领未来水上出行，采用革命性水翼技术。体验水上飞行的刺激。",$0="御水飞行科技有限公司",j0="地址",J0="电话",K0="邮箱",Z0="关注我们",X0="© {year} 御水飞行科技有限公司 版权所有",ev={models:"产品系列",company:"关于我们",support:"客户支持",contact:"联系我们"},
+tv={title:"售后",maintenance:"维修信息",environment:"环保信息",legal:"法律与安全",salesRecruitment:"销售服务中心招募",serviceRecruitment:"服务中心招募",batteryRecycling:"动力电池回收"},
+iv={title:"产品",h1Series:"Y-3",h2Series:"Y-5",technology:"核心技术",configure:"在线配置",testDrive:"预约试驾"},
+ov={title:"联系我们",fullName:"您的姓名",emailOrPhone:"邮箱或电话",message:"留言内容",sendMessage:"发送消息",sending:"发送中...",fillAllFields:"请填写所有字段",sendSuccess:"消息发送成功",sendFailed:"消息发送失败",email:"info{'@'}fly-h2o.cn",openMailClient:"打开邮箱客户端",copyEmail:"复制邮箱地址",copyEmailSuccess:"邮箱地址已复制",copyEmailFailed:"复制失败，请手动复制"},
+nv={downloadOn:"下载于",getItOn:"立即下载"},
+av={products:"产品",service:"服务",newsEvents:"新闻与活动",contact:"联系我们",careers:"招聘"},
+rv={maintenance:"维修信息",environment:"环保信息",legal:"法律与安全",salesRecruitment:"销售服务中心招募",serviceRecruitment:"服务中心招募",batteryRecycling:"动力电池回收"},
+sv={compare:"产品对比",configurator:"在线配置",about:"公司简介",technology:"核心技术",investors:"投资者关系",careers:"加入我们",press:"新闻中心",contact:"联系我们",experience:"试驾体验",dealers:"经销商网络",service:"售后服务",faq:"常见问题"},
+lv={privacy:"隐私政策",terms:"服务条款",cookies:"Cookie 政策",accessibility:"无障碍声明"},
+cv={wechatTitle:"御水飞行公众号",wechatAlt:"御水飞行公众号",videoTitle:"御水飞行视频号",videoAlt:"御水飞行视频号",instagramTitle:"御水飞行 Instagram",instagramAlt:"御水飞行 Instagram"},
+dv={description:Y0,companyName:$0,address:j0,phone:J0,email:K0,followUs:Z0,copyright:X0,sections:ev,company:tv,product:iv,contact:ov,download:nv,nav:av,secondary:rv,links:sv,legal:lv,qrCode:cv},
+uv={body:"船身",engine:"引擎",rudder:"方向舵",interior:"内饰"},
+pv={specifications:"规格参数",ratedPower:"额定功率",ratedVoltage:"额定电压",coolingSystem:"冷却系统",ratedSpeed:"额定转速",trimMechanism:"微调和起倾机制",trimAngle:"微调和起倾角度",steeringSystem:"转向系统",steeringAngle:"转向角度",propeller:"螺旋桨",disclaimer:"*参数仅供参考",engineConfig:"引擎配置",ratedPower12:"12千瓦",ratedPower20:"20千瓦",ratedPower40:"40千瓦",ratedVoltage96:"96伏（直流）",naturalWaterCooling:"自然水冷",closedLoopLiquidCooling:"闭路液冷",ratedSpeed1100To2000:"1100 至 2000 转/分",ratedSpeed1200To1800:"1200 至 1800 转/分",ratedSpeed1500To2100:"1500 至 2100 转/分",electricTrim:"电起翘",electricLiquidTrim:"电液起翘",trimAngle4To61:"-4° 至 61°",integratedElectricSteering:"集成式电转向",steeringAngle45:"±45°",propellerMetal:'11 13/16" x 9 13/16" (重载桨 - 金属)',propellerPlastic:'11 13/16" x 10 5/8" (重载桨 - 塑胶)',propellerMetalLight:'11 13/16" x 15 3/8" (轻载桨 - 金属)',propeller15:'15" x 10 3/4" 正桨&反桨',propeller13:'13 3/8" x 16 3/4" 正桨&反桨'},
+mv={rudderConfig:"方向舵配置",driverMode:"驾驶模式",fullDriverControl:"全驾驶控制",sportMode:"运动模式",removeSpeedLimit:"取消限速",fullAutoMode:"全自动模式",routePlanning:"路线规划",smartDualRudder:"智能双向舵"},
+gv={interiorColor:"内饰颜色",interiorPreview:"内饰预览",cockpit:"驾驶仓",passengerCabin:"乘客仓",cockpitTitle:"座舱",cockpitTitleWithCode:"座舱 #{code}",cockpitTitleWithColor:"座舱（{color}）",cockpitColors:{c1B0102:"深酒红",c481204:"栗棕",c020B03:"墨绿",c080707:"曜石黑",c030508:"深海蓝"},
+views:{driver:"主驾",rearLeft:"左后排",rearRight:"右后排"},
+material:"座椅材质",stitching:"十针同步绗缝，18899针专属刺绣",packages:{moonShadowGrey:{label:"月影灰内饰",title:"影灰（灰黑黄三色）"},
+polarNightBlackGlacierBlue:{label:"极夜黑/冰河蓝内饰",title:"极夜黑/冰河蓝 双色"}},
+colors:{blackYellow:"黑黄双色",blackRed:"黑红双色",brightYellow:"明黄（黄黑双色）",deepWineRed:"深酒红",chestnutBrown:"栗棕",darkGreen:"墨绿",obsidianBlack:"曜石黑",deepSeaBlue:"深海蓝"}},
+hv={standard:"标准船漆",custom:"定制船漆",boatPaint:"船漆"},
+fv={lavaOrange:"熔岩橙",brightRed:"烈焰红",titanium:"钛金属色",emeraldGreen:"宝石绿",deepBlue:"深海蓝"},
+vv={standard:"标准颜色",custom:"定制颜色"},
+bv={title:"价格明细",total:"当前总价",base:"基础价格",optionsTotal:"选装合计",thresholdTip:"定制服务需选配满¥{threshold}，已选¥{selected}"},
+yv={expand:"展开",collapse:"折叠",complete:"完成"},
+wv={tabs:{configuration:"配置清单",benefits:"购船权益"},
+reconfigure:"重新配置",metrics:{range:"续航里程(CLTC)",acceleration:"百公里加速",assist:"YU辅助驾驶"},
+fields:{modelVersion:"艇型版本",basePrice:"基础价格",hull:"艇身",interior:"内饰"}},
+Av={title:"更改艇身颜色",standardColors:"标准颜色",customColors:"定制颜色",free:"免费"},
+Sv={limitedTitle:"限时尊享权益",basicTitle:"基础权益",items:{preorderSubsidy:{title:"预订专享补贴",desc:"活动期间下订立减 ¥20,000",value:"¥20,000"},
+foilUpgrade:{title:"高性能水翼系统升级包",desc:"免费升级至全碳纤维轻量水翼组件",value:"¥15,000"},
+navAssist:{title:"智能航行辅助系统授权",desc:"含一年 HAD 智能航行与自稳控制功能",value:"¥10,000"},
+trainingQuota:{title:"尊享驾训体验营名额",desc:"含 2 天海上培训 + 专业驾驶指导",value:"¥8,000"},
+warranty:{title:"整艇质保",desc:"5 年或 500 小时（以先到者为准）"},
+driveTrainWarranty:{title:"动力系统延保",desc:"免费延长 2 年核心推进系统质保"},
+annualService:{title:"年度保养服务",desc:"每年 1 次免费保养与水翼系统检测"},
+chartUpdates:{title:"智能航图更新",desc:"3 年免费航线更新与远程定位服务"},
+ownersClub:{title:"尊享艇主俱乐部",desc:"私享海上航行活动与专属会员活动"}}},
+Cv={startConfiguring:"开始配置",preselectHint:"预选适合您的版本"},
+xv="颜色",Iv={initializing:"初始化中...",initializing3DEngine:"初始化3D引擎...",creatingRenderEngine:"创建渲染引擎...",settingUpRenderer:"设置渲染器...",initializingCameraController:"初始化相机控制器...",initializingSceneManager:"初始化场景管理器...",loadingEnvironmentModel:"加载环境模型...",loadingMainModel:"加载主模型...",interiorModel:"加载内饰模型...",initializingInterface:"初始化界面...",configuringMaterials:"配置材质...",settingDefaultView:"设置默认视角...",loadingComplete:"加载完成！",loadingFailed:"加载失败"},
+Ev={tabs:uv,engine:pv,rudder:mv,interior:gv,paint:hv,paintNames:fv,paintDesc:vv,pricing:bv,common:yv,profile:wv,colorPicker:Av,benefits:Sv,store:Cv,colors:xv,loading:Iv},
+Pv="经销商查询",zv="全球分布点",kv="搜索 ALAQUA 合作经销商",Rv="未找到经销商",Tv="加载经销商中...",Dv="在地图上查看",Lv="联系方式",Mv="联系人",Fv="地址",Bv="电话",Ov="邮箱",Nv="网站",qv="营业时间",Uv="营业时间",Qv="地址与营业时间",Hv="图片画廊",Vv="关注我们",_v={title:Pv,subtitle:zv,searchPlaceholder:kv,noResults:Rv,loading:Tv,viewOnMap:Dv,contact:Lv,contacts:Mv,address:Fv,phone:Bv,email:Ov,website:Nv,hours:qv,openingHours:Uv,directions:Qv,gallery:Hv,followOn:Vv},
+Gv={title:"合作伙伴",subtitle:"与顶尖创投共航，打造智能水上交通新纪元"},
+Wv={title:"投资亮点",items:[{title:"水翼融合是船舶电动化最佳解决方案，开启万亿市场",points:["目前船舶电动化只停留在简单的油改电，没有从根本上解决能耗和推进效率这一矛盾。水翼技术能真正解决并彻底颠覆传统船艇的能源管理模式。","高性能水翼艇已在多场景验证价值，海外头部企业已在发力，国内基本空白。"]},
+{title:"掌握核心产业链，超强产品创新能力，引领行业发展",points:["坚持全产业链自研自产，构件模块化组装流水线。","坚持原创设计，完善产品矩阵，自研智能控制系统，自研三模式智能方向盘、自研智能座舱、自研终端销售程序、自研高强度模块化水翼、自研船体高强度轻量化材料工艺。"]},
+{title:"积极全球化布局，尽快实现消费级领域绝对领导者",points:["过往产品已经获得国内外头部客户认可，并在科技、交通、消费、文旅等多场景落地，80%收入来自交通领域。 基于技术沉淀和显著优势，提前布局消费级智能水上交通。","率先与多家国内头部（出海型）企业达成合作，共同推动AI+水上交通工具落地。","公司发布新形态产品，同尺度无竞争，结合“产品定义-技术创新-供应链-渠道”的全链条经验积累，建立绝对领先优势。"]}]},
+Yv={title:"投资人",titleHighlight:"评价",subtitle:"来自资深投资人和行业专家的专业认可与深度评价",items:[{quote:"在水翼技术领域展现出突破性创新能力，产品设计理念超前，市场前景广阔。",name:"技术投资专家",role:"天使轮投资人"},
+{quote:"团队具备全球化视野和执行力，在智慧系统与跨境供应链方向拥有罕见的复合型能力，是极具潜力的未来独角兽。",name:"知名产业投资人",role:"战略轮领投方"},
+{quote:"团队在产业化落地方面执行力强，具备从技术研发到商业化的完整能力。",name:"产业投资合伙人",role:"战略合作伙伴"}],focus:{label:"投资人关注点",tags:["技术创新","市场前景","团队实力","执行能力","商业模式","供应链优势"]}},
+$v={title:"高速成长的未来独角兽",badge:"清晰路线图",subtitle:"从技术验证到全球化布局，我们有着清晰的发展路径和明确的里程碑目标",stages:{angel:{title:"天使轮",status:"已完成",amount:"450万",milestones:["核心团队组建","基础产品原型","技术论证完成"]},
+angelPlus:{title:"天使+轮",status:"进行中",amount:"1000万+",milestones:["第二代产品迭代","扩大市场试点","商业模型验证"]},
+seriesA:{title:"A轮融资",status:"规划中",amount:"5000万+",milestones:["用户规模快速扩张","规模化生产能力","多业务节点布局"]},
+seriesB:{title:"B轮融资",status:"规划中",amount:"2亿+",milestones:["扩展国际市场","供应链系统成熟","衍生产品矩阵"]},
+ipo:{title:"上市愿景",status:"目标",amount:"IPO",milestones:["行业地位稳固","商业版图全球化","国际科技企业"]}},
+metrics:{title:"核心发展指标",valuation:{value:"10亿+",label:"预期估值目标"},
+markets:{value:"20+",label:"全球市场覆盖"},
+team:{value:"500+",label:"团队规模目标"},
+position:{value:"Top 3",label:"行业地位目标"}}},
+jv={title:"投资伙伴实力彰显",subtitle:"携手顶尖资本，共创水上交通新纪元",description:"我们的发展获得了国内顶尖硬科技投资机构与产业领袖的深度加持。他们不仅是财务投资者，更是带来深厚产业生态、技术洞察与商业化经验的战略合伙人。",items:[{name:"松禾资本",subtitle:"硬科技投资的资深实力派",description:"作为中国本土创投的“南派”代表，松禾资本以 ​​“投早、投小、投科技”​​ 著称，拥有超过27年的科技投资积淀。其成功投资了包括 ​华大基因、大疆创新、德方纳米**​ 在内的众多明星项目，证明了其精准的眼光和强大的投后助力能力。"},
+{name:"东莞清水湾二期创投",subtitle:"",description:"产学研深度融合的典范东莞清水湾二期创投在于其独特的 ​​“香港大学+红杉中国+腾讯产业基金+李泽湘教授”​ 股东背景，开创了跨境科创投资先例。它深度融合XBOT PARK机器人基地生态，专注于智能硬件早期投资，能为被投企业提供从技术验证到产业链对接的全链条赋能。"},
+{name:"李泽湘教授",subtitle:"硬科技创业的奠基人与引领者​",description:"李泽湘教授不仅是香港科技大学教授，更被誉为 ​​“大疆教父”​​ 。他成功开创了可复制的硬科技创业模式，其打造的 ​XbotPark机器人基地， 已孵化60多家硬科技公司，堪称“独角兽摇篮”，总估值超过800亿元。"}]},
+Jv={title:"如果您对我们感兴趣，欢迎联系我们",subtitle:"开放与战略投资人及产业资本洽谈",cards:{business:{title:"商务合作",description:"探索商务合作机会"},
+technical:{title:"技术合作",description:"共同开发创新技术"},
+channel:{title:"渠道合作",description:"成为授权经销商"}},
+phone:"+86 13326656172",email:"alaquas{'@'}fly-h2o.cn"},
+Kv={hero:Gv,highlights:Wv,evaluation:Yv,roadmap:$v,partners:jv,contact:Jv},
+Zv="用户",Xv="帐号信息",eb="订单历史",tb="地址管理",ib={empty:"暂无订单记录",startShopping:"去购物",itemCount:"件商品"},
+ob={name:"收件人",detail:"地址",phone:"电话",label:"标签",actions:"操作",empty:"暂无收货地址",default:"默认",setDefault:"默认",delete:"删除",addNew:"新增地址",namePlaceholder:"请输入收件人姓名",phonePlaceholder:"请输入电话号码",province:"省份",city:"城市",district:"区/县",provincePlaceholder:"请选择省份",cityPlaceholder:"请选择城市",districtPlaceholder:"请选择区/县",addressPlaceholder:"请输入详细地址",setAsDefault:"设为默认地址",save:"保存地址",nameRequired:"请输入收件人姓名",phoneRequired:"请输入电话号码",areaRequired:"请选择地区",addressRequired:"请输入详细地址",edit:"编辑",editAddress:"编辑地址",update:"更新地址",updateSuccess:"地址更新成功",updateFailed:"地址更新失败",addSuccess:"地址添加成功",addFailed:"地址添加失败",areaLoadFailed:"地区数据加载失败",clear:"清空",deleteConfirmTitle:"删除地址",deleteConfirmSubtitle:"确定要删除该地址吗？此操作无法撤销。"},
+nb="登录帐号",ab="登录邮箱",rb="登录手机",sb="登录密码",lb="已验证",cb="更换邮箱",db="更换号码",ub="修改密码",pb="绑定",mb="未绑定邮箱",gb="未绑定手机",hb="第三方帐号绑定",fb="使用以下任一方式都可以登录到您的帐号，避免由于某个帐号失效导致无法登录。",vb="绑定帐号信息",bb="详情",yb="绑定时间",wb="状态",Ab="操作",Sb="暂无绑定的第三方帐号",Cb="使用中",xb="未使用",Ib="解除绑定",Eb={title:"确定要解绑{name}？",subtitle:"解绑后将无法使用该第三方账号登录",success:"已成功解除绑定",failed:"解除绑定失败"},
+Pb="当前密码",zb="请输入当前密码",kb="新密码",Rb="请输入新密码（至少8位）",Tb="确认新密码",Db="请再次输入新密码",Lb="请输入当前密码",Mb="请输入新密码",Fb="密码长度至少8位",Bb="两次输入的密码不一致",Ob="密码修改成功",Nb="密码修改失败",qb="新邮箱",Ub="请输入新邮箱地址",Qb="请输入邮箱地址",Hb="请输入有效的邮箱地址",Vb="邮箱修改成功",_b="邮箱修改失败",Gb="新手机号",Wb="请输入新手机号",Yb="请输入手机号",$b="手机号修改成功",jb="手机号修改失败",Jb={title:"账号安全性验证",subtitle:"你正在进行敏感操作，继续操作前验证您的身份",emailWarning:"更换邮箱后，您将无法通过【原邮箱 + 密码】登录",passwordLabel:"账号密码",passwordPlaceholder:"请输入当前账号密码",passwordRequired:"请输入密码",passwordMin:"密码长度至少8位",codeLabel:"验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",codeSentHint:"向原邮箱发送了验证码",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码发送成功",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",next:"下一步",verifySuccess:"验证成功",verifyFailed:"验证失败"},
+Kb={title:"新邮箱绑定",subtitle:"验证成功，请验证新的邮箱",emailLabel:"新邮箱地址",emailPlaceholder:"请输入新邮箱地址",emailRequired:"请输入邮箱地址",emailInvalid:"请输入有效的邮箱地址",codeLabel:"邮箱验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码已发送至新邮箱",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",success:"邮箱更换成功",failed:"邮箱更换失败",previous:"上一步"},
+Zb={title:"账号安全性验证",subtitle:"你正在进行敏感操作，继续操作前验证您的身份",phoneWarning:"更换手机号后，您将无法通过【原手机号 + 验证码】登录",passwordLabel:"账号密码",passwordPlaceholder:"请输入当前账号密码",passwordRequired:"请输入密码",passwordMin:"密码长度至少8位",codeLabel:"验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",codeSentHint:"向原手机号发送了验证码",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码发送成功",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",next:"下一步",verifySuccess:"验证成功",verifyFailed:"验证失败"},
+Xb={title:"新手机号绑定",subtitle:"验证成功，请验证新的手机号",phoneLabel:"新手机号",phonePlaceholder:"请输入新手机号",phoneRequired:"请输入手机号",phoneInvalid:"请输入有效的手机号",codeLabel:"短信验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码已发送至新手机",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",success:"手机号更换成功",failed:"手机号更换失败",previous:"上一步"},
+ey={title:"绑定邮箱",subtitle:"绑定邮箱后可用于登录和找回账号",emailLabel:"邮箱地址",emailPlaceholder:"请输入邮箱地址",emailRequired:"请输入邮箱地址",emailInvalid:"请输入有效的邮箱地址",codeLabel:"邮箱验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码已发送至邮箱",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",success:"邮箱绑定成功",failed:"邮箱绑定失败"},
+ty={title:"绑定手机号",subtitle:"绑定手机后可用于登录和找回账号",phoneLabel:"手机号",phonePlaceholder:"请输入手机号",phoneRequired:"请输入手机号",phoneInvalid:"请输入有效的手机号",codeLabel:"短信验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码已发送至手机",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",success:"手机号绑定成功",failed:"手机号绑定失败"},
+iy={wechat:"微信",alipay:"支付宝",twitter:"推特",google:"谷歌",unknown:"未知"},
+oy={title:"修改密码",subtitle:"设置一个新的密码",methodEmail:"邮箱验证",methodSms:"手机验证",noVerifiable:"当前账号未绑定邮箱或手机号，无法修改密码，请先绑定",newPasswordLabel:"新密码",newPasswordPlaceholder:"请输入新密码（至少8位）",newPasswordRequired:"请输入新密码",passwordMin:"密码长度至少8位",confirmPasswordLabel:"确认新密码",confirmPasswordPlaceholder:"请再次输入新密码",confirmPasswordRequired:"请确认新密码",passwordMismatch:"两次输入的密码不一致",codeLabel:"验证码",codePlaceholder:"请输入6位验证码",codeRequired:"请输入验证码",codeSentHint:"验证码将发送至您的邮箱",codeSentHintSms:"验证码将发送至您的手机",sendCode:"发送验证码",sending:"发送中...",resendIn:"重新发送 (
+{seconds}s)",codeSent:"验证码发送成功",codeSendFailed:"验证码发送失败",codeSendTooFrequent:"请稍后再试",success:"密码修改成功",failed:"密码修改失败"},
+ny={defaultNickname:Zv,accountInfo:Xv,orderHistory:eb,addressManagement:tb,orders:ib,address:ob,loginAccount:nb,loginEmail:ab,loginPhone:rb,loginPassword:sb,verified:lb,changeEmail:cb,changePhone:db,changePassword:ub,bind:pb,notBoundEmail:mb,notBoundPhone:gb,thirdPartyBinding:hb,thirdPartyDesc:fb,bindingAccount:vb,bindingDetail:bb,bindingTime:yb,bindingStatus:wb,bindingAction:Ab,noBindings:Sb,statusActive:Cb,statusInactive:xb,unbind:Ib,unbindModal:Eb,oldPassword:Pb,oldPasswordPlaceholder:zb,newPassword:kb,newPasswordPlaceholder:Rb,confirmNewPassword:Tb,confirmNewPasswordPlaceholder:Db,oldPasswordRequired:Lb,newPasswordRequired:Mb,passwordMinLength:Fb,passwordMismatch:Bb,passwordChanged:Ob,passwordChangeFailed:Nb,newEmail:qb,newEmailPlaceholder:Ub,emailRequired:Qb,emailInvalid:Hb,emailChanged:Vb,emailChangeFailed:_b,newPhone:Gb,newPhonePlaceholder:Wb,phoneRequired:Yb,phoneChanged:$b,phoneChangeFailed:jb,securityVerify:Jb,newEmailBind:Kb,securityVerifyPhone:Zb,newPhoneBind:Xb,bindEmailModal:ey,bindPhoneModal:ty,socialPlatform:iy,changePasswordModal:oy},
+ay="应用场景",ry={commute:{title:"日常通勤",description:"用我们的水翼艇改变您的日常通勤方式。平稳地滑过水道，避开交通拥堵，同时享受独特而高效的出行方式。非常适合沿海城市和滨水社区。"},
+leisure:{title:"休闲度假",description:"体验极致的休闲和度假旅行。无论是探索风景秀丽的海岸线、参观岛屿，还是在水上享受宁静的一天，我们的水翼艇都能提供无与伦比的舒适感和刺激体验。"},
+business:{title:"商务活动",description:"提升您的商务会议和企业活动体验。用独特的水上体验打动客户，举办专属聚会，或使用我们的船只在水道间进行高效的跨办公室出行。"},
+sports:{title:"水上运动",description:"将您的水上运动冒险提升到新的水平。我们的水翼技术可实现惊险刺激的高速体验，同时保持稳定性和安全性，非常适合寻求水上刺激的爱好者。"}},
+sy={title:ay,cards:ry},
+ly="请求失败",cy="网络异常，请检查网络连接",dy="请求超时，请稍后重试",uy="刷新令牌失败，请重新登录",py="登录已过期，请重新登录",my={400:"密码长度为 4-16 位",401:"账号未登录",403:"没有该操作权限",404:"请求未找到",405:"请求方法不正确",423:"请求失败，请稍后重试",429:"请求过于频繁，请稍后重试",500:"系统异常",502:"错误的配置项",900:"重复请求，请稍后重试",902:"数据重复",999:"未知错误",1002e6:"登录失败，账号密码不正确",1002000001:"登录失败，账号被禁用",1002000004:"验证码不正确",1002000005:"未绑定账号，需要进行绑定",1002000007:"手机号不存在",1002000008:"未绑定账号，需要进行绑定",1002001e3:"已经存在该名字的菜单",1002001001:"父菜单不存在",1002001002:"不能设置自己为父菜单",1002001003:"菜单不存在",1002001004:"存在子菜单，无法删除",1002001005:"父菜单的类型必须是目录或者菜单",1002001006:"已经存在该组件名的菜单",1002002e3:"角色不存在",1002002001:"已经存在该名称的角色",1002002002:"已经存在该标识的角色",1002002003:"不能操作类型为系统内置的角色",1002002004:"该角色已被禁用",1002002005:"该标识不能使用",1002003e3:"用户账号已经存在",1002003001:"手机号已经存在",1002003002:"邮箱已经存在",1002003003:"用户不存在",1002003004:"导入用户数据不能为空",1002003005:"用户密码校验失败",1002003006:"用户已被禁用",1002003008:"创建用户失败，超过租户最大配额",1002003009:"初始密码不能为空",1002003010:"该手机号尚未注册",1002003011:"注册功能已关闭",1002004e3:"已经存在该名字的部门",1002004001:"父级部门不存在",1002004002:"当前部门不存在",1002004003:"存在子部门，无法删除",1002004004:"不能设置自己为父部门",1002004006:"部门不处于开启状态，不允许选择",1002004007:"不能设置自己的子部门为父部门",1002005e3:"当前岗位不存在",1002005001:"岗位不处于开启状态，不允许选择",1002005002:"已经存在该名字的岗位",1002005003:"已经存在该标识的岗位",1002006001:"当前字典类型不存在",1002006002:"字典类型不处于开启状态，不允许选择",1002006003:"已经存在该名字的字典类型",1002006004:"已经存在该类型的字典类型",1002006005:"无法删除，该字典类型还有字典数据",1002007001:"当前字典数据不存在",1002007002:"字典数据不处于开启状态，不允许选择",1002007003:"已经存在该值的字典数据",1002013002:"短信模板不存在",1002014e3:"验证码不存在",1002014001:"验证码已过期",1002014004:"超过每日短信发送数量",1002014005:"短信发送过于频繁",1002018e3:"社交授权失败",1002018001:"社交授权失败，找不到对应的用户",1002018210:"社交客户端不存在",1002018211:"社交客户端已存在配置",100202e4:"OAuth2 客户端不存在",1002020001:"OAuth2 客户端编号已存在",1002020002:"OAuth2 客户端已禁用",1002020003:"不支持该授权类型",1002020004:"授权范围过大",1002020005:"无效的 redirect_uri",1002020006:"无效的 client_secret",1002021e3:"client_id 不匹配",1002021001:"redirect_uri 不匹配",1002021002:"state 不匹配",1002022e3:"code 不存在",1002022001:"code 已过期",1002023e3:"邮箱账号不存在",1002023001:"无法删除，该邮箱账号还有邮件模板",1002024e3:"邮件模版不存在",1002024001:"邮件模版编码已存在",1002025e3:"模板参数缺失",1002025001:"邮箱不存在",1002026e3:"站内信模版不存在",1002026001:"已经存在该编码的站内信模板",1002029e3:"官网菜单不存在",1002029001:"官网父级菜单不存在",1002029002:"父菜单的类型必须是目录或者菜单",1002029003:"已经存在该名字的菜单",1002029004:"已经存在该组件名的菜单",1002029005:"存在子菜单，无法删除",100203e4:"验证码不存在",1002030001:"验证码已过期",1002030002:"验证码已使用",1002030003:"超过每日邮箱发送数量",1002030004:"邮箱发送过于频繁",1002031001:"联系方式格式不正确",1004001e3:"用户不存在",1004001001:"手机号未注册用户",1004001002:"修改手机失败，该手机号已经被使用",1004001004:"修改邮箱失败，该邮箱已经被使用",1004003e3:"登录失败，账号密码不正确",1004003001:"登录失败，账号被禁用",1004003002:"操作失败，账号或密码不正确",1004003005:"登录失败，解析不到三方登录信息",1004003007:"手机号已经被使用",1008001e3:"商品分类不存在",1008001001:"父分类不存在",1008001002:"父分类不能是二级分类",1008001003:"存在子分类，无法删除",1008001004:"商品分类已禁用，无法使用",1008001005:"类别下存在商品，无法删除",1008002e3:"品牌不存在",1008002001:"品牌已禁用",1008002002:"品牌名称已存在",1008003e3:"属性项不存在",1008003001:"属性项的名称已存在",1008003002:"属性项下存在属性值，无法删除",1008004e3:"属性值不存在",1008004001:"属性值的名称已存在",1008005e3:"商品 SPU 不存在",1008005001:"商品分类不正确",1008005002:"商品 SPU 保存失败",1008005003:"商品不处于上架状态",1008005004:"商品 SPU 不处于回收站状态",1008006e3:"商品 SKU 不存在",1008006001:"商品 SKU 的属性组合存在重复",1008006002:"一个 SPU 下的每个 SKU，其属性项必须一致",1008006003:"一个 SPU 下的每个 SKU，必须不重复",1008006004:"商品 SKU 库存不足",requestFailed:ly,networkError:cy,timeout:dy,refreshTokenFailed:uy,loginExpired:py},
+gy={empty:"暂无配件数据"},
+hy="款式或颜色",fy="商品详情",vy="暂无库存",by="敬请期待",yy="最大可购买数量：{count}",wy={title:"购物车",empty:"您的购物车为空",subtotal:"小计",shipping:"运费",total:"合计",checkout:"结算"},
+Ay={title:"搜索",placeholder:"搜索商品...",empty:"请输入关键字开始搜索",noResults:"没有找到匹配的商品",noMore:"没有更多了"},
+Sy={title:"地址",management:"地址管理",actions:"操作",label:"标签",default:"默认",newAddress:"新增地址",editAddress:"编辑地址",name:"姓名",phone:"电话",region:"省 / 市 / 区",province:"省份",city:"城市",district:"区/县",detail:"详细地址（例如 **街道门牌号**）",locate:"定位附近",defaultShipping:"设为默认收货地址",clear:"清除",save:"保存",buyWithShop:"在商城购买",buyNow:"立即购买",nameRequired:"请输入收件人姓名",phoneRequired:"请输入电话号码",areaRequired:"请选择地区",detailRequired:"请输入详细地址",addSuccess:"地址添加成功",addFailed:"地址添加失败",updateSuccess:"地址更新成功",updateFailed:"地址更新失败",operationFailed:"操作失败",deleteConfirmTitle:"删除地址",deleteConfirmSubtitle:"确定要删除该地址吗？此操作无法撤销。",emptyTip:"暂无收货地址，请先添加",addFirstAddress:"添加地址",noAddressTip:"请先选择收货地址"},
+Cy={confirmed:"订单已确认",paymentSuccessful:"支付成功",thankYou:"感谢您的购买！",orderNumber:"订单编号",orderDate:"下单时间",orderDetails:"订单详情",contactSupport:"联系客服",orderAddress:"下单的地址",product:"商品",unitPrice:"单价",quantity:"数量",amountPaid:"实付款",includingShipping:"含运费",paymentTime:"付款时间",items:"商品列表",color:"颜色",shippingAddress:"收货地址",noAddress:"未提供地址",paymentMethod:"支付方式",status:"状态",viewOrders:"查看订单",continueShopping:"继续购物",notFound:"订单未找到",backToStore:"返回商城",history:"订单历史",noOrders:"暂无订单",startShopping:"开始购物",itemCount:"件商品",backToOrders:"返回订单列表",details:"订单详情",actions:"订单操作",statusTracking:"物流跟踪",statusPending:"待处理",statusPaid:"已支付",statusShipped:"已发货",statusDelivered:"已送达",stepPlaceOrder:"拍下宝贝",stepBuyerPayment:"买家付款",stepSellerShips:"卖家发货",stepConfirmReceipt:"确认收货",productAmount:"商品金额",refund:"退款",addToCart:"加入购物车",pendingShipment:"待发货",estimatedDelivery:"预计送达",logisticsDetails:"物流详情",createTime:"创建时间",back:"返回",qty:"数量",each:"每件",payment:"支付信息",placedOn:"下单时间",statusPendingPayment:"待付款",statusPendingShipment:"待发货",statusPendingReceipt:"待收货",statusCompleted:"已完成",statusClosed:"已关闭",cancelOrder:"取消订单",payOrder:"发起支付",confirmReceipt:"确认收货",viewLogistics:"查看物流",deleteOrder:"删除订单",buyAgain:"再买一单",countdownDaysHours:"还剩{days}天{hours}时",countdownHoursMinutes:"还剩{hours}时{minutes}分",countdownMinutesSeconds:"还剩{minutes}分{seconds}秒",cancelSuccess:"订单已取消",cancelFailed:"取消订单失败",receiveSuccess:"确认收货成功",receiveFailed:"确认收货失败",deleteSuccess:"订单已删除",deleteFailed:"删除订单失败",deleteConfirm:"确定要删除该订单吗？",cancelConfirm:"确定要取消该订单吗？",receiveConfirm:"确定要确认收货吗？",logisticsTitle:"物流跟踪",noLogistics:"暂无物流信息"},
+xy={shippingMethod:"配送方式",upsExpress:"UPS 快递",secureMessage:"所有交易均安全加密。",creditCard:"信用卡",cardNumber:"卡号",expiry:"有效期 (月/年)",securityCode:"安全码",nameOnCard:"持卡人姓名",useBillingAddress:"使用收货地址作为账单地址",newsletter:"订阅商店最新资讯和优惠",payNow:"立即支付",selectPayment:"选择支付方式",wechatPay:"微信支付",wechatPayDesc:"使用微信扫码支付",alipay:"支付宝",alipayDesc:"使用支付宝扫码支付",unionpay:"银联支付",unionpayDesc:"使用银联卡扫码支付",confirmPay:"确认支付",scanToPay:"请使用对应APP扫描下方二维码完成支付",generatingQR:"正在生成二维码...",qrPlaceholder:"二维码加载中",paymentComplete:"我已完成支付",paymentTip:"请在完成支付后点击此按钮，系统将自动确认支付结果",orderSummary:"订单信息",discountPlaceholder:"优惠码或礼品卡",apply:"应用",subtotal:"小计",items:"件商品",shippingFee:"运费",freeShippingTag:"免费配送",total:"合计",totalSavings:"总共节省",shop:"商品",free:"免费"},
+Iy={accessories:gy,styleOrColor:hy,productDetails:fy,outOfStock:vy,comingSoon:by,maxStock:yy,cart:wy,search:Ay,address:Sy,order:Cy,checkout:xy},
+Ey={title:"控制架构",subtitle:"控制架构是整艇底座，打造先进的座舱和驾驶体验"},
+Py={title:"四合一域控制模块",description:"不同于传统船艇分布式架构，智能控制架构将 VCCD 整艇域控制器、DCD 座舱域控制器、ADD 辅助驾驶域控制器、T-Box 通讯模块高度集成到一个中央计算大脑，极大程度减少控制器数量，降低重量和能耗。"},
+zy={title:"高度集成 体积小重量轻",stats:{controllers:{value:"-75%",label:"控制器数量"},
+space:{value:"-57%",label:"占用空间"},
+weight:{value:"-75%",label:"零件重量"}},
+sentry:{line1:"守航模式",line2:"通讯链路精简",power:"功耗降低40%"},
+efficiency:{title:"能效优化续航",description:"提升可达 16km"},
+disclaimers:["*数据来自御水飞行实验室。体积、重量的数据对比对象为高度集成前的智能控制架构","*守航模式能耗与开启时长关联，以具体实际为准。数据对比对象为搭载御水飞行智能系统的水翼艇守航模式"]},
+ky={title:"先进通讯技术上艇",features:[{title:"双 5G 并行",line1:"信号覆盖率与可靠性大幅提升",line2:"网络切换执行耗时 <0.5s"},
+{title:"Wi-Fi 7",line1:"三蓝牙 & 双 Wi-Fi",line2:"车载热点提速 83%"},
+{title:"UWB",line1:"5 处 UWB 定位锚点",line2:""},
+{title:"IoT 通讯接口",line1:"构建更开放的",line2:"「人艇家全生态」"}],disclaimer:"*数据来自御水飞行实验室，网络切换执行时长可能因测试环境不同而有所偏差；蜂窝主力5G频段支持DSDA；网络分享热点最高支持至Wi-Fi 7，其中Wi-Fi 7未开放MLO功能"},
+Ry={title:"超高算力计算平台",description:"智能座舱 SoC 芯片采用第三代骁龙®8 移动平台；辅助驾驶计算芯片采用全新一代 NVIDIA DRIVE AGX Thor™ 艇载计算平台。超高算力，打造先进的智能座舱和辅助驾驶体验。"},
+Ty={title:"第三代 骁龙®8移动平台",description1:"4nm 工艺制程，首次在水翼艇上带来移动计算领域出色的性能和能耗表现。",description2:"智能座舱体验更流畅，开机快、启动快、升级更快！",disclaimers:["*数据来自御水飞行实验室，数据变化指相比于上一代产品，数据或因软件版本及测试环境等而有所差异","*首次基于公开信息进行统计"]},
+Dy={titleLine1:"全新一代",titleLine2:"NVIDIA DRIVE AGX Thor™",titleLine3:"艇载计算平台",description:"辅助驾驶模块集成 NVIDIA 全新一代 4nm 平台，搭载 Blackwell 架构，总算力提升至惊人的 700 TOPS，更好支持复杂运算。"},
+Ly={title:"智能控制架构通过可靠性严苛测试",description1:"核心板通过 AEC-Q104 标准验证，行业标准 2 倍以上严苛耐久测试，",description2:"覆盖超 17 类环境、280 项测试场景，为整艇智能化提供坚实底座，关键时刻稳定如一。"},
+My=["* 全站所面展示结构图片，均为功能示意图","* 产品图片和显示内容仅供参考，实际产品功能和规格（包括但不限于外观，颜色和尺寸）以及实际显示内容可能有所不同，最终以实物为准；","* 除非经特殊说明，本网站中所涉及的数据均为御水飞行内部测试结果；","* 全站所有数据对比、行业排名、专利申请等截止时间均截止到2023年12月28日发布日期。"],Fy={product:"产品图",showcase:"产品展示",integration:"高度集成",sentry:"哨兵模式",efficiency:"能效优化",communication:"先进通讯技术",dual5g:"双 5G 并行",wifi7:"Wi-Fi 7",uwb:"UWB",iot:"IoT 通讯接口",snapdragon:"第三代 骁龙®8移动平台",nvidia:"全新一代"},
+By={carbonHull:"碳纤维一体船身",smartMatrixLight:"智能矩阵灯",frontHydrofoil:"前水翼",cockpit:"驾驶舱",rearHydrofoil:"后水翼",outboardMotor:"挂机"},
+Oy={carbonFiber:"碳纤维一体成型",stability:"船体姿态稳定系统"},
+Ny={title:"数据掌控系统",cruiseSpeed:"巡航速度",maxSpeed:"最高速度",endurance:"续航时间",fastCharge:"直流快充"},
+qy={learnMore:"了解更多"},
+Uy={hero:Ey,domain:Py,integration:zy,communication:ky,computing:Ry,snapdragon:Ty,nvidia:Dy,reliability:Ly,disclaimers:My,alt:Fy,parts:By,craft:Oy,metrics:Ny,cta:qy},
+Qy="开启定位权限",Hy="需要您的位置信息才能访问全部页面，拒绝后仅可浏览首页。",Vy="尚未开启定位权限",_y="当前访问受限，请授权定位以浏览车型、商城等完整内容。",Gy="允许",Wy="重新授权",Yy="留在首页",$y="您尚未授予定位权限，功能受限",jy="重新授权",Jy="受限",Ky="当前浏览器不支持定位（需 HTTPS），请更换浏览器或切换到安全上下文。",Zy="浏览器已阻止本站定位权限",Xy="浏览器记住了您之前的拒绝，再点「重新授权」也不会再弹窗。请按以下步骤手动开启：",ew={step1:"点击地址栏左侧的 🔒 或信息图标",step2:"在站点权限列表里找到「位置」",step3:"切换为「允许」后回到本页，点击下方按钮"},
+tw="我已在浏览器开启 — 重新校验",iw="浏览器仍未开启定位权限，请再次确认站点设置。",ow="已获取定位权限",nw="操作详情",aw="尚未开启定位权限",rw="当前访问受限，请授权定位以浏览车型、商城等完整内容。",sw="定位服务不可用",lw="无法获取您的位置。请检查系统定位服务是否开启、网络是否正常后重试。",cw="定位请求超时",dw="获取位置耗时过长，通常发生在室内或信号较弱时。请重试。",uw="重试",pw={promptTitle:Qy,promptSubtitle:Hy,deniedTitle:Vy,deniedSubtitle:_y,allow:Gy,retry:Wy,backToHome:Yy,banner:$y,bannerCta:jy,limitedBadge:Jy,unsupportedHint:Ky,browserBlockedTitle:Zy,browserBlockedSubtitle:Xy,browserBlockedSteps:ew,verifyAfterEnable:tw,stillBlocked:iw,permissionGranted:ow,viewDetail:nw,deniedTitleUserDenied:aw,deniedSubtitleUserDenied:rw,deniedTitleUnavailable:sw,deniedSubtitleUnavailable:lw,deniedTitleTimeout:cw,deniedSubtitleTimeout:dw,retryGeneric:uw},
+mw={eyebrow:"碳纤维",heading:"碳纤维材料应用",description:"水翼艇的部分部件采用先进碳纤维材料，不仅具备美观质感，也能在实际应用中展现出优异性能。作为高性能复合材料，碳纤维正逐步成为新一代船艇制造的核心材料。",features:[{title:"高强度与低密度",desc:"碳纤维强度可达钢材的 4-5 倍，密度却仅为钢材的 1/4、铝材的 2/3。这一独特性能使水翼艇能在保持结构强度的同时大幅降低船体重量，提升航行效率。"},
+{title:"轻量化设计与低能耗",desc:"根据行业数据，轻量化设计可降低船舶能耗 16-18%，进一步提升航行效率与运营经济性。通过采用碳纤维材料，Y 系列水翼艇实现了显著的轻量化效果。"},
+{title:"耐腐蚀与高耐久",desc:"碳纤维具备出色的耐腐蚀性能，可在严苛水域环境中长期使用而不受锈蚀影响。其抗疲劳性能同样优秀，保障产品长期稳定可靠。"},
+{title:"创新设计与制造工艺",desc:"采用多层碳纤维复合材料与高温高压固化工艺，确保船体结构优化与稳定性。"},
+{title:"环保与可持续",desc:"碳纤维材料不仅轻量耐用，也具备良好的可回收性，符合现代环保理念。"}]},
+gw={title:"电池",intro:{title:"专为船舶及海上作业平台设计的磷酸铁锂电池动力系统。",description:"集高安全、强防护、轻量化与智能管理于一体，从容应对高湿盐雾、暴雨与颠簸等复杂海况，为船舶动力系统提供持久稳定的绿色能源支持。"},
+advantages:{label:"电池优势",items:[{title:"高安全磷酸铁锂电芯",description:"从源头降低热失控风险，保障人员与船舶安全。循环寿命长，适配船舶长期、高频次的运营需求，可全天候作业。"},
+{title:"智能 BMS 远程监控",description:"实时监控：7×24 在线监测电压、温度、SOC/SOH 等核心数据，异常状态实时预警，防患于未然。"},
+{title:"IP67 全面防护",tags:["高效防水","耐腐蚀","坚固耐用","严密密封"]}]},
+lightweight:{title:"轻量化铝合金箱体",items:[{label:"减重增效",text:"铝合金密度低，可显著降低船体重量，提升载荷能力与续航表现，优化能耗性能。"},
+{label:"高效散热",text:"优异的导热性能，利于电池系统的热管理，使电芯保持在适宜的工作温度区间。"},
+{label:"坚固可靠",text:"采用高强度铝合金并经热处理工艺，具备优秀的抗冲击与抗形变性能，确保严苛海况下的结构安全。"},
+{label:"安全设计",text:"箱体具备阻燃特性，并配备泄压通道，进一步提升系统的安全等级。"}]}},
+hw={title:"挂机",slogan:"畅享水上动力，轻松智能出行",description:"集智能控制、电动推进与人性化体验于一体，凭借紧凑的一体化设计、超低运行噪音与智能遥控系统，带来安静、可靠、易操作的全新出航体验。",features:[{title:"超静音舒适体验",details:[{label:"出色 NVH 表现",text:"极低噪声、振动与不适感，全面提升出航品质。"},
+{label:"极致降噪",text:"采用橡胶阻尼减振与模态频率回避设计，运行峰值噪音低于 73 分贝，犹如置身静谧办公室。"},
+{label:"沉浸式体验",text:"几乎听不到机械驱动声，只剩水的自然声响，让航行宁静而舒适。"}]},
+{title:"全集成智能设计",details:[{label:"集成创新",text:"将中央控制器、电机控制器与电动转向模块独家集成为紧凑结构，节省宝贵船上空间。"},
+{label:"智能功能",text:"配备电动翻转等智能功能，操作轻松，省心无忧。"},
+{label:"动力优化",text:"依托省级水动力实验室与领先螺旋桨设计，显著提升推进效率，让航行更节能。"}]},
+{title:"专业可靠品质",details:[{label:"高耐久性",text:"产品坚固可靠，经久耐用，适应多种海洋环境。"},
+{label:"权威认证",text:"已获得中国船级社（CCS）型式认可，品质有保障，让您放心使用。"}]},
+{title:"智能人机交互",details:[{label:"指尖控制",text:"ePropulsion 智能油门搭配 5 英寸高清显示屏，提供直观易用的操控体验。"},
+{label:"信息一目了然",text:"屏幕实时显示电机运行状态、报警信息、遥控系统状态及全面船舶数据，让您对爱艇尽在掌握。"},
+{label:"安全冗余",text:"ePropulsion 遥控系统构建一体化电子控制，强大的故障处理能力提升航行安全与操控灵活性。"}]}]},
+fw={carbonFiberMaterial:mw,battery:gw,outboardMotor:hw},
+St=["en","it","zh"],vw={en:"English",it:"Italiano",zh:"中文"},
+bw={en:"🇬🇧",it:"🇮🇹",zh:"🇨🇳"},
+yw={common:ir,navigation:Er,home:Wr,models:ss,auth:bs,footer:ks,options:Gs,dealers:cl,investors:fl,scenario:Ec,profile:Cc,errors:Dc,store:_c,products:ad,geolocation:Td,manufacturing:Fd},
+ww={common:tu,navigation:Iu,home:Gu,models:Ku,auth:yp,footer:Rp,options:Wp,dealers:am,investors:pm,scenario:Sg,profile:yg,errors:zg,store:Ug,products:th,geolocation:Ph,manufacturing:Th},
+Aw={common:wf,navigation:_f,home:d0,models:k0,auth:W0,footer:dv,options:Ev,dealers:_v,investors:Kv,scenario:sy,profile:ny,errors:my,store:Iy,products:Uy,geolocation:pw,manufacturing:fw};
+function Ye(e,t=""){const i={};
+for(const o in e){const n=e[o],r=t?`${t}.${o}`:o;
+Array.isArray(n)?n.forEach((s,l)=>{const m=`${r}[${l}]`;
+typeof s=="object"&&s!==null?Object.assign(i,Ye(s,m)):i[m]=String(s)}):typeof n=="object"&&n!==null?Object.assign(i,Ye(n,r)):i[r]=String(n)}return i}const Sw={en:Ye(yw),
+it:Ye(ww),
+zh:Ye(Aw)};
+function Cw(){const e=localStorage.getItem("locale");
+if(e&&St.includes(e))return e;
+const t=navigator.language.toLowerCase();
+return t.startsWith("zh")?"zh":t.startsWith("it")?"it":"en"}function io(){const e=localStorage.getItem("locale");
+return e&&St.includes(e)?e:"en"}const de=yo(
+{legacy:!1,locale:io(),
+fallbackLocale:"en",messages:Sw,silentTranslationWarn:!0,silentFallbackWarn:!0}),
+Wt=E(io());
+async function oo(e){St.includes(e)||(console.warn(`Locale "${e}" is not supported. Falling back to English.`),
+e="en"),
+de.global.locale.value=e,document.documentElement.lang=e==="zh"?"zh-CN":e,localStorage.setItem("locale",e),
+Wt.value=e,document.documentElement.dir="ltr",T(async()=>{const{setLocale:t,trackEvent:i}=await Promise.resolve().then(()=>iA);
+return{setLocale:t,trackEvent:i}},
+void 0).then((
+{setLocale:t,trackEvent:i})=>{t(e),
+i(
+{eventName:"click_lang_switch",contentType:"navigation",eventTarget:e,tags:{locale:e}})})}Se(Wt,e=>{oo(e)});
+function xw(){return{currentLocale:Wt,setLocale:oo,supportedLocales:St,localeNames:vw,localeFlags:bw,detectUserLocale:Cw}}const Iw=[{path:"/",name:"Home",component:()=>T(()=>import("./HomePage-BXgOFZyh.js"),
+__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10])),
+meta:{title:"Hydrofoil",description:"Official Website",requiresAuth:!1}},
+{path:"/preview/:id",name:"Preview",component:()=>T(()=>import("./HomePage-BXgOFZyh.js"),
+__vite__mapDeps([0,1,2,3,4,5,6,7,8,9,10])),
+meta:{title:"页面预览",description:"主页配置预览",requiresAuth:!1}},
+{path:"/2d",name:"2DModel",component:()=>T(()=>import("./2dContainer-C-0gKQ5z.js"),
+__vite__mapDeps([11,12,1,13,14,15,16,17,8,4,9])),
+meta:{title:"2D Model",description:"2D Model",requiresAuth:!0}},
+{path:"/models",children:[{path:"h1",name:"H1Model",component:()=>T(()=>import("./H1Model-CCsEgURt.js"),
+__vite__mapDeps([18,1,6,7,4,2,3,19,8,9,20])),
+meta:{title:"H-1 Series",description:"Entry Performance Hydrofoil",requiresAuth:!0}},
+{path:"h2",name:"H2Model",component:()=>T(()=>import("./H2Model-C0vzdrNe.js"),
+__vite__mapDeps([21,1,6,7,4,2,3,22,23,19,8,9,24])),
+meta:{title:"H-2 Series",description:"Advanced Capability Hydrofoil",requiresAuth:!1}},
+{path:"innovation",name:"Innovation",component:()=>T(()=>import("./Innovation-CWXYZAJl.js"),
+__vite__mapDeps([25,1,26,8,4,9,27])),
+meta:{title:"Technology Innovation",description:"Advanced Hydrofoil Technology",requiresAuth:!1}}]},
+{path:"/options",children:[{path:"",name:"Options",component:()=>T(()=>import("./OptionsPage-ClkTki50.js"),
+__vite__mapDeps([28,29,1,8,4,9,30])),
+meta:{title:"Configuration",description:"Customize Your Hydrofoil",requiresAuth:!1,layout:"fullscreen"}},
+{path:"detail/:id",name:"OptionsDetail",component:()=>T(()=>import("./OptionsDetailPage_glb-Bo-JIU5u.js"),
+__vite__mapDeps([31,12,1,13,14,15,16,4,8,9,32])),
+meta:{title:"Start Configuration",description:"Detailed Hydrofoil Configuration",requiresAuth:!0,analytics:{contentType:"product",idParam:"id"}}}]},
+{path:"/products",name:"Products",component:()=>T(()=>import("./ProductsPage-UHKd4Mp0.js"),
+__vite__mapDeps([33,1,22,4,19,8,9,34])),
+meta:{title:"Craftsmanship",description:"Hydrofoil Manufacturing Excellence",requiresAuth:!1}},
+{path:"/manufacturing",children:[{path:"quality",name:"Quality",component:()=>T(()=>import("./Quality-re-6y5Jm.js"),
+__vite__mapDeps([35,1,8,4,9])),
+meta:{title:"Super Engine",description:"Strict Quality Standards",requiresAuth:!1}},
+{path:"brand",name:"Brand",component:()=>T(()=>import("./Brand-PYg_Y94V.js"),
+__vite__mapDeps([36,1,8,4,9])),
+meta:{title:"High Voltage Platform",description:"Battery Technology",requiresAuth:!1}},
+{path:"carbonFiber",name:"CarbonFiber",component:()=>T(()=>import("./CarbonFiber-do9NITym.js"),
+__vite__mapDeps([37,1,8,4,9])),
+meta:{title:"Carbon Fiber",description:"Advanced Materials",requiresAuth:!1}},
+{path:"unmanned",name:"Unmanned",component:()=>T(()=>import("./Unmanned-CA5f0-A3.js"),
+__vite__mapDeps([38,39,6,1,7])),
+meta:{title:"Assisted Navigation",description:"Intelligent Assist System",requiresAuth:!1}},
+{path:"threeModes",name:"ThreeModes",component:()=>T(()=>import("./ThreeModes-DqnDEoEF.js"),
+__vite__mapDeps([40,1])),
+meta:{title:"Smart Steering",description:"Three Driving Modes",requiresAuth:!1}},
+{path:"battery",name:"Battery",component:()=>T(()=>import("./Battery-BrPY2DZf.js"),
+__vite__mapDeps([41,1,4])),
+meta:{title:"Battery",description:"Marine Battery System",requiresAuth:!0}},
+{path:"outboard-motor",name:"OutboardMotor",component:()=>T(()=>import("./OutboardMotor-qq0DxNwa.js"),
+__vite__mapDeps([42,17,1,6,7,4,8,9,43])),
+meta:{title:"Outboard Motor",description:"Electric Outboard Motor",requiresAuth:!0}},
+{path:"carbon-fiber-material",name:"CarbonFiberMaterial",component:()=>T(()=>import("./CarbonFiberMaterial-CAnDWXQw.js"),
+__vite__mapDeps([44,6,1,7,4,8,9,45])),
+meta:{title:"Carbon Fiber Material",description:"Carbon Fiber Materials",requiresAuth:!0}}]},
+{path:"/tech",children:[{path:"advantages",name:"Advantages",component:()=>T(()=>import("./Advantages-CXRFY5Kx.js"),
+__vite__mapDeps([46,1,8,4,9])),
+meta:{title:"Hydrofoil Advantages",description:"Speed, Stability, Comfort",requiresAuth:!0}},
+{path:"scenario",name:"Scenario",component:()=>T(()=>import("./Scenario-mTrGZvxk.js"),
+__vite__mapDeps([47,1,4,8,9,48])),
+meta:{title:"Application Scenarios",description:"Passenger, Leisure, Transport",requiresAuth:!0}}]},
+{path:"/investors",children:[{path:"",name:"Investors",component:()=>T(()=>import("./InvestorsPage-D64r_BOg.js"),
+__vite__mapDeps([49,1,4,19,6,7,8,9,50])),
+meta:{title:"Investors",description:"Investor Relations",requiresAuth:!1}}]},
+{path:"/features",name:"Features",component:()=>T(()=>import("./FeaturesPage-CWBpGMfe.js"),
+__vite__mapDeps([51,5,1,8,4,9])),
+meta:{title:"Careers",description:"Join Our Team",requiresAuth:!1}},
+{path:"/team",name:"TeamComposition",component:()=>T(()=>import("./TeamComposition-CVzc0gXQ.js"),
+__vite__mapDeps([52,1,8,4,9,53])),
+meta:{title:"Team",description:"Meet Our Team",requiresAuth:!1}},
+{path:"/test-drive",name:"TestDrive",component:()=>T(()=>import("./TestDrivePage-C0Vdok-g.js"),
+__vite__mapDeps([54,1,8,4,9,30])),
+meta:{title:"Book Experience",description:"Schedule a Test Ride",requiresAuth:!1}},
+{path:"/contact",name:"Contact",component:()=>T(()=>import("./ContactPage-DXkV7c8x.js"),
+__vite__mapDeps([55,6,1,7,16,15,14,2,3,23,8,4,9,56])),
+meta:{title:"Contact",description:"Get in Touch",requiresAuth:!1}},
+{path:"/contact/charging",name:"Charging",component:()=>T(()=>import("./Charging-D5keEWxU.js"),
+__vite__mapDeps([57,58,1])),
+meta:{title:"Charging Network",description:"Charging Solutions",requiresAuth:!0}},
+{path:"/contact/finance",name:"Finance",component:()=>T(()=>import("./Finance-Dp19oGuD.js"),
+__vite__mapDeps([59,1,60,39,8,4,9,61])),
+meta:{title:"Financing Options",description:"Financial Services",requiresAuth:!0}},
+{path:"/help-center",name:"HelpCenter",component:()=>T(()=>import("./HelpCenterPage-DCsHR8KL.js"),
+__vite__mapDeps([62,1,9,8,4,63])),
+meta:{title:"Help Center",description:"Support & Assistance",requiresAuth:!1,layout:"none"}},
+{path:"/help-center/reset-password",name:"ResetPassword",component:()=>T(()=>import("./ResetPasswordPage-rLC3njet.js"),
+__vite__mapDeps([64,1,65,66,9,8,4])),
+meta:{title:"Reset Password",description:"Recover Your Account Password",requiresAuth:!1,layout:"auth"}},
+{path:"/help-center/account-appeal",name:"AccountAppeal",component:()=>T(()=>import("./AccountAppealPage-fT_Jm1CS.js"),
+__vite__mapDeps([67,1,9])),
+meta:{title:"Account Appeal",description:"Account Recovery",requiresAuth:!1,layout:"none"}},
+{path:"/help-center/freeze-account",name:"FreezeAccount",component:()=>T(()=>import("./FreezeAccountPage-C5qLW0-d.js"),
+__vite__mapDeps([68,1,9])),
+meta:{title:"Freeze Account",description:"Temporarily Freeze Your Account",requiresAuth:!1,layout:"none"}},
+{path:"/help-center/unfreeze-account",name:"UnfreezeAccount",component:()=>T(()=>import("./UnfreezeAccountPage-Dzh0z4Cf.js"),
+__vite__mapDeps([69,1,9])),
+meta:{title:"Unfreeze Account",description:"Restore Account Access",requiresAuth:!1,layout:"none"}},
+{path:"/help-center/unblock-account",name:"UnblockAccount",component:()=>T(()=>import("./UnblockAccountPage-BycHzSyX.js"),
+__vite__mapDeps([70,1,9])),
+meta:{title:"Unblock Account",description:"Request Account Unblock",requiresAuth:!1,layout:"none"}},
+{path:"/help-center/delete-account",name:"DeleteAccount",component:()=>T(()=>import("./DeleteAccountPage-BszoyG4v.js"),
+__vite__mapDeps([71,1,9])),
+meta:{title:"Delete Account",description:"Permanently Delete Your Account",requiresAuth:!1,layout:"none"}},
+{path:"/contact",children:[{path:"serve",name:"Serve",component:()=>T(()=>import("./Serve-DGZIAsoY.js"),
+__vite__mapDeps([72,60,58,9,1])),
+meta:{title:"Service Guarantee",description:"Our Service Commitment",requiresAuth:!0}},
+{path:"dealers",name:"Dealers",component:()=>T(()=>import("./Dealers-D9FZVWdR.js"),
+__vite__mapDeps([73,1,74,8,4,9,75])),
+meta:{title:"Dealers",description:"Global Distribution Network",requiresAuth:!0}},
+{path:"dealers/:id",name:"DealerDetail",component:()=>T(()=>import("./DealerDetail-CljE8Uw3.js"),
+__vite__mapDeps([76,1,6,7,74,8,4,9,77])),
+meta:{title:"Dealer Detail",description:"Dealer Information",requiresAuth:!1,analytics:{contentType:"dealer",idParam:"id"}}},
+{path:"query",name:"Query",component:()=>T(()=>import("./Query-B9p38Rt0.js"),
+__vite__mapDeps([78,1,29,8,4,9])),
+meta:{title:"Store Locator",description:"Find Experience Centers",requiresAuth:!0}},
+{path:"customerService",name:"CustomerService",component:()=>T(()=>import("./CustomerService-Ru4tXQ6o.js"),
+__vite__mapDeps([79,1,8,4,9])),
+meta:{title:"Customer Service",description:"Support & Assistance",requiresAuth:!0}},
+{path:"customerService/:id",name:"CustomerServiceDetail",component:()=>T(()=>import("./CustomerServiceDetail-BZEr8I4a.js"),
+__vite__mapDeps([80,1,8,4,9,81])),
+meta:{title:"Customer Service Detail",description:"Service Information",requiresAuth:!1,analytics:{contentType:"article",idParam:"id"}}},
+{path:"about-me",name:"AboutMe",component:()=>T(()=>import("./AboutMe-CO6qN0-Q.js"),
+__vite__mapDeps([82,60,1,8,4,9,83])),
+meta:{title:"About Me",description:"Personal Information",requiresAuth:!1}},
+{path:"company-intro",name:"CompanyIntro",component:()=>T(()=>import("./CompanyIntro-BNW8dMwc.js"),
+__vite__mapDeps([84,1,9,8,4,85])),
+meta:{title:"Company Introduction",description:"About Our Company",requiresAuth:!1}},
+{path:"factory",name:"Factory",component:()=>T(()=>import("./Factory-Bx9qQ0EG.js"),
+__vite__mapDeps([86,1,26,58,6,7,8,4,9,87])),
+meta:{title:"Factory",description:"Manufacturing Facility",requiresAuth:!1}}]},
+{path:"/store",children:[{path:"hydrofoil",name:"StoreHydrofoil",component:()=>T(()=>import("./Hydrofoil-DeSvmr5Q.js"),
+__vite__mapDeps([88,1,4,8,9,89])),
+meta:{title:"Hydrofoil Store",description:"Browse Hydrofoil Products",requiresAuth:!0,layout:"store"}},
+{path:"accessories",name:"StoreAccessories",component:()=>T(()=>import("./Accessories-Cwh_t_7E.js"),
+__vite__mapDeps([90,1,4,8,9,91])),
+meta:{title:"Accessories Store",description:"Browse Accessories Products",requiresAuth:!1,layout:"store"}},
+{path:"accessories/:id",name:"AccessoryDetail",component:()=>T(()=>import("./AccessoryDetail-Dq8ChySN.js"),
+__vite__mapDeps([92,1,8,4,9,93])),
+meta:{title:"Accessory Detail",description:"Accessory Product Detail",requiresAuth:!0,layout:"store",analytics:{contentType:"product",idParam:"id"}}},
+{path:"hmi",name:"StoreHmi",component:()=>T(()=>import("./Hmi-BwGxr0Y9.js"),
+__vite__mapDeps([94,1])),
+meta:{title:"Hmi Store",description:"",requiresAuth:!1,layout:"store"}},
+{path:"design",name:"StoreDesign",component:()=>T(()=>import("./Design-B5G6Txjd.js"),
+__vite__mapDeps([95,1])),
+meta:{title:"Design Store",description:"",requiresAuth:!1,layout:"store"}},
+{path:"HullDesignBuild",name:"StoreHullDesignBuild",component:()=>T(()=>import("./HullDesignBuild-B8_3gpB7.js"),
+__vite__mapDeps([96,1])),
+meta:{title:"HullDesignBuild Store",description:"Browse HullDesignBuild Products",requiresAuth:!1,layout:"store"}},
+{path:"development",name:"StoreDevelopment",component:()=>T(()=>import("./Development-yhHdhNop.js"),
+__vite__mapDeps([97,1])),
+meta:{title:"Development Store",description:"",requiresAuth:!1,layout:"store"}},
+{path:"distribution",name:"StoreDistribution",component:()=>T(()=>import("./Distribution-BWQaSh-D.js"),
+__vite__mapDeps([98,1])),
+meta:{title:"Distribution Store",description:"Browse Distribution Products",requiresAuth:!1,layout:"store"}},
+{path:"order-confirmation/:orderId",name:"OrderConfirmation",component:()=>T(()=>import("./OrderConfirmation-Bg1iUHuR.js"),
+__vite__mapDeps([99,1,8,4,9])),
+meta:{title:"Order Confirmed",description:"Order Confirmation",requiresAuth:!1,layout:"store"}},
+{path:"orders/:orderId",name:"OrderDetail",component:()=>T(()=>import("./OrderDetail-t6yp0lxT.js"),
+__vite__mapDeps([100,1,101,102,8,4,9,103])),
+meta:{title:"Order Detail",description:"Order Details",requiresAuth:!1,layout:"auth"}}]},
+{path:"/profile",name:"Profile",component:()=>T(()=>import("./ProfilePage-C4YpSjeX.js"),
+__vite__mapDeps([104,1,101,102,65,9,66,8,4,105])),
+meta:{title:"My Account",description:"Account Settings",requiresAuth:!0,layout:"auth"}},
+{path:"/login",name:"Login",component:()=>T(()=>import("./LoginPage-Bd-M2kLb.js"),
+__vite__mapDeps([106,1,66,9,8,4,107])),
+meta:{title:"Sign In",description:"User Login",requiresAuth:!1,layout:"auth"}},
+{path:"/auth/wechat",name:"WeChatAuth",component:()=>T(()=>import("./WeChatAuthPage-CNVEZ7Zo.js"),
+__vite__mapDeps([108,1,8,4,9,109])),
+meta:{title:"WeChat Authorization",description:"WeChat Login Callback",requiresAuth:!1}},
+{path:"/auth/twitter",name:"TwitterAuth",component:()=>T(()=>import("./TwitterAuthPage-tufEIHSP.js"),
+__vite__mapDeps([110,1,8,4,9,111])),
+meta:{title:"Twitter Authorization",description:"Twitter Login Callback",requiresAuth:!1}},
+{path:"/auth/google",name:"GoogleAuth",component:()=>T(()=>import("./GoogleAuthPage-C_07lssc.js"),
+__vite__mapDeps([112,1,8,4,9,113])),
+meta:{title:"Google Authorization",description:"Google Login Callback",requiresAuth:!1}},
+{path:"/auth/alipay",name:"AlipayAuth",component:()=>T(()=>import("./AlipayAuthPage-BxMRZlfB.js"),
+__vite__mapDeps([114,1,8,4,9,115])),
+meta:{title:"Alipay Authorization",description:"Alipay Login Callback",requiresAuth:!1}},
+{path:"/auth/linkedin",name:"LinkedInAuth",component:()=>T(()=>import("./LinkedInAuthPage-q79EPscp.js"),
+__vite__mapDeps([116,1,8,4,9,117])),
+meta:{title:"LinkedIn Authorization",description:"LinkedIn Login Callback",requiresAuth:!1}},
+{path:"/auth/line",name:"LineAuth",component:()=>T(()=>import("./LineAuthPage-B3rkNsJC.js"),
+__vite__mapDeps([118,1,8,4,9,119])),
+meta:{title:"Line Authorization",description:"Line Login Callback",requiresAuth:!1}},
+{path:"/auth/bind",name:"BindAccount",component:()=>T(()=>import("./BindAccountPage-C3_x8Opn.js"),
+__vite__mapDeps([120,1,66,8,4,9])),
+meta:{title:"Bind Account",description:"Social Account Binding",requiresAuth:!1,layout:"auth"}},
+{path:"/:pathMatch(.*)*",name:"NotFound",component:()=>T(()=>import("./NotFoundPage-CrjsRCQe.js"),
+__vite__mapDeps([121,1])),
+meta:{title:"Page Not Found",requiresAuth:!1}}],ze=wo(
+{history:Ao(),
+routes:Iw,scrollBehavior(e,t,i){return i||(e.path===t.path&&e.query.geoBlocked==="1"?!1:e.hash?{el:e.hash,behavior:"smooth"}:{top:0})}});
+function Ew(e){return e==="/"||e.startsWith("/auth/")||e==="/login"}function Pw(e){return!!e.meta.requiresAuth}ze.beforeEach((e,t,i)=>{const o=e.meta.title||"Hydrofoil";
+if(document.title=o,T(async()=>{const{useUIStore:n}=await Promise.resolve().then(()=>pi);
+return{useUIStore:n}},
+void 0).then((
+{useUIStore:n})=>{n().setLayout(e.meta.layout||"default")}),
+Ew(e.path)){i();
+return}T(async()=>{const{useGeolocationStore:n}=await Promise.resolve().then(()=>co);
+return{useGeolocationStore:n}},
+void 0).then((
+{useGeolocationStore:n})=>{const r=n();
+if(r.status==="idle"&&r.init(),
+r.isAuthorized){if(!Pw(e)){i();
+return}T(async()=>{const{useAuthStore:s}=await Promise.resolve().then(()=>oA);
+return{useAuthStore:s}},
+void 0).then((
+{useAuthStore:s})=>{if(s().isAuthenticated){i();
+return}T(async()=>{const{useUIStore:m}=await Promise.resolve().then(()=>pi);
+return{useUIStore:m}},
+void 0).then((
+{useUIStore:m})=>{m().notifyWarning(de.global.t("auth.toast.loginRequiredTitle"),
+void 0,3e3)}).catch(()=>{}),
+i(
+{path:"/login",query:{redirect:e.fullPath}})}).catch(()=>{i()});
+return}r.status==="idle"&&r.request(),
+i(
+{path:"/",query:{geoBlocked:"1",from:e.fullPath,geoBlockedAt:String(Date.now())}})}).catch(()=>{i()})});
+const ke=Be("ui",()=>{const e=E(!1),
+t=E(!1),
+i=E(""),
+o=E("default"),
+n=E("水翼艇"),
+r=E(void 0),
+s=E(!1),
+l=E(!1);
+function m(B){r.value=B}function d(B){s.value=B}function c(B){l.value=B}function u(B){o.value=B}function S(){e.value=!e.value}function w(){e.value=!1}function p(B){n.value=B}const b=E([]),
+A=new Map;
+function I(B){const j=`notify_${Date.now()}_${Math.random().toString(36).slice(2,8)}`,Q={id:j,...B};
+b.value.push(Q);
+const k=B.duration??3e3;
+if(k>0){const L=setTimeout(()=>{O(j)},
+k);
+A.set(j,L)}return j}function O(B){b.value=b.value.filter(Q=>Q.id!==B);
+const j=A.get(B);
+j&&(clearTimeout(j),
+A.delete(B))}function P(B,j,Q){return I(
+{type:"success",title:B,message:j,duration:Q})}function F(B,j,Q){return I(
+{type:"error",title:B,message:j,duration:Q??5e3})}function N(B,j,Q){return I(
+{type:"warning",title:B,message:j,duration:Q})}function W(B,j,Q){return I(
+{type:"info",title:B,message:j,duration:Q})}return{isMobileMenuOpen:e,isLoading:t,loadingText:i,currentLayout:o,currentMenuName:n,headerGradientBackground:r,isOptionsRightPanelVisible:l,isHeaderTransparent:s,notifications:b,toggleMobileMenu:S,closeMobileMenu:w,setLayout:u,setCurrentMenuName:p,setHeaderGradientBackground:m,setHeaderTransparent:d,setOptionsRightPanelVisible:c,addNotification:I,removeNotification:O,notifySuccess:P,notifyError:F,notifyWarning:N,notifyInfo:W}}),
+pi=Object.freeze(Object.defineProperty(
+{__proto__:null,useUIStore:ke},
+Symbol.toStringTag,{value:"Module"})),
+ut="authToken",qt="refreshToken",no="authUser",xe=ee.create(
+{baseURL:"https://api.fly-h2o.cn/app-api",timeout:3e4,headers:{"Content-Type":"application/json"}});
+let ot=!1,$e=[];
+function zw(e,t){$e.push(
+{resolve:e,reject:t})}function kw(e){$e.forEach((
+{resolve:t})=>t(e)),
+$e=[]}function Rw(){const e=new Error(de.global.t("errors.refreshTokenFailed"));
+$e.forEach((
+{reject:t})=>t(e)),
+$e=[]}let kt=!1;
+function ao(){const e=ze.currentRoute.value;
+return{path:"/login",query:e.path==="/login"?void 0:{redirect:e.fullPath}}}function mi(){if(localStorage.removeItem(ut),
+localStorage.removeItem(qt),
+localStorage.removeItem(no),
+!kt){kt=!0;
+const e=de.global.t("common.loginExpired");
+try{ke().notifyWarning(e)}catch{console.warn(e)}ze.currentRoute.value.path!=="/login"&&ze.replace(ao()),
+setTimeout(()=>{kt=!1},
+3e3)}}xe.interceptors.request.use(e=>{if(!e.url?.includes("/member/auth/refresh-token")&&!e.headers?.Authorization){const i=localStorage.getItem(ut);
+i&&e.headers&&(e.headers.Authorization=`Bearer ${i}`)}return e},
+e=>(console.error("请求错误:",e),
+Promise.reject(e)));
+xe.interceptors.response.use(e=>{const t=e.data;
+if(t.code===0||t.code===200)return t.data;
+if(t.code===401)return gi(e.config);
+const i=`errors.${t.code}`,o=de.global.t(i);
+let n;
+o!==i?n=o:t.message?n=t.message:n=de.global.t("errors.requestFailed");
+const r=new Error(n);
+return r.bizCode=t.code,Promise.reject(r)},
+e=>{if(e.response){const{status:t,data:i,config:o}=e.response;
+if(t===401)return gi(o);
+const n=i?.code;
+if(n&&n!==0&&n!==200&&n!==t){const m=`errors.${n}`,d=de.global.t(m),
+c=new Error;
+if(c.bizCode=n,d!==m)return c.message=d,Promise.reject(c);
+if(i?.message)return c.message=i.message,Promise.reject(c)}const r=`errors.${t}`,s=de.global.t(r);
+let l;
+return s!==r?l=s:i?.message?l=i.message:l=de.global.t("errors.requestFailed"),
+Promise.reject(new Error(l))}return e.code==="ECONNABORTED"?Promise.reject(new Error(de.global.t("errors.timeout"))):Promise.reject(new Error(de.global.t("errors.networkError")))});
+function gi(e){if(e.url?.includes("/member/auth/refresh-token"))return mi(),
+Promise.reject(new Error(de.global.t("errors.refreshTokenFailed")));
+if(!ot){ot=!0;
+const t=localStorage.getItem(qt);
+if(!t)return ot=!1,localStorage.removeItem(ut),
+localStorage.removeItem(no),
+ze.currentRoute.value.path!=="/login"&&ze.replace(ao()),
+Promise.reject(new Error("Not logged in"));
+xe.post("/member/auth/refresh-token",new URLSearchParams(
+{refreshToken:t}),
+{headers:{"Content-Type":"application/x-www-form-urlencoded"}}).then(i=>{const o=i;
+localStorage.setItem(ut,o.accessToken),
+localStorage.setItem(qt,o.refreshToken),
+kw(o.accessToken)},
+i=>{console.error("刷新令牌请求失败:",i),
+Rw(),
+mi()}).finally(()=>{ot=!1})}return new Promise((t,i)=>{zw(o=>{e.headers.Authorization=`Bearer ${o}`,xe(e).then(t).catch(i)},
+i)})}const D={get(e,t){return xe.get(e,t)},
+post(e,t,i){return xe.post(e,t,i)},
+put(e,t,i){return xe.put(e,t,i)},
+delete(e,t){return xe.delete(e,t)},
+patch(e,t,i){return xe.patch(e,t,i)}},
+Tw={login(e){return D.post("/auth/login",e)},
+accountLogin(e,t){return D.post("/member/auth/login",{account:e,password:t})},
+register(e){return D.post("/auth/register",e)},
+logout(){return D.post("/member/auth/logout")},
+sendVerifyCode(e,t="register"){return D.post("/auth/send-code",{email:e,type:t})},
+verifyCode(e,t){return D.post("/auth/verify-code",{email:e,code:t})},
+resetPassword(e){return D.post("/auth/reset-password",e)},
+getCurrentUser(){return D.get("/auth/me")},
+refreshToken(e){return D.post("/auth/refresh-token",{refreshToken:e})},
+getClientList(){return D.get("/member/auth/get-client-list")},
+getSocialAuthRedirect(e,t){return D.get("/member/auth/social-auth-redirect",{params:{type:e,redirectUri:t}})},
+socialLogin(e){return D.post("/member/auth/social-login",e)},
+getMemberUserInfo(e){return D.get("/member/user/get",{headers:{Authorization:e}})},
+refreshMemberToken(e){return D.post("/member/auth/refresh-token",{refreshToken:e})},
+sendEmailCode(e,t){return D.post("/member/auth/send-email-code",{email:e,scene:t})},
+emailLogin(e,t,i){return D.post("/member/auth/email-login",{email:e,code:t,...i})},
+validateEmailCode(e,t,i,o){return D.post("/member/auth/validate-email-code",{email:e,scene:t,code:i,password:o})},
+sendSmsCode(e,t,i=86){return D.post("/member/auth/send-sms-code",{mobile:e,mobileCountryCode:i,scene:t})},
+smsLogin(e,t,i=86,o){return D.post("/member/auth/sms-login",{mobile:e,mobileCountryCode:i,code:t,...o})},
+validateSmsCode(e,t,i,o){return D.post("/member/auth/validate-sms-code",{mobile:e,scene:t,code:i,password:o})}},
+Ut={getHomePageList(){return D.get("/product/home-page/list")},
+getIndexPageMaster(){return D.get("/product/index-page/get-index-page-master")},
+getIndexPageDetails(e){return D.get("/product/index-page/get-details",{params:{id:e}})},
+getModels(){return D.get("/products/models")},
+getModelDetail(e){return D.get(`/products/models/${e}`)},
+getModelFeatures(e){return D.get(`/products/models/${e}/features`)},
+getModelComparison(e){return D.post("/products/compare",{modelIds:e})},
+getRecommendedModels(e){return D.get("/products/recommended",{params:{limit:e||4}})},
+getSpuPage(e){return D.get("/product/spu/page",{params:e})}},
+pt={getSettlement(e){return D.get("/trade/order/settlement",{params:e})},
+createTradeOrder(e){return D.post("/trade/order/create",e)},
+getPayChannelList(e=1){return D.get("/pay/channel/get-enable-code-list",{params:{appId:e}})},
+submitPayOrder(e){return D.post("/pay/order/submit",e)},
+getTradeOrderDetail(e){return D.get("/trade/order/get-detail",{params:{id:e,sync:!0}})},
+getTradeOrderPage(e){return D.get("/trade/order/page",{params:e})},
+cancelTradeOrder(e){return D.delete("/trade/order/cancel",{params:{id:e}})},
+receiveTradeOrder(e){return D.put("/trade/order/receive",null,{params:{id:e}})},
+deleteTradeOrder(e){return D.delete("/trade/order/delete",{params:{id:e}})},
+getExpressTrackList(e){return D.get("/trade/order/get-express-track-list",{params:{id:e}})},
+create(e){return D.post("/orders",e)},
+getDetail(e){return D.get(`/orders/${e}`)},
+getList(e){return D.get("/orders",{params:e})},
+pay(e){return D.post(`/orders/${e.orderId}/pay`,{paymentMethod:e.paymentMethod,amount:e.amount})},
+getPaymentStatus(e){return D.get(`/orders/${e}/payment-status`)},
+cancel(e,t){return D.post(`/orders/${e}/cancel`,{reason:t})},
+requestRefund(e,t){return D.post(`/orders/${e}/refund`,t)},
+getRefundStatus(e){return D.get(`/orders/${e}/refund-status`)}},
+Dw={contactUs(e){return D.post("/member/contact-us/create",e)},
+submitInquiry(e){return D.post("/contact/inquiry",e)},
+getInquiries(e){return D.get("/contact/inquiries",{params:e})},
+getInquiryDetail(e){return D.get(`/contact/inquiry/${e}`)},
+replyInquiry(e,t){return D.post(`/contact/inquiry/${e}/reply`,{content:t})},
+getHelpCategories(){return D.get("/help/categories")},
+getHelpArticles(e,t){return D.get(`/help/categories/${e}/articles`,{params:t})},
+getHelpArticle(e){return D.get(`/help/articles/${e}`)},
+searchHelpArticles(e){return D.get("/help/search",{params:{keyword:e}})},
+getPopularArticles(e){return D.get("/help/popular",{params:{limit:e||10}})},
+articleFeedback(e,t){return D.post(`/help/articles/${e}/feedback`,{helpful:t})}},
+ro={create(e){return D.post("/product/stat-log/create",e)},
+createList(e){return D.post("/product/stat-log/create-list",e)}},
+Lw=new Set(["submit_test_drive","submit_contact_form","add_to_cart","checkout_start","checkout_success","login_success"]);
+function so(e,t=!1){return typeof e=="boolean"?e:typeof e=="string"?e.toLowerCase()==="true":t}function Mw(e){return[]}const Fw=so("true",!1),
+Ct=so("false",!1),
+Bw=new Set(Mw()),
+Ow=10,Nw=5e3;
+function qw(e){return Lw.has(e)?"send":Fw?Bw.has(e)?"skip-blacklisted":"send":"skip-disabled"}const hi=Math.PI*3e3/180,le=Math.PI,fi=6378245,vi=.006693421622965943;
+function lo(e,t){return e<72.004||e>137.8347||t<.8293||t>55.8271}function Uw(e,t){let i=-100+2*e+3*t+.2*t*t+.1*e*t+.2*Math.sqrt(Math.abs(e));
+return i+=(20*Math.sin(6*e*le)+20*Math.sin(2*e*le))*2/3,i+=(20*Math.sin(t*le)+40*Math.sin(t/3*le))*2/3,i+=(160*Math.sin(t/12*le)+320*Math.sin(t*le/30))*2/3,i}function Qw(e,t){let i=300+e+2*t+.1*e*e+.1*e*t+.1*Math.sqrt(Math.abs(e));
+return i+=(20*Math.sin(6*e*le)+20*Math.sin(2*e*le))*2/3,i+=(20*Math.sin(e*le)+40*Math.sin(e/3*le))*2/3,i+=(150*Math.sin(e/12*le)+300*Math.sin(e/30*le))*2/3,i}function Hw(e,t){if(lo(e,t))return[e,t];
+let i=Uw(e-105,t-35),
+o=Qw(e-105,t-35);
+const n=t/180*le;
+let r=Math.sin(n);
+r=1-vi*r*r;
+const s=Math.sqrt(r);
+return i=i*180/(fi*(1-vi)/(r*s)*le),
+o=o*180/(fi/s*Math.cos(n)*le),
+[e+o,t+i]}function Vw(e,t){const i=Math.sqrt(e*e+t*t)+2e-5*Math.sin(t*hi),
+o=Math.atan2(t,e)+3e-6*Math.cos(e*hi),
+n=i*Math.cos(o)+.0065,r=i*Math.sin(o)+.006;
+return[n,r]}function _w(e,t){if(lo(e,t))return[Number(e.toFixed(6)),
+Number(t.toFixed(6))];
+const[i,o]=Hw(e,t),
+[n,r]=Vw(i,o);
+return[Number(n.toFixed(6)),
+Number(r.toFixed(6))]}const Rt="geo_status",Gw=1e4,Ww=300*1e3,Yt=Be("geolocation",()=>{const e=E("idle"),
+t=E(null),
+i=E(null),
+o=E(null),
+n=E("unknown"),
+r=V(()=>e.value==="granted"&&t.value!==null),
+s=V(()=>t.value!==null),
+l=V(()=>e.value==="granted"),
+m=V(()=>n.value==="denied");
+async function d(){if(typeof navigator>"u"||!navigator.permissions?.query)return n.value="unknown","unknown";
+try{const b=await navigator.permissions.query(
+{name:"geolocation"});
+return n.value=b.state,b.onchange=()=>{n.value=b.state},
+n.value}catch{return n.value="unknown","unknown"}}function c(){if(e.value==="idle"){try{const b=sessionStorage.getItem(Rt);
+b==="granted"?(e.value="granted",w().catch(()=>{})):(b==="denied"||b==="unsupported")&&(e.value=b)}catch{}d()}}function u(){try{sessionStorage.setItem(Rt,e.value)}catch{}}function S(b){return b===1?"user-denied":b===2?"unavailable":b===3?"timeout":"unavailable"}async function w(){return typeof navigator>"u"||!navigator.geolocation?(e.value="unsupported",o.value=null,i.value="navigator.geolocation is not available",u(),
+!1):await d()==="denied"?(e.value="denied",o.value="browser-blocked",i.value="browser site permission denied",u(),
+!1):(e.value="pending",i.value=null,o.value=null,new Promise(A=>{navigator.geolocation.getCurrentPosition(I=>{const[O,P]=_w(I.coords.longitude,I.coords.latitude);
+t.value={lng:O,lat:P},
+e.value="granted",o.value=null,n.value="granted",u(),
+A(!0)},
+I=>{t.value=null,e.value="denied",o.value=S(I.code),
+I.code===1&&(n.value="denied"),
+i.value=I.message||`geolocation error ${I.code}`,u(),
+A(!1)},
+{timeout:Gw,maximumAge:Ww,enableHighAccuracy:!1})}))}function p(){e.value="idle",t.value=null,i.value=null,o.value=null;
+try{sessionStorage.removeItem(Rt)}catch{}}return{status:e,coords:t,lastError:i,denialReason:o,browserPermission:n,isGranted:r,isAuthorized:l,hasCoords:s,isBrowserBlocked:m,init:c,request:w,reset:p,refreshBrowserPermission:d}}),
+co=Object.freeze(Object.defineProperty(
+{__proto__:null,useGeolocationStore:Yt},
+Symbol.toStringTag,{value:"Module"})),
+bi="analytics_visitor_id",yi="analytics_session_id",wi="analytics_session_last_active",Qt="analytics_utm",Yw=1800*1e3,uo={source:"",medium:"",campaign:""};
+function mt(){return typeof crypto<"u"&&typeof crypto.randomUUID=="function"?crypto.randomUUID():"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g,e=>{const t=Math.random()*16|0;
+return(e==="x"?t:t&3|8).toString(16)})}function po(){try{let e=localStorage.getItem(bi);
+return e||(e=mt(),
+localStorage.setItem(bi,e)),
+e}catch{return"anon-"+mt()}}function mo(){try{const e=Date.now(),
+t=Number(sessionStorage.getItem(wi)||0);
+let i=sessionStorage.getItem(yi);
+return(!i||t>0&&e-t>Yw)&&(i=mt(),
+sessionStorage.setItem(yi,i)),
+sessionStorage.setItem(wi,String(e)),
+i}catch{return"sess-"+mt()}}function $w(){try{const e=sessionStorage.getItem(Qt);
+if(e)return JSON.parse(e);
+const t=new URLSearchParams(window.location.search),
+i={source:t.get("utm_source")||"",medium:t.get("utm_medium")||"",campaign:t.get("utm_campaign")||""};
+return sessionStorage.setItem(Qt,JSON.stringify(i)),
+i}catch{return{...uo}}}function jw(){try{const e=sessionStorage.getItem(Qt);
+if(e)return JSON.parse(e)}catch{}return{...uo}}function Jw(){try{const e=Yt();
+return e.coords?{lng:e.coords.lng,lat:e.coords.lat}:null}catch{return null}}const gt={userId:"",locale:"en"},
+Pe=[];
+let Ai=!1;
+function We(e){gt.userId=e??""}function go(e){gt.locale=e}function Kw(e){if(!e)return"";
+const t=[];
+for(const i in e){const o=e[i];
+o==null||o===""||t.push(`${i}:${String(o)}`)}return t.join(",")}function Zw(e){const t=e.durationMs!==void 0?Math.max(1,Math.round(e.durationMs/1e3)):0,i={eventName:e.eventName,pageUrl:typeof window<"u"?window.location.pathname+window.location.search:"",sessionId:mo(),
+visitorId:po(),
+eventTarget:e.eventTarget||"",contentType:e.contentType||"",contentCategory:e.contentCategory||"",contentId:e.contentId==null?"":String(e.contentId),
+contentTags:Kw(e.tags),
+pageTitle:typeof document<"u"?document.title:"",referrer:typeof document<"u"?document.referrer:"",searchKeyword:e.searchKeyword||"",durationSeconds:t,userId:gt.userId,locale:gt.locale,utm:jw(),
+timestamp:Date.now()},
+o=Jw();
+return o&&(i.lng=o.lng,i.lat=o.lat),
+i}function Si(e,t){Ct&&console.log(`[analytics] ${e}`,{eventName:t.eventName,pageUrl:t.pageUrl,eventTarget:t.eventTarget,contentType:t.contentType,contentId:t.contentId,contentTags:t.contentTags,userId:t.userId,locale:t.locale})}function Xw(e){Ct&&((e.contentType==="product"||e.contentType==="conversion")&&(e.contentId===void 0||e.contentId===""||e.contentId===null)&&console.warn("[analytics] 事件缺少 contentId",e),
+e.eventName==="search"&&!e.searchKeyword&&console.warn("[analytics] search 事件缺少 searchKeyword",e))}function be(e){try{Xw(e);
+const t=Zw(e),
+i=qw(e.eventName);
+if(i!=="send"){Si(`[skipped: ${i==="skip-disabled"?"disabled":"blacklisted"}]`,t);
+return}Si("[queued]",t),
+Pe.push(t),
+Pe.length>=Ow&&$t()}catch(t){Ct&&console.warn("[analytics] trackEvent error",t)}}function $t(){if(Pe.length===0)return;
+const e=Pe.splice(0,Pe.length);
+ro.createList(e).catch(()=>{})}function Tt(){if(Pe.length===0)return;
+if(typeof navigator>"u"||typeof navigator.sendBeacon!="function"){$t();
+return}const e=Pe.splice(0,Pe.length);
+try{const i="https://api.fly-h2o.cn/app-api/product/stat-log/create-list",o=new Blob([JSON.stringify(e)],{type:"application/json"});
+navigator.sendBeacon(i,o)||ro.createList(e).catch(()=>{})}catch{}}function eA(){Ai||(Ai=!0,setInterval($t,Nw),
+typeof document<"u"&&document.addEventListener("visibilitychange",()=>{document.visibilityState==="hidden"&&Tt()}),
+typeof window<"u"&&(window.addEventListener("pagehide",Tt),
+window.addEventListener("beforeunload",Tt)))}let Dt=0,Lt="";
+function ho(e){$w(),
+po(),
+mo(),
+eA(),
+tA(e),
+Ct&&console.log("[analytics] initialized")}function tA(e){e.afterEach((t,i)=>{const o=Date.now();
+Lt&&Dt>0&&be(
+{eventName:"page_leave",contentType:"navigation",eventTarget:Lt,durationMs:o-Dt,tags:{from:i.fullPath,to:t.fullPath}}),
+Dt=o,Lt=t.fullPath;
+const n=t.meta.analytics||{};
+let r="";
+if(n.idParam){const s=t.params[n.idParam];
+r=Array.isArray(s)?String(s[0]||""):String(s||"")}be(
+{eventName:"pageview",contentType:n.contentType||"navigation",eventTarget:String(t.name||t.path),
+contentId:r,tags:{from:i.fullPath}})})}const iA=Object.freeze(Object.defineProperty(
+{__proto__:null,initAnalytics:ho,setLocale:go,setUserId:We,trackEvent:be},
+Symbol.toStringTag,{value:"Module"})),
+Ue="authToken",Mt="refreshToken",Re="authUser",xt=Be("auth",()=>{const e=E(null),
+t=E(!1),
+i=E(null),
+o=V(()=>!!e.value);
+function n(){const w=localStorage.getItem(Ue),
+p=localStorage.getItem(Re);
+if(w&&p)try{e.value=JSON.parse(p),
+e.value?.id&&We(e.value.id)}catch{e.value=null}}function r(w,p,b){localStorage.setItem(Ue,w),
+localStorage.setItem(Mt,p);
+const A={id:b.id,nickname:b.nickname,avatar:b.avatar,mobile:b.mobile,email:b.email};
+e.value=A,localStorage.setItem(Re,JSON.stringify(A)),
+We(A.id),
+be(
+{eventName:"login_success",contentType:"account",eventTarget:"social_login",tags:{method:"social"}})}async function s(w){t.value=!0,i.value=null;
+try{await new Promise(b=>setTimeout(b,1e3));
+const p={id:"1",nickname:"用户",avatar:"",mobile:null,email:w.email};
+e.value=p,localStorage.setItem(Re,JSON.stringify(p)),
+localStorage.setItem(Ue,"mock-token"),
+We(p.id),
+be(
+{eventName:"login_success",contentType:"account",eventTarget:"email_login",tags:{method:"email"}})}catch(p){throw i.value=p instanceof Error?p.message:"登录失败",p}finally{t.value=!1}}async function l(w){t.value=!0,i.value=null;
+try{await new Promise(b=>setTimeout(b,1e3));
+const p={id:"1",nickname:w.name,avatar:"",mobile:w.phone||null,email:w.email};
+e.value=p,localStorage.setItem(Re,JSON.stringify(p)),
+localStorage.setItem(Ue,"mock-token")}catch(p){throw i.value=p instanceof Error?p.message:"注册失败",p}finally{t.value=!1}}function m(w,p){localStorage.setItem(Ue,w),
+localStorage.setItem(Mt,p)}async function d(){try{await Tw.logout()}catch{}e.value=null,i.value=null,localStorage.removeItem(Ue),
+localStorage.removeItem(Mt),
+localStorage.removeItem(Re),
+We("")}function c(){i.value=null}function u(w){e.value&&(e.value.email=w,localStorage.setItem(Re,JSON.stringify(e.value)))}function S(w){e.value&&(e.value.mobile=w,localStorage.setItem(Re,JSON.stringify(e.value)))}return n(),
+{user:e,isLoading:t,error:i,isAuthenticated:o,login:s,register:l,logout:d,clearError:c,setSocialLoginData:r,updateTokens:m,updateUserEmail:u,updateUserMobile:S}}),
+oA=Object.freeze(Object.defineProperty(
+{__proto__:null,useAuthStore:xt},
+Symbol.toStringTag,{value:"Module"})),
+fo=Be("cart",()=>{const e=E([]),
+t=E(!1),
+i=V(()=>e.value.reduce((w,p)=>w+p.price*p.quantity,0)),
+o=V(()=>e.value.length>0?50:0),
+n=V(()=>i.value+o.value),
+r=V(()=>e.value.reduce((w,p)=>w+p.quantity,0));
+function s(){t.value=!0}function l(){t.value=!1}function m(){t.value=!t.value}function d(w,p=1){const b=e.value.find(A=>A.id===w.id);
+b?b.quantity+=p:e.value.push(
+{...w,quantity:p}),
+be(
+{eventName:"add_to_cart",contentType:"product",eventTarget:w.name,contentId:w.productId,tags:{skuId:w.skuId,color:w.color,qty:p,price:w.price}})}function c(){e.value=[]}function u(w){e.value=e.value.filter(p=>p.id!==w)}function S(w,p){const b=e.value.find(A=>A.id===w);
+b&&(p<=0?u(w):b.quantity=p)}return{items:e,isOpen:t,subtotal:i,shipping:o,total:n,itemCount:r,openCart:s,closeCart:l,toggleCart:m,addItem:d,removeItem:u,updateQuantity:S,clearCart:c}}),
+nA=Be("order",()=>{const e=E([]);
+function t(o){const n={id:`ORD-${Date.now()}-${Math.random().toString(36).slice(2,6).toUpperCase()}`,items:[...o.items],address:o.address,paymentMethod:o.paymentMethod,status:"paid",subtotal:o.subtotal,shipping:o.shipping,total:o.total,createdAt:new Date().toISOString()};
+return e.value.unshift(n),
+n}function i(o){return e.value.find(n=>n.id===o)}return{orders:e,createOrder:t,getOrderById:i}}),
+aA=Be("product",()=>{const e=E([]),
+t=E(!1);
+let i=null,o=!1;
+async function n(){return o&&e.value.length>0?e.value:i||(t.value=!0,i=Ut.getHomePageList().then(s=>(Array.isArray(s)&&(e.value=s),
+o=!0,e.value)).finally(()=>{t.value=!1,i=null}),
+i)}function r(){o=!1,e.value=[]}return{homePageProducts:e,isLoading:t,fetchHomePageProducts:n,invalidate:r}}),
+vo=Be("search",()=>{const e=E(!1),
+t=E(""),
+i=E([]),
+o=E(0),
+n=E(1),
+r=20,s=E(!1),
+l=E(!1);
+let m=0;
+function d(){e.value=!0}function c(){e.value=!1}function u(){e.value=!e.value}function S(){i.value=[],o.value=0,n.value=1,l.value=!1}async function w(b){if(t.value=b,S(),
+!b||!b.trim())return;
+const A=++m;
+s.value=!0;
+try{const I=await Ut.getSpuPage(
+{keyword:b.trim(),
+pageNo:1,pageSize:r});
+if(A!==m)return;
+const O=I?.list||[];
+i.value=O,o.value=I?.total||0,l.value=O.length>=r&&i.value.length<o.value}catch{}finally{A===m&&(s.value=!1)}}async function p(){if(s.value||!l.value||!t.value.trim())return;
+const b=m;
+s.value=!0;
+try{const A=n.value+1,I=await Ut.getSpuPage(
+{keyword:t.value.trim(),
+pageNo:A,pageSize:r});
+if(b!==m)return;
+const O=I?.list||[];
+i.value.push(...O),
+n.value=A,l.value=O.length>=r&&i.value.length<(I?.total||o.value)}catch{}finally{b===m&&(s.value=!1)}}return{isOpen:e,keyword:t,list:i,total:o,pageNo:n,pageSize:r,loading:s,hasMore:l,openSearch:d,closeSearch:c,toggleSearch:u,resetResults:S,search:w,loadMore:p}}),
+rA=So(),
+sA="/assets/img/menu-3-US3duFh-.jpg",lA="/assets/img/menu-4-ChL-za_i.jpg",cA="/assets/img/menu-5-DYt1kATd.jpg",dA="/assets/img/menu-6-zzGB0FEO.jpg",uA="/assets/video/menu-6-e9ouHTNg.mp4",pA="/assets/video/menu-7-CxqCCILV.mp4",mA="/assets/img/menu-7-fAyGQjop.jpg",gA="/assets/video/menu-3-1-CodhLVvq.mp4",hA="/assets/img/home-1-min-MsnRtAf0.png",fA={class:"text-[16px]"},
+vA={class:"absolute inset-0 z-1 hidden sm:flex items-center justify-center pointer-events-none"},
+bA={class:"flex items-center"},
+yA=["title"],wA=["src","alt"],AA=["alt"],SA={key:0,class:"absolute top-0 right-0 pt-10 z-2"},
+CA={class:"w-36 bg-white rounded-lg shadow-lg border border-gray-200 py-1"},
+xA={key:0,role:"dialog","aria-modal":"true",class:"fixed inset-x-0 top-0 z-999999 overflow-hidden lg:inset-x-2 xl:inset-x-3 sm:top-2 md:top-3 no-scrollbar max-w-screen-lg gap-6 md:gap-7 lg:gap-9 rounded-none sm:rounded-md font-bug-monospace text-white h-[100vh] sm:h-[calc(100vh-16px)] md:h-[calc(100vh-24px)] flex select-none flex-col justify-between bg-[rgba(16,24,40,0.3)] backdrop-blur-[40px] p-4 pt-14 sm:p-5 sm:pt-18 md:p-5 md:pt-20 lg:p-6 lg:pt-24"},
+IA={class:"grid grid-cols-2 xs:grid-cols-3 gap-4 sm:gap-0"},
+EA={role:"tablist",class:"items-start flex w-full flex-col gap-1 max-h-[70vh] overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-white/10"},
+PA=["data-state","onClick"],zA={class:"flex w-full items-start gap-1 sm:gap-1.5"},
+kA={class:"text-sm lg:text-base 2xl:text-lg"},
+RA=["href","target"],TA={class:"flex w-full items-start gap-1 sm:gap-1.5"},
+DA={class:"text-base lg:text-md 2xl:text-xl font-bug-monospace tracking-widest uppercase items block transition-colors"},
+LA={class:"flex w-full items-start gap-1 sm:gap-1.5"},
+MA={class:"text-base lg:text-md 2xl:text-xl font-bug-monospace tracking-widest uppercase items block transition-colors"},
+FA={class:"col-span-1 xs:col-span-2 max-h-[70vh] overflow-y-auto scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-white/10 pr-2 sm:pr-4"},
+BA={key:0,role:"tabpanel",class:"mt-2 w-full"},
+OA={class:"grid grid-cols-1"},
+NA=["href","target"],qA={class:"relative aspect-[16/9] sm:aspect-portrait grow overflow-hidden rounded-md sm:aspect-[16/7]"},
+UA={class:"absolute inset-0 h-full w-full transition-transform duration-300 group-hover:scale-105"},
+QA={key:0,class:"pointer-events-none h-full w-full bg-black/90"},
+HA=["src","alt"],VA={key:1,class:"pointer-events-none h-full w-full bg-gradient-to-br from-blue-100 to-blue-200"},
+_A={key:2,class:"hidden lg:block absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"},
+GA=["src"],WA={class:"absolute bottom-2 left-2 sm:bottom-3 sm:left-3 z-50 text-white text-md sm:text-xl md:text-2xl lg:text-[24px] 3xl:text-3xl uppercase"},
+YA={key:0,class:"absolute top-2 left-2 sm:top-3 sm:left-3 z-50 text-white text-xs opacity-90 uppercase"},
+$A={key:1,class:"mb-2 sm:mb-3 3xl:mb-4 uppercase text-md sm:text-xl md:text-2xl lg:text-[24px] 3xl:text-3xl"},
+jA={class:"relative aspect-[16/9] sm:aspect-portrait grow overflow-hidden rounded-md sm:aspect-[16/7]"},
+JA={class:"absolute inset-0 h-full w-full transition-transform duration-300 group-hover:scale-105"},
+KA={key:0,class:"pointer-events-none h-full w-full bg-black/90"},
+ZA=["src","alt"],XA={key:1,class:"pointer-events-none h-full w-full bg-gradient-to-br from-blue-100 to-blue-200"},
+e1={key:2,class:"hidden lg:block absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"},
+t1=["src"],i1={class:"absolute bottom-2 left-2 sm:bottom-3 sm:left-3 z-50 text-white text-md sm:text-xl md:text-2xl lg:text-[24px] 3xl:text-3xl uppercase"},
+o1={key:0,class:"absolute top-2 left-2 sm:top-3 sm:left-3 z-50 text-white text-xs opacity-90 uppercase"},
+n1={key:1,class:"mb-2 sm:mb-3 3xl:mb-4 uppercase text-md sm:text-xl md:text-2xl lg:text-[24px] 3xl:text-3xl"},
+a1={class:"flex w-full items-start flex-col sm:flex-row gap-y-3 gap-x-3 md:gap-x-0"},
+r1={class:"w-full sm:basis-1/3"},
+s1={role:"menubar",class:"flex gap-1"},
+l1=["onClick"],c1={class:"flex w-full sm:basis-1/2 flex-wrap gap-x-2 sm:gap-x-3 sm:-ml-1.5 md:-ml-3 md:gap-x-0"},
+d1=he(
+{__name:"HeaderComponent",props:{transparent:{type:Boolean,default:!1},
+gradientBackground:{default:void 0}},
+setup(e){const t=e,i=V(()=>t.gradientBackground?{}:t.transparent?{}:{background:"linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%)"}),
+o=aA(),
+n=xt(),
+r=ke(),
+s=Yt(),
+l=ht(),
+m=je(),
+{currentLocale:d,setLocale:c}=xw(),
+{t:u}=Ie(),
+S=V(()=>s.status==="denied"||s.status==="unsupported");
+async function w(){if(s.status==="unsupported"){r.notifyWarning(u("geolocation.unsupportedHint"));
+return}if(s.isBrowserBlocked){r.notifyWarning(u("geolocation.browserBlockedSubtitle")),
+l.path!=="/"&&m.push(
+{path:"/",query:{geoBlocked:"1",from:l.fullPath}});
+return}s.reset(),
+await s.request()?r.notifySuccess(u("geolocation.permissionGranted")):(r.notifyWarning(u("geolocation.deniedSubtitle")),
+l.path!=="/"&&m.push(
+{path:"/",query:{geoBlocked:"1",from:l.fullPath}}))}Je(async()=>{try{const R=await D.get("/member/official-menu/list");
+Array.isArray(R)&&(I.value=R)}catch{}o.fetchHomePageProducts().catch(()=>{})});
+const p=E(!1),
+b=E(!1),
+A=E(1),
+I=E([]),
+O=[{code:"en",label:"EN"},
+{code:"it",label:"IT"},
+{code:"zh",label:"中文"}];
+function P(R){c(R)}const F=V(()=>[{name:u("navigation.menu.hydrofoil"),
+componentName:"hydrofoil",href:"/"},
+{name:u("navigation.menu.models"),
+componentName:"models",href:"",submenu:o.homePageProducts.length>0?o.homePageProducts.map(R=>(
+{name:R.spuName,href:`/models/h1?id=${R.spuId}`,description:R.categoryName,video:R.spuVideoUrl,image:R.spuPicUrl})):[]},
+{name:u("navigation.menu.craftsmanship"),
+componentName:"craftsmanship",href:"/products"},
+{name:u("navigation.menu.manufacturing"),
+componentName:"manufacturing",href:"",submenu:[{name:u("navigation.menu.batteryMenu"),
+href:"/manufacturing/battery",description:u("navigation.menu.batteryMenuDesc"),
+video:"",image:hA},
+{name:u("navigation.menu.outboardMotorMenu"),
+href:"/manufacturing/outboard-motor",description:u("navigation.menu.outboardMotorMenuDesc"),
+video:"",image:cA},
+{name:u("navigation.menu.carbonFiberMaterialMenu"),
+href:"/manufacturing/carbon-fiber-material",description:u("navigation.menu.carbonFiberMaterialMenuDesc"),
+video:"",image:lA}]},
+{name:u("navigation.menu.technology"),
+componentName:"technology",href:"",submenu:[{name:u("navigation.menu.hydrofoilAdvantages"),
+href:"/tech/advantages",description:u("navigation.menu.hydrofoilAdvantagesDesc"),
+video:uA,image:dA},
+{name:u("navigation.menu.applicationScenarios"),
+href:"/tech/scenario",description:u("navigation.menu.applicationScenariosDesc"),
+video:pA,image:mA}]},
+{name:u("navigation.menu.investors"),
+componentName:"investors",href:"/investors"},
+{name:u("navigation.menu.overview"),
+componentName:"overview",href:"",submenu:[{name:u("navigation.menu.businessPlan"),
+href:"https://bp.fly-h2o.cn/",description:u("navigation.menu.businessPlanDesc"),
+video:gA,image:sA}]},
+{name:u("navigation.menu.aboutUs"),
+componentName:"aboutUs",href:"/contact"},
+{name:u("navigation.menu.services"),
+componentName:"services",href:"",submenu:[{name:u("navigation.menu.serviceGuarantee"),
+href:"/contact/Serve",description:"",video:"",image:""},
+{name:u("navigation.menu.chargingNetwork"),
+href:"/contact/Charging",description:"",video:"",image:""},
+{name:u("navigation.menu.financingOptions"),
+href:"/contact/Finance",description:"",video:"",image:""}]},
+{name:u("navigation.menu.contact"),
+componentName:"contact",href:"",submenu:[{name:u("navigation.menu.dealers"),
+href:"/contact/dealers",description:u("navigation.menu.dealersDesc"),
+video:"",image:""},
+{name:u("navigation.menu.storeLocator"),
+href:"/contact/query",description:u("navigation.menu.storeLocatorDesc"),
+video:"",image:""},
+{name:u("navigation.menu.customerService"),
+href:"/contact/customerService",description:u("navigation.menu.customerServiceDesc"),
+video:"",image:""}]},
+{name:u("navigation.menu.legal"),
+componentName:"legal",href:"",submenu:[{name:u("navigation.menu.userAgreement"),
+href:"/auth-agreement.html",description:"",video:"",image:""},
+{name:u("navigation.menu.privacyPolicy"),
+href:"/privacy.html",description:"",video:"",image:""},
+{name:u("navigation.menu.authAgreement"),
+href:"/auth-agreement.html",description:"",video:"",image:""},
+{name:u("navigation.menu.serviceAgreement"),
+href:"/afterservice-commitment.html",description:"",video:"",image:""},
+{name:u("navigation.menu.insuranceAgreement"),
+href:"/afterservice-insurance.html",description:"",video:"",image:""}]}]),
+N=V(()=>{if(I.value.length===0)return F.value;
+const R=new Map;
+I.value.forEach(z=>{R.set(z.componentName,z)});
+const x=[];
+return F.value.forEach(z=>{const M=R.get(z.componentName);
+M&&x.push(
+{...z,href:M.path||z.href,sort:M.sort})}),
+x.sort((z,M)=>z.sort-M.sort),
+x.map((
+{sort:z,...M})=>M)});
+V(()=>N.value.filter(R=>R.submenu)),
+V(()=>r.currentMenuName);
+function W(){b.value=!b.value}function B(){b.value=!1}function j(R){R.currentTarget.querySelector("video")?.play().catch(()=>{})}function Q(R){const x=R.currentTarget.querySelector("video");
+x&&(x.pause(),
+x.currentTime=0)}function k(){const R=l.path;
+for(let x=0;
+x<N.value.length;
+x++){const z=N.value[x];
+if(z.submenu){for(const M of z.submenu)if(!(M.href.startsWith("http")||M.href.endsWith(".html"))&&(M.href===R||R.startsWith(M.href+"/")))return x}if(z.href&&(z.href===R||R.startsWith(z.href+"/")))return x}return null}function L(R){return A.value===R}function te(){const R=N.value.findIndex(x=>x.submenu);
+return R===-1?0:R}let me=0;
+Se(b,R=>{if(R){me=window.scrollY,document.body.style.position="fixed",document.body.style.top=`-${me}px`,document.body.style.left="0",document.body.style.right="0",document.body.style.overflow="hidden";
+const x=k();
+x!==null&&N.value[x]?.submenu?A.value=x:A.value=te()}else document.body.style.position="",document.body.style.top="",document.body.style.left="",document.body.style.right="",document.body.style.overflow="",window.scrollTo(0,me)}),
+ft(()=>{document.body.style.position="",document.body.style.top="",document.body.style.left="",document.body.style.right="",document.body.style.overflow=""});
+function ge(R){A.value=R;
+const x=N.value[R];
+x&&r.setCurrentMenuName(x.name)}function Ce(R){return R.startsWith("http")||R.endsWith(".html")}function ie(R){const x=l.path;
+if(R.submenu){for(const z of R.submenu)if(!(z.href.startsWith("http")||z.href.endsWith(".html"))&&(z.href===x||x.startsWith(z.href+"/")))return!0;
+return!1}return!!(R.href&&!R.href.startsWith("http")&&!R.href.endsWith(".html")&&R.href===x)}async function fe(){p.value=!1,await n.logout(),
+r.notifySuccess(u("navigation.logoutSuccess")),
+(l.meta.requiresAuth||l.path.startsWith("/profile"))&&m.push("/")}return(R,x)=>{const z=Co("track");
+return h(),
+y("div",null,[a("nav",{class:"fixed inset-x-0 mx-auto flex z-50 w-full items-center justify-between px-3 py-5 sm:px-6 md:px-8 md:py-7 lg:px-12 lg:py-9",style:nt(i.value)},
+[a("button",{onClick:W,type:"button",class:"cursor-pointer text-white text-sm font-mono tracking-widest uppercase focus:outline-none relative z-10 flex items-center gap-3 rounded-sm px-2 py-1 hover:bg-white/20 transition-colors duration-200"},
+[x[3]||(x[3]=a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 40 40","stroke-width":"2",class:"fill-none shrink-0 stroke-white h-6 w-6"},
+[a("path",{d:"M38.09 26H1.91M1.91 14h36.18"})],-1)),
+a("span",fA,v(R.$t("navigation.menu.menuButton")),
+1)]),
+a("div",vA,[K(f(se),
+{to:"/",class:"text-white text-[20px] md:text-[24px] lg:text-[30px] pointer-events-auto font-bold tracking-wider",style:{"letter-spacing":"1px"}},
+{default:J(()=>[...x[4]||(x[4]=[ae("ALAQUA",-1)])]),
+_:1})]),
+a("div",bA,[S.value?(h(),
+y("button",{key:0,type:"button",onClick:w,class:"hidden sm:flex items-center gap-1 relative z-4 mr-2 px-2.5 py-1 rounded-full bg-[#00FFF7]/10 border border-[#00FFF7]/40 text-[11px] text-[#00FFF7] hover:bg-[#00FFF7]/20 transition cursor-pointer",title:R.$t("geolocation.banner")},
+[x[5]||(x[5]=a("i",{class:"bx bx-current-location text-sm"},
+null,-1)),
+a("span",null,v(R.$t("geolocation.limitedBadge")),
+1)],8,yA)):U("",!0),
+K(f(se),
+{to:"/store/hydrofoil",class:"relative z-4 hidden sm:block text-[color:rgba(255,255,255,0.9)] px-2 py-2.5 mx-2 rounded-full text-[14px] font-normal transition-colors duration-200"},
+{default:J(()=>[ae(v(R.$t("navigation.cta.store")),
+1)]),
+_:1}),
+a("div",{class:"relative",onMouseenter:x[1]||(x[1]=M=>p.value=!0),
+onMouseleave:x[2]||(x[2]=M=>p.value=!1)},
+[f(n).isAuthenticated?(h(),
+y(Z,{key:0},
+[K(f(se),
+{to:"/profile",class:"p-1 hover:bg-white/10 rounded-full transition-colors duration-200 block"},
+{default:J(()=>[f(n).user?.avatar?(h(),
+y("img",{key:0,src:f(n).user.avatar,alt:f(n).user.nickname,class:"h-7 w-7 md:h-8 md:w-8 rounded-full object-cover border border-white/30"},
+null,8,wA)):(h(),
+y("img",{key:1,src:Ti,class:"h-7 w-7 md:h-8 md:w-8 rounded-full object-cover border border-white/30",alt:R.$t("navigation.defaultAvatar")},
+null,8,AA))]),
+_:1}),
+p.value?(h(),
+y("div",SA,[a("div",CA,[K(f(se),
+{to:"/profile",class:"block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors",onClick:x[0]||(x[0]=M=>p.value=!1)},
+{default:J(()=>[ae(v(R.$t("navigation.account")),
+1)]),
+_:1}),
+a("button",{onClick:fe,class:"cursor-pointer w-full text-left block px-4 py-2 text-sm text-gray-700 hover:bg-gray-50 transition-colors"},
+v(R.$t("navigation.logout")),
+1)])])):U("",!0)],64)):(h(),
+X(f(se),
+{key:1,to:"/login",class:"p-2 md:p-1 hover:bg-white/10 rounded-full transition-colors duration-200 block"},
+{default:J(()=>[K(f(Ri),
+{class:"h-5 w-5 sm:h-4 sm:w-4 md:h-6 md:w-6 text-white"})]),
+_:1}))],32)])],4),
+K(ve,{name:"menu-overlay"},
+{default:J(()=>[b.value?(h(),
+y("div",{key:0,class:"fixed inset-0 z-999999 bg-black/10 backdrop-blur-sm",onClick:B})):U("",!0)]),
+_:1}),
+K(ve,{name:"menu-slide"},
+{default:J(()=>[b.value?(h(),
+y("div",xA,[a("button",{type:"button",onClick:B,class:"cursor-pointer absolute left-4 top-4 sm:left-5 sm:top-5 md:left-6 md:top-6 z-50 text-white hover:text-white/80 transition-colors"},
+[...x[6]||(x[6]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 40 40","stroke-width":"2",class:"fill-none shrink-0 stroke-current h-5 w-5 sm:h-6 sm:w-6"},
+[a("path",{d:"M32.79 7.15 7.21 32.74M7.21 7.15l25.58 25.59"})],-1),
+a("span",{class:"sr-only"},
+"Close",-1)])]),
+a("div",IA,[a("div",EA,[(h(!0),
+y(Z,null,oe(N.value,(M,Y)=>(h(),
+y("div",{key:Y,class:"flex w-full flex-col gap-1 sm:gap-1.5 pr-2 sm:pr-4 md:pr-6"},
+[M.submenu?(h(),
+y("button",{key:0,type:"button",role:"tab","data-state":L(Y)?"active":"inactive",onClick:G=>ge(Y),
+class:$(["cursor-pointer inline-flex items-center justify-center py-1 sm:py-1.5 text-xs sm:text-sm transition-all w-full whitespace-normal text-balance px-0 text-left hover:text-white",ie(M)?"text-white":"text-white/60"])},
+[a("div",zA,[a("div",kA,[ae(v(M.name)+" ",1),
+x[7]||(x[7]=a("span",{class:"ml-1 sm:ml-1.5"},
+"›",-1))])])],10,PA)):(h(),
+y(Z,{key:1},
+[Ce(M.href)?(h(),
+y("a",{key:0,href:M.href,target:M.href.startsWith("http")?"_blank":"_self",onClick:B,class:$([[M.componentName=="hydrofoil"?"pt-1 sm:pt-1.5":"pt-4 xl:pt-7",ie(M)?"text-white":"text-white/60"],"cursor-pointer inline-flex items-center justify-center pb-1 sm:pb-1.5 text-xs sm:text-sm transition-all w-full whitespace-normal text-balance px-0 text-left hover:text-white"])},
+[a("div",TA,[a("div",DA,v(M.name),
+1)])],10,RA)):ne((h(),
+X(f(se),
+{key:1,to:M.href,onClick:B,class:$([[M.componentName=="hydrofoil"?"pt-1 sm:pt-1.5":"pt-4 xl:pt-7",ie(M)?"text-white":"text-white/60"],"cursor-pointer inline-flex items-center justify-center pb-1 sm:pb-1.5 text-xs sm:text-sm transition-all w-full whitespace-normal text-balance px-0 text-left hover:text-white"])},
+{default:J(()=>[a("div",LA,[a("div",MA,v(M.name),
+1)])]),
+_:2},
+1032,["to","class"])),
+[[z,{eventName:"click_nav_menu",contentType:"navigation",eventTarget:M.name,tags:{href:M.href}}]])],64))]))),
+128))]),
+a("div",FA,[(h(!0),
+y(Z,null,oe(N.value,(M,Y)=>(h(),
+y(Z,{key:`panel-${Y}`},
+[M.submenu?ne((h(),
+y("div",BA,[a("div",OA,[(h(!0),
+y(Z,null,oe(M.submenu,G=>(h(),
+y("div",{key:G.name,class:"flex items-center gap-1 select-none text-lg sm:text-xl md:text-2xl lg:text-3xl text-white"},
+[Ce(G.href)?(h(),
+y("a",{key:0,href:G.href,target:G.href.startsWith("http")?"_blank":"_self",class:"block w-full",onClick:B},
+[G.image||G.video?(h(),
+y("div",{key:0,class:"group col-span-full mb-2 sm:mb-3 flex w-full flex-col gap-2 sm:gap-3 overflow-hidden lg:flex-row lg:items-center lg:gap-9 h-[24vh] xs:h-full",onMouseenter:j,onMouseleave:Q},
+[a("div",qA,[a("div",UA,[G.image?(h(),
+y("div",QA,[a("img",{src:G.image,alt:G.name,class:"h-full w-full !object-cover"},
+null,8,HA)])):(h(),
+y("div",VA)),
+G.video?(h(),
+y("div",_A,[a("div",{class:"relative h-full w-full bg-no-repeat bg-cover bg-center",style:nt(
+{backgroundImage:G.image?`url(${G.image})`:""})},
+[a("video",{playsinline:"",class:"pointer-events-none h-full w-full object-cover",loop:"",muted:"",preload:"none",src:G.video},
+null,8,GA)],4)])):U("",!0)]),
+x[8]||(x[8]=a("div",{class:"absolute inset-0 w-full h-full bg-black pointer-events-none opacity-20"},
+null,-1)),
+a("div",WA,v(G.name),
+1),
+G.description?(h(),
+y("div",YA,v(G.description),
+1)):U("",!0)])],32)):(h(),
+y("div",$A,v(G.name),
+1))],8,NA)):ne((h(),
+X(f(se),
+{key:1,to:G.href,class:"block w-full",onClick:B},
+{default:J(()=>[G.image||G.video?(h(),
+y("div",{key:0,class:"group col-span-full mb-2 sm:mb-3 flex w-full flex-col gap-2 sm:gap-3 overflow-hidden lg:flex-row lg:items-center lg:gap-9 h-[24vh] xs:h-full",onMouseenter:j,onMouseleave:Q},
+[a("div",jA,[a("div",JA,[G.image?(h(),
+y("div",KA,[a("img",{src:G.image,alt:G.name,class:"h-full w-full !object-cover"},
+null,8,ZA)])):(h(),
+y("div",XA)),
+G.video?(h(),
+y("div",e1,[a("div",{class:"relative h-full w-full bg-no-repeat bg-cover bg-center",style:nt(
+{backgroundImage:G.image?`url(${G.image})`:""})},
+[a("video",{playsinline:"",class:"pointer-events-none h-full w-full object-cover",loop:"",muted:"",preload:"none",src:G.video},
+null,8,t1)],4)])):U("",!0)]),
+x[9]||(x[9]=a("div",{class:"absolute inset-0 w-full h-full bg-black pointer-events-none opacity-20"},
+null,-1)),
+a("div",i1,v(G.name),
+1),
+G.description?(h(),
+y("div",o1,v(G.description),
+1)):U("",!0)])],32)):(h(),
+y("div",n1,v(G.name),
+1))]),
+_:2},
+1032,["to"])),
+[[z,{eventName:"click_nav_menu",contentType:"navigation",eventTarget:G.name,tags:{href:G.href,parent:M.name}}]])]))),
+128))])],512)),
+[[at,L(Y)]]):U("",!0)],64))),
+128))])]),
+a("div",a1,[a("div",r1,[a("div",s1,[(h(),
+y(Z,null,oe(O,M=>a("button",{key:M.code,onClick:Y=>P(M.code),
+type:"button",class:$(["flex items-center text-[10px] sm:text-xs tracking-widest px-1.5 py-1 sm:py-1.5 uppercase font-bug-monospace transition-colors cursor-pointer",f(d)===M.code?"text-white pointer-events-none":"text-white/50 hover:text-white"])},
+v(M.label),
+11,l1)),
+64))])]),
+a("div",c1,[f(n).isAuthenticated?(h(),
+X(f(se),
+{key:0,to:"/profile",class:"flex items-center text-[10px] sm:text-xs tracking-widest px-1 sm:px-1.5 md:px-3 py-1 sm:py-1.5 uppercase font-bug-monospace text-white/70 hover:text-white transition-colors",onClick:B},
+{default:J(()=>[ae(v(R.$t("navigation.account")),
+1)]),
+_:1})):(h(),
+X(f(se),
+{key:1,to:"/login",class:"flex items-center text-[10px] sm:text-xs tracking-widest px-1 sm:px-1.5 md:px-3 py-1 sm:py-1.5 uppercase font-bug-monospace text-white/70 hover:text-white transition-colors",onClick:B},
+{default:J(()=>[ae(v(R.$t("navigation.login")),
+1)]),
+_:1})),
+ne((h(),
+X(f(se),
+{to:"/test-drive",class:"sm:hidden flex items-center text-[10px] tracking-widest px-1 py-1 uppercase font-bug-monospace text-white/70 hover:text-white transition-colors",onClick:B},
+{default:J(()=>[ae(v(R.$t("navigation.cta.testDrive")),
+1)]),
+_:1})),
+[[z,{eventName:"click_test_drive_cta",contentType:"conversion",eventTarget:"header_mobile"}]])])])])):U("",!0)]),
+_:1})])}}}),
+Ee=(e,t)=>{const i=e.__vccOpts||e;
+for(const[o,n]of t)i[o]=n;
+return i},
+u1=Ee(d1,[["__scopeId","data-v-1856d9f6"]]),
+p1="/assets/img/icon-5-CpH08L38.png",m1={class:"absolute top-6 left-6 right-6 2xl:left-18 2xl:right-18 z-20 flex items-center justify-between"},
+g1=["src"],h1={class:"flex items-center gap-6 text-sm text-white/80"},
+f1={href:"/auth-agreement.html",target:"_blank",class:"hover:text-white transition"},
+v1={href:"/privacy.html",target:"_blank",class:"hover:text-white transition"},
+b1={href:"/help-center",class:"hover:text-white transition"},
+y1=he(
+{__name:"AuthHeader",setup(e){const t=ht(),
+i=je(),
+{t:o}=Ie(),
+n=xt(),
+r=ke(),
+s=V(()=>t.path==="/profile");
+async function l(){await n.logout(),
+r.notifySuccess(o("navigation.logoutSuccess")),
+i.push("/")}return(m,d)=>{const c=Ei("router-link");
+return h(),
+y("div",m1,[K(c,{to:"/",class:"block"},
+{default:J(()=>[a("img",{src:f(p1),
+alt:"Logo",class:"h-10 md:h-12 w-auto"},
+null,8,g1)]),
+_:1}),
+a("div",h1,[a("a",f1,v(m.$t("auth.authPage.topBar.userAgreement")),
+1),
+a("a",v1,v(m.$t("auth.authPage.topBar.privacyPolicy")),
+1),
+a("a",b1,v(m.$t("auth.authPage.topBar.helpCenter")),
+1),
+s.value?(h(),
+y("button",{key:0,onClick:l,class:"cursor-pointer text-red-400 hover:text-red-600 transition"},
+" 退出 ")):U("",!0)])])}}}),
+w1="data:image/png;
+base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAATCAYAAAAXvcSzAAAAAXNSR0IArs4c6QAAAARzQklUCAgICHwIZIgAAAImSURBVEhLtZa9LwRBGMZ3QySIxJ9wSEgUgob4Cv4CGhIk7iqUSp1Oq1W5hoTGFdQUCI0IiUIi7k+QEBIfOc9zeefymt29nd07mzyZ/Zh55zfPzLyzfqlUynuetwzpa933/W3rXd0f0fcegi5YgXM+X+DjPoo5qEFVyAGMwP9yoc9dBF6CGlUHZTPKUAJ2jnIQalaVplDprN5UAMoi5g7UJLG/Ue6hL773NFQ7ni+hbuXYO+5HUfm2XmACRJfM9YGbAvqoTGMFStwi2DWUUaN4xX0fGhVrBQPQJGKcWkA3iD2mY/+BEjAC3QsU7f2EnqFhNH5JCwagfrS9gFokxg/KJ2jIjhuAEjAG4FSa9cUAD9BEGjAAcaB3UJsAcaB0PgDE76FQEWCc+yNALSZxC0BcEldQh7jP5m/QeNRajYQSsCxKvSjp2IErmABxynogk244uJFqm6cqVAQYrd9C0M04xwB1jDrTkE4zA3G7ORZKwAiwoezn66rJVbL1vHIoto0ZpBOUgOVRMgPrrD+LURdsxwDEI2pNDYLurrieEM5QAsbjaEZNRyC5hmRr5+lO7JRpgE6Zw7oUWGUnhWRrboxDna3j1iG/J3JK3DJZvxPPPExNcl3F/QlkkmPg+HABSgVlgWVk3dARvdYI+ggxFyU+BRI7paaRWZ9/Fq2WA1945rEUmq1d3EoNJY6Z44hO8feD08kDvDeNQwa4JigB4xRS5irW+kfxC1kPx3E2AmifAAAAAElFTkSuQmCC";
+function Ae(e){if(e==null||isNaN(e))return"0";
+const t=Number(e),
+i=Math.round(t*100)%100!==0;
+return t.toLocaleString("en-US",{minimumFractionDigits:i?2:0,maximumFractionDigits:2})}function Ge(e){return e==null||isNaN(e)?"0":Ae(e/100)}const A1={key:0,class:"fixed inset-0 z-[200] flex items-center justify-center"},
+S1={class:"relative z-10 w-full max-w-2xl rounded-3xl bg-[rgb(30,30,30)] p-8 border border-[#707070]/30 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"},
+C1={class:"text-xl font-semibold text-white text-center pr-6"},
+x1={class:"space-y-2"},
+I1={class:"block text-sm font-medium text-white"},
+E1=["placeholder"],P1={key:0,class:"text-sm text-red-500"},
+z1={class:"space-y-2"},
+k1={class:"block text-sm font-medium text-white"},
+R1=["placeholder"],T1={key:0,class:"text-sm text-red-500"},
+D1={class:"space-y-2"},
+L1={class:"block text-sm font-medium text-white"},
+M1={class:"grid grid-cols-3 gap-3"},
+F1={value:"",disabled:"",class:"bg-[#1a1a1a] text-[#707070]"},
+B1=["value"],O1=["disabled"],N1={value:"",disabled:"",class:"bg-[#1a1a1a] text-[#707070]"},
+q1=["value"],U1=["disabled"],Q1={value:"",disabled:"",class:"bg-[#1a1a1a] text-[#707070]"},
+H1=["value"],V1={key:0,class:"text-sm text-red-500"},
+_1={class:"space-y-2"},
+G1={class:"block text-sm font-medium text-white"},
+W1=["placeholder"],Y1={key:0,class:"text-sm text-red-500"},
+$1={key:0,class:"w-full h-full text-black p-0.5",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":"3"},
+j1={class:"text-white text-sm"},
+J1=["disabled"],K1={key:0,class:"flex items-center gap-2"},
+Z1={key:1},
+X1=he(
+{__name:"AddressFormModal",props:{visible:{type:Boolean},
+address:{}},
+emits:["update:visible","saved"],setup(e,{emit:t}){const i=e,o=t,{t:n}=Ie(),
+r=ke(),
+s=E([]),
+l=E(""),
+m=E(""),
+d=E(""),
+c=E(null),
+u=E(!1),
+S=E(
+{name:"",phone:"",area:"",detail:""}),
+w=ct(
+{name:"",phone:"",detail:"",isDefault:!1}),
+p=V(()=>l.value?s.value.find(k=>k.id===l.value)?.children||[]:[]),
+b=V(()=>m.value?p.value.find(k=>k.id===m.value)?.children||[]:[]);
+function A(){m.value="",d.value=""}function I(){d.value=""}function O(){return d.value?d.value:m.value?m.value:l.value?l.value:0}function P(Q){for(const k of s.value){if(k.id===Q){l.value=k.id,m.value="",d.value="";
+return}for(const L of k.children){if(L.id===Q){l.value=k.id,m.value=L.id,d.value="";
+return}for(const te of L.children)if(te.id===Q){l.value=k.id,m.value=L.id,d.value=te.id;
+return}}}}function F(){let Q=!0;
+return S.value={name:"",phone:"",area:"",detail:""},
+w.name.trim()||(S.value.name="store.address.nameRequired",Q=!1),
+w.phone.trim()||(S.value.phone="store.address.phoneRequired",Q=!1),
+O()||(S.value.area="store.address.areaRequired",Q=!1),
+w.detail.trim()||(S.value.detail="store.address.detailRequired",Q=!1),
+Q}async function N(){try{const Q=await D.get("/system/area/tree");
+s.value=Q||[]}catch(Q){console.error("Failed to load area tree:",Q)}}async function W(){if(!F()||u.value)return;
+const Q=O();
+u.value=!0;
+try{c.value!==null?(await D.put("/member/address/update",{id:c.value,name:w.name,mobile:w.phone,areaId:Q,detailAddress:w.detail,defaultStatus:w.isDefault}),
+r.notifySuccess(n("store.address.updateSuccess"))):(await D.post("/member/address/create",{name:w.name,mobile:w.phone,areaId:Q,detailAddress:w.detail,defaultStatus:w.isDefault}),
+r.notifySuccess(n("store.address.addSuccess"))),
+o("saved"),
+B()}catch(k){const L=c.value?"store.address.updateFailed":"store.address.addFailed",te=k instanceof Error?k.message:n(L);
+r.notifyWarning(te)}finally{u.value=!1}}function B(){o("update:visible",!1),
+j()}function j(){w.name="",w.phone="",w.detail="",w.isDefault=!1,c.value=null,l.value="",m.value="",d.value="",S.value={name:"",phone:"",area:"",detail:""}}return Se(()=>i.visible,Q=>{if(Q){s.value.length===0&&N();
+const k=i.address;
+if(k)if(w.name=k.name,w.phone=k.mobile,w.detail=k.detailAddress,w.isDefault=k.defaultStatus,c.value=k.id??null,s.value.length>0)P(k.areaId);
+else{const L=Se(s,te=>{te.length>0&&(P(k.areaId),
+L())})}else j()}}),
+(Q,k)=>(h(),
+X(Oe,{to:"body"},
+[K(ve,{name:"modal"},
+{default:J(()=>[e.visible?(h(),
+y("div",A1,[k[16]||(k[16]=a("div",{class:"absolute inset-0 bg-black/70 backdrop-blur-sm"},
+null,-1)),
+a("div",S1,[a("button",{type:"button",onClick:B,class:"absolute top-4 right-4 p-1.5 rounded-full text-[#848484] hover:text-white hover:bg-white/10 transition"},
+[...k[13]||(k[13]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1.5",stroke:"currentColor",class:"h-5 w-5"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M6 18 18 6M6 6l12 12"})],-1)])]),
+a("h3",C1,v(c.value?f(n)("store.address.editAddress"):f(n)("store.address.newAddress")),
+1),
+a("form",{class:"mt-6 space-y-5",novalidate:"",onSubmit:Te(W,["prevent"])},
+[a("div",x1,[a("label",I1,v(f(n)("store.address.name")),
+1),
+a("div",{class:$(["flex items-center gap-3 rounded-2xl border bg-[rgb(20,20,20)] px-4 py-3",[S.value.name?"border-red-500":"border-[#707070]/50 focus-within:border-[#00FFF7]/50"]])},
+[ne(a("input",{"onUpdate:modelValue":k[0]||(k[0]=L=>w.name=L),
+type:"text",maxlength:"10",class:"flex-1 border-0 bg-transparent text-sm text-white placeholder-[#707070] focus:outline-none",placeholder:f(n)("store.address.name"),
+onInput:k[1]||(k[1]=L=>S.value.name="")},
+null,40,E1),
+[[Le,w.name]])],2),
+S.value.name?(h(),
+y("p",P1,v(f(n)(S.value.name)),
+1)):U("",!0)]),
+a("div",z1,[a("label",k1,v(f(n)("store.address.phone")),
+1),
+a("div",{class:$(["flex items-center gap-3 rounded-2xl border bg-[rgb(20,20,20)] px-4 py-3",[S.value.phone?"border-red-500":"border-[#707070]/50 focus-within:border-[#00FFF7]/50"]])},
+[ne(a("input",{"onUpdate:modelValue":k[2]||(k[2]=L=>w.phone=L),
+type:"text",maxlength:"20",class:"flex-1 border-0 bg-transparent text-sm text-white placeholder-[#707070] focus:outline-none",placeholder:f(n)("store.address.phone"),
+onInput:k[3]||(k[3]=L=>S.value.phone="")},
+null,40,R1),
+[[Le,w.phone]])],2),
+S.value.phone?(h(),
+y("p",T1,v(f(n)(S.value.phone)),
+1)):U("",!0)]),
+a("div",D1,[a("label",L1,v(f(n)("store.address.province")),
+1),
+a("div",M1,[a("div",{class:$(["rounded-2xl border bg-[rgb(20,20,20)] px-4 py-3",[S.value.area?"border-red-500":"border-[#707070]/50 focus-within:border-[#00FFF7]/50"]])},
+[ne(a("select",{"onUpdate:modelValue":k[4]||(k[4]=L=>l.value=L),
+onChange:k[5]||(k[5]=L=>{A(),
+S.value.area=""}),
+class:"w-full bg-transparent text-sm text-white outline-none appearance-none"},
+[a("option",F1,v(f(n)("store.address.province")),
+1),
+(h(!0),
+y(Z,null,oe(s.value,L=>(h(),
+y("option",{key:L.id,value:L.id,class:"bg-[#1a1a1a] text-white"},
+v(L.name),
+9,B1))),
+128))],544),
+[[It,l.value]])],2),
+a("div",{class:$(["rounded-2xl border bg-[rgb(20,20,20)] px-4 py-3",[S.value.area?"border-red-500":"border-[#707070]/50 focus-within:border-[#00FFF7]/50",p.value.length===0?"opacity-40":""]])},
+[ne(a("select",{"onUpdate:modelValue":k[6]||(k[6]=L=>m.value=L),
+onChange:k[7]||(k[7]=L=>{I(),
+S.value.area=""}),
+disabled:p.value.length===0,class:"w-full bg-transparent text-sm text-white outline-none appearance-none disabled:cursor-not-allowed"},
+[a("option",N1,v(f(n)("store.address.city")),
+1),
+(h(!0),
+y(Z,null,oe(p.value,L=>(h(),
+y("option",{key:L.id,value:L.id,class:"bg-[#1a1a1a] text-white"},
+v(L.name),
+9,q1))),
+128))],40,O1),
+[[It,m.value]])],2),
+a("div",{class:$(["rounded-2xl border bg-[rgb(20,20,20)] px-4 py-3",[S.value.area?"border-red-500":"border-[#707070]/50 focus-within:border-[#00FFF7]/50",b.value.length===0?"opacity-40":""]])},
+[ne(a("select",{"onUpdate:modelValue":k[8]||(k[8]=L=>d.value=L),
+onChange:k[9]||(k[9]=L=>S.value.area=""),
+disabled:b.value.length===0,class:"w-full bg-transparent text-sm text-white outline-none appearance-none disabled:cursor-not-allowed"},
+[a("option",Q1,v(f(n)("store.address.district")),
+1),
+(h(!0),
+y(Z,null,oe(b.value,L=>(h(),
+y("option",{key:L.id,value:L.id,class:"bg-[#1a1a1a] text-white"},
+v(L.name),
+9,H1))),
+128))],40,U1),
+[[It,d.value]])],2)]),
+S.value.area?(h(),
+y("p",V1,v(f(n)(S.value.area)),
+1)):U("",!0)]),
+a("div",_1,[a("label",G1,v(f(n)("store.address.detail")),
+1),
+a("div",{class:$(["rounded-2xl border bg-[rgb(20,20,20)] px-4 py-3",[S.value.detail?"border-red-500":"border-[#707070]/50 focus-within:border-[#00FFF7]/50"]])},
+[ne(a("textarea",{"onUpdate:modelValue":k[10]||(k[10]=L=>w.detail=L),
+maxlength:"250",rows:"4",class:"w-full border-0 bg-transparent text-sm text-white placeholder-[#707070] focus:outline-none resize-none",placeholder:f(n)("store.address.detail"),
+onInput:k[11]||(k[11]=L=>S.value.detail="")},
+null,40,W1),
+[[Le,w.detail]])],2),
+S.value.detail?(h(),
+y("p",Y1,v(f(n)(S.value.detail)),
+1)):U("",!0)]),
+a("label",{class:"flex items-center gap-2 cursor-pointer pb-6",onClick:k[12]||(k[12]=Te(L=>w.isDefault=!w.isDefault,["prevent"]))},
+[a("div",{class:$(["w-5 h-5 rounded-full border-2 transition-colors shrink-0",w.isDefault?"border-[#00FFF7] bg-[#00FFF7]":"border-[#848484]"])},
+[w.isDefault?(h(),
+y("svg",$1,[...k[14]||(k[14]=[a("path",{d:"M20 6L9 17l-5-5"},
+null,-1)])])):U("",!0)],2),
+a("span",j1,v(f(n)("store.address.defaultShipping")),
+1)]),
+a("button",{type:"submit",class:"inline-flex w-full items-center justify-center rounded-2xl bg-[#00FFF7] px-6 py-3 text-sm font-semibold text-black transition hover:bg-[#00FFF7]/80 hover:shadow-[0_0_20px_rgba(0,255,247,0.2)] disabled:cursor-not-allowed disabled:opacity-50",disabled:u.value},
+[u.value?(h(),
+y("span",K1,[k[15]||(k[15]=a("svg",{class:"h-4 w-4 animate-spin text-black",viewBox:"0 0 24 24",fill:"none"},
+[a("circle",{cx:"12",cy:"12",r:"10",stroke:"currentColor","stroke-width":"4",class:"opacity-25"}),
+a("circle",{cx:"12",cy:"12",r:"10",stroke:"currentColor","stroke-width":"4","stroke-dasharray":"16 48","stroke-linecap":"round",class:"opacity-75"})],-1)),
+ae(" "+v(f(n)("common.loading")),
+1)])):(h(),
+y("span",Z1,v(f(n)("store.address.save")),
+1))],8,J1)],32)])])):U("",!0)]),
+_:1})]))}}),
+eS=Ee(X1,[["__scopeId","data-v-29cc707e"]]),
+tS={key:0,class:"fixed inset-0 z-[200] flex items-center justify-center"},
+iS={class:"relative z-10 w-full max-w-md mx-4 rounded-3xl bg-[rgb(30,30,30)] p-8 border border-[#707070]/30 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"},
+oS={class:"text-xl font-semibold text-white text-center pr-6"},
+nS={key:0,class:"mt-3 text-sm text-[#848484] text-center"},
+aS={class:"mt-8 flex gap-3"},
+rS=he(
+{__name:"ConfirmModal",props:{visible:{type:Boolean},
+title:{},
+subtitle:{}},
+emits:["update:visible","confirm"],setup(e,{emit:t}){const i=t;
+function o(){i("update:visible",!1)}return(n,r)=>(h(),
+X(Oe,{to:"body"},
+[K(ve,{name:"modal"},
+{default:J(()=>[e.visible?(h(),
+y("div",tS,[r[2]||(r[2]=a("div",{class:"absolute inset-0 bg-black/70 backdrop-blur-sm"},
+null,-1)),
+a("div",iS,[a("button",{type:"button",onClick:o,class:"absolute top-4 right-4 p-1.5 rounded-full text-[#848484] hover:text-white hover:bg-white/10 transition"},
+[...r[1]||(r[1]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1.5",stroke:"currentColor",class:"h-5 w-5"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M6 18 18 6M6 6l12 12"})],-1)])]),
+a("h3",oS,v(e.title),
+1),
+e.subtitle?(h(),
+y("p",nS,v(e.subtitle),
+1)):U("",!0),
+a("div",aS,[a("button",{type:"button",onClick:o,class:"cursor-pointer flex-1 rounded-2xl border border-[#707070] px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10"},
+v(n.$t("common.cancel")),
+1),
+a("button",{type:"button",onClick:r[0]||(r[0]=s=>n.$emit("confirm")),
+class:"cursor-pointer flex-1 rounded-2xl bg-[#00FFF7] px-6 py-3 text-sm font-semibold text-black transition hover:bg-[#00FFF7]/80"},
+v(n.$t("common.confirm")),
+1)])])])):U("",!0)]),
+_:1})]))}}),
+sS=Ee(rS,[["__scopeId","data-v-9bb904f0"]]),
+lS="/assets/img/code-F5R8jEB6.svg",cS={key:0,class:"fixed inset-0 z-[1200] flex items-center justify-center"},
+dS={class:"relative z-10 w-full max-w-lg mx-4 rounded-3xl bg-[rgb(30,30,30)] p-8 border border-[#707070]/30 shadow-[0_4px_30px_rgba(0,0,0,0.5)]"},
+uS={class:"text-xl font-semibold text-white mb-6"},
+pS={key:0,class:"flex items-center justify-center py-12"},
+mS={key:1,class:"text-center py-12 text-[#848484]"},
+gS={key:2,class:"space-y-3"},
+hS=["onClick"],fS={class:"flex-1 text-left"},
+vS={class:"text-white font-medium"},
+bS={class:"text-[#848484] text-sm"},
+yS={key:0,class:"w-full h-full text-black p-0.5",viewBox:"0 0 24 24",fill:"none",stroke:"currentColor","stroke-width":"3"},
+wS=["disabled"],AS={class:"text-center"},
+SS={class:"text-xl font-semibold text-white mb-2"},
+CS={class:"text-[#848484] text-sm mb-6"},
+xS={key:0,class:"text-[#00FFF7] text-3xl font-bold mb-6"},
+IS={class:"mx-auto w-52 h-52 bg-white rounded-xl flex items-center justify-center mb-6 p-3"},
+ES={key:0,class:"flex flex-col items-center gap-2"},
+PS={class:"text-sm text-[#848484]"},
+zS={key:1,class:"w-full h-full"},
+kS=["src"],RS={key:1,class:"w-full h-full flex flex-col items-center justify-center bg-gray-100 rounded-lg"},
+TS={class:"text-[#848484] text-xs mt-3"},
+DS=he(
+{__name:"PaymentModal",props:{visible:{type:Boolean},
+payOrderId:{},
+displayPrice:{},
+overlayClass:{default:"bg-black/70 backdrop-blur-sm"}},
+emits:["update:visible","paymentComplete"],setup(e,{emit:t}){const i=e,o=t,{t:n}=Ie(),
+r=E("select"),
+s=E(""),
+l=E(!1),
+m=E(""),
+d={wx_pub:{name:n("store.checkout.wechatPay"),
+desc:n("store.checkout.wechatPayDesc"),
+icon:"💬",bgClass:"bg-[#07C160]/20"},
+wx_lite:{name:n("store.checkout.wechatPay"),
+desc:n("store.checkout.wechatPayDesc"),
+icon:"💬",bgClass:"bg-[#07C160]/20"},
+wx_app:{name:n("store.checkout.wechatPay"),
+desc:n("store.checkout.wechatPayDesc"),
+icon:"💬",bgClass:"bg-[#07C160]/20"},
+wx_native:{name:n("store.checkout.wechatPay"),
+desc:n("store.checkout.wechatPayDesc"),
+icon:"💬",bgClass:"bg-[#07C160]/20"},
+wx_bar:{name:n("store.checkout.wechatPay"),
+desc:n("store.checkout.wechatPayDesc"),
+icon:"💬",bgClass:"bg-[#07C160]/20"},
+alipay_pc:{name:n("store.checkout.alipay"),
+desc:n("store.checkout.alipayDesc"),
+icon:"🔵",bgClass:"bg-[#1677FF]/20"},
+alipay_wap:{name:n("store.checkout.alipay"),
+desc:n("store.checkout.alipayDesc"),
+icon:"🔵",bgClass:"bg-[#1677FF]/20"},
+alipay_app:{name:n("store.checkout.alipay"),
+desc:n("store.checkout.alipayDesc"),
+icon:"🔵",bgClass:"bg-[#1677FF]/20"},
+alipay_qr:{name:n("store.checkout.alipay"),
+desc:n("store.checkout.alipayDesc"),
+icon:"🔵",bgClass:"bg-[#1677FF]/20"},
+alipay_bar:{name:n("store.checkout.alipay"),
+desc:n("store.checkout.alipayDesc"),
+icon:"🔵",bgClass:"bg-[#1677FF]/20"},
+mock:{name:"Mock Pay",desc:"For testing purposes",icon:"🧪",bgClass:"bg-[#888]/20"}},
+c=E([]),
+u=E(!1);
+async function S(){u.value=!0;
+try{const I=await pt.getPayChannelList(1);
+c.value=(I||[]).map(O=>{const P=d[O];
+return{key:O,name:P?.name||O,desc:P?.desc||"",icon:P?.icon||"💳",bgClass:P?.bgClass||"bg-[#555]/20"}})}catch(I){console.error("Failed to fetch pay channel list:",I)}finally{u.value=!1}}const w=V(()=>c.value.find(O=>O.key===s.value)?.name||"");
+async function p(){if(!(!s.value||!i.payOrderId)){r.value="qrcode",l.value=!0,m.value="";
+try{const I=await pt.submitPayOrder(
+{id:String(i.payOrderId),
+channelCode:s.value});
+m.value=I?.displayMode||""}catch(I){console.error("提交支付订单失败",I)}finally{l.value=!1}}}function b(){l.value=!1,o("update:visible",!1)}function A(){b(),
+o("paymentComplete")}return Se(()=>i.visible,I=>{I&&(r.value="select",s.value="",m.value="",S())}),
+(I,O)=>(h(),
+X(Oe,{to:"body"},
+[K(ve,{name:"modal"},
+{default:J(()=>[e.visible?(h(),
+y("div",cS,[a("div",{class:$(["absolute inset-0",e.overlayClass]),
+onClick:b},
+null,2),
+a("div",dS,[a("button",{type:"button",onClick:b,class:"absolute top-4 right-4 p-1.5 rounded-full text-[#848484] hover:text-white hover:bg-white/10 transition"},
+[...O[1]||(O[1]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1.5",stroke:"currentColor",class:"h-5 w-5"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M6 18 18 6M6 6l12 12"})],-1)])]),
+r.value==="select"?(h(),
+y(Z,{key:0},
+[a("h3",uS,v(f(n)("store.checkout.selectPayment")),
+1),
+u.value?(h(),
+y("div",pS,[...O[2]||(O[2]=[a("div",{class:"w-8 h-8 border-3 border-[#00FFF7] border-t-transparent rounded-full animate-spin"},
+null,-1)])])):c.value.length===0?(h(),
+y("div",mS," No payment methods available ")):(h(),
+y("div",gS,[(h(!0),
+y(Z,null,oe(c.value,P=>(h(),
+y("button",{key:P.key,type:"button",class:$(["w-full flex items-center gap-4 px-5 py-4 rounded-xl border transition-colors cursor-pointer",s.value===P.key?"border-[#00FFF7] bg-[#00FFF7]/10":"border-[#333] hover:border-[#555]"]),
+onClick:F=>s.value=P.key},
+[a("div",{class:$(["w-10 h-10 rounded-lg flex items-center justify-center text-2xl",P.bgClass])},
+v(P.icon),
+3),
+a("div",fS,[a("div",vS,v(P.name),
+1),
+a("div",bS,v(P.desc),
+1)]),
+a("div",{class:$(["w-5 h-5 rounded-full border-2 transition-colors shrink-0",s.value===P.key?"border-[#00FFF7] bg-[#00FFF7]":"border-[#555]"])},
+[s.value===P.key?(h(),
+y("svg",yS,[...O[3]||(O[3]=[a("path",{d:"M20 6L9 17l-5-5"},
+null,-1)])])):U("",!0)],2)],10,hS))),
+128))])),
+a("button",{type:"button",class:$(["w-full mt-6 h-12 rounded-xl font-semibold text-lg transition-colors cursor-pointer",s.value?"bg-[#00FFF7] hover:bg-[#00d4ce] text-black":"bg-[#333] text-[#666] cursor-not-allowed"]),
+disabled:!s.value,onClick:p},
+v(f(n)("store.checkout.confirmPay")),
+11,wS)],64)):U("",!0),
+r.value==="qrcode"?(h(),
+y(Z,{key:1},
+[a("button",{type:"button",onClick:O[0]||(O[0]=P=>r.value="select"),
+class:"absolute top-4 left-4 p-1.5 rounded-full text-[#848484] hover:text-white hover:bg-white/10 transition"},
+[...O[4]||(O[4]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1.5",stroke:"currentColor",class:"h-5 w-5"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M15.75 19.5 8.25 12l7.5-7.5"})],-1)])]),
+a("div",AS,[a("h3",SS,v(w.value),
+1),
+a("p",CS,v(f(n)("store.checkout.scanToPay")),
+1),
+e.displayPrice?(h(),
+y("div",xS,"￥"+v(e.displayPrice),
+1)):U("",!0),
+a("div",IS,[l.value?(h(),
+y("div",ES,[O[5]||(O[5]=a("div",{class:"w-8 h-8 border-3 border-[#00FFF7] border-t-transparent rounded-full animate-spin"},
+null,-1)),
+a("span",PS,v(f(n)("store.checkout.generatingQR")),
+1)])):(h(),
+y("div",zS,[m.value?(h(),
+y("img",{key:0,src:m.value,alt:"QR Code",class:"w-full h-full object-contain"},
+null,8,kS)):(h(),
+y("div",RS,[...O[6]||(O[6]=[a("img",{src:lS,alt:"code",class:"w-full h-full"},
+null,-1)])]))]))]),
+a("button",{type:"button",class:"w-full h-12 rounded-xl bg-[#00FFF7] hover:bg-[#00d4ce] text-black font-semibold text-lg transition-colors cursor-pointer",onClick:A},
+v(f(n)("store.checkout.paymentComplete")),
+1),
+a("p",TS,v(f(n)("store.checkout.paymentTip")),
+1)])],64)):U("",!0)])])):U("",!0)]),
+_:1})]))}}),
+LS=Ee(DS,[["__scopeId","data-v-c5ab2035"]]),
+MS={class:"w-full max-w-[95%] xl:max-w-[80%] 3xl:max-w-[70%] bg-[var(--luxury-black)] rounded-2xl pt-16 pr-16 pb-16 flex flex-col justify-between"},
+FS={class:"flex flex-col lg:flex-row gap-8 lg:gap-12 h-[50vh] overflow-y-auto"},
+BS={class:"lg:w-1/2"},
+OS={class:"flex items-center gap-3 text-white text-2xl sm:text-4xl font-medium mb-8 pl-16"},
+NS={class:"flex items-center justify-between ml-16 mr-8 pb-3 mb-6 border-b border-[#2C2C2C]"},
+qS={class:"text-white text-2xl"},
+US={key:0,class:"flex items-center gap-8 text-white text-lg mb-3 pl-16 pr-8"},
+QS={class:"w-16 text-center"},
+HS={class:"w-16 text-center"},
+VS={key:1,class:"flex flex-col items-center justify-center py-16 ml-16 mr-8"},
+_S={class:"text-[#848484] text-sm mb-4"},
+GS={class:"max-h-[25vh] overflow-y-auto overflow-x-hidden scrollbar-thin scrollbar-thumb-white/30 scrollbar-track-white/10"},
+WS=["onClick"],YS={class:"w-20 truncate"},
+$S={class:"flex-1 leading-relaxed line-clamp-2"},
+jS={class:"w-24"},
+JS={class:"w-16 text-center"},
+KS=["onClick"],ZS={class:"w-16 flex items-center justify-center gap-2"},
+XS=["onClick"],eC=["onClick"],tC={class:"lg:w-1/2 relative"},
+iC={key:0,class:"absolute inset-0 z-10 flex items-center justify-center bg-[var(--luxury-black)]/60 rounded-lg"},
+oC={class:"flex items-center gap-3 text-white text-2xl sm:text-4xl font-medium mb-6"},
+nC={class:"text-white text-lg sm:text-2xl mb-4"},
+aC={class:"mb-6"},
+rC={class:"space-y-4 mb-6"},
+sC={class:"relative w-16 h-16 flex-shrink-0"},
+lC={class:"w-full h-full rounded-lg bg-[#1a1a1a] border border-[#333] overflow-hidden"},
+cC=["src","alt"],dC={class:"absolute -top-2 -right-2 w-5 h-5 rounded-full bg-[#848484] text-white text-xs flex items-center justify-center font-medium"},
+uC={class:"flex-1 min-w-0"},
+pC={class:"text-white text-sm truncate uppercase"},
+mC={key:0,class:"text-[#848484] text-xs truncate mt-1"},
+gC={class:"text-white text-sm flex-shrink-0"},
+hC={class:"flex items-center justify-between mb-3"},
+fC={class:"text-[#848484] text-sm"},
+vC={class:"text-white text-sm"},
+bC={class:"flex items-center justify-between mb-2"},
+yC={class:"flex items-center gap-1"},
+wC={class:"text-[#848484] text-sm"},
+AC={class:"flex items-center gap-2"},
+SC={key:0,class:"text-[#00FFF7] text-sm font-medium"},
+CC={key:0,class:"flex items-center gap-2 mb-6"},
+xC={class:"text-[#00FFF7] text-xs uppercase tracking-wide"},
+IC={class:"flex items-center justify-between mb-2"},
+EC={class:"text-white text-xl font-semibold"},
+PC={class:"flex items-center gap-2"},
+zC={class:"text-white text-2xl font-bold"},
+kC=["disabled"],RC={key:0,class:"flex items-center justify-center gap-2"},
+TC=he(
+{__name:"CheckoutModal",props:{visible:{type:Boolean},
+items:{},
+overlayClass:{default:"bg-white/10 backdrop-blur-sm"}},
+emits:["update:visible"],setup(e,{emit:t}){const i=e,o=t,{t:n}=Ie(),
+r=je(),
+s=ke();
+nA();
+const l=E([]),
+m=E(null),
+d=E(!1),
+c=E(null),
+u=E(!1),
+S=E(null),
+w=V(()=>l.value.find(H=>H.id===m.value)??null),
+p=V(()=>l.value.length>0);
+ct(
+{cardNumber:"",expiry:"",securityCode:"",nameOnCard:"",useSameAddress:!0,signUpNews:!1});
+const b=E(!1);
+E("");
+const A=E(!1),
+I=E(null);
+function O(H){const C={pointStatus:!0,deliveryType:1};
+return i.items.forEach((q,ce)=>{q.skuId&&(C[`items[${ce}].skuId`]=q.skuId,C[`items[${ce}].count`]=q.quantity)}),
+H&&(C.addressId=H),
+C}async function P(H){if(!i.items.some(q=>q.skuId)){console.warn("No skuId found in items, skip settlement request");
+return}A.value=!0;
+try{const q=O(H),
+ce=await pt.getSettlement(q);
+I.value=ce,ce?.address&&!m.value&&(m.value=ce.address.id)}catch(q){console.error("Failed to fetch settlement:",q);
+const ce=q?.message||n("errors.requestFailed");
+s.notifyWarning(ce)}finally{A.value=!1}}const F=V(()=>i.items.reduce((H,C)=>H+C.quantity,0)),
+N=V(()=>I.value?.price?Ge(I.value.price.totalPrice):Ae(i.items.reduce((H,C)=>H+C.price*C.quantity,0))),
+W=V(()=>I.value?.price?Ge(I.value.price.deliveryPrice):Ae(i.items.length>0?50:0)),
+B=V(()=>I.value?.price?Ge(I.value.price.payPrice):Ae(i.items.reduce((H,C)=>H+C.price*C.quantity,0)));
+V(()=>I.value?.price?Ge(I.value.price.discountPrice):"0");
+function j(H){if(I.value?.items&&H.skuId){const C=I.value.items.find(q=>String(q.skuId)===String(H.skuId));
+if(C)return Ge(C.price*C.count)}return Ae(H.price*H.quantity)}const Q=V(()=>i.items.reduce((H,C)=>H+C.price*C.quantity,0)),
+k=V(()=>i.items.length>0?50:0),
+L=V(()=>Q.value+k.value);
+async function te(){try{const H=await D.get("/member/address/list");
+if(l.value=H||[],l.value.length>0){const C=l.value.find(q=>q.defaultStatus);
+m.value=(C||l.value[0]).id??null}else m.value=null}catch(H){console.error("Failed to load address list:",H)}}async function me(H){const C=l.value.find(q=>q.id===H);
+if(C)try{await D.put("/member/address/update",{id:C.id,name:C.name,mobile:C.mobile,areaId:C.areaId,detailAddress:C.detailAddress,defaultStatus:!0}),
+await te()}catch(q){const ce=q instanceof Error?q.message:n("store.address.operationFailed");
+s.notifyWarning(ce)}}function ge(H){S.value=H,u.value=!0}async function Ce(){if(S.value!==null)try{await D.delete("/member/address/delete",{params:{id:S.value}}),
+await te()}catch(H){const C=H instanceof Error?H.message:n("store.address.operationFailed");
+s.notifyWarning(C)}finally{u.value=!1,S.value=null}}function ie(){c.value=null,d.value=!0}function fe(H){c.value=H,d.value=!0}function R(H){m.value=H}const x=E(!1),
+z=E(""),
+M=E(""),
+Y=E("");
+async function G(){if(!m.value)return!1;
+const H=i.items.filter(C=>C.skuId).map(C=>(
+{skuId:C.skuId,count:C.quantity}));
+if(H.length===0)return s.notifyWarning("No valid items to create order"),
+!1;
+x.value=!0;
+try{const C=await pt.createTradeOrder(
+{items:H,pointStatus:!0,addressId:m.value,deliveryType:1});
+return z.value=C?.id||"",M.value=C?.payOrderId||"",be(
+{eventName:"checkout_success",contentType:"conversion",eventTarget:"create_trade_order",contentId:z.value,tags:{totalPrice:L.value,itemCount:H.length}}),
+!0}catch(C){const q=C instanceof Error?C.message:"Failed to create order";
+return s.notifyWarning(q),
+!1}finally{x.value=!1}}async function qe(){if(!w.value){s.notifyWarning(n("store.address.noAddressTip"));
+return}await G()&&(Y.value=B.value,o("update:visible",!1),
+b.value=!0)}function tt(){b.value=!1,o("update:visible",!1),
+r.push(`/store/order-confirmation/${z.value}`)}function bo(){o("update:visible",!1)}return Se(()=>i.visible,async H=>{H?(be(
+{eventName:"checkout_start",contentType:"conversion",eventTarget:"checkout_modal",tags:{itemCount:i.items.length}}),
+await te(),
+m.value||P()):(I.value=null,m.value=null)}),
+Se(m,(H,C)=>{H!==C&&i.visible&&P(H)}),
+(H,C)=>(h(),
+y(Z,null,[(h(),
+X(Oe,{to:"body"},
+[K(ve,{name:"checkout-fade"},
+{default:J(()=>[e.visible?(h(),
+y("div",{key:0,class:$(["fixed inset-0 z-60 flex flex-col items-center justify-center",e.overlayClass])},
+[a("div",MS,[a("div",FS,[a("div",BS,[a("h2",OS,[C[5]||(C[5]=a("svg",{class:"w-8 h-8",xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",width:"30",height:"30",viewBox:"0 0 30 30"},
+[a("image",{id:"地址",width:"30",height:"30","xlink:href":"data:image/png;
+base64,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"})],-1)),
+ae(" "+v(f(n)("store.address.title")),
+1)]),
+a("div",NS,[a("h3",qS,v(f(n)("store.address.management")),
+1),
+p.value?(h(),
+y("button",{key:0,type:"button",class:"cursor-pointer text-[#00FFF7] text-sm rounded-lg transition-colors flex items-center gap-2",onClick:C[0]||(C[0]=q=>ie())},
+[C[6]||(C[6]=a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"2",stroke:"currentColor",class:"w-4 h-4"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M12 4.5v15m7.5-7.5h-15"})],-1)),
+ae(" "+v(f(n)("store.address.newAddress")),
+1)])):U("",!0)]),
+p.value?(h(),
+y("div",US,[C[7]||(C[7]=a("div",{class:"w-20"},
+[a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-5 h-5 inline",viewBox:"0 0 20 20"},
+[a("image",{id:"我",width:"20",height:"20","xlink:href":"data:image/png;
+base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAYAAACtWK6eAAAABHNCSVQICAgIfAhkiAAAD5xJREFUeF7tnQ2W2yYUhZuVtF1J1ZXEXUnVlVRZSZ2VZLqSKTcRjcaxx7wfEDwu5+jYM4MQXPh47wH2fHh9ff2JiQpQgfsKfCAgHBpU4LECBISjgwq8owABaTc8ftkftaTXn9OFn/Pvbl9fDtXC+/zz5/39tV21534SAanX/xj0GYbLAQavJwIagAJoNq9CWc5bBQiI74gAFB/TVQOIZzUFMAAFwNDCPFOr8O8EpFCod7JlKGAtcPWQAMtftCz2riAgeg0zGKu+iOp3ZqvyKT0J75mEChAQoWAp+whg3LaKoMj7+esdBEQm3J8pe88W41lrMihwv5gKFCAgBSKlLEu6/t6tR9kdfeciKIX9Q0DeFwruFMAAIBHTNTXqj3QBGKY7ChCQx8MCUPwzwaihNXmnkwnIfXFGjzU0XK/pJsYmN8oRkLeCRHepnoEDa/I7Xa7vMhGQ71qcBQcG5fFCPZDwmq9nA9vz74TkoCYB+T4Yv3iOsjtlYeBt6cJREKSr4HlHaHCUZdnhERQhykpIdrkIyLfBVisYz1DU2MkGNBkWtME7oe5Y4ZKA7F2H08ubHRAMMm/LkaFoGfBmWC7OlmV6SzIzIDXgWNMAbQnG7QybQUE9vNLUkMwMCNwqL9fkbDBqgzItJLMC4gUH/POed6JhUbCnA9fLmgDJr9ZCRrt/RkC8NgEBxjZIh3u1uTdLWV3+2QCBS2VdscJMOuLqDqwJ2o5XS8JGIiznFGkmQDAwrCtWo7sZHpBAg2l222cCxBp3YNbEwBg9ARLsn6yGhkTR4qkEswCyJCUsrtWW7odbFSlZ45IpXK1ZAIFrhZlTkyLPlvisy0UjSrrnJV3hV7VmAMQyU0aGA1xg0rB8ICyiZX0zX0QHBANAG5hjhpwhGIVG2tUtaDTiil6x0YwOiMWFmMLH3keKZSIJbUWiA6L93w4zwZFnU8QimFCkKbSljQyI1nqEnhGfjH7tUnhYzSIDorUeWJnBrDhj0rpa0CvkilZUQLTuQtiZUEC71vKOdDatWI6ogGhdhZmtRx40WityTQVEOGnwBp6ogGjcqzUpc+aHnYpntQYZtRY43OJGREC0LsKHBgNvlEfAimj2RsJNMhEB0RwrCek/G2nUWJFwwXpEQDTuFWOPH2nSxiKhtIwGiGbWCxlcGq1Hvl2z2BEqDokGiCb+COc3O8GBYjQHPUNNONEA0cQfoVwCRzhQlMbNChWHRANEE39w9ep9qjRuVhhNIwGy7EuTkkl0S5mjfVJQ0v6SvBo3K0wcEgkQTYDO5d3niGgmnjC6RgJEM9Mx/ngOiCYOCbPwEQkQzQoWAakDSJiVrEiATB1MPh/nphzSxQ8CYpK7zs3SJd5Qy5F1JP2/1Gm1jWRBpJ0YZparDAeKl1rnMJPPzIBwibecLGl8R0DKtW2WU+onE5DyrtGsEIbYLIxkQaSAhFmKLB/n6pxSC4IHERC13HVuZAxSR1eUSkDqadusZAJST2oG6fW0bVbytJ3YQGHp5MMgvUGnSB9BQKSKleeXxnfXVHSIbziJFKRLAQkTSJaPc3VOKSBhVggjAaJZiuRZrOfM/JKywMWSpDVlDvEVSpEAWVKnwIpIUpjPLUgaLcx7SfmxiiVJPO4uUatRXg0gYVyBihprlnjDWOZIFkTjCrykgRXyS5cdgZGuYOHRBMSxAzyL0gTqdLMe94DGKqO0ELvoXxvy+ipdoPAcz+5laQBZUy1CBJTuan77B5/S+COU2xoNEM2MRzfrMVka9ypMgB7RgmjiEOhAN+s+JBr3Ikz8EREQtIlulo+vpXGvQsUfUQHRbBjSzfoRKo17FSr+iAqI1s0K17kGQ6KZZPC4UO5VVEC0bhasCGIRvM6eNLHHddcvlHbRVrFy52j9Z1oR3YejoHuo1as8kKIConWzYD3Q0ZgNZ0xa3UK6V5FdLLRNc4YI981sRTQrgKE1i2pB0GmW2XBN98+2u76kNktPQ2crGy44j+5i5fZprchsrpYFjtAWN7IFsVoRQDLDqpbF0oaNPWaxIGindk0f9wKS6MfhtXEH9Anvika3INmKYBBgptSkyC6EBY4ZJo9wx90fAXBJf5Ae2z6WFXGm1MZnWZcpDnjOYEFyh1pmy2juhFWL6x6faSzyUPfMBAhcLIurlWOSkQN3aADLsRhHadhl3VtdZgIEbcfA0K71Z+3ge48IiUfbocEUrlXu7NkAQbstq1pHSLb0wyibiV5wrAO12Wgkv90+IyBebgb0y5DAqvSY0FZMCBeHyl136+FQ1DhFzAgIegcDxxqP5F4GHADlU7p6AQXt+5iu1Wkool3R94PuSjUrIN6QoLwMytlul4cLeRwsaNeIMZfL3DAzIBkSfLTUM51hUbwtxlGPqYLy24EwOyC1IMk6Z1g+p19cPSlMZWUolvQeV400NRwQlIB8G1YYbF4xyaOBClgASY5V8LMkoY64fkvXZX8vuV+SF3Wb+YNj/2tFQL4PmxaQ3A7SDAlej+8zDPlVMriteVGPaWOOW/EIyFtFzoDEOqA977/ucHiWOXRZBOTH7gMknkukowyQNVX07BW47rQiII+7ZEl/wrklABM5waVivPGghwnI+0MfcHgc7usVMLpUT3qGgJQN3UvKhg24KNYEVgPu1FbW/HlzEZDyvgccEWKTdYejvOUT5yQg8s4fFRSA0dN5MbnyJ9xBQPSijwIKLYa+j7mTbtAu3wpQlt39wmsP6SVVYqMrZe8KWhC7hscSslUBKK1hyVDQjXLsUwLiKOZNUdmy4OxUfu/5tAwEyuQGn6eyh7IISCVh7xQLSPIFaJDyz/l9vg2D//b9df9FjZPB7VQY7EkEZLAOY3XbKkBA2urNpw2mAAEZrMNY3bYKEJC2evNpgylAQAbrMFa3rQIEpK3efNpgChCQHzvs3tLrz4P1a0l1/72zlIzlZVxMuwKzApIhyPsRS9LjCMbMAyQDkmHBvgveX2cUZSZAAACOqwMGXEwyBTIwAGWazcrIgBAIGQDS3BkYnP3apDePkj8aIITinJGXXTBYllCwRAEkg7GeMz741IMCGRZYFrhjQ6fRAQEYkb9UYejBtVuToUEZFZBlBwOAMPWvAKzKkF8SMRogBKN/GN6rIUAZ6ju4RgGErtTYYNzWftstCoDpOo0AiPc/hOm6QyaqHODIoHTb7J4BgdWo/S8Juu2YiSrWtdvVKyC0GhMRkprarTXpDZCzYg100PHCQb78M4Zq976ygidonRPe559rfclESRWhc1f/m6QnQJbdpSoR0ponz1goh98I8lhNQIN+aQlN7psu+qUXQFq4VF0JbyX8pPszMPnQZ81qrD1MXj0Agp3wSyWlCUUlYXeXrPbp6NMhORsQrFLBhHsngDHkzq23EI3Kg2WBF1BjottSudhcPCWdCUgNODDj8Ks3TxlKXx8KUGr8iwhMeKcE72cAAhG9Dxhe91kGQjKdr0ANUE6B5AxAPC0HRBvqbM/5Y7dpDQCK52Zvc0haA+IJB9ypLpYCmw658R7mbU0Aya+tZGgJiBcctBqtRofvczytybZ7Dr41vFNaK0C8lnJpNaoPiaoP8LQmTSBpAYjHJiCtRtVx27xwjzGBSlefMGsDsuxBmqUHCIdFvX7v9XK5sEgDa1Il1QQEAnwx1hpwNAvIjHXl7XIFPCDBGKm2R1ITEGtQft0bLpedd4ykACCx7otVm0hrAWL1MQnHSEPcXldAYj2qsqYy3Jf9awCypIrCemgT4dAqN/Z9VksCK+K+aVwDEItrRTjGHuTW2gMSy867u6vlDYjFtXJvnLW3eP8pClgh2XZL4lJ5T0DQMMuqFVYiYEGYqIBlLLm6Wp6AWFwrwkEobhW4pF9gdUuTMNFiTJmTFyBLqok2MF/Tve6rD2ZlWEAPClhcdpdJ1wsQrfVwI72H3mQd3BWAq6XdI4GrZd5k9gDEYgpdKHfvFhbYkwKARBvbmo+heACitR7myvfUi6xLVQW0k7DZilgB0cYedK2qjqdwhVtcLZOXYgVEaz1MlQ7X/WxQiQKnTMYWQLQV3pIap32NS0lPME+3CjSfkC2AaD8liJUF+IZMVECqgDZgV7v0FkBepa1L+Wk9FKLxljcKNLUiWkAuqcqaXU5aD452qwJaK7KmB4s3pLWAaCim9bAODd6fFdCMP5WbpQVE415x5YoD3EuBJRWkOdokHoMaQDTulYpeLzVZTkgFNFZE7GZpAMG2P/xASeKuuUQt5i1RQDNRv6SCReezNIBo3KsPJS1mHiogUACTtOaMlsjNkgKioXZLDeHGoKDnmbVYAY2bVRUQzeYg3avi/mZGoQLVJ2ypBdHEH3SvhL3O7MUKaNwsURwiBUQaf9C9Ku5rZlQqoHGziidtCSDVzZlSIN42twKaj+UWxyG1AWH8MffgbdH6JT1Eumm4pnuKjp1IANEE6Dx71WKIzP0MTRxyTZIVfeuJBBCpr1dcibn7l613UEC6eFQcqEsAkVaCAbpDz7OIIgWkk3cVQKQrWMV+XpEEzEQFHiugCdSL3P9SC6IJhBigc0i3UkADSNFKVikgl9RS6QekiirQSkE+J7QC1SbwmoAUmbDQ3cbGtVJAs5JV5OHUBKR4t7KVinxOWAU0gBTFyKWAaHw8AhJ2PHbXMALSXZewQr0pUGWVtdSCSHfRi9eZe1OZ9RlWASkgW2rp088pEZBhxwMrfqNAlY3sUkA0MQhXsTiGWyogBeT0IJ37IC2HB58ldbFOX+YtIpT9SgUcFLikMqQb2a6ALKkC0jP3DNQdep5FFCkgPayIQotCgNIYRLPOjEoUrRQUScBMVOC+AprJGyUV7dOVAoICNZTCisCUXdm7VKCCAtUnbgkgmpUsaAJIYEmKPuJYQUQWGVMBLRxQoyj++GpmXl+Lg39LhfAsQPKJ1iTmaG3YKozDj+laDc8sij+kgCC/xs26bQcsyvEytJO3TqQAwMC1GNuMifrpDnp+hsSC4B5UEBsyTFRgVAWKrYfGguAe6bmsUYVkveMpILIeWkBoReINnBla9JIaidMdeC1OUhcrF7ykN9KNw+JKMSMVqKCA6uiTFhDUX7vsW6HtLJIKvKtA8bLubSkWQAgJR+UIClx310pVVysgiEesa9KqivMmKlCgwJrymDaorYDkOtLdKugtZmmqgCrm8HaxjuXBmmAJeGkqAx9GBd4q8JJ+dDv/52VBjlW8pB9gUQAMExVopQDAgDu1eT6wBiCoH+CAJUF8Qovi2WMs61aBa/oFLlOs8UjWWoAcnwdYcAEWvGaA8nt2ORUoUeBlzwQY8P7fdG0lN1rytADEUj/eSwVOVYCAnCo/H967AgSk9x5i/U5V4D/vBVO8CCxzaQAAAABJRU5ErkJggg=="})])],-1)),
+C[8]||(C[8]=a("div",{class:"flex-1"},
+[a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-6 h-6 inline",viewBox:"0 0 30 30"},
+[a("image",{id:"地址_1_","data-name":"地址 (1)",width:"30",height:"30","xlink:href":"data:image/png;
+base64,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"})])],-1)),
+C[9]||(C[9]=a("div",{class:"w-24"},
+[a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-4 h-4 inline",viewBox:"0 0 19 19"},
+[a("image",{id:"电_话01","data-name":"电 话01",width:"19",height:"19","xlink:href":"data:image/png;
+base64,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"})])],-1)),
+a("div",QS,v(f(n)("store.address.label")),
+1),
+a("div",HS,v(f(n)("store.address.actions")),
+1)])):U("",!0),
+p.value?U("",!0):(h(),
+y("div",VS,[C[10]||(C[10]=a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1",stroke:"currentColor",class:"w-16 h-16 text-[#333] mb-4"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"}),
+a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"})],-1)),
+a("p",_S,v(f(n)("store.address.emptyTip")),
+1),
+a("button",{type:"button",class:"cursor-pointer px-6 py-2 border border-[#00FFF7] text-[#00FFF7] rounded-lg text-sm hover:bg-[#00FFF7]/10 transition-colors",onClick:C[1]||(C[1]=q=>ie())},
+v(f(n)("store.address.addFirstAddress")),
+1)])),
+a("div",GS,[(h(!0),
+y(Z,null,oe(l.value,q=>(h(),
+y("div",{key:q.id,class:$(["flex items-center gap-8 pl-2 pr-2 ml-14 mr-6 py-4 text-md border cursor-pointer transition-colors rounded-xl",q.id===m.value?"bg-[#121212] text-white border-[#00FFF7]":"text-[#848484] hover:bg-[#0a0a0a] border-black"]),
+onClick:ce=>R(q.id)},
+[a("div",YS,v(q.name),
+1),
+a("div",$S,v([q.areaName,q.detailAddress].filter(Boolean).join(" ")),
+1),
+a("div",jS,v(q.mobile),
+1),
+a("div",JS,[a("span",{class:$(["text-xs px-2 py-2 rounded transition-colors cursor-pointer whitespace-nowrap",q.defaultStatus?"bg-[#00FFF7] text-black":"text-[#848484] hover:text-white"]),
+onClick:ce=>!q.defaultStatus&&me(q.id)},
+v(f(n)("store.address.default")),
+11,KS)]),
+a("div",ZS,[a("button",{class:"cursor-pointer hover:text-[#00FFF7] transition-colors pr-1",onClick:ce=>fe(q)},
+[...C[11]||(C[11]=[a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-4 h-4",viewBox:"0 0 16 16"},
+[a("image",{id:"编辑",width:"16",height:"16","xlink:href":"data:image/png;
+base64,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"})],-1)])],8,XS),
+C[13]||(C[13]=a("span",{class:"text-[#707070]"},
+"|",-1)),
+a("button",{class:"cursor-pointer text-[#00FFF7] hover:text-[#00FFF7]/70 transition-colors pl-1",onClick:ce=>ge(q.id)},
+[...C[12]||(C[12]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",width:"11.084",height:"11.084",viewBox:"0 0 11.084 11.084"},
+[a("g",{id:"组_79","data-name":"组 79",transform:"translate(-964.608 -1614.917) rotate(45)"},
+[a("line",{id:"直线_76","data-name":"直线 76",y2:"12.675",transform:"translate(1831.838 453.5)",fill:"none",stroke:"#00fff7","stroke-linecap":"round","stroke-width":"1.5"}),
+a("line",{id:"直线_77","data-name":"直线 77",y2:"12.675",transform:"translate(1838.175 459.838) rotate(90)",fill:"none",stroke:"#00fff7","stroke-linecap":"round","stroke-width":"1.5"})])],-1)])],8,eC)])],10,WS))),
+128))])]),
+a("div",tC,[A.value?(h(),
+y("div",iC,[...C[14]||(C[14]=[a("div",{class:"w-8 h-8 border-3 border-[#00FFF7] border-t-transparent rounded-full animate-spin"},
+null,-1)])])):U("",!0),
+a("h2",oC,[C[15]||(C[15]=a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-7 h-7",viewBox:"0 0 29 30"},
+[a("defs",null,[a("pattern",{id:"pattern",preserveAspectRatio:"none",width:"100%",height:"100%",viewBox:"0 0 200 200"},
+[a("image",{width:"200",height:"200","xlink:href":"data:image/png;
+base64,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"})])]),
+a("rect",{id:"手提包_购物袋_应用商店_购物商店_手提袋","data-name":"手提包,购物袋,应用商店,购物商店,手提袋",width:"29",height:"30",fill:"url(#pattern)"})],-1)),
+ae(" "+v(f(n)("store.checkout.shop")),
+1)]),
+a("h3",nC,v(f(n)("store.checkout.orderSummary")),
+1),
+a("div",aC,[a("div",rC,[(h(!0),
+y(Z,null,oe(i.items,q=>(h(),
+y("div",{key:q.id,class:"flex items-center gap-4"},
+[a("div",sC,[a("div",lC,[a("img",{src:q.image,alt:q.name,class:"w-full h-full object-cover"},
+null,8,cC)]),
+a("span",dC,v(q.quantity),
+1)]),
+a("div",uC,[a("p",pC,v(q.name),
+1),
+q.description?(h(),
+y("p",mC,v(q.description),
+1)):U("",!0)]),
+a("span",gC,"¥"+v(j(q)),
+1)]))),
+128))]),
+C[18]||(C[18]=a("div",{class:"h-[0.5px] bg-[#333] mb-4"},
+null,-1)),
+a("div",hC,[a("span",fC,v(f(n)("store.checkout.subtotal"))+" · "+v(F.value)+" "+v(f(n)("store.checkout.items")),
+1),
+a("span",vC,"¥"+v(N.value),
+1)]),
+a("div",bC,[a("div",yC,[a("span",wC,v(f(n)("store.checkout.shippingFee")),
+1)]),
+a("div",AC,[a("span",{class:$([W.value=="0"?"line-through text-[#555]":"","text-sm"])},
+"¥"+v(W.value),
+3),
+W.value=="0"?(h(),
+y("span",SC,v(f(n)("store.checkout.free")),
+1)):U("",!0)])]),
+W.value=="0"?(h(),
+y("div",CC,[C[16]||(C[16]=a("svg",{xmlns:"http://www.w3.org/2000/svg",fill:"none",viewBox:"0 0 24 24","stroke-width":"1.5",stroke:"currentColor",class:"w-4 h-4 text-[#00FFF7]"},
+[a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z"}),
+a("path",{"stroke-linecap":"round","stroke-linejoin":"round",d:"M6 6h.008v.008H6V6Z"})],-1)),
+a("span",xC,v(f(n)("store.checkout.freeShippingTag")),
+1)])):U("",!0),
+a("div",IC,[a("span",EC,v(f(n)("store.checkout.total")),
+1),
+a("div",PC,[C[17]||(C[17]=a("span",{class:"text-[#848484] text-xs uppercase"},
+"RMB",-1)),
+a("span",zC,"¥"+v(B.value),
+1)])])])])]),
+a("button",{class:$(["w-full max-w-md mx-auto block mt-8 h-14 font-medium text-xl tracking-wider transition-colors duration-300 rounded",p.value&&w.value&&!A.value&&I.value&&!x.value?"bg-[#00FFF7] hover:bg-[#00d4ce] text-black cursor-pointer":"bg-[#333] text-[#666] cursor-not-allowed"]),
+disabled:!p.value||!w.value||A.value||!I.value||x.value,onClick:qe},
+[x.value?(h(),
+y("div",RC,[...C[19]||(C[19]=[a("div",{class:"w-5 h-5 border-2 border-black border-t-transparent rounded-full animate-spin"},
+null,-1)])])):(h(),
+y(Z,{key:1},
+[ae(v(f(n)("store.checkout.payNow")),
+1)],64))],10,kC)]),
+a("button",{class:"cursor-pointer flex mt-6 flex-shrink-0 w-14 h-14 flex items-center justify-center rounded-full bg-black text-white/90 hover:text-white hover:bg-black/50 transition-colors",onClick:bo},
+[...C[20]||(C[20]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 20 20",fill:"currentColor",class:"w-6 h-6"},
+[a("path",{d:"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"})],-1)])])],2)):U("",!0)]),
+_:1})])),
+K(eS,{visible:d.value,"onUpdate:visible":C[2]||(C[2]=q=>d.value=q),
+address:c.value,onSaved:te},
+null,8,["visible","address"]),
+K(sS,{visible:u.value,"onUpdate:visible":C[3]||(C[3]=q=>u.value=q),
+title:f(n)("store.address.deleteConfirmTitle"),
+subtitle:f(n)("store.address.deleteConfirmSubtitle"),
+onConfirm:Ce},
+null,8,["visible","title","subtitle"]),
+K(LS,{visible:b.value,"onUpdate:visible":C[4]||(C[4]=q=>b.value=q),
+"pay-order-id":M.value,"display-price":Y.value,onPaymentComplete:tt,"overlay-class":e.overlayClass},
+null,8,["visible","pay-order-id","display-price","overlay-class"])],64))}}),
+DC=Ee(TC,[["__scopeId","data-v-528170dc"]]),
+LC={key:0,class:"fixed z-[101] flex flex-col items-center bottom-0 left-0 right-0 md:top-0 md:right-0 md:left-auto md:bottom-0 md:w-[640px]"},
+MC={class:"w-full min-h-[74vh] flex-1 flex flex-col bg-[var(--luxury-black)] overflow-hidden min-h-0 rounded-t-2xl md:rounded-t-none md:rounded-l-2xl"},
+FC={class:"flex items-center justify-between px-5 pt-6 pb-4 md:pl-12 md:pr-8 md:pt-12 md:pb-8 flex-shrink-0"},
+BC={class:"flex items-center gap-1.5 text-[#2C2C2C] hover:text-white transition-colors"},
+OC={class:"text-2xl md:text-4xl text-white"},
+NC={class:"flex-1 overflow-y-auto scrollbar-thin px-5 md:pl-12 md:pr-8 py-3 space-y-4 min-h-0"},
+qC={key:0,class:"flex items-center justify-center py-16 text-white/40 text-sm"},
+UC={class:"w-16 h-16 md:w-23 md:h-23 flex-shrink-0 rounded-lg bg-white overflow-hidden"},
+QC=["src","alt"],HC={class:"flex-1 min-w-0"},
+VC={class:"text-white text-base md:text-2xl font-medium truncate"},
+_C={class:"text-[#848484] text-sm md:text-lg truncate"},
+GC={class:"flex items-center gap-1.5 md:gap-2 text-white text-sm md:text-lg flex-shrink-0"},
+WC=["onClick"],YC={class:"w-4 text-center"},
+$C=["onClick"],jC={class:"text-white text-sm md:text-lg font-medium w-16 md:w-20 text-right flex-shrink-0"},
+JC=["onClick"],KC={class:"px-5 md:pl-12 md:pr-8 pt-4 pb-2 space-y-1.5 flex-shrink-0"},
+ZC={class:"flex justify-between text-[#848484] text-sm md:text-lg"},
+XC={class:"text-white"},
+e2={class:"flex justify-between text-[#848484] text-sm md:text-lg pb-2"},
+t2={class:"text-white"},
+i2={class:"flex justify-between text-white text-lg md:text-2xl pt-3 border-t border-white/30"},
+o2={class:"px-5 md:pl-12 md:pr-8 pt-4 pb-8 md:pt-6 md:pb-12 flex gap-3 flex-shrink-0"},
+n2=["disabled"],a2=he(
+{__name:"CartPopup",setup(e){const{t}=Ie(),
+i=fo(),
+o=E(!1),
+n=E(!1);
+function r(){i.closeCart(),
+n.value=!0}function s(){o.value=window.innerWidth<768}let l=0;
+return Se(()=>i.isOpen,m=>{m?(l=window.scrollY,document.body.style.position="fixed",document.body.style.top=`-${l}px`,document.body.style.left="0",document.body.style.right="0",document.body.style.overflow="hidden"):(document.body.style.position="",document.body.style.top="",document.body.style.left="",document.body.style.right="",document.body.style.overflow="",window.scrollTo(0,l))}),
+Je(()=>{s(),
+window.addEventListener("resize",s)}),
+ft(()=>{window.removeEventListener("resize",s),
+document.body.style.position="",document.body.style.top="",document.body.style.left="",document.body.style.right="",document.body.style.overflow=""}),
+(m,d)=>(h(),
+y(Z,null,[(h(),
+X(Oe,{to:"body"},
+[K(ve,{"enter-active-class":"transition duration-300 ease-out","enter-from-class":"opacity-0","enter-to-class":"opacity-100","leave-active-class":"transition duration-200 ease-in","leave-from-class":"opacity-100","leave-to-class":"opacity-0"},
+{default:J(()=>[f(i).isOpen?(h(),
+y("div",{key:0,class:"fixed inset-0 z-[100] bg-white/20",onClick:d[0]||(d[0]=(...c)=>f(i).closeCart&&f(i).closeCart(...c))})):U("",!0)]),
+_:1}),
+K(ve,{"enter-active-class":"transition duration-300 ease-out","enter-from-class":o.value?"translate-y-full":"translate-x-full","enter-to-class":"translate-x-0 translate-y-0","leave-active-class":"transition duration-200 ease-in","leave-from-class":"translate-x-0 translate-y-0","leave-to-class":o.value?"translate-y-full":"translate-x-full"},
+{default:J(()=>[f(i).isOpen?(h(),
+y("div",LC,[a("div",{class:"flex-shrink-0 w-full md:h-[12vh] 3xl:h-[13vh] cursor-pointer",onClick:d[1]||(d[1]=(...c)=>f(i).closeCart&&f(i).closeCart(...c))}),
+a("div",MC,[a("div",FC,[a("button",BC,[a("span",OC,v(f(t)("store.cart.title")),
+1)]),
+a("button",{class:"md:hidden w-8 h-8 flex items-center justify-center text-white/60 hover:text-white transition-colors",onClick:d[2]||(d[2]=(...c)=>f(i).closeCart&&f(i).closeCart(...c))},
+[...d[5]||(d[5]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 20 20",fill:"currentColor",class:"w-6 h-6"},
+[a("path",{d:"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"})],-1)])])]),
+a("div",NC,[f(i).items.length===0?(h(),
+y("div",qC,v(f(t)("store.cart.empty")),
+1)):U("",!0),
+(h(!0),
+y(Z,null,oe(f(i).items,c=>(h(),
+y("div",{key:c.id,class:"flex items-center gap-3 md:gap-6"},
+[a("div",UC,[a("img",{src:c.image,alt:c.name,class:"w-full h-full object-cover"},
+null,8,QC)]),
+a("div",HC,[a("div",VC,v(c.name),
+1),
+a("div",_C,v(c.description),
+1)]),
+a("div",GC,[a("button",{class:"w-6 h-6 flex items-center justify-center text-white/60 hover:text-white transition-colors",onClick:u=>f(i).updateQuantity(c.id,c.quantity-1)},
+"-",8,WC),
+a("span",YC,v(c.quantity),
+1),
+a("button",{class:"w-6 h-6 flex items-center justify-center text-white/60 hover:text-white transition-colors",onClick:u=>f(i).updateQuantity(c.id,c.quantity+1)},
+"+",8,$C)]),
+a("div",jC," $"+v(f(Ae)(c.price*c.quantity)),
+1),
+a("button",{class:"text-white/40 hover:text-white transition-colors flex-shrink-0",onClick:u=>f(i).removeItem(c.id)},
+[...d[6]||(d[6]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 20 20",fill:"currentColor",class:"w-5 h-5 md:w-7 md:h-7"},
+[a("path",{d:"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"})],-1)])],8,JC)]))),
+128))]),
+a("div",KC,[a("div",ZC,[a("span",null,v(f(t)("store.cart.subtotal")),
+1),
+a("span",XC,"$"+v(f(Ae)(f(i).subtotal)),
+1)]),
+a("div",e2,[a("span",null,v(f(t)("store.cart.shipping")),
+1),
+a("span",t2,"$"+v(f(Ae)(f(i).shipping)),
+1)]),
+a("div",i2,[a("span",null,v(f(t)("store.cart.total")),
+1),
+a("span",null,"$"+v(f(Ae)(f(i).total)),
+1)])]),
+a("div",o2,[a("button",{class:"flex-1 flex items-center justify-center h-12 md:h-14 bg-[#00FFF7] hover:bg-[#00d4ce] text-black font-medium text-lg md:text-2xl transition-colors duration-300 cursor-pointer",disabled:f(i).items.length===0,onClick:r},
+[d[7]||(d[7]=a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-5 h-5 md:w-7 md:h-7 mr-1.5 md:mr-2",viewBox:"0 0 30 30"},
+[a("image",{id:"锁定与解锁",class:"w-5 h-5 md:w-7 md:h-7","xlink:href":"data:image/png;
+base64,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"})],-1)),
+ae(" "+v(f(t)("store.cart.checkout")),
+1)],8,n2)])]),
+a("button",{class:"cursor-pointer hidden md:flex mt-3 md:mb-[5vh] 3xl:mb-[6vh] flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-black text-white/90 hover:text-white hover:bg-black/50 transition-colors",onClick:d[3]||(d[3]=(...c)=>f(i).closeCart&&f(i).closeCart(...c))},
+[...d[8]||(d[8]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 20 20",fill:"currentColor",class:"w-6 h-6"},
+[a("path",{d:"M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z"})],-1)])])])):U("",!0)]),
+_:1},
+8,["enter-from-class","leave-to-class"])])),
+K(DC,{visible:n.value,"onUpdate:visible":d[4]||(d[4]=c=>n.value=c),
+items:f(i).items},
+null,8,["visible","items"])],64))}}),
+r2={key:0,class:"fixed z-[101] flex flex-col items-center bottom-0 left-0 right-0 md:top-0 md:right-0 md:left-auto md:bottom-0 md:w-[640px]"},
+s2={class:"w-full min-h-[74vh] flex-1 flex flex-col bg-[var(--luxury-black)] overflow-hidden min-h-0 rounded-t-2xl md:rounded-t-none md:rounded-l-2xl"},
+l2={class:"flex items-center justify-between px-5 pt-6 pb-4 md:pl-12 md:pr-8 md:pt-12 md:pb-8 flex-shrink-0"},
+c2={class:"text-2xl md:text-4xl text-white"},
+d2={class:"px-5 md:pl-12 md:pr-8 pb-4 flex-shrink-0"},
+u2={class:"flex items-center gap-2 px-4 py-2.5 bg-white/5 rounded-full border border-[#848484] focus-within:border-white/80 transition-colors"},
+p2=["placeholder"],m2={key:0,class:"flex items-center justify-center py-16 text-white/40 text-sm md:text-base"},
+g2={key:1,class:"flex items-center justify-center py-16"},
+h2={key:2,class:"flex items-center justify-center py-16 text-white/40 text-sm md:text-base"},
+f2={key:3,class:"space-y-4"},
+v2=["onClick"],b2={class:"w-16 h-16 md:w-23 md:h-23 flex-shrink-0 rounded-lg bg-black overflow-hidden"},
+y2=["src","alt"],w2={class:"flex-1 min-w-0"},
+A2={class:"flex items-center gap-2"},
+S2={key:0,class:"flex-shrink-0 text-[10px] md:text-xs px-2 py-0.5 rounded-full bg-[#707070] text-white/80"},
+C2={key:0,class:"text-[#848484] text-sm md:text-lg truncate"},
+x2={class:"text-white text-sm md:text-lg font-medium text-right flex-shrink-0"},
+I2={key:0,class:"flex items-center justify-center py-6"},
+E2={key:1,class:"text-center py-4 text-white/30 text-xs md:text-sm"},
+P2=300,z2=he(
+{__name:"SearchPopup",setup(e){const{t}=Ie(),
+i=je(),
+o=vo(),
+n=E(!1),
+r=E(""),
+s=E(null),
+l=E(null),
+m=V(()=>r.value.trim());
+let d=null;
+function c(){d&&(clearTimeout(d),
+d=null)}function u(){if(c(),
+!r.value.trim()){o.search("");
+return}d=setTimeout(()=>{o.search(r.value)},
+P2)}function S(){c(),
+o.search(r.value)}function w(){c(),
+r.value="",o.search(""),
+s.value?.focus()}function p(P){const F=(P.categoryName||"").toLowerCase();
+return P.display===1?`/store/accessories/${P.id}`:P.display===0?`/options/detail/${P.spuId??P.id}`:F.includes("hmi")?"/store/hmi":F.includes("design")?"/store/design":F.includes("hull")?"/store/HullDesignBuild":F.includes("develop")?"/store/development":F.includes("distribut")?"/store/distribution":`/store/accessories/${P.id}`}function b(P){P.name!=="Y-5"&&(i.push(p(P)),
+o.closeSearch())}function A(){const P=l.value;
+P&&P.scrollTop+P.clientHeight>=P.scrollHeight-80&&o.loadMore()}function I(){n.value=window.innerWidth<768}let O=0;
+return Se(()=>o.isOpen,P=>{P?(O=window.scrollY,document.body.style.position="fixed",document.body.style.top=`-${O}px`,document.body.style.left="0",document.body.style.right="0",document.body.style.overflow="hidden",Io(()=>{setTimeout(()=>s.value?.focus(),
+320)})):(document.body.style.position="",document.body.style.top="",document.body.style.left="",document.body.style.right="",document.body.style.overflow="",window.scrollTo(0,O),
+c(),
+r.value="",o.resetResults(),
+o.keyword="")}),
+Je(()=>{I(),
+window.addEventListener("resize",I)}),
+ft(()=>{window.removeEventListener("resize",I),
+c(),
+document.body.style.position="",document.body.style.top="",document.body.style.left="",document.body.style.right="",document.body.style.overflow=""}),
+(P,F)=>(h(),
+X(Oe,{to:"body"},
+[K(ve,{"enter-active-class":"transition duration-300 ease-out","enter-from-class":"opacity-0","enter-to-class":"opacity-100","leave-active-class":"transition duration-200 ease-in","leave-from-class":"opacity-100","leave-to-class":"opacity-0"},
+{default:J(()=>[f(o).isOpen?(h(),
+y("div",{key:0,class:"fixed inset-0 z-[100] bg-white/20",onClick:F[0]||(F[0]=(...N)=>f(o).closeSearch&&f(o).closeSearch(...N))})):U("",!0)]),
+_:1}),
+K(ve,{"enter-active-class":"transition duration-300 ease-out","enter-from-class":n.value?"translate-y-full":"translate-x-full","enter-to-class":"translate-x-0 translate-y-0","leave-active-class":"transition duration-200 ease-in","leave-from-class":"translate-x-0 translate-y-0","leave-to-class":n.value?"translate-y-full":"translate-x-full"},
+{default:J(()=>[f(o).isOpen?(h(),
+y("div",r2,[a("div",{class:"flex-shrink-0 w-full md:h-[12vh] 3xl:h-[13vh] cursor-pointer",onClick:F[1]||(F[1]=(...N)=>f(o).closeSearch&&f(o).closeSearch(...N))}),
+a("div",s2,[a("div",l2,[a("span",c2,v(f(t)("store.search.title")),
+1),
+a("button",{class:"md:hidden w-8 h-8 flex items-center justify-center text-white/60 hover:text-white transition-colors",onClick:F[2]||(F[2]=(...N)=>f(o).closeSearch&&f(o).closeSearch(...N))},
+[...F[5]||(F[5]=[a("i",{class:"bx bx-x text-2xl"},
+null,-1)])])]),
+a("div",d2,[a("div",u2,[F[7]||(F[7]=a("i",{class:"bx bx-search text-white text-xl md:text-2xl"},
+null,-1)),
+ne(a("input",{ref_key:"inputRef",ref:s,"onUpdate:modelValue":F[3]||(F[3]=N=>r.value=N),
+type:"text",placeholder:f(t)("store.search.placeholder"),
+class:"flex-1 bg-transparent text-base md:text-lg text-white placeholder-[#848484] outline-none",onInput:u,onKeydown:xo(S,["enter"])},
+null,40,p2),
+[[Le,r.value]]),
+r.value?(h(),
+y("button",{key:0,class:"w-6 h-6 flex items-center justify-center text-white/60 hover:text-white transition-colors",onClick:w},
+[...F[6]||(F[6]=[a("i",{class:"bx bx-x text-xl"},
+null,-1)])])):U("",!0)])]),
+a("div",{ref_key:"scrollRef",ref:l,class:"flex-1 overflow-y-auto scrollbar-thin px-5 md:pl-12 md:pr-8 pb-8 min-h-0",onScroll:A},
+[m.value?f(o).loading&&f(o).list.length===0?(h(),
+y("div",g2,[...F[8]||(F[8]=[a("span",{class:"search-spinner"},
+null,-1)])])):f(o).list.length===0?(h(),
+y("div",h2,v(f(t)("store.search.noResults")),
+1)):(h(),
+y("div",f2,[(h(!0),
+y(Z,null,oe(f(o).list,N=>(h(),
+y("div",{key:N.id,class:$(["flex items-center gap-3 md:gap-6 group",N.name==="Y-5"?"cursor-not-allowed opacity-60":"cursor-pointer"]),
+onClick:W=>b(N)},
+[a("div",b2,[N.picUrl?(h(),
+y("img",{key:0,src:N.picUrl,alt:N.name,class:$(["w-full h-full object-contain transition-transform duration-300",N.name==="Y-5"?"grayscale":"group-hover:scale-105"])},
+null,10,y2)):U("",!0)]),
+a("div",w2,[a("div",A2,[a("div",{class:$(["text-white text-base md:text-2xl font-medium truncate transition-colors",N.name==="Y-5"?"":"group-hover:text-[#00FFF7]"])},
+v(N.name),
+3),
+N.name==="Y-5"?(h(),
+y("span",S2,v(f(t)("store.comingSoon")),
+1)):U("",!0)]),
+N.categoryName?(h(),
+y("div",C2,v(N.categoryName),
+1)):U("",!0)]),
+a("div",x2," $"+v(f(Ae)(N.price)),
+1)],10,v2))),
+128)),
+f(o).loading?(h(),
+y("div",I2,[...F[9]||(F[9]=[a("span",{class:"search-spinner"},
+null,-1)])])):!f(o).hasMore&&f(o).list.length>0?(h(),
+y("div",E2,v(f(t)("store.search.noMore")),
+1)):U("",!0)])):(h(),
+y("div",m2,v(f(t)("store.search.empty")),
+1))],544)]),
+a("button",{class:"cursor-pointer hidden md:flex mt-3 md:mb-[5vh] 3xl:mb-[6vh] flex-shrink-0 w-10 h-10 flex items-center justify-center rounded-full bg-black text-white/90 hover:text-white hover:bg-black/50 transition-colors",onClick:F[4]||(F[4]=(...N)=>f(o).closeSearch&&f(o).closeSearch(...N))},
+[...F[10]||(F[10]=[a("i",{class:"bx bx-x text-2xl"},
+null,-1)])])])):U("",!0)]),
+_:1},
+8,["enter-from-class","leave-to-class"])]))}}),
+k2=Ee(z2,[["__scopeId","data-v-11ec0070"]]),
+R2={class:"sticky top-0 z-50 flex items-center justify-between px-4 py-3 sm:px-5 sm:py-4 md:px-6 md:py-5 lg:px-8 lg:py-6 xl:px-10 xl:py-7 3xl:px-12 3xl:py-8 bg-gradient-to-b from-black via-black/90 to-transparent"},
+T2={class:"flex min-w-[100px] 3xl:min-w-[200px]"},
+D2={class:"hidden ipad:flex flex-wrap items-center justify-center gap-1 xl:gap-3 3xl:gap-6 mx-[1vw] mb-[1vw]"},
+L2={class:"relative"},
+M2={class:"flex items-center gap-1 sm:gap-1.5 md:gap-2 flex-shrink-0 mb-[1vw]"},
+F2={class:"p-1 rounded-full hover:bg-white/10"},
+B2=["src","alt"],O2={key:1,src:Ti,class:"h-7 w-7 md:h-8 md:w-8 rounded-full object-cover border border-white/30",alt:"默认头像"},
+N2={class:"space-y-2 sm:space-y-3 md:space-y-4"},
+q2=he(
+{__name:"StoreHeader",setup(e){const{t}=Ie(),
+i=xt();
+fo();
+const o=vo(),
+n=ht(),
+r=E(!1),
+s=[{name:t("navigation.menu.storeNav.hydrofoil"),
+href:"/store/hydrofoil"},
+{name:t("navigation.menu.storeNav.hmi"),
+href:"/store/hmi"},
+{name:t("navigation.menu.storeNav.design"),
+href:"/store/design"},
+{name:t("navigation.menu.storeNav.hullDesignBuild"),
+href:"/store/HullDesignBuild"},
+{name:t("navigation.menu.storeNav.accessories"),
+href:"/store/accessories"},
+{name:t("navigation.menu.storeNav.development"),
+href:"/store/development"},
+{name:t("navigation.menu.storeNav.distribution"),
+href:"/store/distribution"}],l=V(()=>{const d=s.findIndex(c=>c.href===n.path);
+return d!==-1?d:null}),
+m=E(l.value);
+return Se(l,d=>{m.value=d},
+{immediate:!0}),
+(d,c)=>(h(),
+y(Z,null,[a("nav",R2,[a("div",T2,[K(f(se),
+{to:"/",class:"text-white hover:text-white/80 transition-colors flex-shrink-0 mb-[1vw] pr-1"},
+{default:J(()=>[...c[7]||(c[7]=[a("svg",{xmlns:"http://www.w3.org/2000/svg","xmlns:xlink":"http://www.w3.org/1999/xlink",class:"w-6 h-6 sm:w-7 sm:h-7 md:w-7 md:h-7 lg:w-[30px] lg:h-[30px]",viewBox:"0 0 30 30"},
+[a("image",{id:"主页",width:"30",height:"30","xlink:href":"data:image/png;
+base64,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"})],-1)])]),
+_:1}),
+a("button",{onClick:c[0]||(c[0]=u=>r.value=!r.value),
+class:"ipad:hidden pl-3 pr-3 pb-2 text-white/80 hover:text-white transition-colors"},
+[...c[8]||(c[8]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 24 24",fill:"currentColor",class:"w-6 h-6 sm:w-7 sm:h-7"},
+[a("path",{"fill-rule":"evenodd",d:"M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1 3-.75Z","clip-rule":"evenodd"})],-1)])])]),
+a("div",D2,[(h(),
+y(Z,null,oe(s,(u,S)=>a("div",{key:S,class:"relative group/menu"},
+[K(f(se),
+{to:u.href,class:$(["nav-menu-btn cursor-pointer flex items-center gap-1 xl:gap-1.5 px-1 lg:px-2 xl:px-3 3xl:px-4 py-1.5 xl:py-2 text-[14px] lg:text-[16px] xl:text-[16px] 3xl:text-lg text-white/70 uppercase tracking-wider whitespace-nowrap transition-all duration-300 ease-out",{"is-active":m.value===S}])},
+{default:J(()=>[a("span",L2,v(u.name),
+1),
+a("img",{src:w1,alt:"箭头icon",class:$(["ml-0.5 xl:ml-1 w-3 xl:w-3.5 3xl:w-4 h-auto transition-transform duration-300 ease-[cubic-bezier(0.34,1.56,0.64,1)]",m.value===S?"rotate-180":"rotate-0"])},
+null,2)]),
+_:2},
+1032,["to","class"])])),
+64))]),
+a("div",M2,[a("div",{class:"hidden md:flex items-center gap-1.5 lg:gap-2 px-2.5 md:px-3 lg:px-4 py-1 bg-white/5 rounded-full border border-[#848484] cursor-pointer hover:border-white/80 transition-colors",onClick:c[2]||(c[2]=(...u)=>f(o).openSearch&&f(o).openSearch(...u))},
+[c[9]||(c[9]=a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 20 20",fill:"currentColor",class:"w-5 h-5 lg:w-6 lg:h-6 xl:w-7 xl:h-7 text-white"},
+[a("path",{"fill-rule":"evenodd",d:"M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z","clip-rule":"evenodd"})],-1)),
+a("input",{type:"text",readonly:"",placeholder:"search...",class:"bg-transparent text-sm lg:text-md text-white placeholder-[#848484] outline-none w-16 md:w-20 lg:w-24 xl:w-28 3xl:w-32 cursor-pointer caret-transparent",onFocus:c[1]||(c[1]=u=>u.target.blur())},
+null,32)]),
+a("button",{class:"md:hidden p-2 text-white/80 hover:bg-white/10 rounded-full transition-colors",onClick:c[3]||(c[3]=(...u)=>f(o).openSearch&&f(o).openSearch(...u))},
+[...c[10]||(c[10]=[a("svg",{xmlns:"http://www.w3.org/2000/svg",viewBox:"0 0 20 20",fill:"currentColor",class:"w-5 h-5 sm:w-6 sm:h-6 text-white"},
+[a("path",{"fill-rule":"evenodd",d:"M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z","clip-rule":"evenodd"})],-1)])]),
+a("div",F2,[f(i).isAuthenticated?(h(),
+X(f(se),
+{key:0,to:"/profile",class:"p-2 transition-colors duration-200 block"},
+{default:J(()=>[f(i).user?.avatar?(h(),
+y("img",{key:0,src:f(i).user?.avatar,alt:f(i).user?.nickname,class:"h-7 w-7 md:h-8 md:w-8 rounded-full object-cover border border-white/30"},
+null,8,B2)):(h(),
+y("img",O2))]),
+_:1})):(h(),
+X(f(se),
+{key:1,to:"/login",class:"p-2 md:p-1 transition-colors duration-200 block"},
+{default:J(()=>[K(f(Ri),
+{class:"h-5 w-5 sm:h-5 sm:w-5 md:h-6 md:w-6 lg:h-7 lg:w-7 text-white"})]),
+_:1}))])])]),
+K(a2),
+K(k2),
+K(ve,{"enter-active-class":"transition duration-300 ease-out","enter-from-class":"opacity-0","enter-to-class":"opacity-100","leave-active-class":"transition duration-200 ease-in","leave-from-class":"opacity-100","leave-to-class":"opacity-0"},
+{default:J(()=>[r.value?(h(),
+y("div",{key:0,class:"fixed inset-0 z-40 bg-black/90 backdrop-blur-sm ipad:hidden mb-[1vw]",onClick:c[6]||(c[6]=u=>r.value=!1)},
+[a("div",{class:"pt-16 sm:pt-18 md:pt-20 px-4 sm:px-5 md:px-6",onClick:c[5]||(c[5]=Te(()=>{},
+["stop"]))},
+[a("div",N2,[(h(),
+y(Z,null,oe(s,(u,S)=>K(f(se),
+{key:S,to:u.href,class:"block w-full text-left py-2 sm:py-2.5 md:py-3 text-sm sm:text-base md:text-lg text-white/80 hover:text-white uppercase tracking-wider transition-colors border-b border-white/10",onClick:c[4]||(c[4]=w=>r.value=!1)},
+{default:J(()=>[ae(v(u.name),
+1)]),
+_:2},
+1032,["to"])),
+64))])])])):U("",!0)]),
+_:1})],64))}}),
+U2=Ee(q2,[["__scopeId","data-v-21717b87"]]),
+Q2="data:image/png;
+base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAER0lEQVR4nO2Y8VXiWhCH52oB5FXwYgXLVkCo4GUrkKj/P6jgxQqEAlSsALYCQgViBWYreKEAZb+JwCK5QUOSZfes3znjTHBy7/zu3NygRn5zPgQcmj9LwO3trbNYLFqLxcIzxjT5SJ6fnx1iF5txKfwuJo6waRAEsdSMwd7k5ubmH1yX4jwpRnx0dNTH3wVBkOArZ6cAVtxnha8IXSlPiJhB1UIMloHCnWXhHamWGBE9RIyJKyEjgOJdip8QulITiOgiYkBYGoOtoXjn6elpwgPY5LJWmGNwdnbWJSzFWsDPLH6D4Pz8fCglWAu4vr4OReQ/zMbDsu0RQnWLjfnsE2aF0+rr8fFxh/yEfG+Z38AyMO5n8maEe5EKYJImk9wTWmGSdkDxsoR8l/xHQhtz8l3yE+IU8n3yR4QZ6HjEVmoT7oXB9JwfsmqnhFZoc5q3CR37H+dg20zJ92QDBOwSnFmgIhhsVzEpTHASbLxVKcihIL3HRrLMT4hTGL8j3IZZoQt3dKEje2AoxqeYEXEudGfGnv5CUTH5DtcjzJN8xoggff0M6PgOts03LGas5OLiwicujGF1Qsl/eLdJMAfbhzkrPabYCHFjFcdnun1bOO3CnM9mhIUoKmAf5lifovt4h26cUqyHEE/sJNiYnAj7iii9zkUFRCLSwupgSuE+vknh/+I1LkKCqfhBnhBDC/ushg5eKaxe+mCyQFdcdrEyJIhAQ/Y7lHYglIq3kBZvjOnW8Gbvc0T38Gv0FNJTYkJcCXQzfQvXUPyKISICfIrBhC4kuAZWGlp9woJcEfpYXfQQ0cevBYRSzTa6RMAMASNiG3MsnRi6WAPLoF2kezPCjoj8jW2jz8Rnnok4FcA2cpg0lpwB3wuD6upPCF2xE7ByQwHm9MkdEb6CwtOHX4Acl5xHwgyrPEOcQrJ1wAI8IKDLGBNiK/y+HSy/8zCfl5N7ichQlrA7Fjgb2oWTtQCl5JF6aYxx3rh/zKQBXij+Fudjr+B+/drSDjj3Kb4jaMXyCAw/XoGIIYOcEhaCwr5QVJewhVVBLCKu7ObS8CMDIvqI2LWSGRDQRkAo1Ql4Ezp+ZxWgsEd9ChoRvosDCRjsEtCkoHvCd3EIAdDLFZCzjfQcb2A2eqyIa7mnNnTRDN4KJ8AjzpUXpiSHnAwRnXG41u54AsuiXXk5YSI+vyf+GXzjuHUNQQaK1AK1kHXh8k4QHov97Vk1AQKGeQJ8XFKk8BXc6yF+QlgnDxTfxItVQFlynp+qmLMrXBY3Ia5HgMJWmuE+YVWixXsUr2On1CaAreSwlcaELawKMsUrtQlYQSe6uCusDAnFnwTLbbNJ7QIUuqFHbYj5XDawwiDgr4MJWIEQ3VY+7w4PMZ7Yj9spFsnLl7lQfuSkx6ZsYbCDo8Jsq6uwBTvCX3EIjmz/vfslBLyFCqRzHTrQ5/IVv4WAXXwIODQfAg7Nd46zNhIUkd3QAAAAAElFTkSuQmCC",H2="data:image/png;
+base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAE60lEQVR4nN2aWU4bQRCG2+z7vohFgCUQCCQUHnhOjpAbhNwAv3AIeCA3CLkBR4BnJBQhIUBiEUhsEovNvpP6ChoGG+yxx8uQT2o8PeOZqb+6qrpnTMA4mJycrLm9vf0hm9+lfTP+YsYYM11YWPgnFAqFZVt5ETA+Pj5ijPkt7TPwc2xsbMoIKuCTGW9REYHnsDmWHRmhr69P/r5la2vLXFxcyJYnwhJOwcDExMTo4+PjpOzICMPDw+bm5sbc3d1J74mDgwNzenrqWUQgEAgFJHxmjDFfpWUEBGBwQ0OD9J7A8Pv7e7O8vCw9T8wi4FE2MsZ7AjAe5ufn5a8nwjkRAJeXl2Zvb0+PeSFnAuDk5MSsrq6+jEgq5FQAHB4ems3NzZRF5FwAEE7n5+fm+vrahMNhTXK3+EIAUGYRwkisr6/rpxt8I8DCKBQXF5u5uTnpJSYnAvB0aWmpbMWSEwHcsKioSLaeYJa1vCeAGCdE8vLyTHl5uex5JasCmpubtXFDJ4uLi2okxBOwvb1tWltbjSxlVEx+fr42rpdRAWVlZaa7u1tvBGdnZ3pjZ1hg3M7OTlwBdilRWVmpx/m018yYgNraWjUeMKSgoOBN+FiSERANIgglNyQlAM/39vaq0Xi9oqJC9r6PFwHJkJQA1vYMM0uAqqoq2fMWDJM1ujbfCcBwBLC2J+EYBcCQq6urmGriOwHBYFCNOD4+1jywYAgJTMxiMCWUWRWB7PONgKGhoRejSDLA8yUlJWoQxmBUNL4RgCHRiUs4UYEWFhZU2Htwnm8EHB0dmbq6Ouk98fDwoKvIeIZwnm8ERBvCmgYBGxsb0ouFUBscHIzJGyBXsipgYGBAPecUgBcRsbS0JL1Ygs+JH4lETHV1tex5JesCOjo61KM1NTXSe4VEXllZ0XxwguFBEQAcI1cAJzAh2jLrFdcCML6/v1+9zrYTyibGYBwlFeNtyOBp5hCLvETTiQ7vc8wrrgUAo0Apra+vl95bEIan7YKOqkSS2z4wWpRdjlG50kFSAvBuZ2enltLoUUiE9TzwJoLETgdJCQBENDU1mfb2dum5A89jPOdSyT6qWqmQtADAEOYDHkZscn4EeUHSQrqNh5QEWEhUEpa8YIEnL1v16YpP4t8u8MgP3sKR6OnGkwBgNBBBs5624H28TkNEJvAsIBoEQaYMjibtArLN/y+AWZQnMSfOGk6ct7W1xbxF4BzOdcLvAVStxsZGnRd4scvkRzXjGqnMzgkFENMkJ0lK4ybclH3MqKyNuDkCqErMvPv7+zrRIYDZmyRmH6W3paVFKxRVizxZW1vTasU1uDYVjWu4fcmbUIDFeglDAQ8DD/jsp74HZfHGJwYDAvgeCze83dPToxMaRgIll/N5UOIanIeT+OQ6bkibAGD48aLFKYBjXV1dGkJ4HxDA8wTLbXsNRjWJdVIEATPGxY98iQSQF4SQc53jFMAkxgsxvuNkd3dXQ4prIJJz7PddMOv6Z9ZEAtiPgRiAB4lvtvmeNYi8IYERgdHkBeHC+1WuwehxjL7z/epHyIwfcv1DN8bQMASIVWDI7X4SnjhnBDCORGbpjWdpH8H5NPKE6+EICgU/iMchIvnUFZCNz/2vBrKhPIv4Ja1amp+JSBvFeCO8CADCSR4PRyQnvkv3izS/iMHovxLz01KCp5z/bvMPWzndq7tet8AAAAAASUVORK5CYII=",Ci="/assets/img/icon-8-CFV_ufPI.png",V2="/assets/img/footer-1-Btn6E8vx.png",_2="/assets/img/footer-2-DbcK8H60.jpg",G2="/assets/img/footer-3-DQNl4-wN.png",W2={class:"relative w-full max-w-[90%] xl:max-w-[75%] mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-10 lg:pt-40 lg:pb-20"},
+Y2={class:"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[1fr_1fr_1.5fr] gap-8 md:gap-10 lg:gap-12 items-start"},
+$2={class:"md:col-span-2 lg:col-span-2 flex flex-col justify-between h-full"},
+j2={class:"grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10 lg:gap-12 items-start"},
+J2={class:"text-white text-lg sm:text-xl lg:text-[26px] font-medium mb-4 sm:mb-6"},
+K2={class:"flex flex-col gap-3 sm:gap-4"},
+Z2={class:"text-white text-lg sm:text-xl lg:text-[26px] font-medium mb-4 sm:mb-6"},
+X2={class:"flex flex-col gap-3 sm:gap-4"},
+ex={class:"flex flex-row flex-wrap items-center gap-4 sm:gap-5 mt-6 sm:mt-8 lg:mt-10"},
+tx=["href"],ix={class:"text-center w-28"},
+ox=["src","alt"],nx={class:"text-[12px] mt-2 text-white/80"},
+ax={class:"flex gap-4 w-60"},
+rx={class:"text-center"},
+sx=["src","alt"],lx={class:"text-[12px] mt-2 text-white/80"},
+cx={class:"text-center"},
+dx=["src","alt"],ux={class:"text-[12px] mt-2 text-white/80"},
+px={href:"https://www.douyin.com/user/MS4wLjABAAAAFh_waNM6-sK1xE2-MtxSBPzufV3_KuIo8YDcCcnArvsG3oTTPvEjwR65VJTeGYep?from_tab_name=main&vid=7460143316986793231",target:"_blank",rel:"noopener noreferrer",class:"text-white/60 hover:text-white transition-colors duration-300","aria-label":"Douyin"},
+mx={class:"w-7 h-7 mt-1",style:{color:"rgba(255,255,255,0.5)"},
+width:"20",height:"20",viewBox:"0 0 28 28",fill:"none",xmlns:"http://www.w3.org/2000/svg"},
+gx={class:"md:col-span-2 lg:col-span-1"},
+hx={class:"text-white text-lg sm:text-xl lg:text-[26px] font-medium mb-4 sm:mb-6"},
+fx=["placeholder"],vx=["placeholder"],bx=["placeholder"],yx=["disabled"],wx=["src"],Ax=["src"],Sx=he(
+{__name:"FooterComponent",setup(e){const{t}=Ie(),
+i=ke(),
+o=E(!1);
+let n=null;
+function r(){s(),
+n=setTimeout(()=>{o.value=!1},
+150)}function s(){n&&(clearTimeout(n),
+n=null)}function l(){s(),
+o.value=!0}const m=E(!1);
+let d=null;
+function c(){u(),
+d=setTimeout(()=>{m.value=!1},
+150)}function u(){d&&(clearTimeout(d),
+d=null)}function S(){u(),
+m.value=!0}const w=E(!1);
+let p=null;
+function b(){A(),
+p=setTimeout(()=>{w.value=!1},
+150)}function A(){p&&(clearTimeout(p),
+p=null)}function I(){A(),
+w.value=!0}async function O(){const x=t("footer.contact.email");
+try{await navigator.clipboard.writeText(x),
+i.notifySuccess(t("footer.contact.copyEmailSuccess")),
+w.value=!1}catch{i.notifyError(t("footer.contact.copyEmailFailed"))}}const P=V(()=>(
+{wechat:{url:_2,alt:t("footer.qrCode.wechatAlt"),
+title:t("footer.qrCode.wechatTitle")},
+video:{url:V2,alt:t("footer.qrCode.videoAlt"),
+title:t("footer.qrCode.videoTitle")},
+instagram:{url:G2,alt:t("footer.qrCode.instagramAlt"),
+title:t("footer.qrCode.instagramTitle")}})),
+F=E(null),
+N=E(null),
+W=ct(
+{currentX:0,currentY:0,targetX:0,targetY:0,isHovering:!1,containerWidth:0,containerHeight:0});
+let B=null;
+function j(x,z,M){return x+(z-x)*M}function Q(){if(!F.value)return;
+const x=W.isHovering?.15:.08;
+W.currentX=j(W.currentX,W.targetX,x),
+W.currentY=j(W.currentY,W.targetY,x),
+F.value.style.setProperty("--spotlight-x",`${W.currentX}px`),
+F.value.style.setProperty("--spotlight-y",`${W.currentY}px`),
+B=requestAnimationFrame(Q)}function k(){if(!N.value)return;
+const x=N.value.getBoundingClientRect();
+W.containerWidth=x.width,W.containerHeight=x.height;
+const z=x.width/2,M=x.height/2;
+W.currentX=z,W.currentY=M,W.targetX=z,W.targetY=M}Je(()=>{k(),
+B=requestAnimationFrame(Q),
+window.addEventListener("resize",k)}),
+ft(()=>{B&&cancelAnimationFrame(B),
+window.removeEventListener("resize",k)});
+const L=ct(
+{name:"",email:"",message:""}),
+te=V(()=>[{name:t("footer.company.maintenance"),
+path:"#"},
+{name:t("footer.company.environment"),
+path:"#"},
+{name:t("footer.company.legal"),
+path:"#"},
+{name:t("footer.company.salesRecruitment"),
+path:"#"},
+{name:t("footer.company.serviceRecruitment"),
+path:"#"},
+{name:t("footer.company.batteryRecycling"),
+path:"#"}]),
+me=V(()=>[{name:t("footer.product.h1Series"),
+path:"/models/h1"},
+{name:t("footer.product.h2Series"),
+path:"/models/h2"},
+{name:t("footer.product.technology"),
+path:"/tech/advantages"},
+{name:t("footer.product.configure"),
+path:"/options/detail"},
+{name:t("footer.product.testDrive"),
+path:"/test-drive"}]);
+function ge(x){if(!N.value)return;
+const z=N.value.getBoundingClientRect();
+W.targetX=x.clientX-z.left,W.targetY=x.clientY-z.top}function Ce(){W.isHovering=!0}function ie(){W.isHovering=!1}const fe=E(!1);
+async function R(){if(!L.name||!L.email||!L.message){i.notifyWarning(t("footer.contact.fillAllFields"));
+return}if(!fe.value){fe.value=!0;
+try{await Dw.contactUs(
+{customerName:L.name,contact:L.email,message:L.message}),
+i.notifySuccess(t("footer.contact.sendSuccess")),
+be(
+{eventName:"submit_contact_form",contentType:"conversion",eventTarget:"footer_contact_form",tags:{source:"footer",success:!0}}),
+L.name="",L.email="",L.message=""}catch(x){i.notifyError(x.message||t("footer.contact.sendFailed")),
+be(
+{eventName:"submit_contact_form",contentType:"conversion",eventTarget:"footer_contact_form",tags:{source:"footer",success:!1}})}finally{fe.value=!1}}}return(x,z)=>{const M=Ei("router-link");
+return h(),
+y("footer",{ref_key:"footerRef",ref:F,class:"footer-spotlight relative bg-[#0a0a0a] overflow-hidden",onMousemove:ge,onMouseenter:Ce,onMouseleave:ie},
+[z[16]||(z[16]=a("div",{class:"spotlight-overlay"},
+null,-1)),
+a("div",W2,[a("div",Y2,[a("div",$2,[a("div",j2,[a("div",null,[a("h3",J2,v(x.$t("footer.company.title")),
+1),
+a("nav",K2,[(h(!0),
+y(Z,null,oe(te.value,Y=>(h(),
+X(M,{key:Y.path,to:Y.path,class:"text-white/50 text-sm sm:text-base lg:text-lg hover:text-white transition-colors duration-300"},
+{default:J(()=>[ae(v(Y.name),
+1)]),
+_:2},
+1032,["to"]))),
+128))])]),
+a("div",null,[a("h3",Z2,v(x.$t("footer.product.title")),
+1),
+a("nav",X2,[(h(!0),
+y(Z,null,oe(me.value,Y=>(h(),
+X(M,{key:Y.path,to:Y.path,class:"text-white/50 text-sm sm:text-base lg:text-lg hover:text-white transition-colors duration-300"},
+{default:J(()=>[ae(v(Y.name),
+1)]),
+_:2},
+1032,["to"]))),
+128))])])]),
+a("div",ex,[a("div",{class:"relative flex items-center",onMouseenter:I,onMouseleave:b,onClick:I},
+[z[7]||(z[7]=a("button",{type:"button",class:"text-white/60 hover:text-white transition-colors duration-300 text-[28px] leading-none cursor-pointer","aria-label":"Email"},
+[a("i",{class:"bx bx-envelope"})],-1)),
+ne(a("div",{class:"absolute bottom-12 left-0 sm:left-1/2 transform sm:-translate-x-1/2 bg-[#1c1c1c] rounded-lg p-2 shadow-xl border border-[#333333] z-50 min-w-[180px]",onMouseenter:A,onMouseleave:b,onClick:z[0]||(z[0]=Te(()=>{},
+["stop"]))},
+[z[6]||(z[6]=a("div",{class:"absolute -bottom-2 left-3.5 sm:left-1/2 transform sm:-translate-x-1/2"},
+[a("div",{class:"w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-l-transparent border-r-transparent border-t-[#333333]"})],-1)),
+a("a",{href:`mailto:${f(t)("footer.contact.email")}`,class:"block px-3 py-2 text-sm text-white/80 hover:text-white hover:bg-white/10 rounded transition-colors"},
+v(f(t)("footer.contact.openMailClient")),
+9,tx),
+a("button",{type:"button",class:"block w-full text-left px-3 py-2 text-sm text-white/80 hover:text-white hover:bg-white/10 rounded transition-colors cursor-pointer",onClick:O},
+v(f(t)("footer.contact.copyEmail")),
+1)],544),
+[[at,w.value]])],32),
+z[13]||(z[13]=a("a",{href:"https://www.facebook.com/share/1Ccz5VK1vk/?mibextid=wwXIfr",target:"_blank",rel:"noopener noreferrer",class:"text-white/60 hover:text-white transition-colors duration-300 text-[28px] leading-none","aria-label":"Facebook"},
+[a("i",{class:"bx bxl-facebook"})],-1)),
+a("div",{class:"relative flex items-center",onMouseenter:S,onMouseleave:c,onClick:S},
+[z[9]||(z[9]=a("button",{type:"button",class:"text-white/60 hover:text-white transition-colors duration-300 text-[28px] leading-none cursor-pointer","aria-label":"Instagram"},
+[a("i",{class:"bx bxl-instagram"})],-1)),
+ne(a("div",{class:"absolute bottom-12 left-0 sm:left-1/2 transform sm:-translate-x-1/2 bg-[#1c1c1c] rounded-lg p-4 shadow-xl border border-[#333333] z-50",onMouseenter:u,onMouseleave:c,onClick:z[1]||(z[1]=Te(()=>{},
+["stop"]))},
+[z[8]||(z[8]=a("div",{class:"absolute -bottom-2 left-3.5 sm:left-1/2 transform sm:-translate-x-1/2"},
+[a("div",{class:"w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-l-transparent border-r-transparent border-[#333333]"})],-1)),
+a("div",ix,[a("img",{src:P.value.instagram.url,alt:P.value.instagram.alt,class:"w-28 h-28 rounded object-contain",loading:"lazy"},
+null,8,ox),
+a("p",nx,v(P.value.instagram.title),
+1)])],544),
+[[at,m.value]])],32),
+z[14]||(z[14]=a("a",{href:"https://www.linkedin.com/company/y-h2o/",target:"_blank",rel:"noopener noreferrer",class:"text-white/60 hover:text-white transition-colors duration-300 text-[28px] leading-none","aria-label":"LinkedIn"},
+[a("i",{class:"bx bxl-linkedin"})],-1)),
+a("div",{class:"relative flex items-center",onMouseenter:l,onMouseleave:r,onClick:l},
+[z[11]||(z[11]=a("button",{type:"button",class:"text-white/60 hover:text-white transition-colors duration-300 text-[28px] leading-none cursor-pointer","aria-label":"WeChat"},
+[a("img",{src:Q2,class:"w-7 h-auto",alt:"",srcset:""})],-1)),
+ne(a("div",{class:"absolute bottom-12 left-0 sm:left-1/2 transform sm:-translate-x-1/2 bg-[#1c1c1c] rounded-lg p-4 shadow-xl border border-[#333333] z-50",onMouseenter:s,onMouseleave:r,onClick:z[2]||(z[2]=Te(()=>{},
+["stop"]))},
+[z[10]||(z[10]=a("div",{class:"absolute -bottom-2 left-3.5 sm:left-1/2 transform sm:-translate-x-1/2"},
+[a("div",{class:"w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-l-transparent border-r-transparent border-[#333333]"})],-1)),
+a("div",ax,[a("div",rx,[a("img",{src:P.value.wechat.url,alt:P.value.wechat.alt,class:"w-28 h-28 rounded",loading:"lazy"},
+null,8,sx),
+a("p",lx,v(P.value.wechat.title),
+1)]),
+a("div",cx,[a("img",{src:P.value.video.url,alt:P.value.video.alt,class:"w-28 h-28 rounded",loading:"lazy"},
+null,8,dx),
+a("p",ux,v(P.value.video.title),
+1)])])],544),
+[[at,o.value]])],32),
+z[15]||(z[15]=Pi('<a href="https://xhslink.com/m/5LKG4MpwYqA" target="_blank" rel="noopener noreferrer" class="text-white/60 hover:text-white transition-colors duration-300" aria-label="Xiaohongshu" data-v-a788a0b2><span class="inline-flex items-center justify-center px-1.5 h-5 sm:h-5 rounded bg-current" data-v-a788a0b2><span class="text-[10px] font-bold text-[#0a0a0a] leading-none tracking-tight" data-v-a788a0b2>小红书</span></span></a><a href="https://www.youtube.com/@alaqua_fly-h2o" target="_blank" rel="noopener noreferrer" class="text-white/60 hover:text-white transition-colors duration-300 text-[34px] leading-none h-8" aria-label="YouTube" data-v-a788a0b2><i class="bx bxl-youtube" data-v-a788a0b2></i></a><a href="https://www.tiktok.com/@flyh2o/video/7632709594615188743?is_from_webapp=1&amp;
+sender_device=pc&amp;
+web_id=7632679460211770887" target="_blank" rel="noopener noreferrer" class="text-white/60 hover:text-white transition-colors duration-300 text-[34px] leading-none h-8" aria-label="tiktok" data-v-a788a0b2><img src="'+H2+'" class="w-8 h-auto" alt="tiktok" data-v-a788a0b2></a>',3)),
+a("a",px,[(h(),
+y("svg",mx,[...z[12]||(z[12]=[a("path",{d:"M18.7668 2.55969H14.6356V17.4957C14.6356 19.4024 13.3644 21.3091 11.1399 21.3091C8.91541 21.3091 7.96205 19.7202 7.96205 18.1313C7.96205 16.5423 8.91541 14.9534 10.8221 14.9534H12.4111V11.14H10.1866C6.6909 11.14 3.83081 14.9534 3.83081 17.1779V19.0846C3.83081 21.3091 7.00869 25.4404 11.1399 25.4404C15.2712 25.4404 18.7668 21.9447 18.7668 18.7668V10.1866C18.7668 10.1866 20.6735 11.7755 24.1692 11.7755V8.27987C21.9447 8.27987 18.7668 6.69093 18.7668 2.55969Z",fill:"currentColor"},
+null,-1)])]))])])]),
+a("div",gx,[a("h3",hx,v(x.$t("footer.contact.title")),
+1),
+a("form",{onSubmit:Te(R,["prevent"]),
+class:"flex flex-col gap-3 sm:gap-4"},
+[ne(a("input",{"onUpdate:modelValue":z[3]||(z[3]=Y=>L.name=Y),
+type:"text",placeholder:x.$t("footer.contact.fullName"),
+class:"bg-[#1a1a1a] border border-white/10 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 text-white text-sm sm:text-base lg:text-[18px] placeholder:text-white/40 placeholder:text-sm sm:placeholder:text-base lg:placeholder:text-[18px] focus:outline-none focus:border-white/30 transition-colors"},
+null,8,fx),
+[[Le,L.name]]),
+ne(a("input",{"onUpdate:modelValue":z[4]||(z[4]=Y=>L.email=Y),
+type:"text",placeholder:x.$t("footer.contact.emailOrPhone"),
+class:"bg-[#1a1a1a] border border-white/10 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 text-white text-sm sm:text-base lg:text-[18px] placeholder:text-white/40 placeholder:text-sm sm:placeholder:text-base lg:placeholder:text-[18px] focus:outline-none focus:border-white/30 transition-colors"},
+null,8,vx),
+[[Le,L.email]]),
+ne(a("textarea",{"onUpdate:modelValue":z[5]||(z[5]=Y=>L.message=Y),
+placeholder:x.$t("footer.contact.message"),
+rows:"4",class:"bg-[#1a1a1a] border border-white/10 rounded-lg px-3 sm:px-4 py-2.5 sm:py-3 text-white text-sm sm:text-base lg:text-[18px] placeholder:text-white/40 placeholder:text-sm sm:placeholder:text-base lg:placeholder:text-[18px] focus:outline-none focus:border-white/30 transition-colors resize-none sm:rows-6"},
+null,8,bx),
+[[Le,L.message]]),
+a("button",{type:"submit",disabled:fe.value,class:"cursor-pointer bg-white/90 text-black text-sm sm:text-base lg:text-lg py-2.5 sm:py-3 px-4 sm:px-6 rounded-lg hover:bg-white/100 transition-colors duration-300 disabled:opacity-50 disabled:cursor-not-allowed"},
+v(fe.value?x.$t("footer.contact.sending"):x.$t("footer.contact.sendMessage")),
+9,yx)],32)])])]),
+a("div",{ref_key:"logoContainerRef",ref:N,class:"logo-spotlight-container relative overflow-hidden select-none mt-20 xl:mt-36"},
+[a("img",{src:f(Ci),
+alt:"logo",class:"logo-base w-full h-auto"},
+null,8,wx),
+a("img",{src:f(Ci),
+alt:"",class:"logo-reveal w-full h-auto","aria-hidden":"true"},
+null,8,Ax)],512)],544)}}}),
+Cx=Ee(Sx,[["__scopeId","data-v-a788a0b2"]]),
+xx={class:"fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"},
+Ix={class:"bg-white rounded-2xl p-6 shadow-2xl"},
+Ex={class:"flex items-center space-x-3"},
+Px={class:"text-slate-700 font-medium"},
+zx=he(
+{__name:"LoadingOverlay",props:{text:{default:"加载中..."}},
+setup(e){return(t,i)=>(h(),
+X(Oe,{to:"body"},
+[a("div",xx,[a("div",Ix,[a("div",Ex,[i[0]||(i[0]=a("div",{class:"animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"},
+null,-1)),
+a("span",Px,v(e.text),
+1)])])])]))}}),
+kx={class:"p-4"},
+Rx={class:"flex items-start"},
+Tx={class:"flex-shrink-0"},
+Dx={class:"ml-3 w-0 flex-1"},
+Lx={class:"text-sm font-medium text-white/95"},
+Mx={key:0,class:"mt-1 text-sm text-white/60"},
+Fx={key:1,class:"mt-3 flex space-x-3"},
+Bx=["onClick"],Ox={class:"ml-4 flex-shrink-0 flex"},
+Nx={key:0,class:"h-0.5 bg-white/5"},
+qx=he(
+{__name:"NotificationCard",props:{notification:{}},
+emits:["close"],setup(e){const t=e,i=V(()=>{switch(t.notification.type){case"success":return Fo;
+case"error":return Mo;
+case"warning":return Lo;
+case"info":default:return Do}}),
+o=V(()=>{const s="h-6 w-6";
+switch(t.notification.type){case"success":return`${s} text-emerald-400`;
+case"error":return`${s} text-red-400`;
+case"warning":return`${s} text-amber-400`;
+case"info":default:return`${s} text-blue-400`}}),
+n=V(()=>{switch(t.notification.type){case"success":return"bg-[rgba(16,185,129,0.12)] border-l-2 border-l-emerald-400/60";
+case"error":return"bg-[rgba(239,68,68,0.12)] border-l-2 border-l-red-400/60";
+case"warning":return"bg-[rgba(245,158,11,0.12)] border-l-2 border-l-amber-400/60";
+case"info":default:return"bg-[rgba(59,130,246,0.12)] border-l-2 border-l-blue-400/60"}}),
+r=V(()=>{switch(t.notification.type){case"success":return"bg-emerald-400/80 animate-progress";
+case"error":return"bg-red-400/80 animate-progress";
+case"warning":return"bg-amber-400/80 animate-progress";
+case"info":default:return"bg-blue-400/80 animate-progress"}});
+return(s,l)=>(h(),
+y("div",{class:$(["min-w-[40vw] lg:min-w-[30vw] 2xl:min-w-[12vw] w-full rounded-xl overflow-hidden backdrop-blur-[40px] border border-white/10 shadow-luxury",n.value])},
+[a("div",kx,[a("div",Rx,[a("div",Tx,[(h(),
+X(Eo(i.value),
+{class:$(o.value)},
+null,8,["class"]))]),
+a("div",Dx,[a("p",Lx,v(e.notification.title),
+1),
+e.notification.message?(h(),
+y("p",Mx,v(e.notification.message),
+1)):U("",!0),
+e.notification.actions?(h(),
+y("div",Fx,[(h(!0),
+y(Z,null,oe(e.notification.actions,m=>(h(),
+y("button",{key:m.label,onClick:m.action,class:"text-sm font-medium text-brand-light hover:text-white transition-colors duration-200"},
+v(m.label),
+9,Bx))),
+128))])):U("",!0)]),
+a("div",Ox,[a("button",{onClick:l[0]||(l[0]=m=>s.$emit("close",e.notification.id)),
+class:"rounded-md inline-flex text-white/40 hover:text-white/70 focus:outline-none transition-colors duration-200"},
+[l[1]||(l[1]=a("span",{class:"sr-only"},
+"关闭",-1)),
+K(f(Bo),
+{class:"h-5 w-5"})])])])]),
+e.notification.duration&&e.notification.duration>0?(h(),
+y("div",Nx,[a("div",{class:$(["h-full transition-all ease-linear",r.value]),
+style:nt(
+{animationDuration:e.notification.duration+"ms"})},
+null,6)])):U("",!0)],2))}}),
+Ux=Ee(qx,[["__scopeId","data-v-28358f5c"]]),
+Qx={key:0,class:"flex flex-1 flex-col min-h-screen"},
+Hx={class:"fixed top-6 right-6 z-[9999] flex flex-col gap-8 pointer-events-none"},
+Vx=he(
+{__name:"App",setup(e){const t=ke(),
+i=ht(),
+o=je(),
+n=E(!0);
+o.isReady().then(()=>{n.value=!1});
+const r=V(()=>i.meta.layout||"default"),
+s=["Query","OptionsDetail","2DModel"],l=["OptionsDetail","2DModel"],m=V(()=>{const w=i.name;
+return l.includes(w)?t.isHeaderTransparent:!1}),
+d=V(()=>t.headerGradientBackground),
+c=V(()=>!s.includes(i.name)),
+u=V(()=>r.value==="fullscreen"?"h-screen overflow-hidden":""),
+S=V(()=>r.value==="fullscreen"?"h-full":"flex-1");
+return Je(()=>{document.addEventListener("click",()=>{t.closeMobileMenu()})}),
+(w,p)=>(h(),
+y("div",{id:"app",class:$(u.value)},
+[r.value==="default"?(h(),
+X(u1,{key:0,transparent:m.value,"gradient-background":d.value},
+null,8,["transparent","gradient-background"])):r.value==="auth"?(h(),
+X(y1,{key:1})):r.value==="store"?(h(),
+X(U2,{key:2})):U("",!0),
+a("main",{class:$(S.value)},
+[K(f(Po)),
+n.value?(h(),
+y("div",Qx,[...p[0]||(p[0]=[Pi('<div class="relative flex-1 bg-[#0a0a0a] flex items-center justify-center"><span class="text-white/20 text-2xl tracking-widest font-light">ALAQUA</span><div class="absolute bottom-[20%] left-6 sm:left-8 lg:left-12"><div class="h-6 sm:h-8 w-36 sm:w-48 bg-white/5 rounded animate-pulse mb-3"></div><div class="h-3 sm:h-4 w-24 sm:w-32 bg-white/5 rounded animate-pulse"></div></div></div>',1)])])):U("",!0)],2),
+r.value==="default"&&c.value&&!n.value?(h(),
+X(Cx,{key:3})):U("",!0),
+f(t).isLoading?(h(),
+X(zx,{key:4,text:f(t).loadingText},
+null,8,["text"])):U("",!0),
+a("div",Hx,[K(zo,{name:"notification"},
+{default:J(()=>[(h(!0),
+y(Z,null,oe(f(t).notifications,b=>(h(),
+X(Ux,{key:b.id,notification:b,class:"pointer-events-auto",onClose:f(t).removeNotification},
+null,8,["notification","onClose"]))),
+128))]),
+_:1})])],2))}}),
+_x={mounted(e,t){const i=t.value;
+if(!i){console.warn("lazyLoad: 未提供资源路径");
+return}e._lazyLoadSrc=i;
+const o=new IntersectionObserver(n=>{n.forEach(r=>{r.isIntersecting&&(xi(e,e._lazyLoadSrc||i),
+o.unobserve(e),
+e._lazyLoadLoaded=!0)})},
+{rootMargin:"200px",threshold:.01});
+e._lazyLoadObserver=o,o.observe(e)},
+updated(e,t){e._lazyLoadSrc!==t.value&&t.value&&(e._lazyLoadSrc=t.value,e._lazyLoadLoaded&&xi(e,t.value))},
+unmounted(e){e._lazyLoadObserver&&(e._lazyLoadObserver.disconnect(),
+delete e._lazyLoadObserver),
+delete e._lazyLoadSrc,delete e._lazyLoadLoaded}};
+function xi(e,t){if(e.tagName==="IMG"){const i=e;
+i.style.opacity="0",i.style.transition="opacity 0.3s";
+const o=new Image;
+o.onload=()=>{i.src=t,i.style.opacity="1"},
+o.onerror=()=>{console.error("图片加载失败:",t),
+i.style.opacity="1"},
+o.src=t}else if(e.tagName==="VIDEO"){const i=e;
+i.src=t,i.load(),
+(i.hasAttribute("autoplay")||i.dataset.autoplay!==void 0)&&i.play().catch(()=>{})}else if(e.tagName==="IFRAME"){const i=e;
+i.src=t}else e.style.backgroundImage=`url(${t})`}function Ii(e,t){e._trackHandler&&e._trackEventName&&e.removeEventListener(e._trackEventName,e._trackHandler);
+const i=t.on||"click",o=()=>{be(
+{eventName:t.eventName||"click",eventTarget:t.eventTarget||(e.textContent||"").trim().slice(0,64),
+contentType:t.contentType||"navigation",contentCategory:t.contentCategory,contentId:t.contentId,tags:t.tags,searchKeyword:t.searchKeyword})};
+e._trackHandler=o,e._trackEventName=i,e.addEventListener(i,o)}const Gx={mounted(e,t){t.value&&Ii(e,t.value)},
+updated(e,t){t.value&&Ii(e,t.value)},
+unmounted(e){e._trackHandler&&e._trackEventName&&e.removeEventListener(e._trackEventName,e._trackHandler),
+delete e._trackHandler,delete e._trackEventName}};
+zi.registerPlugin(ki,To);
+zi.defaults(
+{ease:"power3.out",duration:.8});
+ki.defaults(
+{toggleActions:"play none none reverse"});
+const Ne=ko(Vx);
+Ne.use(ze);
+Ne.use(rA);
+Ne.use(de);
+Ne.use(Ro);
+Ne.directive("lazy-load",_x);
+Ne.directive("track",Gx);
+T(async()=>{const{useGeolocationStore:e}=await Promise.resolve().then(()=>co);
+return{useGeolocationStore:e}},
+void 0).then((
+{useGeolocationStore:e})=>{e().init()});
+go(de.global.locale.value||"en");
+ho(ze);
+Ne.mount("#app");
+document.documentElement.lang="en";
+export{DC as C,LS as P,Ee as _,ke as a,p1 as b,aA as c,Ae as d,xw as e,Ge as f,Tw as g,D as h,lo as i,fo as j,sS as k,xt as l,Ti as m,y1 as n,pt as o,Ut as p,be as t,Yt as u};
+

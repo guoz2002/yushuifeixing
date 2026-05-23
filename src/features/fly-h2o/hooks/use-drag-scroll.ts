@@ -11,7 +11,9 @@ type DragScrollOptions = {
 export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>, options: DragScrollOptions = {}) {
   const dragRef = useRef({
     active: false,
+    captured: false,
     moved: false,
+    pointerId: -1,
     startX: 0,
     startY: 0,
     scrollLeft: 0,
@@ -27,13 +29,14 @@ export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>, o
 
     dragRef.current = {
       active: true,
+      captured: false,
       moved: false,
+      pointerId: event.pointerId,
       startX: event.clientX,
       startY: event.clientY,
       scrollLeft: element.scrollLeft,
       scrollTop: element.scrollTop,
     };
-    element.setPointerCapture?.(event.pointerId);
   }
 
   function onPointerMove(event: ReactPointerEvent<T>) {
@@ -44,6 +47,10 @@ export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>, o
     const dx = event.clientX - drag.startX;
     const dy = event.clientY - drag.startY;
     if (Math.abs(dx) > dragClickThreshold || Math.abs(dy) > dragClickThreshold) {
+      if (!drag.captured) {
+        element.setPointerCapture?.(drag.pointerId);
+        drag.captured = true;
+      }
       drag.moved = true;
       blockClickRef.current = true;
       setDragging(true);
@@ -56,11 +63,14 @@ export function useDragScroll<T extends HTMLElement>(ref: RefObject<T | null>, o
 
   function finishDrag(event: ReactPointerEvent<T>) {
     const element = ref.current;
-    const moved = dragRef.current.moved;
-    if (element?.hasPointerCapture?.(event.pointerId)) {
-      element.releasePointerCapture(event.pointerId);
+    const drag = dragRef.current;
+    const moved = drag.moved;
+    if (drag.captured && element?.hasPointerCapture?.(drag.pointerId)) {
+      element.releasePointerCapture(drag.pointerId);
     }
     dragRef.current.active = false;
+    dragRef.current.captured = false;
+    dragRef.current.pointerId = -1;
     setDragging(false);
     if (moved) {
       window.setTimeout(() => {

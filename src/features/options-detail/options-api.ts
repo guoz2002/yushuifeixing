@@ -135,8 +135,8 @@ function fallbackModel(spuId: string): SpuOptionsModel {
     id: spuId,
     name: "Y-3",
     introduction:
-      '<div class="text-white text-lg sm:text-xl lg:text-2xl mb-2">39.9 万元</div><div class="mb-2 xl:mb-3 4xl:mb-4">高端私人艇</div>4.9米总长度 | 三座轻量布局<br/>双档巡航15/30节 | 2.5小时续航能力',
-    description: "配置数据加载失败，已使用本地兜底数据。",
+      '<div class="text-white text-lg sm:text-xl lg:text-2xl mb-2">39.9 万元</div><div class="mb-2 xl:mb-3 4xl:mb-4">高端私人水翼艇</div>4.9 米总长度 | 三座轻量布局<br/>双档巡航 15/30 节 | 续航 2.5 小时',
+    description: "配置数据暂时不可用，已切换为本地演示数据。",
     basePrice: 399000,
     heroImage: "https://oss.fly-h2o.cn/20260402/store-3_1775116797713.png",
     sliderImages: [

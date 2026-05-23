@@ -7,10 +7,12 @@ import Link from "next/link";
 import { ChevronRight, X } from "lucide-react";
 import { localeOptions, useI18n } from "@/i18n";
 import { menuItems, menuPanels, type MenuPanelKey } from "../data/navigation";
+import { useComingSoonDialog } from "./coming-soon-dialog";
 import { useDragScroll } from "../hooks/use-drag-scroll";
 
 export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => void }) {
   const { locale, setLocale, t } = useI18n();
+  const openComingSoon = useComingSoonDialog();
   const [activePanel, setActivePanel] = useState<MenuPanelKey>("products");
   const railRef = useRef<HTMLElement | null>(null);
   const productsRef = useRef<HTMLDivElement | null>(null);
@@ -107,23 +109,61 @@ export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => v
           </div>
         </aside>
         <div className={`menuProducts ${productsDragging ? "isDragging" : ""}`} ref={productsRef} {...productsDragProps}>
-          {activeCards.map((card) => (
-            <a
-              href={card.href}
-              className="menuProductCard"
-              key={`${activePanel}-${card.title}`}
-              onBlur={stopCardVideo}
-              onClick={onClose}
-              onFocus={playCardVideo}
-              onMouseEnter={playCardVideo}
-              onMouseLeave={stopCardVideo}
-            >
-              <img src={card.image} alt={t(card.title)} />
-              {card.video ? <video className="menuProductVideo" loop muted playsInline preload="metadata" src={card.video} aria-hidden="true" /> : null}
-              <span className="menuProductLabel">{t(card.label)}</span>
-              <strong>{t(card.title)}</strong>
-            </a>
-          ))}
+          {activeCards.map((card) => {
+            const useTextImage = Boolean(card.useTextImage);
+            const cardClassName = `menuProductCard${useTextImage ? " isTextImage" : ""}`;
+            const cardContents = (
+              <>
+                {useTextImage ? (
+                  <div className="menuProductTextImage" aria-hidden="true">
+                    <span>{t(card.title)}</span>
+                  </div>
+                ) : (
+                  <img src={card.image} alt={t(card.title)} />
+                )}
+                {card.video && !useTextImage ? (
+                  <video className="menuProductVideo" loop muted playsInline preload="metadata" src={card.video} aria-hidden="true" />
+                ) : null}
+                <span className="menuProductLabel">{t(card.label)}</span>
+                <strong>{t(card.title)}</strong>
+              </>
+            );
+
+            if (card.comingSoon) {
+              return (
+                <button
+                  type="button"
+                  className={cardClassName}
+                  key={`${activePanel}-${card.title}`}
+                  onBlur={stopCardVideo}
+                  onClick={() => {
+                    onClose();
+                    openComingSoon();
+                  }}
+                  onFocus={playCardVideo}
+                  onMouseEnter={playCardVideo}
+                  onMouseLeave={stopCardVideo}
+                >
+                  {cardContents}
+                </button>
+              );
+            }
+
+            return (
+              <a
+                href={card.href}
+                className={cardClassName}
+                key={`${activePanel}-${card.title}`}
+                onBlur={stopCardVideo}
+                onClick={onClose}
+                onFocus={playCardVideo}
+                onMouseEnter={playCardVideo}
+                onMouseLeave={stopCardVideo}
+              >
+                {cardContents}
+              </a>
+            );
+          })}
         </div>
       </section>
     </div>

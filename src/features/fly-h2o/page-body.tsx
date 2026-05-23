@@ -24,7 +24,7 @@ export function PageBody({ page, path, rawPath }: { page: PageConfig; path: stri
   if (path === "/products") return <ProductsPage />;
   if (detailPages[detailPath]) return <DetailPage page={page} detail={detailPages[detailPath]} />;
   if (path === "/options/detail" || path === "/options/detail/:id") return <OptionsDetailPage page={page} rawPath={rawPath} />;
-  if (page.kind === "model") return <ModelPage page={page} />;
+  if (page.kind === "model") return <ModelPage page={page} path={path} />;
   if (page.kind === "product") return <ProductPage page={page} />;
   if (page.kind === "store") return <StorePage page={page} path={path} />;
   if (page.kind === "accessory") return <AccessoryPage page={page} rawPath={rawPath} />;

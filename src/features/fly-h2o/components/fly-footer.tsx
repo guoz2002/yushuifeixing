@@ -7,9 +7,11 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaWeixin, FaYoutube } from "rea
 import { IoLogoTiktok } from "react-icons/io5";
 import { SiXiaohongshu } from "react-icons/si";
 import { useI18n } from "@/i18n";
+import { useComingSoonDialog } from "./coming-soon-dialog";
 
 export function FlyFooter() {
   const { t } = useI18n();
+  const openComingSoon = useComingSoonDialog();
   const companyLinks = ["Maintenance", "Environment", "Legal", "Sales Recruitment", "Service Recruitment", "Battery Recycling"];
   const productLinks = [
     ["Y-3 Series", "/models/h1"],
@@ -65,6 +67,7 @@ export function FlyFooter() {
       label: "TikTok",
       icon: <Image src="/tiktok-logo-text-white.jpg" alt="" width={120} height={27} className="socialTextMark" />,
       external: true,
+      className: "isWide",
     },
     {
       href: "https://www.douyin.com/user/MS4wLjABAAAAFh_waNM6-sK1xE2-MtxSBPzufV3_KuIo8YDcCcnArvsG3oTTPvEjwR65VJTeGYep?from_tab_name=main&vid=7460143316986793231",
@@ -87,11 +90,17 @@ export function FlyFooter() {
               ))}
             </nav>
             <nav className="footerLinkColumn" aria-label={t("Products")}>
-              {productLinks.map(([item, href]) => (
-                <Link href={href} key={item}>
-                  {t(item)}
-                </Link>
-              ))}
+              {productLinks.map(([item, href]) =>
+                href === "/models/h2" ? (
+                  <button type="button" key={item} onClick={openComingSoon}>
+                    {t(item)}
+                  </button>
+                ) : (
+                  <Link href={href} key={item}>
+                    {t(item)}
+                  </Link>
+                ),
+              )}
             </nav>
           </div>
           <div className="footerSocial" aria-label={t("Follow Us")}>
@@ -99,6 +108,7 @@ export function FlyFooter() {
               <a
                 href={item.href}
                 key={item.label}
+                className={item.className}
                 aria-label={item.label}
                 title={item.label}
                 target={item.external ? "_blank" : undefined}
@@ -110,9 +120,13 @@ export function FlyFooter() {
           </div>
         </div>
         <Link className="footerWordmark" href="/" aria-label="ALAQUA">
-          ALAQUA
+          <Image src="/brand-assets/alaqua-footer-logo.png" alt="" width={1920} height={349} sizes="(max-width: 720px) 170px, 260px" />
         </Link>
         <div className="footerContact">
+          <div className="footerContactIntro">
+            <p>{t("Contact Us")}</p>
+            <span>{t("Preferred water, route or message")}</span>
+          </div>
           <form aria-label={t("Contact Us")}>
             <input aria-label={t("Full Name")} placeholder={t("Full Name")} />
             <input aria-label={t("Email or Phone")} placeholder={t("Email or Phone")} />
@@ -122,7 +136,7 @@ export function FlyFooter() {
         </div>
       </div>
       <div className="footerBrandText" aria-hidden="true">
-        <Image src="/footer-brand-alaqua.png" alt="" width={1920} height={349} sizes="100vw" />
+        <Image src="/brand-assets/alaqua-footer-logo.png" alt="" width={1920} height={349} sizes="100vw" />
       </div>
     </footer>
   );

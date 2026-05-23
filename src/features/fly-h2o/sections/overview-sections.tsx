@@ -6,6 +6,7 @@ import { useI18n } from "@/i18n";
 import { media } from "../data/media";
 import { galleryCards, rangeCards } from "../data/overview";
 import { productCards } from "../data/navigation";
+import { useComingSoonDialog } from "../components/coming-soon-dialog";
 
 export function FullBleedStory() {
   const { t } = useI18n();
@@ -34,6 +35,7 @@ export function FullBleedStory() {
 
 export function RangeSection() {
   const { t } = useI18n();
+  const openComingSoon = useComingSoonDialog();
 
   return (
     <section className="rangeSection">
@@ -43,16 +45,28 @@ export function RangeSection() {
         <span>{t("Resort routes, city waterfronts, leisure cruising and test rides share one quiet electric platform.")}</span>
       </div>
       <div className="rangeRail">
-        {rangeCards.map((card, index) => (
-          <Link className="rangeCard" href={card.href} key={card.title}>
-            <img src={card.image} alt={card.title} />
-            <div>
-              <span>{`0${index + 1}`}</span>
-              <h3>{t(card.title)}</h3>
-              <p>{t(card.text)}</p>
-            </div>
-          </Link>
-        ))}
+        {rangeCards.map((card, index) => {
+          const cardContents = (
+            <>
+              <img src={card.image} alt={card.title} />
+              <div>
+                <span>{`0${index + 1}`}</span>
+                <h3>{t(card.title)}</h3>
+                <p>{t(card.text)}</p>
+              </div>
+            </>
+          );
+
+          return card.href === "/models/h2" ? (
+            <button className="rangeCard" type="button" onClick={openComingSoon} key={card.title}>
+              {cardContents}
+            </button>
+          ) : (
+            <Link className="rangeCard" href={card.href} key={card.title}>
+              {cardContents}
+            </Link>
+          );
+        })}
       </div>
     </section>
   );
@@ -60,6 +74,7 @@ export function RangeSection() {
 
 export function ProductMatrixSection() {
   const { t } = useI18n();
+  const openComingSoon = useComingSoonDialog();
 
   return (
     <section className="productMatrix">
@@ -68,13 +83,25 @@ export function ProductMatrixSection() {
         <h2>{t("Y series product family.")}</h2>
       </div>
       <div className="productMatrixGrid">
-        {productCards.map((card) => (
-          <Link href={card.href} className="productTile" key={card.title}>
-            <img src={card.image} alt={card.title} />
-            <span>{t(card.label)}</span>
-            <h3>{card.title}</h3>
-          </Link>
-        ))}
+        {productCards.map((card) => {
+          const cardContents = (
+            <>
+              <img src={card.image} alt={card.title} />
+              <span>{t(card.label)}</span>
+              <h3>{card.title}</h3>
+            </>
+          );
+
+          return card.comingSoon ? (
+            <button type="button" className="productTile" onClick={openComingSoon} key={card.title}>
+              {cardContents}
+            </button>
+          ) : (
+            <Link href={card.href} className="productTile" key={card.title}>
+              {cardContents}
+            </Link>
+          );
+        })}
       </div>
     </section>
   );

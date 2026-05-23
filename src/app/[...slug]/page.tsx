@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import { FlyH2OSite } from "@/features/fly-h2o";
 import { SeoContent } from "@/components/seo-content";
 import { detectRequestLocale } from "@/i18n/server";
@@ -21,6 +22,7 @@ export default async function Page({ params, searchParams }: PageProps) {
   const { slug } = await params;
   const resolvedSearchParams = await searchParams;
   const path = pathFromSlug(slug);
+  if (path === "/contact") notFound();
   const initialLocale = await detectRequestLocale();
 
   return (

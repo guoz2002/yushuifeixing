@@ -4,9 +4,9 @@
 import type { CSSProperties } from "react";
 import { Suspense, useMemo } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Center, Environment, Html, OrbitControls, useGLTF } from "@react-three/drei";
+import { Center, Html, OrbitControls, useGLTF } from "@react-three/drei";
 import { useI18n } from "@/i18n";
-import { assetBaseUrl as A, dracoDecoder, media } from "../data/media";
+import { dracoDecoder, media } from "../data/media";
 import { useNearViewport } from "../hooks/use-near-viewport";
 
 function ModelObject({ src, variant }: { src: string; variant: "y3" | "h1" }) {
@@ -54,7 +54,6 @@ export function ModelStage({ variant = "y3" }: { variant?: "y3" | "h1" }) {
             }
           >
             <ModelObject src={src} variant={variant} />
-            <Environment files={`${A}/t_env_light-r6ZBsESp.hdr`} />
           </Suspense>
           <OrbitControls enablePan={false} enableZoom={false} autoRotate autoRotateSpeed={0.55} />
         </Canvas>

@@ -5,8 +5,10 @@ export const dragClickThreshold = 14;
 
 export const media = {
   heroVideo: `${ossBaseUrl}/20260416/video-1_1776316264376.mp4`,
-  heroTitle: `${ossBaseUrl}/20260416/icon-5_1776316217321.png`,
+  homeHeroVideo: `${ossBaseUrl}/20260325/video-1_1774369966683.mp4`,
+  heroTitle: "/brand-assets/alaqua-wordmark.png",
   showVideo: `${ossBaseUrl}/20260416/video-1-1_1776316303115.mp4`,
+  homeY5Video: `${ossBaseUrl}/20260325/HE.0000_2~1_1774370087729.mp4`,
   cityVideo: `${assetBaseUrl}/video/2-4_compressed-BcENpFZu.mp4`,
   detailVideo: `${assetBaseUrl}/video/video-8-1-Byl5yOJ_.mp4`,
   steeringVideo: `${assetBaseUrl}/video/Streering_Wheel_CN2-DGfd0mx7.mp4`,
@@ -120,7 +122,7 @@ export const media = {
   investor3: `${assetBaseUrl}/img/investors-3-DYn_7eZd.png`,
   investor6: `${ossBaseUrl}/20260324/investors-6_1774283377704.jpg`,
   cooperation: `${assetBaseUrl}/img/copration-BqhAJkcD.jpg`,
-  logo: `${assetBaseUrl}/img/logo-D5s-fn5f.png`,
-  modelY3: `${ossBaseUrl}/20260408/model_1775638905967.glb`,
-  modelH1: `${assetBaseUrl}/models/model_h1-Bc4HsqGF.glb`,
+  logo: "/brand-assets/alaqua-logo.png",
+  modelY3: "/fly-h2o-replica/models/model_1775638905967.glb",
+  modelH1: "/fly-h2o-replica/models/model_h1-Bc4HsqGF.glb",
 };

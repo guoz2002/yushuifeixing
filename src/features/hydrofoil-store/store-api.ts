@@ -9,7 +9,7 @@ const FALLBACK_PRODUCTS: HomePageProduct[] = [
     spuName: "Y-3",
     spuPicUrl: "https://oss.fly-h2o.cn/20260402/store-3_1775116797713.png",
     introduction:
-      '<div class="text-white text-lg sm:text-xl lg:text-2xl mb-2">39.9 万元</div><div class="mb-2 xl:mb-3 4xl:mb-4">高端私人艇</div>4.9米总长度 | 三座轻量布局<br/>双档巡航15/30节 | 2.5小时续航能力',
+      '<div class="text-white text-lg sm:text-xl lg:text-2xl mb-2">39.9 万元</div><div class="mb-2 xl:mb-3 4xl:mb-4">高端私人水翼艇</div>4.9 米总长度 | 三座轻量布局<br/>双档巡航 15/30 节 | 续航 2.5 小时',
     categoryName: "三座版",
   },
   {

@@ -1,43 +1,146 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { type SyntheticEvent, useCallback, useEffect, useMemo, useRef, useState } from "react";
 import Link from "next/link";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useI18n } from "@/i18n";
 import { media } from "../data/media";
 import { homeRangeItems } from "../data/home";
 import { productCards } from "../data/navigation";
+import { useComingSoonDialog } from "../components/coming-soon-dialog";
 import { useDragScroll } from "../hooks/use-drag-scroll";
 
 function HomeHero() {
   const { t } = useI18n();
+  const guideCanvasRef = useRef<HTMLCanvasElement | null>(null);
+  const [heroProgress, setHeroProgress] = useState(0);
+  const updateHeroProgress = useCallback((event: SyntheticEvent<HTMLVideoElement>) => {
+    const { currentTime, duration } = event.currentTarget;
+    if (!Number.isFinite(duration) || duration <= 0) {
+      setHeroProgress(0);
+      return;
+    }
+
+    setHeroProgress(Math.min(1, Math.max(0, currentTime / duration)));
+  }, []);
+
+  useEffect(() => {
+    const canvas = guideCanvasRef.current;
+    if (!canvas) return;
+
+    const context = canvas.getContext("2d");
+    if (!context) return;
+
+    let animationFrame = 0;
+    let isActive = true;
+    const width = 150;
+    const height = 200;
+    const lineX = width / 2;
+    const glowLength = 86;
+    const loopDuration = 2200;
+
+    const drawGuideLine = (timestamp: number) => {
+      if (!isActive) return;
+
+      const dpr = window.devicePixelRatio || 1;
+      const realWidth = Math.round(width * dpr);
+      const realHeight = Math.round(height * dpr);
+
+      if (canvas.width !== realWidth || canvas.height !== realHeight) {
+        canvas.width = realWidth;
+        canvas.height = realHeight;
+      }
+
+      canvas.style.width = `${width}px`;
+      canvas.style.height = `${height}px`;
+
+      context.setTransform(dpr, 0, 0, dpr, 0, 0);
+      context.clearRect(0, 0, width, height);
+
+      context.beginPath();
+      context.lineWidth = 1;
+      context.strokeStyle = "rgba(226, 232, 240, 0.34)";
+      context.moveTo(lineX, 0);
+      context.lineTo(lineX, height);
+      context.stroke();
+
+      const progress = (timestamp % loopDuration) / loopDuration;
+      const glowStart = -glowLength + (height + glowLength * 2) * progress;
+      const glowEnd = glowStart + glowLength;
+      const gradient = context.createLinearGradient(lineX, glowStart, lineX, glowEnd);
+
+      gradient.addColorStop(0, "rgba(255, 255, 255, 0)");
+      gradient.addColorStop(0.25, "rgba(255, 255, 255, 0.38)");
+      gradient.addColorStop(0.7, "rgba(255, 255, 255, 0.96)");
+      gradient.addColorStop(1, "rgba(255, 255, 255, 0)");
+
+      context.beginPath();
+      context.lineWidth = 1;
+      context.strokeStyle = gradient;
+      context.shadowColor = "rgba(255, 255, 255, 0.56)";
+      context.shadowBlur = 14;
+      context.moveTo(lineX, glowStart);
+      context.lineTo(lineX, glowEnd);
+      context.stroke();
+      context.shadowBlur = 0;
+
+      animationFrame = window.requestAnimationFrame(drawGuideLine);
+    };
+
+    animationFrame = window.requestAnimationFrame(drawGuideLine);
+    return () => {
+      isActive = false;
+      window.cancelAnimationFrame(animationFrame);
+    };
+  }, []);
 
   return (
     <section className="homeHero">
-      <video className="homeHeroVideo" src={media.heroVideo} autoPlay muted loop playsInline poster={media.productY3} preload="metadata" />
+      <video
+        className="homeHeroVideo"
+        src={media.heroVideo}
+        autoPlay
+        muted
+        loop
+        playsInline
+        poster={media.productY3}
+        preload="metadata"
+        onTimeUpdate={updateHeroProgress}
+      />
+      <div className="homeHeroProgress" aria-hidden="true">
+        <div className="homeHeroProgressTrack">
+          <div className="homeHeroProgressValue" style={{ transform: `scaleX(${heroProgress.toFixed(6)})` }} />
+        </div>
+      </div>
       <div className="homeHeroContent">
         <img src={media.heroTitle} alt="Alaqua" />
         <p>{t("POWERED BY SCIENCE. ELEVATED BY WATER.")}</p>
         <Link href="/models/h1">{t("EXPLORE Y-3")}</Link>
       </div>
+      <canvas ref={guideCanvasRef} width={150} height={200} className="homeHeroGuideCanvas" aria-hidden="true" />
     </section>
   );
 }
 
 function HomeY5Banner() {
   const { t } = useI18n();
+  const openComingSoon = useComingSoonDialog();
 
   return (
-    <section className="homeVideoBanner" id="main-content">
-      <div className="homeSectionBlend top" />
-      <video src={media.showVideo} autoPlay muted loop playsInline preload="metadata" poster={media.y5Menu} />
-      <div className="homeBannerCopy">
-        <h2>{t("Y-5 FIVE-SEAT FLAGSHIP")}</h2>
-        <p>{t("NEXT-GEN FLAGSHIP. LUXURY FLIGHT ON WATER.")}</p>
-        <Link href="/models/h2">{t("DISCOVER THE ALL-NEW Y-5")}</Link>
+    <section className="homeY5Section" id="main-content">
+      <div className="shielding homeSectionShield homeSectionShieldUpper" />
+      <div className="shielding homeSectionShield homeSectionShieldLower" />
+      <div className="homeVideoBanner">
+        <video src={media.showVideo} autoPlay muted loop playsInline preload="metadata" poster={media.y5Menu} />
+        <div className="homeBannerCopy">
+          <h2>{t("Y-5 FIVE-SEAT FLAGSHIP")}</h2>
+          <p>{t("NEXT-GEN FLAGSHIP. LUXURY FLIGHT ON WATER.")}</p>
+          <button type="button" onClick={openComingSoon}>
+            {t("DISCOVER THE ALL-NEW Y-5")}
+          </button>
+        </div>
       </div>
-      <div className="homeSectionBlend bottom" />
     </section>
   );
 }
@@ -46,18 +149,21 @@ function HomeSteering() {
   const { t } = useI18n();
 
   return (
-    <section className="homeSteering">
-      <div className="homeSteeringMedia">
-        <video src={media.steeringHomeVideo} autoPlay muted loop playsInline preload="metadata" poster={media.steeringImage} />
-      </div>
-      <div className="homeSteeringCopy">
-        <h2>{t("NAVIGATE THE FUTURE, STEER WITH INTELLIGENCE")}</h2>
-        <p>
-          {t(
-            "The smart tri-mode steering wheel integrates critical controls and core data into a single interaction terminal, improving maneuverability and navigation safety for high-performance hydrofoil operation.",
-          )}
-        </p>
-        <Link href="/manufacturing/threeModes">{t("LEARN MORE")}</Link>
+    <section className="homeSteeringWrap">
+      <div className="shielding homeSectionShield homeSectionShieldSteering" />
+      <div className="homeSteering">
+        <div className="homeSteeringMedia">
+          <video src={media.steeringHomeVideo} autoPlay muted loop playsInline preload="metadata" poster={media.steeringImage} />
+        </div>
+        <div className="homeSteeringCopy">
+          <h2>{t("NAVIGATE THE FUTURE, STEER WITH INTELLIGENCE")}</h2>
+          <p>
+            {t(
+              "The smart tri-mode steering wheel integrates critical controls and core data into a single interaction terminal, improving maneuverability and navigation safety for high-performance hydrofoil operation.",
+            )}
+          </p>
+          <Link href="/manufacturing/threeModes">{t("LEARN MORE")}</Link>
+        </div>
       </div>
     </section>
   );
@@ -269,25 +375,34 @@ function HomeRangeSection() {
 
 function HomeProductsSection() {
   const { t } = useI18n();
+  const openComingSoon = useComingSoonDialog();
 
   return (
     <section className="homeProducts">
-      <h2>{t("FLY-H2O HOME")}</h2>
+      <h2>{t("MODEL SERIES")}</h2>
       <div className="homeProductGrid">
         {productCards.map((card) => (
           <article className="homeProductCard" key={card.title}>
-            <Link className="homeProductMediaLink" href={card.href}>
-              <img src={card.image} alt={card.title} loading="lazy" />
-            </Link>
+            {card.comingSoon ? (
+              <button className="homeProductMediaLink" type="button" onClick={openComingSoon}>
+                <img src={card.image} alt={card.title} loading="lazy" />
+              </button>
+            ) : (
+              <Link className="homeProductMediaLink" href={card.href}>
+                <img src={card.image} alt={card.title} loading="lazy" />
+              </Link>
+            )}
             <h3>
               {card.title} <span>{t(card.label)}</span>
             </h3>
-            {card.title !== "Y-5" ? (
+            {card.comingSoon ? (
+              <button className="homeTextLink muted" type="button" onClick={openComingSoon}>
+                {t("Coming Soon")}
+              </button>
+            ) : (
               <Link className="homeTextLink" href={card.href}>
                 {t("Learn More")}
               </Link>
-            ) : (
-              <span className="homeTextLink muted">{t("Coming Soon")}</span>
             )}
           </article>
         ))}

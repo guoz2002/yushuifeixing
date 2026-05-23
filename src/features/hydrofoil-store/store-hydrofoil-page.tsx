@@ -48,7 +48,7 @@ export function StoreHydrofoilPage({ products }: { products: HomePageProduct[] }
         <div className="mx-auto mb-8 w-full max-w-[1400px] px-4 sm:px-6 lg:mb-10 lg:px-10">
           <p className="text-xs tracking-[0.22em] text-white/45">HYDROFOIL STORE</p>
           <h1 className="mt-3 text-2xl font-light tracking-[0.08em] sm:text-3xl lg:text-4xl">Y SERIES PRODUCT MATRIX</h1>
-          <p className="mt-3 max-w-2xl text-sm text-white/50 sm:text-base">复刻自 fly-h2o 官方商城入口页，保留深色舞台式展示和双产品卡片结构。</p>
+          <p className="mt-3 max-w-2xl text-sm text-white/50 sm:text-base">页面参考 Fly-H2O 官方商城入口布局，保留深色舞台式展示与双产品卡片结构。</p>
         </div>
 
         <div className="mx-auto grid w-full max-w-[1400px] grid-cols-1 gap-5 px-4 sm:px-6 lg:grid-cols-2 lg:gap-8 lg:px-10">
@@ -92,7 +92,7 @@ export function StoreHydrofoilPage({ products }: { products: HomePageProduct[] }
                           {cardLabel(product)}
                         </Link>
                       )}
-                      <p className="text-center text-xs text-white/45">提示：点击 Y-3 可直接进入产品配置页（Y-5 仍为预告状态）。</p>
+                      <p className="text-center text-xs text-white/45">提示：点击 Y-3 可进入产品配置页，Y-5 暂为预告状态。</p>
                     </div>
                   </div>
                 </div>

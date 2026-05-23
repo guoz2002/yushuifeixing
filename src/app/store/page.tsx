@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import { UnderConstructionModal } from "@/components/under-construction-modal";
 
 export default function StoreIndexRoute() {
-  redirect("/store/hydrofoil");
+  return <UnderConstructionModal sectionLabel="商城页" />;
 }

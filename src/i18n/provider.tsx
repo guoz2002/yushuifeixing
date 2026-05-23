@@ -1,7 +1,7 @@
 "use client";
 
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type PropsWithChildren } from "react";
-import { defaultLocale, htmlLangForLocale, isLocale, localeStorageKey } from "./config";
+import { defaultLocale, htmlLangForLocale, isLocale, localeSourceStorageKey, localeStorageKey } from "./config";
 import { detectBrowserLocale } from "./locale-detection";
 import { translate } from "./translate";
 import type { I18nContextValue, Locale } from "./types";
@@ -17,18 +17,23 @@ export function I18nProvider({ children, initialLocale }: PropsWithChildren<{ in
     if (typeof window === "undefined") return initialLocale || defaultLocale;
 
     const storedLocale = window.localStorage.getItem(localeStorageKey);
-    if (isLocale(storedLocale)) return storedLocale;
+    const localeSource = window.localStorage.getItem(localeSourceStorageKey);
+    if (localeSource === "manual" && isLocale(storedLocale)) return storedLocale;
     return initialLocale || detectBrowserLocale(defaultLocale);
   });
 
   const setLocale = useCallback((nextLocale: Locale) => {
     setLocaleState(nextLocale);
     window.localStorage.setItem(localeStorageKey, nextLocale);
+    window.localStorage.setItem(localeSourceStorageKey, "manual");
     document.documentElement.lang = htmlLangForLocale(nextLocale);
   }, []);
 
   useEffect(() => {
     window.localStorage.setItem(localeStorageKey, locale);
+    if (!window.localStorage.getItem(localeSourceStorageKey)) {
+      window.localStorage.setItem(localeSourceStorageKey, "auto");
+    }
     document.documentElement.lang = htmlLangForLocale(locale);
   }, [locale]);
 

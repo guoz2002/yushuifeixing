@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>御水飞行独立站 SEO 与体验优化报告</title>
+<style>
+:root {
+  --ink: #173037;
+  --muted: #61777e;
+  --paper: #fffdf7;
+  --soft: #edf7f5;
+  --soft-2: #f7f1e4;
+  --line: #cddfda;
+  --accent: #0d7f8b;
+  --accent-2: #f2a23a;
+  --deep: #08262c;
+}
+* { box-sizing: border-box; }
+html { font-size: 16px; }
+body {
+  margin: 0;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top left, rgba(13, 127, 139, 0.14), transparent 34rem),
+    linear-gradient(135deg, #f8fbf7 0%, #f1f7f6 42%, #fff9ec 100%);
+  font-family: "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  line-height: 1.78;
+}
+.report {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 38px 42px 64px;
+  background: rgba(255, 253, 247, 0.92);
+  box-shadow: 0 24px 80px rgba(8, 38, 44, 0.12);
+}
+.report > h1:first-child {
+  margin: -38px -42px 30px;
+  padding: 58px 48px 52px;
+  color: #fff;
+  font-size: 2.6rem;
+  line-height: 1.18;
+  letter-spacing: -0.03em;
+  background:
+    linear-gradient(135deg, rgba(8, 38, 44, 0.95), rgba(11, 94, 104, 0.92)),
+    radial-gradient(circle at 82% 24%, rgba(242, 162, 58, 0.5), transparent 18rem);
+  border-bottom: 8px solid var(--accent-2);
+}
+h1, h2, h3 {
+  color: var(--deep);
+  line-height: 1.32;
+  letter-spacing: -0.01em;
+}
+h1 { font-size: 2.15rem; margin: 2.2rem 0 1rem; }
+h2 {
+  margin: 2.55rem 0 1rem;
+  padding: 0.45rem 0 0.55rem 0.8rem;
+  border-left: 6px solid var(--accent);
+  border-bottom: 1px solid var(--line);
+  font-size: 1.48rem;
+}
+h3 {
+  margin: 2rem 0 0.65rem;
+  font-size: 1.08rem;
+  color: #104f58;
+}
+p { margin: 0.65rem 0; }
+blockquote {
+  margin: 0 0 1.35rem;
+  padding: 1rem 1.15rem;
+  color: #25494f;
+  background: linear-gradient(90deg, rgba(13, 127, 139, 0.12), rgba(242, 162, 58, 0.12));
+  border-left: 5px solid var(--accent-2);
+  border-radius: 14px;
+}
+strong { color: #07343b; font-weight: 800; }
+ul, ol { padding-left: 1.4rem; margin: 0.8rem 0 1.1rem; }
+li { margin: 0.35rem 0; }
+code {
+  padding: 0.12rem 0.34rem;
+  border-radius: 6px;
+  background: #e9f2f0;
+  color: #0f555f;
+  font-family: "SFMono-Regular", "Cascadia Mono", Menlo, Consolas, monospace;
+  font-size: 0.92em;
+}
+pre {
+  margin: 1rem 0 1.25rem;
+  padding: 1rem 1.1rem;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+  color: #e8fbf8;
+  background: #0b2c32;
+  border-radius: 16px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+pre code { padding: 0; color: inherit; background: transparent; }
+table {
+  width: 100%;
+  margin: 1rem 0 1.35rem;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  background: #fffefa;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 0 0 1px var(--line);
+}
+th, td {
+  padding: 0.72rem 0.78rem;
+  border: 1px solid var(--line);
+  vertical-align: top;
+}
+th {
+  color: #fff;
+  text-align: left;
+  background: #0d626c;
+}
+tr:nth-child(even) td { background: #f3faf8; }
+.figure {
+  margin: 1.05rem 0 1.45rem;
+  padding: 0.72rem;
+  background: #ffffff;
+  border: 1px solid rgba(13, 127, 139, 0.22);
+  border-radius: 18px;
+  box-shadow: 0 14px 34px rgba(8, 38, 44, 0.09);
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+.figure img {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: 180mm;
+  margin: 0 auto;
+  object-fit: contain;
+  border-radius: 12px;
+}
+figcaption {
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.82rem;
+  text-align: center;
+}
+a { color: #096a76; text-decoration-color: rgba(9, 106, 118, 0.35); }
+@media print {
+  body { background: #fff; }
+  .report {
+    max-width: none;
+    padding: 0;
+    box-shadow: none;
+    background: #fff;
+  }
+  .report > h1:first-child {
+    margin: 0 0 24px;
+    padding: 46px 40px 42px;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+  h2, h3 { break-after: avoid; page-break-after: avoid; }
+  table, blockquote, pre, .figure { break-inside: avoid; page-break-inside: avoid; }
+  p, li { orphans: 2; widows: 2; }
+}
+</style>
+</head>
+<body>
+<main class="report">
+<h1>御水飞行独立站 SEO 与体验优化报告</h1>
+<blockquote>
+<p>本报告基于当前官网的搜索收录、技术结构、线上安全、页面交互、视觉规范和用户分层进行初步诊断，并结合本次 Demo 做了验证性优化。报告中的 Demo 部分仅用于交流和验证，后续无论面试结果如何，我都会下线相关部署并删除代码与资料，避免影响现有品牌和线上资产。</p>
+</blockquote>
+<h2>核心结论</h2>
+<ul>
+<li><strong>SEO 基础设施需要优先补齐</strong>：独立站非常依赖自然搜索获客，如果缺少 sitemap、robots、canonical、页面 meta 和结构化数据，后续内容再多也很难形成稳定搜索流量。</li>
+<li><strong>当前存在 HTTPS 混合内容风险</strong>：页面通过 HTTPS 访问，但接口返回了 HTTP 静态资源，会触发浏览器安全提示，影响用户信任和转化。</li>
+<li><strong>OSS / static 资源建议做访问来源限制</strong>：公开资源如果没有 Referer 规则，可能被第三方站点直接调用，带来额外流量成本和素材滥用风险。</li>
+<li><strong>线上稳定性需要可观测体系支撑</strong>：Sentry 可以帮助快速定位前端错误、接口异常和版本回归，是后续持续迭代的重要保障。</li>
+<li><strong>页面交互、视觉规范和多语言体验仍有优化空间</strong>：导航行为、图标规范、字体系统、色彩体系和 i18n 都会直接影响品牌专业度。</li>
+<li><strong>独立站应围绕不同客群设计信息架构</strong>：ToB 与 ToC 用户的关注点不同，建议在首页或关键落地页中提供差异化入口与表达重点。</li>
+</ul>
+<h2>内容概览</h2>
+<ol>
+<li>SEO 收录与搜索可见性</li>
+<li>HTTPS 混合内容与证书安全</li>
+<li>OSS / static 资源访问控制</li>
+<li>Sentry 线上质量监控</li>
+<li>页面交互与视觉规范问题</li>
+<li>用户分层与独立站信息架构</li>
+<li>深色主题使用建议</li>
+</ol>
+<h2>1. SEO 收录与搜索可见性</h2>
+<p>最开始检查时，我发现 Google 还没有明显收录当前官网及相关核心关键词，因此优先排查了 SEO 基础配置。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-12.png" alt="Google 搜索收录检查截图"><figcaption>Google 搜索收录检查截图</figcaption></figure></p>
+<p>从线上表现和页面结构观察，当前官网更接近前端单页应用（SPA）的实现方式。SPA 并不是不能做 SEO，但如果没有服务端渲染 / 静态生成、sitemap、robots、canonical、结构化数据等配套能力，搜索引擎对页面内容的理解和收录效率都会受到影响。</p>
+<p>对于独立站来说，<strong>SEO 不是锦上添花，而是持续获客的基础设施</strong>。尤其是御水飞行这类兼具科技属性、文旅属性和高客单属性的产品，搜索流量可以承接品牌认知、项目合作、经销咨询和媒体关注等多类需求。</p>
+<p>本次 Demo 中，我主要做了以下 SEO 验证性优化：</p>
+<ul>
+<li><strong>完善全站基础 SEO 配置</strong>：补充 canonical、robots.txt 和 sitemap.xml，明确搜索引擎应该抓取哪些页面。</li>
+<li><strong>配置 robots.txt 抓取规则</strong>：允许搜索引擎抓取核心展示页面，同时屏蔽登录、订单、API、store/demo、help-center 等不适合收录的页面。</li>
+<li><strong>补齐核心页面 SEO 信息</strong>：为核心页面补充 title、description、keywords、canonical 和 robots meta。产品页如 <code>/models/h1</code>、<code>/models/h2</code> 设置为 <code>index, follow</code>，方便被正常收录。</li>
+<li><strong>避免重复或低价值页面影响站点质量</strong>：对非核心页面设置 <code>noindex, follow</code>，避免 Google 抓取大量重复、临时或低价值页面，从而稀释整站权重。</li>
+<li><strong>加入结构化数据</strong>：补充 Organization、WebSite、WebPage、Product 等 JSON-LD，帮助搜索引擎理解品牌、产品和页面类型。</li>
+<li><strong>接入搜索引擎验证与主动推送能力</strong>：加入 Bing IndexNow 和 Google Search Console 验证文件，便于后续提交页面和观察收录情况。</li>
+</ul>
+<p>需要说明的是，Demo 刚发布后通常不会立刻在搜索结果中出现。正常情况下，搜索引擎完成发现、抓取、理解和收录可能需要数天到一周左右，具体时间还会受站点权重、外链、内容质量和抓取频率影响。</p>
+<h2>2. HTTPS 混合内容与证书安全</h2>
+<p>当前页面出现“不安全”提示，并不是证书本身一定配置错误，而是 HTTPS 页面中加载了 HTTP 明文资源，形成了 <strong>Mixed Content（混合内容）</strong> 风险。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-4.png" alt="HTTPS 页面加载 HTTP 资源导致安全提示"><figcaption>HTTPS 页面加载 HTTP 资源导致安全提示</figcaption></figure></p>
+<p>排查后发现，接口 <code>https://api.fly-h2o.cn/app-api/product/home-page/list</code> 返回了 HTTP 视频资源：</p>
+<pre><code class="language-text">data.0.spuVideoUrl = http://oss.fly-h2o.cn/20260323/video-12_1774280438606.mp4
+data.1.spuVideoUrl = http://oss.fly-h2o.cn/20260324/Y-3hongse.0000_1774335126843.mp4
+</code></pre>
+<p>建议优先采用后端修复方案：</p>
+<ul>
+<li><strong>后端统一返回 HTTPS 资源地址</strong>：将 <code>spuVideoUrl</code> 中的 <code>http://</code> 全部改为 <code>https://</code>。这两个资源的 HTTPS 地址我已验证可以正常访问。</li>
+<li><strong>前端增加兜底处理</strong>：在渲染前对资源地址做安全处理，将 <code>http://</code> 强制替换为 <code>https://</code>，避免后端历史数据或异常数据继续触发安全提示。</li>
+</ul>
+<p>这里需要重点处理，因为浏览器安全提示会直接影响用户信任。对于高客单价、强品牌属性的独立站来说，<strong>“不安全”三个字会明显削弱用户继续浏览和咨询的意愿</strong>。</p>
+<h2>3. OSS / static 资源访问控制</h2>
+<p>当前 OSS / static 资源看起来没有限制网页访问来源，存在一定安全和成本风险。比如第三方网站可以直接引用后端静态资源，在第三方页面中每调用一次，就会消耗一次资源流量。</p>
+<p>以阿里云 OSS 为例，官方支持配置 Referer 白名单 / 黑名单，可以设置为 <strong>只允许指定域名来源访问资源</strong>。如果当前资源已经部署在公网环境，建议尽快补充访问来源限制。</p>
+<p>建议策略：</p>
+<ul>
+<li><strong>为公开展示资源配置 Referer 白名单</strong>：只允许官网域名、测试域名和必要 CDN 域名访问。</li>
+<li><strong>对不需要公网直连的资源增加权限控制</strong>：避免内部素材、临时素材或高成本视频资源被直接外链。</li>
+<li><strong>保留必要的灰度和测试域名</strong>：避免配置过严导致测试环境或预览环境无法加载素材。</li>
+</ul>
+<p>这个问题可能是因为项目还在开发阶段暂未配置，但从公网部署和品牌资产保护角度看，<strong>资源访问控制应该尽早纳入上线检查项</strong>。</p>
+<h2>4. Sentry 线上质量监控</h2>
+<p>本次 Demo 接入了 Sentry，用于提升线上问题定位效率和版本稳定性。</p>
+<p>Sentry 可以自动捕获线上报错，定位具体出错位置，记录用户操作路径，并监控接口异常和慢请求。它也支持按版本追踪问题，例如每次发布新版本后，可以对比新旧版本的错误数量，判断本次上线是否引入新的线上问题。</p>
+<p>当线上出现高频错误、严重异常或新版本新增问题时，还可以配置告警通知，方便第一时间处理。后续可以将 Sentry 作为前端线上质量监控入口，形成 <strong>发现问题 → 定位问题 → 修复问题 → 验证版本</strong> 的闭环。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-11.png" alt="Sentry 线上问题监控示例"><figcaption>Sentry 线上问题监控示例</figcaption></figure></p>
+<h2>5. 页面交互与视觉规范问题</h2>
+<h3>5.1 导航项点击语义不清晰</h3>
+<p>以导航页为例，右侧箭头通常意味着“可跳转”或“可展开”。但当前“水翼艇工艺”没有实际跳转链接，却仍然表现为可点击状态，容易造成用户误操作。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image.png" alt="导航项可点击状态与实际行为不一致"><figcaption>导航项可点击状态与实际行为不一致</figcaption></figure></p>
+<p>修改后，导航项的视觉状态和真实交互行为保持一致，减少用户误解。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-13.png" alt="导航项交互状态优化后"><figcaption>导航项交互状态优化后</figcaption></figure></p>
+<h3>5.2 二级导航触发方式不符合常见预期</h3>
+<p>一般来说，顶部导航在 hover 状态下会显示对应二级导航，而不是必须点击后才显示。当前交互需要点击才能切换二级导航，用户可能会误以为没有下拉内容。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-1.png" alt="二级导航原始交互状态"><figcaption>二级导航原始交互状态</figcaption></figure></p>
+<p>优化后，增加 hover 自动切换二级导航的能力，让导航反馈更符合用户习惯。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-14.png" alt="二级导航 hover 自动切换后"><figcaption>二级导航 hover 自动切换后</figcaption></figure></p>
+<h3>5.3 第三方或平台图标建议使用官方规范素材</h3>
+<p>部分图标与对应平台的官方图标规范不完全一致。对于品牌站来说，图标虽然是细节，但会影响整体专业度和可信度。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-16.png" alt="部分图标素材不够规范"><figcaption>部分图标素材不够规范</figcaption></figure></p>
+<p>建议后续统一使用官方提供的 SVG / PNG 资源，并保持尺寸、圆角、留白和颜色规范一致。</p>
+<h3>5.4 页面主色调和组件风格需要统一</h3>
+<p>当前页面中存在主色调和组件风格不够统一的问题，不同模块之间的视觉语言略有割裂。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-6.png" alt="原始页面色彩和组件风格示例一"><figcaption>原始页面色彩和组件风格示例一</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-7.png" alt="原始页面色彩和组件风格示例二"><figcaption>原始页面色彩和组件风格示例二</figcaption></figure></p>
+<p>Demo 中先将整体色调统一为深色背景、白色主文案和可配置品牌强调色。后续建议基于品牌资产确定完整色板，包括主色、辅助色、强调色、背景色、边框色和状态色，避免不同页面各自发挥。</p>
+<p>这里需要注意：深色背景可以提升科技感和高级感，但不建议整站所有信息都强制使用深色模式。更合理的方式是 <strong>在关键展示区域使用深色氛围，在阅读、表单、询盘和决策信息区域保证足够可读性</strong>。</p>
+<h3>5.5 中英文字体风格需要统一</h3>
+<p>当前英文使用无衬线字体，而中文部分使用了较多衬线字体，不太符合整体的现代科技品牌调性。如果希望走现代、轻量、科技感路线，建议统一使用非衬线字体，例如苹方、思源黑体、阿里巴巴普惠体等。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-8.png" alt="中英文字体风格不统一"><figcaption>中英文字体风格不统一</figcaption></figure></p>
+<p>Demo 中统一了字体格式，确保中文和英文都使用更现代的非衬线字体，增强整体设计的一致性。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-15.png" alt="字体系统统一后"><figcaption>字体系统统一后</figcaption></figure></p>
+<h3>5.6 多语言内容存在混杂，i18n 需要完善</h3>
+<p>当前页面中存在不同语言混杂的情况，说明 i18n 没有完全覆盖所有文案。对于面向海外客户的独立站来说，多语言混杂会明显降低专业感。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-9.png" alt="多语言内容混杂示例"><figcaption>多语言内容混杂示例</figcaption></figure></p>
+<p>优化后，将相关文案纳入统一翻译字典，减少硬编码内容，让不同语言环境下的页面表达更完整。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-17.png" alt="多语言适配优化后"><figcaption>多语言适配优化后</figcaption></figure></p>
+<h3>5.7 部分名词描述不够清晰</h3>
+<p>部分页面存在含义不够明确的名词或描述，用户第一次看到时不容易理解其具体含义。对于独立站来说，文案应该尽量减少内部术语，让用户快速理解产品价值。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-10.png" alt="含义不够明确的名词描述"><figcaption>含义不够明确的名词描述</figcaption></figure></p>
+<p>优化后，文案表达更直接，降低理解成本。</p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-18.png" alt="名词描述优化后"><figcaption>名词描述优化后</figcaption></figure></p>
+<h2>6. 用户分层与独立站信息架构</h2>
+<p>独立站不应该只展示“我们有什么”，更应该根据用户分层回答“你为什么需要它”。不同用户进入官网时，关注点并不一样，因此页面信息架构和转化路径也应该有所区分。</p>
+<p>基于初步理解，我先将潜在用户简单分为四类。这个划分还需要进一步结合真实客户数据和业务目标验证，但可以作为首页信息架构优化的起点。</p>
+<table>
+<thead>
+<tr>
+<th>用户类型</th>
+<th>典型对象</th>
+<th>核心诉求</th>
+<th>页面表达重点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>文旅 / 景区 / 湖区 / 海滨项目运营商</td>
+<td>景区、湖区、海滨项目、文旅集团</td>
+<td>增加新项目、提升客单价、制造游客打卡点、环保运营</td>
+<td>项目收益、运营安全、游客体验、案例展示</td>
+</tr>
+<tr>
+<td>高端度假与会员制场景</td>
+<td>高端海岛酒店、滨水度假村、游艇会、会员制俱乐部</td>
+<td>差异化高端体验、会员权益、提升品牌调性</td>
+<td>高端体验、私享服务、品牌调性、接待能力</td>
+</tr>
+<tr>
+<td>私人高端用户</td>
+<td>私人游艇用户、科技富豪、水上运动玩家</td>
+<td>新奇、高端、身份感、私享体验</td>
+<td>产品性能、稀缺体验、定制服务、交付保障</td>
+</tr>
+<tr>
+<td>活动与传播场景</td>
+<td>新能源大会、科技展、水上赛事、汽车品牌发布会</td>
+<td>媒体传播、短期租赁、展演合作、发布会亮点</td>
+<td>视频传播性、活动合作模式、安全方案、执行案例</td>
+</tr>
+</tbody></table>
+<p>因此，我建议后续可以考虑设计两个更清晰的入口：</p>
+<ul>
+<li><strong>ToB 入口</strong>：面向景区、酒店、俱乐部、活动方，重点强调运营价值、合作模式、安全保障、项目收益和案例。</li>
+<li><strong>ToC 入口</strong>：面向私人用户和水上运动爱好者，重点强调产品体验、性能参数、科技感、身份感和私享服务。</li>
+</ul>
+<p>这样做的价值在于，用户进入页面后可以更快找到与自己相关的信息，减少理解成本，也更容易推动咨询转化。</p>
+<h2>7. 深色主题使用建议</h2>
+<p>整体主题不建议默认全部使用黑色调。深色视觉确实更容易营造科技感、高级感和沉浸感，但对于信息密集页面、表单页面、产品参数页面和购买决策页面来说，深色模式不一定总是最优解。</p>
+<p>结合已有用户体验研究和电商相关研究，可以得到一个更稳妥的结论：<strong>深色模式适合塑造氛围，但不应牺牲可读性、信任感和转化效率</strong>。</p>
+<p>Pelet 与 Papadopoulou 对电商网站颜色的研究发现，网站颜色会影响用户记忆和购买意愿，色相、亮度、背景 / 前景对比都会产生作用；负面情绪虽然可能提升记忆，但可能降低购买意愿。</p>
+<p>NN/g 对暗色模式的文献综述也比较谨慎：正常视力用户在多数情况下浅色模式视觉表现更好，尤其是在阅读、识别细节、填写表单和处理决策信息时。NN/g 不建议面对大众用户时默认强制使用暗色模式，而是建议允许用户选择。</p>
+<p>更贴近电商的研究也有类似风险信号。2024 年一项关于移动电商暗色模式的 A/B 测试研究样本较小，只有 24 人，但结论显示，暗色模式相较浅色模式可能对用户信任和品牌感知产生负面影响。另一个关于深浅 GUI 模式的综述性研究也提到，深浅模式对信任、可读性、效率和体验的影响很复杂，并不存在一刀切答案。</p>
+<p>因此我建议：</p>
+<ul>
+<li><strong>首页首屏和品牌展示区域可以保留深色科技感</strong>，用来强化“水面飞行”的未来感和视觉冲击力。</li>
+<li><strong>产品参数、合作模式、询盘表单和长文案区域建议使用更高可读性的浅色或中性色背景</strong>，降低阅读负担。</li>
+<li><strong>如果业务和开发成本允许，可以提供浅色 / 深色模式切换</strong>，让用户根据环境和偏好选择。</li>
+<li><strong>最终主题色应从品牌资产出发</strong>，而不是简单地全站黑色或全站白色。</li>
+</ul>
+<p>参考资料：</p>
+<ul>
+<li>NN/g Dark Mode: <code>https://www.nngroup.com/articles/dark-mode/</code></li>
+<li>NN/g Dark Mode UX Issues: <code>https://www.nngroup.com/articles/dark-mode-users-issues/</code></li>
+<li>Mobile e-commerce dark mode A/B test: <code>https://www.diva-portal.org/smash/get/diva2%3A1874431/FULLTEXT01.pdf</code></li>
+<li>Light / dark GUI mode review: <code>https://ceur-ws.org/Vol-3575/Paper15.pdf</code></li>
+</ul>
+<h2>结尾建议</h2>
+<p>这次 Demo 的重点不是单纯“把页面改得更好看”，而是验证一套更完整的独立站优化方向：<strong>让搜索引擎更容易理解网站，让用户更容易理解产品，让团队更容易发现线上问题，让品牌表达更稳定、更可信</strong>。</p>
+<p>如果后续继续推进，我建议优先级可以这样安排：</p>
+<ol>
+<li><strong>先修复安全和 SEO 基础问题</strong>：HTTPS 混合内容、robots、sitemap、canonical、核心页面 meta。</li>
+<li><strong>再统一视觉和交互规范</strong>：导航行为、图标素材、字体系统、色彩体系和组件状态。</li>
+<li><strong>同步补齐 i18n 和文案体系</strong>：避免多语言混杂，让海外客户看到完整、专业的表达。</li>
+<li><strong>最后围绕 ToB / ToC 做信息架构优化</strong>：让不同用户进入页面后，都能快速看到与自己相关的价值点和转化路径。</li>
+</ol>
+
+</main>
+</body>
+</html>

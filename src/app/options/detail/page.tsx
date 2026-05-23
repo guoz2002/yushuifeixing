@@ -1,7 +1,5 @@
-import { redirect } from "next/navigation";
-
-const DEFAULT_SPU_ID = "2036106382770339842";
+import { UnderConstructionModal } from "@/components/under-construction-modal";
 
 export default function OptionsDetailIndexRoute() {
-  redirect(`/options/detail/${DEFAULT_SPU_ID}`);
+  return <UnderConstructionModal sectionLabel="配置页" />;
 }

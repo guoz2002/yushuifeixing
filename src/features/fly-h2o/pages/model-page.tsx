@@ -3,7 +3,7 @@
 
 import type { CSSProperties, RefObject } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useI18n } from "@/i18n";
+import { useI18n, type Locale } from "@/i18n";
 import { media } from "../data/media";
 import {
   modelColorStories,
@@ -122,6 +122,20 @@ function splitHtmlLines(value: string) {
     .split(/<br\s*\/?>/i)
     .map((line) => stripHtmlTags(line))
     .filter(Boolean);
+}
+
+function pickLocalizedText(official: string | undefined, fallback: string, locale: Locale) {
+  if (locale !== "en") return fallback;
+  if (!official) return fallback;
+  return official;
+}
+
+function pickLocalizedLines(official: string | undefined, fallback: readonly string[], locale: Locale) {
+  if (locale !== "en") return [...fallback];
+  if (!official) return [...fallback];
+  const lines = splitHtmlLines(official);
+  if (lines.length === 0) return [...fallback];
+  return lines;
 }
 
 function sortMediaUrls(urls: readonly string[]) {
@@ -615,8 +629,9 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
 }
 
 export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
   const modelKey = path === "/models/h2" ? "h2" : page.label === "Y-5" ? "h2" : "h1";
+  const shouldShowModelCanvas = path !== "/models/h1";
   const copy = modelPageCopy[modelKey];
   const pageRef = useRef<HTMLDivElement | null>(null);
   const [officialDetails, setOfficialDetails] = useState<OfficialHomePageDetails | null>(null);
@@ -644,14 +659,12 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
     };
   }, [modelKey]);
 
-  const seriesText = officialDetails?.templateA?.text || copy.series;
+  const seriesText = pickLocalizedText(officialDetails?.templateA?.text, copy.series, locale);
   const heroVideo = officialDetails?.templateA?.mediaUrl || copy.heroVideo;
-  const sequenceLines = useMemo(() => {
-    const text = officialDetails?.templateB?.text;
-    if (!text) return copy.sequenceLines;
-    const lines = splitHtmlLines(text);
-    return lines.length > 0 ? lines : copy.sequenceLines;
-  }, [officialDetails?.templateB?.text, copy.sequenceLines]);
+  const sequenceLines = useMemo(
+    () => pickLocalizedLines(officialDetails?.templateB?.text, copy.sequenceLines, locale),
+    [officialDetails?.templateB?.text, copy.sequenceLines, locale],
+  );
 
   const sequenceFrames = useMemo(() => {
     const urls = officialDetails?.templateB?.mediaUrls || [];
@@ -659,30 +672,38 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
     return modelKey === "h1" ? modelSequenceFramesOfficial : modelSequenceFrames;
   }, [officialDetails?.templateB?.mediaUrls, modelKey]);
 
-  const aestheticsTitle = officialDetails?.templateC?.title || copy.aestheticsTitle;
-  const aestheticsText = officialDetails?.templateC?.text || copy.aestheticsText;
+  const aestheticsTitle = pickLocalizedText(officialDetails?.templateC?.title, copy.aestheticsTitle, locale);
+  const aestheticsText = pickLocalizedText(officialDetails?.templateC?.text, copy.aestheticsText, locale);
   const detailCards = useMemo((): Array<[string, string, string]> => {
+    const fallbackCards = modelDetailCards.map(([title, text, image]): [string, string, string] => [title, text, image]);
     const cards = officialDetails?.templateC?.cards || [];
     if (cards.length > 0) {
       return cards
-        .map((card): [string, string, string] => [card.title?.trim() || "", card.text || "", card.mediaUrl || ""])
+        .map((card, index): [string, string, string] => {
+          const fallback = fallbackCards[index] || ["", "", ""];
+          return [
+            pickLocalizedText(card.title?.trim(), fallback[0], locale),
+            pickLocalizedText(card.text, fallback[1], locale),
+            card.mediaUrl || fallback[2],
+          ];
+        })
         .filter(([, , image]) => Boolean(image));
     }
-    return modelDetailCards.map(([title, text, image]) => [title, text, image]);
-  }, [officialDetails?.templateC?.cards]);
+    return fallbackCards;
+  }, [officialDetails?.templateC?.cards, locale]);
 
   const windVideo = officialDetails?.templateD?.mediaUrl || media.modelWind;
-  const windTitle = officialDetails?.templateD?.title || copy.windTitle;
-  const windText = officialDetails?.templateD?.text || copy.windText;
+  const windTitle = pickLocalizedText(officialDetails?.templateD?.title, copy.windTitle, locale);
+  const windText = pickLocalizedText(officialDetails?.templateD?.text, copy.windText, locale);
 
   const colorStories = useMemo((): RuntimeColorStory[] => {
     const stories = officialDetails?.templateE || [];
     if (stories.length > 0) {
       return stories
         .map((item): RuntimeColorStory => ({
-          sectionTitle: item.leftSmallText || "富有生命力的色彩",
-          name: item.leftBigText || "",
-          description: item.rightSmallText || "",
+          sectionTitle: pickLocalizedText(item.leftSmallText, "富有生命力的色彩", locale),
+          name: pickLocalizedText(item.leftBigText, "", locale),
+          description: pickLocalizedText(item.rightSmallText, "", locale),
           color: item.color || "#000000",
           image: item.imageUrl || "",
           video: item.videoUrl || "",
@@ -697,26 +718,39 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
       image: item.image,
       video: item.video,
     }));
-  }, [officialDetails?.templateE]);
+  }, [officialDetails?.templateE, locale]);
 
   const technicalBackground = officialDetails?.templateF?.backgroundImageUrl || media.modelTech;
-  const technicalTitle = officialDetails?.templateF?.leftBigTitle || "技术参数";
+  const technicalTitle = pickLocalizedText(officialDetails?.templateF?.leftBigTitle, "技术参数", locale);
   const technicalSpecs = useMemo((): Array<[string, Array<[string, string]>]> => {
-    const cards = officialDetails?.templateF?.rightCards || [];
-    if (cards.length > 0) {
-      return cards.map((card): [string, Array<[string, string]>] => [
-        card.title || "",
-        (card.maps || []).map((map): [string, string] => [map.key || "", map.value || ""]),
-      ]);
-    }
-    return copy.specs.map(([group, rows]): [string, Array<[string, string]>] => [
+    const fallbackSpecs = copy.specs.map(([group, rows]): [string, Array<[string, string]>] => [
       group,
       rows.map(([label, value]): [string, string] => [label, value]),
     ]);
-  }, [officialDetails?.templateF?.rightCards, copy.specs]);
+    const cards = officialDetails?.templateF?.rightCards || [];
+    if (cards.length > 0) {
+      return cards.map((card, index): [string, Array<[string, string]>] => {
+        const fallbackGroup = fallbackSpecs[index]?.[0] || "";
+        const fallbackRows = fallbackSpecs[index]?.[1] || [];
+        const rows = (card.maps || []).map((map, rowIndex): [string, string] => {
+          const fallbackRow = fallbackRows[rowIndex] || ["", ""];
+          return [
+            pickLocalizedText(map.key, fallbackRow[0], locale),
+            pickLocalizedText(map.value, fallbackRow[1], locale),
+          ];
+        });
+        return [pickLocalizedText(card.title, fallbackGroup, locale), rows.length > 0 ? rows : fallbackRows];
+      });
+    }
+    return fallbackSpecs;
+  }, [officialDetails?.templateF?.rightCards, copy.specs, locale]);
 
-  const galleryTitle = officialDetails?.templateG?.title || "画廊 水翼艇";
-  const galleryText = officialDetails?.templateG?.text || `探索 ${copy.series.replace("版", "")} 的每一个精致细节，感受水上飞行的优雅之美。`;
+  const galleryTitle = pickLocalizedText(officialDetails?.templateG?.title, "画廊 水翼艇", locale);
+  const galleryText = pickLocalizedText(
+    officialDetails?.templateG?.text,
+    `探索 ${copy.series.replace("版", "")} 的每一个精致细节，感受水上飞行的优雅之美。`,
+    locale,
+  );
   const galleryItems = useMemo((): RuntimeGalleryItem[] => {
     const urls = officialDetails?.templateG?.mediaUrls || [];
     if (urls.length > 0) {
@@ -774,14 +808,16 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
 
       <ProductColorTheater stories={colorStories} />
 
-      <section className="productModelCanvas" data-scroll-scene>
-        <div className="productModelCanvasCopy" data-reveal>
-          <span>{t("3D MODEL")}</span>
-          <h2>{t("旋转模型")}</h2>
-          <p>{t("官方 GLB 资源已接入本地画布，可拖拽查看船体比例与水翼结构。")}</p>
-        </div>
-        <ModelStage variant={modelKey === "h1" ? "h1" : "y3"} />
-      </section>
+      {shouldShowModelCanvas ? (
+        <section className="productModelCanvas" data-scroll-scene>
+          <div className="productModelCanvasCopy" data-reveal>
+            <span>{t("3D MODEL")}</span>
+            <h2>{t("旋转模型")}</h2>
+            <p>{t("官方 GLB 资源已接入本地画布，可拖拽查看船体比例与水翼结构。")}</p>
+          </div>
+          <ModelStage variant={modelKey === "h1" ? "h1" : "y3"} />
+        </section>
+      ) : null}
 
       <section className="productTechnicalSection" data-scroll-scene>
         <img src={technicalBackground} alt={t("Technical data background")} />

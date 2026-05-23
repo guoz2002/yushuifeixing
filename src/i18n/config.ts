@@ -3,6 +3,7 @@ import type { Locale } from "./types";
 export const defaultLocale: Locale = "en";
 
 export const localeStorageKey = "fly-h2o-locale";
+export const localeSourceStorageKey = "fly-h2o-locale-source";
 
 export const localeOptions: { value: Locale; label: string; htmlLang: string }[] = [
   { value: "en", label: "EN", htmlLang: "en" },

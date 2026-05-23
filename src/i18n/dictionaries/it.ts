@@ -144,4 +144,67 @@ export const itTranslations: Dictionary = {
   "性能参数": "Parametri prestazionali",
   "快充时间": "Ricarica rapida",
   "了解更多": "Scopri di piu",
+  "3D hydrofoil model preview": "Anteprima modello hydrofoil 3D",
+  "Hydrofoil scroll sequence": "Sequenza di scorrimento hydrofoil",
+  "The smart tri-mode steering wheel integrates critical controls and core data into a single interaction terminal, improving maneuverability and navigation safety for high-performance hydrofoil operation.":
+    "Il volante intelligente a tre modalita integra controlli critici e dati principali in un unico terminale, migliorando manovrabilita e sicurezza di navigazione per operazioni hydrofoil ad alte prestazioni.",
+  "Real sailing footage": "Riprese reali di navigazione",
+  "Previous slide": "Slide precedente",
+  "Next slide": "Slide successiva",
+  "Choose sailing footage": "Scegli filmato di navigazione",
+  "Filmed live in real waters, this documentary-style section shows range, seakeeping and stability from lift-off to high-speed cruising.":
+    "Girato in acque reali, questa sezione in stile documentario mostra autonomia, tenuta al mare e stabilita dal decollo alla crociera ad alta velocita.",
+  "Powered by science.": "Spinta dalla scienza.",
+  "Black stage, red light, centered product, restrained text: the page lets motion and water technology carry the brand tone.":
+    "Palco nero, luce rossa, prodotto al centro, testo essenziale: la pagina lascia che movimento e tecnologia dell'acqua definiscano il tono del brand.",
+  "Elevated by water.": "Sollevata dall'acqua.",
+  "Real water scenes, top-view movement and long cinematic sections create a quiet product-led scroll rhythm.":
+    "Scene d'acqua reali, movimento dall'alto e lunghe sezioni cinematografiche creano un ritmo di scorrimento quieto e guidato dal prodotto.",
+  "Hydrofoil scenes built from real water.": "Scenari hydrofoil costruiti da riprese reali in acqua.",
+  "Resort routes, city waterfronts, leisure cruising and test rides share one quiet electric platform.":
+    "Rotte resort, waterfront urbani, crociere leisure e test ride condividono una piattaforma elettrica silenziosa.",
+  "Y series product family.": "Famiglia prodotti serie Y.",
+  "DIGITAL EXPERIENCE": "Esperienza digitale",
+  "Owner app, cabin screen and product status surfaces.": "App proprietario, schermo cabina e superfici stato prodotto.",
+  "Color, exterior package and inquiry actions are rebuilt locally. Checkout and production pricing are not connected.":
+    "Colore, pacchetto esterno e richieste sono ricostruiti localmente. Checkout e prezzi di produzione non sono collegati.",
+  "Charging, energy and operating service": "Servizi di ricarica, energia e operativita",
+  "Purchase, leasing and finance consultation": "Consulenza su acquisto, leasing e finanza",
+  "Test drive, dealer and business cooperation": "Test drive, dealer e cooperazione commerciale",
+  "Local form only, production API disabled": "Solo modulo locale, API produzione disattivata",
+  "Local request reference": "Riferimento richiesta locale",
+  "Describe service request": "Descrivi la richiesta di servizio",
+  "This page keeps the visible workflow local and does not submit to the official backend.":
+    "Questa pagina mantiene il flusso visibile in locale e non invia dati al backend ufficiale.",
+  "Checkout and business APIs are intentionally disabled in this local rebuild.":
+    "Checkout e API business sono disattivate intenzionalmente in questa build locale.",
+  "Production payment disabled": "Pagamento di produzione disattivato",
+  "Local inquiry flow": "Flusso richiesta locale",
+  "This is a local product detail page; it does not create a real cart or order.":
+    "Questa e una pagina dettaglio prodotto locale; non crea un carrello o ordine reale.",
+  "Preferred water, route or message": "Acqua preferita, rotta o messaggio",
+  "The booking form is present for the frontend replica only; no official appointment is created.":
+    "Il modulo di prenotazione e presente solo per la replica frontend; non viene creata alcuna prenotazione ufficiale.",
+  "Dealer data is local static content in this rebuild.": "I dati dei dealer sono contenuto statico locale in questa ricostruzione.",
+  "All account help actions are frontend-only in this local version.":
+    "Tutte le azioni di supporto account sono solo frontend in questa versione locale.",
+  "LOCAL PROFILE": "Profilo locale",
+  "authorization is captured as a local callback page. No OAuth token is requested.":
+    "L'autorizzazione e acquisita come pagina callback locale. Nessun token OAuth viene richiesto.",
+  "Login UI is reproduced locally; it does not call the official login API.":
+    "L'interfaccia di login e riprodotta localmente; non chiama l'API di login ufficiale.",
+  "This profile center is a local frontend shell with no authenticated session.":
+    "Questo centro profilo e un guscio frontend locale senza sessione autenticata.",
+  "Y-3 Inquiry Package": "Pacchetto richiesta Y-3",
+  "Appointment Pending": "Appuntamento in attesa",
+  "No production booking or payment has been created.": "Nessuna prenotazione o pagamento di produzione e stato creato.",
+  "Orders are local placeholders and do not read from the official order API.":
+    "Gli ordini sono segnaposto locali e non leggono l'API ordini ufficiale.",
+  "Follow Us": "Seguici",
+  "My Account": "Il mio account",
+  "Shenzhen / Zhuhai": "Shenzhen / Zhuhai",
+  "Static product line item for local page coverage.": "Voce prodotto statica per copertura pagina locale.",
+  "Technical data background": "Sfondo dati tecnici",
+  "官方 GLB 资源已接入本地画布，可拖拽查看船体比例与水翼结构。":
+    "Le risorse GLB ufficiali sono integrate nel canvas locale; trascina per vedere proporzioni dello scafo e struttura hydrofoil.",
 };

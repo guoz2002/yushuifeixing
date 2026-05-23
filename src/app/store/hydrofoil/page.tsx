@@ -1,13 +1,11 @@
 import type { Metadata } from "next";
-import { getHomePageProducts } from "@/features/hydrofoil-store/store-api";
-import { StoreHydrofoilPage } from "@/features/hydrofoil-store/store-hydrofoil-page";
+import { UnderConstructionModal } from "@/components/under-construction-modal";
 
 export const metadata: Metadata = {
-  title: "Hydrofoil Store | Fly-H2O Replica",
-  description: "Fly-H2O 商城页复刻：/store/hydrofoil",
+  title: "商城页正在设计中 | ALAQUA",
+  description: "商城页暂时不可进入，正在设计中。",
 };
 
-export default async function HydrofoilStoreRoute() {
-  const products = await getHomePageProducts();
-  return <StoreHydrofoilPage products={products} />;
+export default function HydrofoilStoreRoute() {
+  return <UnderConstructionModal sectionLabel="商城页" />;
 }

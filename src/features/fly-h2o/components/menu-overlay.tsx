@@ -150,7 +150,7 @@ export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => v
             }
 
             return (
-              <a
+              <Link
                 href={card.href}
                 className={cardClassName}
                 key={`${activePanel}-${card.title}`}
@@ -161,7 +161,7 @@ export function MenuOverlay({ open, onClose }: { open: boolean; onClose: () => v
                 onMouseLeave={stopCardVideo}
               >
                 {cardContents}
-              </a>
+              </Link>
             );
           })}
         </div>

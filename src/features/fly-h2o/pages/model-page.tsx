@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import type { CSSProperties } from "react";
+import type { CSSProperties, RefObject } from "react";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useI18n } from "@/i18n";
 import { media } from "../data/media";
@@ -109,6 +109,10 @@ const DEFAULT_MODEL_IDS = {
   h2: "2036332821969633281",
 } as const;
 
+const SEQUENCE_FRAME_PRELOAD_BEFORE = 6;
+const SEQUENCE_FRAME_PRELOAD_AFTER = 12;
+const SEQUENCE_FRAME_KEEP_RADIUS = 16;
+
 function stripHtmlTags(value: string) {
   return value.replace(/<[^>]*>/g, "").trim();
 }
@@ -138,13 +142,75 @@ function releaseSequenceFrame(image: HTMLImageElement) {
   image.removeAttribute("src");
 }
 
+function useModelScrollChoreography(rootRef: RefObject<HTMLDivElement | null>, refreshKey: string) {
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+
+    const revealItems = Array.from(root.querySelectorAll<HTMLElement>("[data-reveal]"));
+    const scrollScenes = Array.from(root.querySelectorAll<HTMLElement>("[data-scroll-scene]"));
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          entry.target.classList.toggle("isVisible", entry.isIntersecting);
+        }
+      },
+      {
+        rootMargin: "0px 0px -14% 0px",
+        threshold: 0.16,
+      },
+    );
+
+    for (const item of revealItems) observer.observe(item);
+
+    let raf = 0;
+    const update = () => {
+      const totalScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
+      root.style.setProperty("--model-scroll-progress", `${Math.min(1, Math.max(0, window.scrollY / totalScroll))}`);
+
+      for (const scene of scrollScenes) {
+        const rect = scene.getBoundingClientRect();
+        const travel = Math.max(1, window.innerHeight + rect.height);
+        const progress = Math.min(1, Math.max(0, (window.innerHeight - rect.top) / travel));
+        const focus = Math.max(0, 1 - Math.abs(progress - 0.52) * 2.25);
+
+        scene.style.setProperty("--scene-progress", progress.toFixed(4));
+        scene.style.setProperty("--scene-focus", focus.toFixed(4));
+        scene.style.setProperty("--scene-scale", (0.975 + focus * 0.055).toFixed(4));
+        scene.style.setProperty("--scene-y", `${(0.5 - progress) * 58}px`);
+        scene.style.setProperty("--scene-fade", (0.78 + focus * 0.22).toFixed(4));
+      }
+    };
+
+    const schedule = () => {
+      window.cancelAnimationFrame(raf);
+      raf = window.requestAnimationFrame(update);
+    };
+
+    update();
+    window.addEventListener("scroll", schedule, { passive: true });
+    window.addEventListener("resize", schedule);
+
+    return () => {
+      window.cancelAnimationFrame(raf);
+      window.removeEventListener("scroll", schedule);
+      window.removeEventListener("resize", schedule);
+      observer.disconnect();
+    };
+  }, [refreshKey, rootRef]);
+}
+
 function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; frames: readonly string[] }) {
   const { t } = useI18n();
   const [sectionRef, shouldLoadFrames] = useNearViewport<HTMLElement>("900px");
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const framesRef = useRef<HTMLImageElement[]>([]);
+  const framesRef = useRef<Array<HTMLImageElement | null>>([]);
   const frameIndexRef = useRef(0);
+  const lineIndexRef = useRef(0);
+  const loadingCancelledRef = useRef(false);
+  const firstFrameReadyRef = useRef(false);
   const [loaded, setLoaded] = useState(false);
+  const [activeLine, setActiveLine] = useState(0);
 
   const drawFrame = useCallback((index: number) => {
     const canvas = canvasRef.current;
@@ -191,40 +257,77 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
     context.drawImage(frame, x, y, frame.naturalWidth * scale, frame.naturalHeight * scale);
   }, []);
 
+  const warmFrameWindow = useCallback((center: number) => {
+    if (frames.length === 0) return;
+
+    if (framesRef.current.length !== frames.length) {
+      for (const image of framesRef.current) {
+        if (image) releaseSequenceFrame(image);
+      }
+      framesRef.current = Array.from({ length: frames.length }, () => null);
+    }
+
+    const markLoaded = () => {
+      if (firstFrameReadyRef.current) return;
+      firstFrameReadyRef.current = true;
+      setLoaded(true);
+    };
+
+    const ensureFrame = (index: number) => {
+      if (index < 0 || index >= frames.length) return;
+      if (framesRef.current[index]) return;
+
+      const image = new Image();
+      image.decoding = "async";
+      image.onload = () => {
+        if (loadingCancelledRef.current) return;
+        markLoaded();
+        if (index === frameIndexRef.current) drawFrame(index);
+      };
+      image.onerror = () => {
+        if (loadingCancelledRef.current) return;
+        if (index === 0) markLoaded();
+      };
+      image.src = frames[index];
+      framesRef.current[index] = image;
+    };
+
+    const preloadStart = Math.max(0, center - SEQUENCE_FRAME_PRELOAD_BEFORE);
+    const preloadEnd = Math.min(frames.length - 1, center + SEQUENCE_FRAME_PRELOAD_AFTER);
+    for (let index = preloadStart; index <= preloadEnd; index += 1) ensureFrame(index);
+
+    const keepStart = Math.max(0, center - SEQUENCE_FRAME_KEEP_RADIUS);
+    const keepEnd = Math.min(frames.length - 1, center + SEQUENCE_FRAME_KEEP_RADIUS);
+    for (let index = 0; index < framesRef.current.length; index += 1) {
+      if (index >= keepStart && index <= keepEnd) continue;
+      const image = framesRef.current[index];
+      if (!image) continue;
+      releaseSequenceFrame(image);
+      framesRef.current[index] = null;
+    }
+  }, [drawFrame, frames]);
+
   useEffect(() => {
     frameIndexRef.current = 0;
-    for (const image of framesRef.current) releaseSequenceFrame(image);
+    loadingCancelledRef.current = false;
+    firstFrameReadyRef.current = false;
+    for (const image of framesRef.current) {
+      if (image) releaseSequenceFrame(image);
+    }
     framesRef.current = [];
 
     if (!shouldLoadFrames || frames.length === 0) return;
 
-    let cancelled = false;
-    let firstReady = false;
-    const images = frames.map((url, index) => {
-      const image = new Image();
-      image.decoding = "async";
-      image.onload = () => {
-        if (cancelled) return;
-        if (!firstReady) {
-          firstReady = true;
-          setLoaded(true);
-        }
-        if (index === frameIndexRef.current) drawFrame(index);
-      };
-      image.onerror = () => {
-        if (!cancelled && index === 0 && !firstReady) setLoaded(true);
-      };
-      image.src = url;
-      return image;
-    });
-    framesRef.current = images;
+    warmFrameWindow(0);
 
     return () => {
-      cancelled = true;
-      for (const image of images) releaseSequenceFrame(image);
+      loadingCancelledRef.current = true;
+      for (const image of framesRef.current) {
+        if (image) releaseSequenceFrame(image);
+      }
       framesRef.current = [];
     };
-  }, [drawFrame, frames, shouldLoadFrames]);
+  }, [frames, shouldLoadFrames, warmFrameWindow]);
 
   useEffect(() => {
     if (!shouldLoadFrames || frames.length === 0) return;
@@ -238,7 +341,17 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
       const scrollable = Math.max(1, section.offsetHeight - window.innerHeight);
       const progress = Math.min(1, Math.max(0, -rect.top / scrollable));
       const index = Math.round(progress * (frames.length - 1));
+      const lineCount = Math.max(1, lines.length);
+      const nextLine = Math.min(lineCount - 1, Math.max(0, Math.floor(progress * lineCount)));
+      section.style.setProperty("--sequence-progress", progress.toFixed(4));
+      section.style.setProperty("--sequence-canvas-scale", (1.045 - progress * 0.075).toFixed(4));
+      section.style.setProperty("--sequence-canvas-y", `${(0.5 - progress) * 42}px`);
       frameIndexRef.current = index;
+      if (nextLine !== lineIndexRef.current) {
+        lineIndexRef.current = nextLine;
+        setActiveLine(nextLine);
+      }
+      warmFrameWindow(index);
       drawFrame(index);
     };
 
@@ -255,16 +368,21 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
       window.removeEventListener("scroll", schedule);
       window.removeEventListener("resize", schedule);
     };
-  }, [drawFrame, frames.length, sectionRef, shouldLoadFrames]);
+  }, [drawFrame, frames.length, lines.length, sectionRef, shouldLoadFrames, warmFrameWindow]);
 
   return (
-    <section className="productSequence" ref={sectionRef}>
+    <section className="productSequence" data-scroll-scene ref={sectionRef}>
       <div className="productSequenceSticky">
         <canvas aria-label={t("Hydrofoil scroll sequence")} ref={canvasRef} />
         {!loaded ? <span className="productSequenceLoading">{t("LOADING")}</span> : null}
-        <div className="productSequenceCopy">
-          {lines.map((line) => (
-            <p key={line}>{t(line)}</p>
+        <div className="productSequenceProgress" aria-hidden="true">
+          <span />
+        </div>
+        <div className="productSequenceCopy" data-reveal>
+          {lines.map((line, index) => (
+            <p className={index === activeLine ? "active" : ""} key={`${line}-${index}`}>
+              {t(line)}
+            </p>
           ))}
         </div>
       </div>
@@ -278,17 +396,23 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
   const [videoReady, setVideoReady] = useState<Record<number, boolean>>({});
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
   const previousRef = useRef(0);
+  const resetTimerRef = useRef<number | null>(null);
   const safeActive = stories.length > 0 ? Math.min(active, stories.length - 1) : 0;
   const current = stories[safeActive];
 
   useEffect(() => {
+    if (resetTimerRef.current !== null) {
+      window.clearTimeout(resetTimerRef.current);
+      resetTimerRef.current = null;
+    }
+
     const previous = previousRef.current;
     if (previous !== safeActive) {
       const previousVideo = videoRefs.current[previous];
       if (previousVideo) {
         setVideoReady((state) => ({ ...state, [previous]: false }));
         previousVideo.pause();
-        window.setTimeout(() => {
+        resetTimerRef.current = window.setTimeout(() => {
           previousVideo.currentTime = 0;
         }, 700);
       }
@@ -302,6 +426,13 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
       currentVideo.currentTime = 0;
       currentVideo.play().catch(() => {});
     }
+
+    return () => {
+      if (resetTimerRef.current !== null) {
+        window.clearTimeout(resetTimerRef.current);
+        resetTimerRef.current = null;
+      }
+    };
   }, [safeActive]);
 
   const onVideoPlay = useCallback((index: number) => {
@@ -317,7 +448,7 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
   if (!current) return null;
 
   return (
-    <section className="productColorTheater">
+    <section className="productColorTheater" data-scroll-scene>
       <div className="productColorMedia">
         {stories.map((item, index) => (
           <div className={safeActive === index ? "active" : ""} key={`${item.name}-${index}`}>
@@ -336,7 +467,7 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
           </div>
         ))}
       </div>
-      <div className="productColorCopy">
+      <div className="productColorCopy" data-reveal>
         <div>
           <span>{t(current.sectionTitle)}</span>
           <h2>{t(current.name)}</h2>
@@ -364,7 +495,9 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
   const { t } = useI18n();
   const modelKey = path === "/models/h2" ? "h2" : page.label === "Y-5" ? "h2" : "h1";
   const copy = modelPageCopy[modelKey];
+  const pageRef = useRef<HTMLDivElement | null>(null);
   const [officialDetails, setOfficialDetails] = useState<OfficialHomePageDetails | null>(null);
+  useModelScrollChoreography(pageRef, `${modelKey}-${officialDetails ? "official" : "fallback"}`);
 
   useEffect(() => {
     let cancelled = false;
@@ -476,8 +609,12 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
   }, [officialDetails?.templateG?.mediaUrls]);
 
   return (
-    <div className="officialModelPage" id="main-content">
-      <section className="productHeroReplica">
+    <div className="officialModelPage" id="main-content" ref={pageRef}>
+      <div className="modelScrollThread" aria-hidden="true">
+        <span />
+      </div>
+
+      <section className="productHeroReplica" data-scroll-scene>
         <video src={heroVideo} autoPlay muted loop playsInline preload="metadata" />
         <div>
           <p>{t(seriesText)}</p>
@@ -486,14 +623,14 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
 
       <ProductSequenceCanvas lines={sequenceLines} frames={sequenceFrames} />
 
-      <section className="productDetailReplica">
-        <div className="productSectionTitle">
+      <section className="productDetailReplica" data-scroll-scene>
+        <div className="productSectionTitle" data-reveal>
           <h2>{t(aestheticsTitle)}</h2>
           <p>{t(aestheticsText)}</p>
         </div>
         <div className="productDetailGrid">
-          {detailCards.map(([title, text, image]) => (
-            <article key={title}>
+          {detailCards.map(([title, text, image], index) => (
+            <article data-reveal key={title} style={{ "--reveal-delay": `${index * 90}ms` } as CSSProperties}>
               <img src={image} alt={t(title)} loading="lazy" />
               <div>
                 <h3>{t(title)}</h3>
@@ -504,9 +641,9 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
         </div>
       </section>
 
-      <section className="productWindSection">
+      <section className="productWindSection" data-scroll-scene>
         <video src={windVideo} muted loop playsInline autoPlay preload="metadata" />
-        <div>
+        <div data-reveal>
           <h2>{t(windTitle)}</h2>
           <p>{t(windText)}</p>
         </div>
@@ -514,8 +651,8 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
 
       <ProductColorTheater stories={colorStories} />
 
-      <section className="productModelCanvas">
-        <div className="productModelCanvasCopy">
+      <section className="productModelCanvas" data-scroll-scene>
+        <div className="productModelCanvasCopy" data-reveal>
           <span>{t("3D MODEL")}</span>
           <h2>{t("旋转模型")}</h2>
           <p>{t("官方 GLB 资源已接入本地画布，可拖拽查看船体比例与水翼结构。")}</p>
@@ -523,11 +660,11 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
         <ModelStage variant={modelKey === "h1" ? "h1" : "y3"} />
       </section>
 
-      <section className="productTechnicalSection">
+      <section className="productTechnicalSection" data-scroll-scene>
         <img src={technicalBackground} alt={t("Technical data background")} />
         <div className="productTechnicalInner">
-          <h2>{t(technicalTitle)}</h2>
-          <div className="productTechnicalCard">
+          <h2 data-reveal>{t(technicalTitle)}</h2>
+          <div className="productTechnicalCard" data-reveal>
             {technicalSpecs.map(([group, rows]) => (
               <div key={group}>
                 <h3>{t(group)}</h3>
@@ -543,8 +680,8 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
         </div>
       </section>
 
-      <section className="productGalleryReplica">
-        <div className="productSectionTitle">
+      <section className="productGalleryReplica" data-scroll-scene>
+        <div className="productSectionTitle" data-reveal>
           <h2>{t(galleryTitle)}</h2>
           <p>{t(galleryText)}</p>
         </div>
@@ -554,7 +691,12 @@ export function ModelPage({ page, path }: { page: PageConfig; path: string }) {
             const branded = !officialDetails && Boolean(fallbackItem && "brand" in fallbackItem && fallbackItem.brand === true);
 
             return (
-              <article key={`${item.src}-${index}`} className={branded ? "brand" : ""}>
+              <article
+                className={branded ? "brand" : ""}
+                data-reveal
+                key={`${item.src}-${index}`}
+                style={{ "--reveal-delay": `${Math.min(index, 5) * 70}ms` } as CSSProperties}
+              >
                 {item.type === "video" ? (
                   <video src={item.src} muted loop playsInline autoPlay preload="metadata" />
                 ) : (

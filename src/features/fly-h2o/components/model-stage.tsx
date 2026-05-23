@@ -41,7 +41,7 @@ export function ModelStage({ variant = "y3" }: { variant?: "y3" | "h1" }) {
           camera={{ position: [0, 0.55, 7.6], fov: 38 }}
           dpr={[1, 1.75]}
           fallback={<img className="modelFallback" src={poster} alt="" />}
-          gl={{ antialias: true, alpha: true, preserveDrawingBuffer: true }}
+          gl={{ antialias: true, alpha: true }}
         >
           <ambientLight intensity={1.25} />
           <directionalLight position={[4, 4, 5]} intensity={3.2} color="#ffffff" />

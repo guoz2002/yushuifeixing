@@ -3,8 +3,13 @@ import { withSentryConfig } from "@sentry/nextjs";
 
 const nextConfig: NextConfig = {
   allowedDevOrigins: ["127.0.0.1"],
+  onDemandEntries: {
+    maxInactiveAge: 15 * 1000,
+    pagesBufferLength: 2,
+  },
   experimental: {
     preloadEntriesOnStart: false,
+    serverComponentsHmrCache: false,
     webpackMemoryOptimizations: true,
   },
   output: "standalone",

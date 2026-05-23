@@ -119,9 +119,6 @@ export function FlyFooter() {
             ))}
           </div>
         </div>
-        <Link className="footerWordmark" href="/" aria-label="ALAQUA">
-          <Image src="/brand-assets/alaqua-footer-logo.png" alt="" width={1920} height={349} sizes="(max-width: 720px) 170px, 260px" />
-        </Link>
         <div className="footerContact">
           <div className="footerContactIntro">
             <p>{t("Contact Us")}</p>
@@ -134,9 +131,6 @@ export function FlyFooter() {
             <button type="button">{t("SEND MESSAGE")}</button>
           </form>
         </div>
-      </div>
-      <div className="footerBrandText" aria-hidden="true">
-        <Image src="/brand-assets/alaqua-footer-logo.png" alt="" width={1920} height={349} sizes="100vw" />
       </div>
     </footer>
   );

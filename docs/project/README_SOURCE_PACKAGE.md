@@ -6,7 +6,7 @@
 
 - `src/`：Next.js 页面、本地复刻组件、SEO 内容和素材代理
 - `public/`：运行页面需要的静态文件，包含本地图片视频模型、OSS 缓存素材、Draco 3D 解码资源
-- `资料/`：项目资料文档和已采集资源 URL 记录
+- `docs/references/`：项目资料文档和已采集资源 URL 记录
 - `package.json` / `package-lock.json`：依赖与脚本
 - `next.config.ts` / `tsconfig.json` / `eslint.config.mjs`：项目配置
 
@@ -48,4 +48,4 @@ npm run start
 
 GitHub 仓库不提交 `public/fly-h2o-assets`、`public/fly-h2o-oss` 和官网参考抓取缓存。运行时会通过同源路由代理回源到 `https://www.fly-h2o.cn/assets/*` 与 `https://oss.fly-h2o.cn/*`，本地缓存目录仍可按需放回用于离线开发。
 
-最新参考入口抓取在 `资料/fly-h2o-official-reference-20260523/`，仅作为视觉对照资料，不作为运行入口。
+最新参考入口抓取在 `docs/references/fly-h2o-official-reference-20260523/`，仅作为视觉对照资料，不作为运行入口。

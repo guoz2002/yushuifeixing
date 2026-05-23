@@ -25,7 +25,7 @@
 /public/fly-h2o-assets/
 /public/fly-h2o-oss/
 /public/assets/
-/资料/fly-h2o-official-reference-20260523/
+/docs/references/fly-h2o-official-reference-20260523/
 /archived-local-assets/
 
 # large source-package artifact not referenced by the app

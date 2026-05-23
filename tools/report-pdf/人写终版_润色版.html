@@ -189,7 +189,7 @@ a { color: #096a76; text-decoration-color: rgba(9, 106, 118, 0.35); }
 </ol>
 <h2>1. SEO 收录与搜索可见性</h2>
 <p>最开始检查时，我发现 Google 还没有明显收录当前官网及相关核心关键词，因此优先排查了 SEO 基础配置。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-12.png" alt="Google 搜索收录检查截图"><figcaption>Google 搜索收录检查截图</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-12.png" alt="Google 搜索收录检查截图"><figcaption>Google 搜索收录检查截图</figcaption></figure></p>
 <p>从线上表现和页面结构观察，当前官网更接近前端单页应用（SPA）的实现方式。SPA 并不是不能做 SEO，但如果没有服务端渲染 / 静态生成、sitemap、robots、canonical、结构化数据等配套能力，搜索引擎对页面内容的理解和收录效率都会受到影响。</p>
 <p>对于独立站来说，<strong>SEO 不是锦上添花，而是持续获客的基础设施</strong>。尤其是御水飞行这类兼具科技属性、文旅属性和高客单属性的产品，搜索流量可以承接品牌认知、项目合作、经销咨询和媒体关注等多类需求。</p>
 <p>本次 Demo 中，我主要做了以下 SEO 验证性优化：</p>
@@ -204,7 +204,7 @@ a { color: #096a76; text-decoration-color: rgba(9, 106, 118, 0.35); }
 <p>需要说明的是，Demo 刚发布后通常不会立刻在搜索结果中出现。正常情况下，搜索引擎完成发现、抓取、理解和收录可能需要数天到一周左右，具体时间还会受站点权重、外链、内容质量和抓取频率影响。</p>
 <h2>2. HTTPS 混合内容与证书安全</h2>
 <p>当前页面出现“不安全”提示，并不是证书本身一定配置错误，而是 HTTPS 页面中加载了 HTTP 明文资源，形成了 <strong>Mixed Content（混合内容）</strong> 风险。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-4.png" alt="HTTPS 页面加载 HTTP 资源导致安全提示"><figcaption>HTTPS 页面加载 HTTP 资源导致安全提示</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-4.png" alt="HTTPS 页面加载 HTTP 资源导致安全提示"><figcaption>HTTPS 页面加载 HTTP 资源导致安全提示</figcaption></figure></p>
 <p>排查后发现，接口 <code>https://api.fly-h2o.cn/app-api/product/home-page/list</code> 返回了 HTTP 视频资源：</p>
 <pre><code class="language-text">data.0.spuVideoUrl = http://oss.fly-h2o.cn/20260323/video-12_1774280438606.mp4
 data.1.spuVideoUrl = http://oss.fly-h2o.cn/20260324/Y-3hongse.0000_1774335126843.mp4
@@ -229,43 +229,43 @@ data.1.spuVideoUrl = http://oss.fly-h2o.cn/20260324/Y-3hongse.0000_1774335126843
 <p>本次 Demo 接入了 Sentry，用于提升线上问题定位效率和版本稳定性。</p>
 <p>Sentry 可以自动捕获线上报错，定位具体出错位置，记录用户操作路径，并监控接口异常和慢请求。它也支持按版本追踪问题，例如每次发布新版本后，可以对比新旧版本的错误数量，判断本次上线是否引入新的线上问题。</p>
 <p>当线上出现高频错误、严重异常或新版本新增问题时，还可以配置告警通知，方便第一时间处理。后续可以将 Sentry 作为前端线上质量监控入口，形成 <strong>发现问题 → 定位问题 → 修复问题 → 验证版本</strong> 的闭环。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-11.png" alt="Sentry 线上问题监控示例"><figcaption>Sentry 线上问题监控示例</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-11.png" alt="Sentry 线上问题监控示例"><figcaption>Sentry 线上问题监控示例</figcaption></figure></p>
 <h2>5. 页面交互与视觉规范问题</h2>
 <h3>5.1 导航项点击语义不清晰</h3>
 <p>以导航页为例，右侧箭头通常意味着“可跳转”或“可展开”。但当前“水翼艇工艺”没有实际跳转链接，却仍然表现为可点击状态，容易造成用户误操作。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image.png" alt="导航项可点击状态与实际行为不一致"><figcaption>导航项可点击状态与实际行为不一致</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image.png" alt="导航项可点击状态与实际行为不一致"><figcaption>导航项可点击状态与实际行为不一致</figcaption></figure></p>
 <p>修改后，导航项的视觉状态和真实交互行为保持一致，减少用户误解。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-13.png" alt="导航项交互状态优化后"><figcaption>导航项交互状态优化后</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-13.png" alt="导航项交互状态优化后"><figcaption>导航项交互状态优化后</figcaption></figure></p>
 <h3>5.2 二级导航触发方式不符合常见预期</h3>
 <p>一般来说，顶部导航在 hover 状态下会显示对应二级导航，而不是必须点击后才显示。当前交互需要点击才能切换二级导航，用户可能会误以为没有下拉内容。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-1.png" alt="二级导航原始交互状态"><figcaption>二级导航原始交互状态</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-1.png" alt="二级导航原始交互状态"><figcaption>二级导航原始交互状态</figcaption></figure></p>
 <p>优化后，增加 hover 自动切换二级导航的能力，让导航反馈更符合用户习惯。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-14.png" alt="二级导航 hover 自动切换后"><figcaption>二级导航 hover 自动切换后</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-14.png" alt="二级导航 hover 自动切换后"><figcaption>二级导航 hover 自动切换后</figcaption></figure></p>
 <h3>5.3 第三方或平台图标建议使用官方规范素材</h3>
 <p>部分图标与对应平台的官方图标规范不完全一致。对于品牌站来说，图标虽然是细节，但会影响整体专业度和可信度。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-16.png" alt="部分图标素材不够规范"><figcaption>部分图标素材不够规范</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-16.png" alt="部分图标素材不够规范"><figcaption>部分图标素材不够规范</figcaption></figure></p>
 <p>建议后续统一使用官方提供的 SVG / PNG 资源，并保持尺寸、圆角、留白和颜色规范一致。</p>
 <h3>5.4 页面主色调和组件风格需要统一</h3>
 <p>当前页面中存在主色调和组件风格不够统一的问题，不同模块之间的视觉语言略有割裂。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-6.png" alt="原始页面色彩和组件风格示例一"><figcaption>原始页面色彩和组件风格示例一</figcaption></figure></p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-7.png" alt="原始页面色彩和组件风格示例二"><figcaption>原始页面色彩和组件风格示例二</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-6.png" alt="原始页面色彩和组件风格示例一"><figcaption>原始页面色彩和组件风格示例一</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-7.png" alt="原始页面色彩和组件风格示例二"><figcaption>原始页面色彩和组件风格示例二</figcaption></figure></p>
 <p>Demo 中先将整体色调统一为深色背景、白色主文案和可配置品牌强调色。后续建议基于品牌资产确定完整色板，包括主色、辅助色、强调色、背景色、边框色和状态色，避免不同页面各自发挥。</p>
 <p>这里需要注意：深色背景可以提升科技感和高级感，但不建议整站所有信息都强制使用深色模式。更合理的方式是 <strong>在关键展示区域使用深色氛围，在阅读、表单、询盘和决策信息区域保证足够可读性</strong>。</p>
 <h3>5.5 中英文字体风格需要统一</h3>
 <p>当前英文使用无衬线字体，而中文部分使用了较多衬线字体，不太符合整体的现代科技品牌调性。如果希望走现代、轻量、科技感路线，建议统一使用非衬线字体，例如苹方、思源黑体、阿里巴巴普惠体等。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-8.png" alt="中英文字体风格不统一"><figcaption>中英文字体风格不统一</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-8.png" alt="中英文字体风格不统一"><figcaption>中英文字体风格不统一</figcaption></figure></p>
 <p>Demo 中统一了字体格式，确保中文和英文都使用更现代的非衬线字体，增强整体设计的一致性。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-15.png" alt="字体系统统一后"><figcaption>字体系统统一后</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-15.png" alt="字体系统统一后"><figcaption>字体系统统一后</figcaption></figure></p>
 <h3>5.6 多语言内容存在混杂，i18n 需要完善</h3>
 <p>当前页面中存在不同语言混杂的情况，说明 i18n 没有完全覆盖所有文案。对于面向海外客户的独立站来说，多语言混杂会明显降低专业感。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-9.png" alt="多语言内容混杂示例"><figcaption>多语言内容混杂示例</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-9.png" alt="多语言内容混杂示例"><figcaption>多语言内容混杂示例</figcaption></figure></p>
 <p>优化后，将相关文案纳入统一翻译字典，减少硬编码内容，让不同语言环境下的页面表达更完整。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-17.png" alt="多语言适配优化后"><figcaption>多语言适配优化后</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-17.png" alt="多语言适配优化后"><figcaption>多语言适配优化后</figcaption></figure></p>
 <h3>5.7 部分名词描述不够清晰</h3>
 <p>部分页面存在含义不够明确的名词或描述，用户第一次看到时不容易理解其具体含义。对于独立站来说，文案应该尽量减少内部术语，让用户快速理解产品价值。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-10.png" alt="含义不够明确的名词描述"><figcaption>含义不够明确的名词描述</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-10.png" alt="含义不够明确的名词描述"><figcaption>含义不够明确的名词描述</figcaption></figure></p>
 <p>优化后，文案表达更直接，降低理解成本。</p>
-<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/image-18.png" alt="名词描述优化后"><figcaption>名词描述优化后</figcaption></figure></p>
+<p><figure class="figure"><img src="file:///Users/gingersnap/Downloads/yushuifeixing-source-static-20260522-190048/docs/reports/assets/screenshots/image-18.png" alt="名词描述优化后"><figcaption>名词描述优化后</figcaption></figure></p>
 <h2>6. 用户分层与独立站信息架构</h2>
 <p>独立站不应该只展示“我们有什么”，更应该根据用户分层回答“你为什么需要它”。不同用户进入官网时，关注点并不一样，因此页面信息架构和转化路径也应该有所区分。</p>
 <p>基于初步理解，我先将潜在用户简单分为四类。这个划分还需要进一步结合真实客户数据和业务目标验证，但可以作为首页信息架构优化的起点。</p>

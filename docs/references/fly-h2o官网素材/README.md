@@ -71,4 +71,4 @@
 
 - 官网代码里出现了少量小米汽车外链素材引用，我没有混入本地 Fly H2O 素材库。
 - `invalid/html-fallback/` 内的文件不是有效视频，是官网对不存在静态地址返回的 SPA HTML。
-- 如果官网更新，重新运行：`node 资料/fly-h2o官网素材/tools/scrape-assets.mjs`。
+- 如果官网更新，重新运行：`node docs/references/fly-h2o官网素材/tools/scrape-assets.mjs`。

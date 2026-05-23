@@ -13,7 +13,9 @@ const eslintConfig = defineConfig([
     "build/**",
     "next-env.d.ts",
     "archived-local-assets/**",
-    "资料/**",
+    "archive/workspace-artifacts/**",
+    "docs/references/**",
+    "tools/report-pdf/**",
     "public/**",
   ]),
 ]);

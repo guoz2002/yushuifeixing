@@ -4,9 +4,11 @@ const { pathToFileURL } = require('url');
 const { chromium } = require('playwright');
 
 const root = path.resolve(__dirname, '../..');
-const inputMd = path.join(root, '人写终版_润色版.md');
+const reportsDir = path.join(root, 'docs', 'reports');
+const inputMd = path.join(reportsDir, 'drafts', '人写终版_润色版.md');
+const inputDir = path.dirname(inputMd);
 const outputHtml = path.join(__dirname, '人写终版_润色版.html');
-const outputPdf = path.join(root, '人写终版_润色版.pdf');
+const outputPdf = path.join(reportsDir, 'drafts', '人写终版_润色版.pdf');
 
 function escapeHtml(value = '') {
   return String(value)
@@ -22,7 +24,7 @@ function imageToFigure(tokenOrHref, title, text) {
     : { href: tokenOrHref, title, text };
   const href = token.href || '';
   const alt = token.text || token.title || '';
-  const absolute = path.isAbsolute(href) ? href : path.join(root, href);
+  const absolute = path.isAbsolute(href) ? href : path.resolve(inputDir, href);
   if (!fs.existsSync(absolute)) {
     throw new Error(`Missing image: ${href}`);
   }

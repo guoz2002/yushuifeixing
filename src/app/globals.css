@@ -2087,6 +2087,12 @@ video {
 
 .productColorMedia > div video {
   z-index: 2;
+  opacity: 0;
+  transition: opacity 260ms ease;
+}
+
+.productColorMedia > div video.isReady {
+  opacity: 1;
 }
 
 .productColorTheater::after {

@@ -430,12 +430,51 @@ function ProductSequenceCanvas({ lines, frames }: { lines: readonly string[]; fr
 function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[] }) {
   const { t } = useI18n();
   const [active, setActive] = useState(0);
-  const [videoReady, setVideoReady] = useState<Record<number, boolean>>({});
+  const [isInView, setIsInView] = useState(false);
+  const [readyVideoKey, setReadyVideoKey] = useState<string | null>(null);
+  const sectionRef = useRef<HTMLElement | null>(null);
   const videoRefs = useRef<(HTMLVideoElement | null)[]>([]);
   const previousRef = useRef(0);
   const resetTimerRef = useRef<number | null>(null);
   const safeActive = stories.length > 0 ? Math.min(active, stories.length - 1) : 0;
   const current = stories[safeActive];
+  const activeMediaKey = current ? `${current.image}\u0000${current.video}` : "";
+  const storySignature = useMemo(
+    () => stories.map((item) => `${item.image}\u0000${item.video}`).join("\u0001"),
+    [stories],
+  );
+
+  useEffect(() => {
+    const section = sectionRef.current;
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(entry.isIntersecting);
+      },
+      {
+        rootMargin: "160px 0px",
+        threshold: 0.12,
+      },
+    );
+
+    observer.observe(section);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    previousRef.current = safeActive;
+
+    for (const video of videoRefs.current) {
+      if (!video) continue;
+      video.pause();
+      try {
+        video.currentTime = 0;
+      } catch {
+        // Ignore browsers that reject seeking before metadata is ready.
+      }
+    }
+  }, [safeActive, storySignature]);
 
   useEffect(() => {
     if (resetTimerRef.current !== null) {
@@ -447,7 +486,6 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
     if (previous !== safeActive) {
       const previousVideo = videoRefs.current[previous];
       if (previousVideo) {
-        setVideoReady((state) => ({ ...state, [previous]: false }));
         previousVideo.pause();
         resetTimerRef.current = window.setTimeout(() => {
           previousVideo.currentTime = 0;
@@ -456,53 +494,101 @@ function ProductColorTheater({ stories }: { stories: readonly RuntimeColorStory[
     }
 
     previousRef.current = safeActive;
-    setVideoReady((state) => ({ ...state, [safeActive]: false }));
 
     const currentVideo = videoRefs.current[safeActive];
-    if (currentVideo) {
-      currentVideo.currentTime = 0;
-      currentVideo.play().catch(() => {});
+    if (!currentVideo) return undefined;
+
+    currentVideo.pause();
+    if (!isInView) return undefined;
+
+    let cancelled = false;
+    const playCurrent = () => {
+      if (cancelled) return;
+
+      try {
+        currentVideo.currentTime = 0;
+      } catch {
+        // Metadata can still be pending on the first render.
+      }
+
+      currentVideo.play().catch(() => {
+        setReadyVideoKey((state) => (state === activeMediaKey ? null : state));
+      });
+    };
+
+    if (currentVideo.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+      playCurrent();
+    } else {
+      currentVideo.addEventListener("loadeddata", playCurrent, { once: true });
+      currentVideo.load();
     }
 
     return () => {
+      cancelled = true;
+      currentVideo.removeEventListener("loadeddata", playCurrent);
       if (resetTimerRef.current !== null) {
         window.clearTimeout(resetTimerRef.current);
         resetTimerRef.current = null;
       }
     };
-  }, [safeActive]);
+  }, [activeMediaKey, isInView, safeActive]);
 
-  const onVideoPlay = useCallback((index: number) => {
-    if (index === safeActive) {
-      setVideoReady((state) => ({ ...state, [index]: true }));
+  const setVideoVisible = useCallback((index: number, ready: boolean) => {
+    const item = stories[index];
+    if (!item) return;
+
+    const key = `${item.image}\u0000${item.video}`;
+    setReadyVideoKey((state) => {
+      if (ready) return state === key ? state : key;
+      return state === key ? null : state;
+    });
+  }, [stories]);
+
+  const onVideoPlaying = useCallback((index: number) => {
+    const video = videoRefs.current[index];
+    if (index === safeActive && video && !video.paused && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA) {
+      setVideoVisible(index, true);
     }
-  }, [safeActive]);
+  }, [safeActive, setVideoVisible]);
+
+  const onVideoPause = useCallback((index: number) => {
+    setVideoVisible(index, false);
+  }, [setVideoVisible]);
 
   const onVideoEnded = useCallback((index: number) => {
-    setVideoReady((state) => ({ ...state, [index]: false }));
-  }, []);
+    setVideoVisible(index, false);
+  }, [setVideoVisible]);
 
   if (!current) return null;
 
   return (
-    <section className="productColorTheater" data-scroll-scene>
+    <section className="productColorTheater" data-scroll-scene ref={sectionRef}>
       <div className="productColorMedia">
-        {stories.map((item, index) => (
-          <div className={safeActive === index ? "active" : ""} key={`${item.name}-${index}`}>
-            <img className={videoReady[index] ? "isHidden" : ""} src={item.image} alt={t(item.name)} />
-            <video
-              muted
-              onEnded={() => onVideoEnded(index)}
-              onPlay={() => onVideoPlay(index)}
-              playsInline
-              preload="metadata"
-              ref={(element) => {
-                videoRefs.current[index] = element;
-              }}
-              src={item.video}
-            />
-          </div>
-        ))}
+        {stories.map((item, index) => {
+          const mediaKey = `${item.image}\u0000${item.video}`;
+          const isVideoReady = readyVideoKey === mediaKey;
+
+          return (
+            <div className={safeActive === index ? "active" : ""} key={`${item.name}-${index}`}>
+              <img className={isVideoReady ? "isHidden" : ""} src={item.image} alt={t(item.name)} />
+              <video
+                className={isVideoReady ? "isReady" : ""}
+                muted
+                onEnded={() => onVideoEnded(index)}
+                onPause={() => onVideoPause(index)}
+                onPlaying={() => onVideoPlaying(index)}
+                onTimeUpdate={() => onVideoPlaying(index)}
+                playsInline
+                poster={item.image}
+                preload={safeActive === index ? "auto" : "metadata"}
+                ref={(element) => {
+                  videoRefs.current[index] = element;
+                }}
+                src={item.video}
+              />
+            </div>
+          );
+        })}
       </div>
       <div className="productColorCopy" data-reveal>
         <div>

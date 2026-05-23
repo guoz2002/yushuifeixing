@@ -4238,24 +4238,24 @@ video {
 }
 
 body:has(.officialModelPage) {
-  background: #f7f8f6;
+  background: #030303;
 }
 
 body:has(.officialModelPage) .flySite {
-  background: #f7f8f6;
-  color: #111514;
+  background: #030303;
+  color: #f5f5f2;
 }
 
 body:has(.officialModelPage) .topNav {
-  color: #111514;
-  background: linear-gradient(180deg, rgba(247, 248, 246, 0.92), rgba(247, 248, 246, 0.2));
-  backdrop-filter: blur(18px);
+  color: #fff;
+  background: transparent;
+  backdrop-filter: none;
 }
 
 body:has(.officialModelPage) .brandMark,
 body:has(.officialModelPage) .navRight,
 body:has(.officialModelPage) .navMenuButton {
-  color: #111514;
+  color: #fff;
 }
 
 .officialModelPage {
@@ -4263,15 +4263,15 @@ body:has(.officialModelPage) .navMenuButton {
   --sequence-progress: 0;
   --sequence-canvas-scale: 1;
   --sequence-canvas-y: 0px;
-  --model-surface: #f7f8f6;
-  --model-paper: #ffffff;
-  --model-ink: #111514;
-  --model-muted: #66706d;
-  --model-line: rgba(17, 21, 20, 0.14);
-  --model-line-strong: rgba(17, 21, 20, 0.24);
-  --model-dark: #050606;
-  --model-dark-soft: #101413;
-  --model-accent: #0b7c80;
+  --model-surface: #030303;
+  --model-paper: #080909;
+  --model-ink: #f5f5f2;
+  --model-muted: rgba(245, 245, 242, 0.62);
+  --model-line: rgba(255, 255, 255, 0.13);
+  --model-line-strong: rgba(255, 255, 255, 0.24);
+  --model-dark: #000;
+  --model-dark-soft: #0d1010;
+  --model-accent: #68d8dc;
   overflow: hidden;
   background: var(--model-surface);
   color: var(--model-ink);
@@ -4319,12 +4319,12 @@ body:has(.officialModelPage) .navMenuButton {
 
 .modelScrollThread::before {
   content: "";
-  background: rgba(17, 21, 20, 0.14);
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .modelScrollThread span {
   display: block;
-  background: linear-gradient(180deg, #111514, var(--model-accent));
+  background: linear-gradient(180deg, #fff, var(--model-accent));
   transform: scaleY(var(--model-scroll-progress));
   transform-origin: top;
 }
@@ -4337,15 +4337,15 @@ body:has(.officialModelPage) .navMenuButton {
 }
 
 .productHeroReplica video {
-  filter: saturate(0.92) contrast(0.96) brightness(1.08);
+  filter: saturate(0.98) contrast(1.04) brightness(0.78);
   transform: translate3d(0, var(--scene-y), 0) scale(var(--scene-scale));
   transform-origin: center;
 }
 
 .productHeroReplica::after {
   background:
-    linear-gradient(180deg, rgba(247, 248, 246, 0.74), rgba(247, 248, 246, 0.08) 42%, rgba(247, 248, 246, 0.96)),
-    linear-gradient(90deg, rgba(247, 248, 246, 0.68), transparent 42%, rgba(247, 248, 246, 0.34));
+    linear-gradient(180deg, rgba(0, 0, 0, 0.42), rgba(0, 0, 0, 0.06) 42%, rgba(0, 0, 0, 0.82)),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.46), transparent 44%, rgba(0, 0, 0, 0.22));
 }
 
 .productHeroReplica > div {
@@ -4362,8 +4362,8 @@ body:has(.officialModelPage) .navMenuButton {
   letter-spacing: 0;
   overflow-wrap: break-word;
   text-shadow:
-    0 1px 0 rgba(255, 255, 255, 0.72),
-    0 18px 64px rgba(255, 255, 255, 0.48);
+    0 16px 52px rgba(0, 0, 0, 0.56),
+    0 1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .productSequence {
@@ -4477,7 +4477,8 @@ body:has(.officialModelPage) .navMenuButton {
   min-height: 100vh;
   padding-top: clamp(92px, 12vh, 168px);
   background:
-    linear-gradient(180deg, var(--model-surface), var(--model-paper) 42%, #f2f5f2),
+    radial-gradient(circle at 18% 8%, rgba(104, 216, 220, 0.12), transparent 30%),
+    linear-gradient(180deg, #050606, var(--model-paper) 46%, #020303),
     var(--model-paper);
   color: var(--model-ink);
 }
@@ -4499,12 +4500,14 @@ body:has(.officialModelPage) .navMenuButton {
   min-height: clamp(300px, 38vh, 520px);
   border: 1px solid var(--model-line);
   border-radius: 8px;
-  background: #fff;
-  box-shadow: 0 22px 70px rgba(17, 21, 20, 0.08);
+  background: #090a0a;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
 }
 
 .productDetailGrid article::after {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.08), transparent 38%, rgba(255, 255, 255, 0.92));
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.12), transparent 38%, rgba(0, 0, 0, 0.86)),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.34), transparent 58%);
 }
 
 .productDetailGrid img {
@@ -4521,7 +4524,7 @@ body:has(.officialModelPage) .navMenuButton {
 }
 
 .productDetailGrid h3 {
-  color: var(--model-ink);
+  color: #fff;
   letter-spacing: 0;
 }
 
@@ -4592,8 +4595,8 @@ body:has(.officialModelPage) .navMenuButton {
 
 .productModelCanvas {
   background:
-    radial-gradient(circle at 50% 52%, rgba(11, 124, 128, 0.16), transparent 32%),
-    linear-gradient(180deg, #ffffff, #eef4f2);
+    radial-gradient(circle at 50% 52%, rgba(104, 216, 220, 0.16), transparent 32%),
+    linear-gradient(180deg, #030303, #080b0b 46%, #020303);
   color: var(--model-ink);
 }
 
@@ -4610,13 +4613,14 @@ body:has(.officialModelPage) .navMenuButton {
 }
 
 .productModelCanvas .modelStage {
+  background: transparent;
   transform: scale(var(--scene-scale));
   transform-origin: center;
 }
 
 .productModelCanvas .modelStage::before {
-  opacity: 0.12;
-  filter: blur(18px) saturate(0.7);
+  opacity: 0.08;
+  filter: blur(18px) saturate(0.7) brightness(0.72);
 }
 
 .productModelCanvas .modelStage::after {
@@ -4652,9 +4656,10 @@ body:has(.officialModelPage) .navMenuButton {
 
 .productGalleryReplica {
   background:
-    linear-gradient(180deg, #f1f4f2, #ffffff 38%),
-    #fff;
-  color: var(--model-ink);
+    radial-gradient(circle at 74% 8%, rgba(104, 216, 220, 0.1), transparent 28%),
+    linear-gradient(180deg, #030303, #0a0c0c 42%, #020202),
+    #030303;
+  color: #fff;
 }
 
 .productGalleryTrack {
@@ -4665,8 +4670,8 @@ body:has(.officialModelPage) .navMenuButton {
 .productGalleryTrack article {
   border: 1px solid var(--model-line);
   border-radius: 8px;
-  background: #e8ece9;
-  box-shadow: 0 22px 70px rgba(17, 21, 20, 0.08);
+  background: #101313;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.32);
   scroll-snap-align: start;
 }
 
